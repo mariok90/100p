@@ -1,0 +1,10 @@
+carrier_1,carrier_2,parameter,value
+gas,,expExcFix,0
+gas,,costOprExc,2
+gas,,lossExc,0.05
+Power,,costLss,1000
+,Gas_Natural,costLss,1000
+,Gas_Synth,costLss,1000
+,H2,costLss,1000
+Power,,costExpExc,10000
+gas,,costExpExc,10000
