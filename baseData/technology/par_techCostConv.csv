@@ -1,29 +1,17 @@
-technology_1,technology_2,parameter_1,value_1,parameter_2,value_2,parameter_3,value_3
-P_Gas,,costOprConv,5.58722022,costExpConv,360.4658207,lifeConv,31
-RES_Geothermal,,costOprConv,71.42857143,costExpConv,3589.285714,lifeConv,41
-RES_CSP,,costOprConv,145.4857143,costExpConv,2119.642857,lifeConv,31
-photovoltaik,RES_PV_Utility_Avg,costOprConv,9.821428571,costExpConv,536.6071429,lifeConv,21
-photovoltaik,RES_PV_Utility_Inf,costOprConv,9.821428571,costExpConv,536.6071429,lifeConv,21
-photovoltaik,RES_PV_Utility_Opt,costOprConv,9.821428571,costExpConv,536.6071429,lifeConv,21
-photovoltaik,RES_PV_Rooftop,costOprConv,14.73214286,costExpConv,784.8214286,lifeConv,21
-wind_offshore,RES_Wind_Offshore_Transitional,costOprConv,74,costExpConv,2642.857143,lifeConv,21
-wind_offshore,RES_Wind_Offshore_Shallow,costOprConv,62.9,costExpConv,2246.428571,lifeConv,21
-wind_offshore,RES_Wind_Offshore_Deep,costOprConv,85.1,costExpConv,3039.285714,lifeConv,21
-wind_onshore,RES_Wind_Onshore_Avg,costOprConv,16.96428571,costExpConv,1071.428571,lifeConv,21
-wind_onshore,RES_Wind_Onshore_Inf,costOprConv,16.96428571,costExpConv,1071.428571,lifeConv,21
-wind_onshore,RES_Wind_Onshore_Opt,costOprConv,16.96428571,costExpConv,1071.428571,lifeConv,21
-X_Electrolysis,,costOprConv,7.6176,costExpConv,240.9461077,lifeConv,31
-X_Fuel_Cell,,costOprConv,0,costExpConv,1151.691507,lifeConv,31
-X_Methanation,,costOprConv,2.402993114,costExpConv,172.2367977,lifeConv,31
-fermenter,,costOprConv,1.340963267,costExpConv,96.11480683,lifeConv,31
-P_Biomass_CCS,,costOprConv,11.78682138,costExpConv,1461.931334,lifeConv,31
-P_Gas_CCS,,costOprConv,11.30010559,costExpConv,837.0448588,lifeConv,41
-X_SMR,,costOprConv,10.60520019,costExpConv,436.8733259,lifeConv,21
-X_SMR_CCS,,costOprConv,50.9311466,costExpConv,2098.070664,lifeConv,21
-P_H2_OCGT,,costOprConv,1.917958577,costExpConv,246.01088,lifeConv,31
-P_Biomass,,costOprConv,6.591296371,costExpConv,816.7120851,lifeConv,31
-P_Coal_Hardcoal,,costOprConv,9.261,,,,
-P_Coal_Lignite,,costOprConv,8.435187316,,,,
-P_Nuclear,,costOprConv,9.373788063,,,,
-P_Oil,,costOprConv,0.901102537,,,,
-RES_Hydro_Small,,costOprConv,58.92857143,,,,
+technology_1,technology_2,parameter_1,value_1,parameter_2,value_2,parameter_3,value_3,comment
+photovoltaik,rooftop_good,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
+photovoltaik,rooftop_middle,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
+photovoltaik,rooftop_bad,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
+photovoltaik,openspace_good,costExpConv,317,costOprConv,7.9,lifeConv,25,Fraunhofer EE
+photovoltaik,openspace_bad,costExpConv,317,costOprConv,7.9,lifeConv,25,Fraunhofer EE
+wind_offshore,offshore_good,costExpConv,2937,costOprConv,100,lifeConv,25,Fraunhofer EE
+wind_offshore,offshore_bad,costExpConv,2937,costOprConv,100,lifeConv,25,Fraunhofer EE
+wind_onshore,onshore_good,costExpConv,1140,costOprConv,30,lifeConv,25,Fraunhofer EE
+wind_onshore,onshore_bad,costExpConv,1140,costOprConv,30,lifeConv,25,Fraunhofer EE
+electrolysis,,costExpConv,418,costOprConv,14.6,lifeConv,30,OSMOSE
+methanation,,costExpConv,719,costOprConv,18,lifeConv,30,OSMOSE
+fermenter,,costOprConv,1.34,costExpConv,96.11,lifeConv,30,openEntrance
+ocgtHydrogen,,costExpConv,184.9,costOprConv,3.3,lifeConv,30,openEntrance
+biomassPlant,,costOprConv,6.59,costExpConv,816.71,lifeConv,30,openEntrance
+gasPlant,,costExpConv,344.9,costOprConv,8.6,lifeConv,30,openEntrance
+ror,,costOprConv,58.93,,,,,

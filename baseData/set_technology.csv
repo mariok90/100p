@@ -1,21 +1,23 @@
-technology_1,technology_2,carrier_conversion_in,carrier_conversion_out,carrier_stored_in,carrier_stored_out,technology_type,
-battery,grid,,,electricity_central,electricity_central,mature,
-battery,home,,,electricity_decentral; electricity_central,electricity_decentral; electricity_central,mature,
-hydrogenStorage,,,,hydrogen,hydrogen,mature,
-pumpedHydro,,,,electricity_central,electricity_central,mature,
-caes,,,,electricity_central,electricity_central,mature,
-biomassPlant,,biomass,electricity_central,,,mature,
-ror,,,electricity_central,,,stock,
-photovoltaik,rooftop_good,,electricity_central; electricity_decentral,,,mature,
-photovoltaik,rooftop_middle,,electricity_central; electricity_decentral,,,mature,
-photovoltaik,rooftop_bad,,electricity_central; electricity_decentral,,,mature,
-photovoltaik,openspace_good,,electricity_central,,,mature,
-photovoltaik,openspace_bad,,electricity_central,,,mature,
-wind_offshore,offshore_good,,electricity_central,,,mature,
-wind_offshore,offshore_bad,,electricity_central,,,mature,
-wind_onshore,onshore_good,,electricity_central,,,mature,
-wind_onshore,onshore_bad,,electricity_central,,,mature,
-electrolysis,,Power,hydrogen,,,mature,
-ocgtHydrogen,,hydrogen,electricity_central,,,mature,
-electricMobility,,electricity,heat,,,stock,
-electricHeating,,electricity,mobility,,,stock,
+technology_1,technology_2,carrier_conversion_in,carrier_conversion_out,carrier_stored_in,carrier_stored_out,technology_type
+battery,grid,,,electricity_central,electricity_central,mature
+battery,home,,,electricity_decentral; electricity_central,electricity_decentral; electricity_central,mature
+pumpedHydro,,,,electricity_central,electricity_central,mature
+caes,,,,electricity_central,electricity_central,mature
+biomassPlant,,biomass,electricity_central,,,mature
+ror,,,electricity_central,,,stock
+photovoltaik,rooftop_good,,electricity_central; electricity_decentral,,,mature
+photovoltaik,rooftop_middle,,electricity_central; electricity_decentral,,,mature
+photovoltaik,rooftop_bad,,electricity_central; electricity_decentral,,,mature
+photovoltaik,openspace_good,,electricity_central,,,mature
+photovoltaik,openspace_bad,,electricity_central,,,mature
+wind_offshore,offshore_good,,electricity_central,,,mature
+wind_offshore,offshore_bad,,electricity_central,,,mature
+wind_onshore,onshore_good,,electricity_central,,,mature
+wind_onshore,onshore_bad,,electricity_central,,,mature
+electrolysis,,electricity_central,hydrogen,,,mature
+ocgtHydrogen,,hydrogen,electricity_central,,,mature
+electricMobility,,electricity,heat,,,stock
+electricHeating,,electricity,mobility,,,stock
+methanation,hydrogen,synthGas,,,,mature
+fermenter,biomass,synthGas,,,,mature
+gasPlant,,synthGas,electricity_central,,,mature

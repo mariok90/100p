@@ -3,5 +3,6 @@ electricity,electricity_central,4,1,1,1,yes
 electricity,electricity_decentral,4,1,1,1,yes
 heat,,3,1,1,1,no
 mobility,,2,1,1,1,no
-hydrogen,,2,1,1,1,no
+hydrogen,,1,1,1,1,no
+synthGas,,1,1,1,1,no
 biomass,,1,1,1,1,no
