@@ -1,4 +1,10 @@
 carrier_1,region_1,parameter,value
+,,rateDisc,0
+,,rateExpConv,0.05
+,,rateExpStIn,0.05
+,,rateExpStOut,0.05
+,,rateExpStSize,0.05
+,,rateExpExc,0.05
 hydrogen,,trdBuyPrc,100
 biomass,AT,useUp,52857.38722
 biomass,BE,useUp,39847.06299
