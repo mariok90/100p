@@ -1,0 +1,9 @@
+
+
+noch offen:
+	
+	- Bestandsnetz
+	- Nachfragezeitreihen (inkl. Mengen)
+	- EE-Potentiale und Zeitreihen
+	- Quelle Leitungsverluste
+	- Welche Nachbarländer berücksichtigen und wie genau modellieren?
