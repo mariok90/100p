@@ -1,10 +1,3 @@
-carrier_1,carrier_2,parameter,value
-gas,,expExcFix,0
-gas,,costOprExc,2
-gas,,lossExc,0.05
-Power,,costLss,1000
-,Gas_Natural,costLss,1000
-,Gas_Synth,costLss,1000
-,H2,costLss,1000
-Power,,costExpExc,10000
-gas,,costExpExc,10000
+carrier_1,parameter,value,comment
+electricity_central,avaExc,0.7,"used to estimate n-1 operation like in tennet (2020), Infrastructure Outlook 2050"
+electricity_central,lifeExc,60,"according to European Commission (2014), Energy Technology Reference Indicator"
