@@ -16,8 +16,9 @@ wind_onshore,onshore_good,,electricity_central,,,mature
 wind_onshore,onshore_bad,,electricity_central,,,mature
 electrolysis,,electricity_central,hydrogen,,,mature
 ocgtHydrogen,,hydrogen,electricity_central,,,mature
-electricMobility,,electricity,heat,,,stock
-electricHeating,,electricity,mobility,,,stock
+electricMobility,,electricity,mobility,,,stock
+electricResidentalHeating,,electricity,heatResidental,,,stock
+electricIndustryHeating,,electricity,heatIndustry,,,stock
 methanation,hydrogen,synthGas,,,,mature
 fermenter,biomass,synthGas,,,,mature
 gasPlant,,synthGas,electricity_central,,,mature
