@@ -50,3 +50,6 @@ Germany_,DE13,ror,capaConvResi,0.301251252
 Germany_,DE24,ror,capaConvResi,0.034058114
 Germany_,DE27,ror,capaConvResi,0.527639478
 Germany_,DE14,ror,capaConvResi,0.060695011
+DE,all,electricMobility,capaConvResi,50
+DE,all,electricResidentalHeating,capaConvResi,50
+DE,all,electricIndustryHeating,capaConvResi,50
