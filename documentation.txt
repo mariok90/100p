@@ -1,0 +1,9 @@
+
+
+noch offen:
+	
+	- Bestandsnetz
+	- Nachfragezeitreihen (inkl. Mengen for central, decentral, industry heat, residental heat und mobility)
+	- EE-Potentiale und Zeitreihen
+	- Quelle Leitungsverluste
+	- Welche Nachbarländer berücksichtigen und wie genau modellieren?

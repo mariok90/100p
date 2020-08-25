@@ -1,9 +1,9 @@
 technology_1,technology_2,parameter_1,value_1,parameter_2,value_2,parameter_3,value_3,comment
-photovoltaik,rooftop_good,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
-photovoltaik,rooftop_middle,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
-photovoltaik,rooftop_bad,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
-photovoltaik,openspace_good,costExpConv,317,costOprConv,7.9,lifeConv,25,Fraunhofer EE
-photovoltaik,openspace_bad,costExpConv,317,costOprConv,7.9,lifeConv,25,Fraunhofer EE
+rooftop,rooftop_good,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
+rooftop,rooftop_middle,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
+rooftop,rooftop_bad,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
+openspace,openspace_good,costExpConv,317,costOprConv,7.9,lifeConv,25,Fraunhofer EE
+openspace,openspace_bad,costExpConv,317,costOprConv,7.9,lifeConv,25,Fraunhofer EE
 wind_offshore,offshore_good,costExpConv,2937,costOprConv,100,lifeConv,25,Fraunhofer EE
 wind_offshore,offshore_bad,costExpConv,2937,costOprConv,100,lifeConv,25,Fraunhofer EE
 wind_onshore,onshore_good,costExpConv,1140,costOprConv,30,lifeConv,25,Fraunhofer EE
