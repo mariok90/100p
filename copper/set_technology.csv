@@ -18,7 +18,7 @@ electrolysis,,electricity_central,hydrogen,,,mature,1
 ocgtHydrogen,,hydrogen,electricity_central,,,mature,1
 electricMobility,,electricity,mobility,,,stock,1
 electricResidentalHeating,,electricity,heatResidental,,,stock,1
-electricIndustryHeating,,electricity,heatIndustry,,,stock,1
+electricIndustryHeating,,electricity_central,heatIndustry,,,stock,1
 methanation,,hydrogen,synthGas,,,mature,1
 fermenter,,biomass,synthGas,,,mature,1
 gasPlant,,synthGas,electricity_central,,,mature,1
