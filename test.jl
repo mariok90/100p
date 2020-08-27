@@ -22,11 +22,14 @@ include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/readIn.jl")
 include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/tree.jl")
 include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/util.jl")
 
+# XXX alternative zu code oben: using AnyMOD, Gurobi (dev branch von AnyMOD muss installiert sein!)
+
 
 # XXX copperplate scenario
 
 # TODO ziehe demand daten de, teste, sende run.jl auf server
 # TODO erweitere skript
+# TODO mache option für sankey mit net-export und net-import
 
 # solve as copperplate
 model_object = anyModel(["baseData","testingCopper"],"results", objName = "copperFirst")

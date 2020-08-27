@@ -22,6 +22,7 @@ include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/readIn.jl")
 include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/tree.jl")
 include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/util.jl")
 
+# XXX alternative zu code oben: using AnyMOD, Gurobi (dev branch von AnyMOD muss installiert sein!)
 
 # XXX copperplate scenario
 
