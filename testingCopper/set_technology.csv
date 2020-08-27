@@ -1,0 +1,25 @@
+technology_1,technology_2,carrier_conversion_in,carrier_conversion_out,carrier_stored_in,carrier_stored_out,technology_type,region_expansion
+battery,grid,,,electricity_central,electricity_central,mature,1
+battery,home,,,electricity,electricity,mature,1
+pumpedHydro,,,,electricity_central,electricity_central,stock,1
+caes,,,,electricity_central,electricity_central,mature,1
+biomassPlant,,biomass,electricity_central,,,mature,1
+ror,,,electricity_central,,,stock,2
+rooftop,rooftop_a,,electricity_central; electricity_decentral,,,mature,2
+rooftop,rooftop_b,,electricity_central; electricity_decentral,,,mature,2
+rooftop,rooftop_c,,electricity_central; electricity_decentral,,,mature,2
+openspace,openspace_a,,electricity_central,,,mature,2
+openspace,openspace_b,,electricity_central,,,mature,2
+wind_offshore,offshore_a,,electricity_central,,,mature,2
+wind_offshore,offshore_b,,electricity_central,,,mature,2
+wind_offshore,offshore_c,,electricity_central,,,mature,2
+wind_onshore,onshore_a,,electricity_central,,,mature,2
+wind_onshore,onshore_b,,electricity_central,,,mature,2
+electrolysis,,electricity_central,hydrogen,,,mature,1
+ocgtHydrogen,,hydrogen,electricity_central,,,mature,1
+electricMobility,,electricity_central; electricity_decentral,mobility,,,stock,1
+electricResidentalHeating,,electricity_central; electricity_decentral,heatResidental,,,stock,1
+electricIndustryHeating,,electricity_central,heatIndustry,,,stock,1
+methanation,,hydrogen,synthGas,,,mature,1
+fermenter,,biomass,synthGas,,,mature,1
+gasPlant,,synthGas,electricity_central,,,mature,1

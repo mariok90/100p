@@ -1,6 +1,6 @@
 technology_1,technology_2,carrier_conversion_in,carrier_conversion_out,carrier_stored_in,carrier_stored_out,technology_type
 battery,grid,,,electricity_central,electricity_central,mature
-battery,home,,,electricity_decentral; electricity_central,electricity_decentral; electricity_central,mature
+battery,home,,,electricity,electricity,mature
 pumpedHydro,,,,electricity_central,electricity_central,stock
 caes,,,,electricity_central,electricity_central,mature
 biomassPlant,,biomass,electricity_central,,,mature
@@ -12,12 +12,13 @@ openspace,openspace_a,,electricity_central,,,mature
 openspace,openspace_b,,electricity_central,,,mature
 wind_offshore,offshore_a,,electricity_central,,,mature
 wind_offshore,offshore_b,,electricity_central,,,mature
+wind_offshore,offshore_c,,electricity_central,,,mature
 wind_onshore,onshore_a,,electricity_central,,,mature
 wind_onshore,onshore_b,,electricity_central,,,mature
 electrolysis,,electricity_central,hydrogen,,,mature
 ocgtHydrogen,,hydrogen,electricity_central,,,mature
-electricMobility,,electricity,mobility,,,stock
-electricResidentalHeating,,electricity,heatResidental,,,stock
+electricMobility,,electricity_central; electricity_decentral,mobility,,,stock
+electricResidentalHeating,,electricity_central; electricity_decentral,heatResidental,,,stock
 electricIndustryHeating,,electricity_central,heatIndustry,,,stock
 methanation,,hydrogen,synthGas,,,mature
 fermenter,,biomass,synthGas,,,mature
