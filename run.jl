@@ -22,12 +22,20 @@ include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/readIn.jl")
 include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/tree.jl")
 include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/util.jl")
 
-# XXX alternative zu code oben: using AnyMOD, Gurobi (dev branch von AnyMOD muss installiert sein!)
+# * alternative zu code oben: using AnyMOD, Gurobi (dev branch von AnyMOD muss installiert sein!)
 
-# XXX copperplate scenario
+# TODO überlege was zu kostendaten im ausland (nicht viel, ggf. auch hier lieber fixen)
+# TODO Problem: viel lss und trdBuy bei copperSecond => woher kommt das? sollte nicht auftreten, wenn ich deutschland zur kupferplatte ausbauen kann => test ohne verluste und mit neuer nachfrage
+# TODO mache heutige kapazitäten als untere grenze
+# TODO solve a third time with all cost related variables fixed just to maximize the share of decentralised electricity
+# TODO mache option für sankey mit net-export und net-import, ggf. auch übergabe funktion für kapazitäten
 
-# solve as copperplate
-model_object = anyModel(["baseData","copper"],"results", objName = "copperFirst")
+# * copperplate scenario
+
+#region copperplate scenario
+
+# * solve as copperplate
+model_object = anyModel(["baseData","testingCopper"],"results", objName = "copperFirst")
 
 createOptModel!(model_object)
 setObjective!(:costs, model_object)
@@ -35,19 +43,24 @@ setObjective!(:costs, model_object)
 set_optimizer(model_object.optModel, Gurobi.Optimizer)
 optimize!(model_object.optModel)
 
+reportResults(:summary,model_object)
+reportResults(:exchange,model_object)
+reportResults(:costs,model_object)
+plotEnergyFlow(:sankey,model_object)
 
-# obtain capacities for technologies and write to parameter file
+
+# * obtain capacities for technologies and write to parameter file
 eeSym_arr = filter(x -> model_object.parts.tech[x].type == :mature &&  keys(model_object.parts.tech[x].carrier)  |> (y -> :gen in y && !(:use in y)), collect(keys(model_object.parts.tech)))
 eeId_arr = map(x -> filter(y -> y.val == string(x),collect(values(model_object.sets[:Te].nodes)))[1].idx , eeSym_arr)
 noEeSym_arr = filter(x -> !(x in eeSym_arr) && model_object.parts.tech[x].type == :mature, collect(keys(model_object.parts.tech)))
 nonEeId_arr = map(x -> filter(y -> y.val == string(x),collect(values(model_object.sets[:Te].nodes)))[1].idx , noEeSym_arr)
 
-allNuts3_arr = getfield.(filter(x -> x.lvl == 2, collect(values(model_object.sets[:R].nodes))),:idx)
+allNuts3_arr = getfield.(filter(x -> x.lvl == 2 && model_object.sets[:R].up[x.idx] == 6, collect(values(model_object.sets[:R].nodes))),:idx)
 
 # get share of total ee production per region
 eeVlh_dic = Dict((filter(y -> y.val == string(x),collect(values(model_object.sets[:Te].nodes)))[1].idx,r) => sum(filter(x -> x.R_dis == r,model_object.parts.tech[x].par[:avaConv].data)[!,:val]) for x in eeSym_arr, r in allNuts3_arr)
 
-eeGen_df = filter(x -> x.variable == :capaConv && x.Te in eeId_arr,reportResults(:summary,model_object, rtnOpt = (:rawDf,)))
+eeGen_df = filter(x -> x.variable == :capaConv && x.Te in eeId_arr && x.R_dis in allNuts3_arr,reportResults(:summary,model_object, rtnOpt = (:rawDf,)))
 eeGen_df[!,:gen] = map(x -> eeVlh_dic[(x.Te,x.R_dis)]*x.value,eachrow(eeGen_df))
 eeReg_df = combine(groupby(eeGen_df,:R_dis),:gen => (x -> sum(x)) => :gen)
 eeShare_dic = Dict(x.R_dis => x.gen/sum(eeReg_df[!,:gen]) for x in eachrow(eeReg_df))
@@ -56,7 +69,7 @@ eeShare_dic = Dict(x.R_dis => x.gen/sum(eeReg_df[!,:gen]) for x in eachrow(eeReg
 eeCapa_df = filter(x -> x.variable == :capaConv && x.Te in eeId_arr,reportResults(:summary,model_object, rtnOpt = (:rawDf,)))
 
 # for non-ee technologies, capacities are distributed among subregions proportional to ee generation
-nonEECapa_df = filter(x -> x.variable in (:capaConv,:capaStIn,:capaStSize) && x.Te in nonEeId_arr,reportResults(:summary,model_object, rtnOpt = (:rawDf,)))
+nonEECapa_df = filter(x -> x.variable in (:capaConv,:capaStIn,:capaStSize) && x.Te in nonEeId_arr && x.R_dis == 6,reportResults(:summary,model_object, rtnOpt = (:rawDf,)))
 nonEECapa_df[!,:R_dis] = map(x -> model_object.sets[:R].nodes[x].down, nonEECapa_df[!,:R_dis])
 nonEECapa_df = flatten(nonEECapa_df,:R_dis)
 nonEECapa_df[!,:value] = map(x -> eeShare_dic[x.R_dis]*x.value, eachrow(nonEECapa_df))
@@ -72,8 +85,8 @@ select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]))
 
 CSV.write("intermediate/par_fixCapa.csv", fixCapa_df)
 
-# solve again with regions and exchange expansion, but with fixed capacities
-model_object = anyModel(["baseData","decentral","intermediate"],"results", objName = "copperSecond")
+# * solve again with regions and exchange expansion, but with fixed capacities
+model_object = anyModel(["baseData","testingDecentral","intermediate"],"results", objName = "copperSecond")
 
 createOptModel!(model_object)
 setObjective!(:costs, model_object)
@@ -81,29 +94,29 @@ setObjective!(:costs, model_object)
 set_optimizer(model_object.optModel, Gurobi.Optimizer)
 optimize!(model_object.optModel)
 
-printIIS(model_object)
 
 reportResults(:summary,model_object)
 reportResults(:exchange,model_object)
-plotEnergyFlow(:sankey,model_object)
-
-# TODO solve a third time with all cost related variables fixed just to maximize the share of decentralised electricity
-
-
-# XXX efficient scenario
-model_object = anyModel(["baseData","decentral"],"results", objName = "efficientFirst")
-
-createOptModel!(model_object)
-setObjective!(:costs, model_object)
-
-set_optimizer(model_object.optModel, Gurobi.Optimizer)
-optimize!(model_object.optModel)
-
-reportResults(:summary,model_object)
-reportResults(:exchange,model_object)
-plotEnergyFlow(:sankey,model_object)
-
 reportResults(:costs,model_object)
-model_object.esc
+plotEnergyFlow(:sankey,model_object)
 
-# XXX more decentralised scenario
+#endregion
+
+
+#region efficient scenario
+model_object = anyModel(["baseData","testingDecentral"],"results", objName = "efficientFirst")
+
+createOptModel!(model_object)
+setObjective!(:costs, model_object)
+
+set_optimizer(model_object.optModel, Gurobi.Optimizer)
+optimize!(model_object.optModel)
+
+reportResults(:summary,model_object)
+reportResults(:exchange,model_object)
+reportResults(:costs,model_object)
+plotEnergyFlow(:sankey,model_object)
+
+#endregion
+
+# ! sieht nach problem mit sk aus sobald distrbuted gerechnet wird (nachfrage wird komplett mit lss gedeckt, obwohl es ja noch kapazitäten geben sollte) => Problem mit einheitlicher Benennung?
