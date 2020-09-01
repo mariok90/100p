@@ -7,26 +7,29 @@ using PyCall, SparseArrays, Gurobi
 # pyimport_conda("matplotlib.pyplot","matplotlib")
 # pyimport_conda("plotly","plotly")
 
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/objects.jl")
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/tools.jl")
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/modelCreation.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/objects.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/tools.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/modelCreation.jl")
 
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/optModel/exchange.jl")
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/optModel/objective.jl")
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/optModel/other.jl")
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/optModel/tech.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/optModel/exchange.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/optModel/objective.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/optModel/other.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/optModel/tech.jl")
 
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/mapping.jl")
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/parameter.jl")
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/readIn.jl")
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/tree.jl")
-include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/util.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/dataHandling/mapping.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/dataHandling/parameter.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/dataHandling/readIn.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/dataHandling/tree.jl")
+include("C:/Users/lgo/.julia/dev/AnyMOD/src/dataHandling/util.jl")
 
 # * alternative zu code oben: using AnyMOD, Gurobi (dev branch von AnyMOD muss installiert sein!)
 
-# TODO überlege was zu kostendaten im ausland (nicht viel, ggf. auch hier lieber fixen)
-# TODO Problem: viel lss und trdBuy bei copperSecond => woher kommt das? sollte nicht auftreten, wenn ich deutschland zur kupferplatte ausbauen kann => test ohne verluste und mit neuer nachfrage
-# TODO mache heutige kapazitäten als untere grenze
+# TODO lss ganz vermeiden in copperSecond, am besten "Engpass"kraftwerke zulassen
+# TODO Verschiebung ee-zubau erreichen
+
+# TODO vermeide lss in copperSecond, ermögliche Speicher und mehr Offshore,
+# TODO stelle sicher, dass in copperSecond nicht einfach massiv importiert wird
+
 # TODO solve a third time with all cost related variables fixed just to maximize the share of decentralised electricity
 # TODO mache option für sankey mit net-export und net-import, ggf. auch übergabe funktion für kapazitäten
 
@@ -35,7 +38,7 @@ include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/util.jl")
 #region copperplate scenario
 
 # * solve as copperplate
-model_object = anyModel(["baseData","testingCopper"],"results", objName = "copperFirst")
+model_object = anyModel(["baseData","testingCopper","dailyTimeSeries"],"results", objName = "copperFirst")
 
 createOptModel!(model_object)
 setObjective!(:costs, model_object)
@@ -47,7 +50,6 @@ reportResults(:summary,model_object)
 reportResults(:exchange,model_object)
 reportResults(:costs,model_object)
 plotEnergyFlow(:sankey,model_object)
-
 
 # * obtain capacities for technologies and write to parameter file
 eeSym_arr = filter(x -> model_object.parts.tech[x].type == :mature &&  keys(model_object.parts.tech[x].carrier)  |> (y -> :gen in y && !(:use in y)), collect(keys(model_object.parts.tech)))
@@ -86,7 +88,7 @@ select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]))
 CSV.write("intermediate/par_fixCapa.csv", fixCapa_df)
 
 # * solve again with regions and exchange expansion, but with fixed capacities
-model_object = anyModel(["baseData","testingDecentral","intermediate"],"results", objName = "copperSecond")
+model_object = anyModel(["baseData","testingDecentral","intermediate","dailyTimeSeries"],"results", objName = "copperSecond")
 
 createOptModel!(model_object)
 setObjective!(:costs, model_object)
@@ -104,7 +106,7 @@ plotEnergyFlow(:sankey,model_object)
 
 
 #region efficient scenario
-model_object = anyModel(["baseData","testingDecentral"],"results", objName = "efficientFirst")
+model_object = anyModel(["baseData","testingDecentral","dailyTimeSeries"],"results", objName = "efficientFirst")
 
 createOptModel!(model_object)
 setObjective!(:costs, model_object)
@@ -118,5 +120,3 @@ reportResults(:costs,model_object)
 plotEnergyFlow(:sankey,model_object)
 
 #endregion
-
-# ! sieht nach problem mit sk aus sobald distrbuted gerechnet wird (nachfrage wird komplett mit lss gedeckt, obwohl es ja noch kapazitäten geben sollte) => Problem mit einheitlicher Benennung?
