@@ -1,14 +1,14 @@
 region_1,technology_1,technology_2,parameter_1,value_1,parameter_2,value_2,parameter_3,value_3,comment
-DE,rooftop,rooftop_a,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
-DE,rooftop,rooftop_b,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
-DE,rooftop,rooftop_c,costExpConv,462.5,costOprConv,11.5,lifeConv,25,Fraunhofer EE
-DE,openspace,openspace_a,costExpConv,317,costOprConv,7.9,lifeConv,25,Fraunhofer EE
-DE,openspace,openspace_b,costExpConv,317,costOprConv,7.9,lifeConv,25,Fraunhofer EE
-DE,wind_offshore,offshore_a,costExpConv,2335,costOprConv,100,lifeConv,25,Fraunhofer EE
-DE,wind_offshore,offshore_b,costExpConv,2937,costOprConv,100,lifeConv,25,Fraunhofer EE
-DE,wind_offshore,offshore_c,costExpConv,3540,costOprConv,100,lifeConv,25,Fraunhofer EE
-DE,wind_onshore,onshore_a,costExpConv,1479,costOprConv,30,lifeConv,25,Fraunhofer EE
-DE,wind_onshore,onshore_b,costExpConv,1479,costOprConv,30,lifeConv,25,Fraunhofer EE
+DE,rooftop,rooftop_a,costExpConv,407,costOprConv,8.14,lifeConv,25,Fraunhofer EE
+DE,rooftop,rooftop_b,costExpConv,407,costOprConv,8.14,lifeConv,25,Fraunhofer EE
+DE,rooftop,rooftop_c,costExpConv,407,costOprConv,8.14,lifeConv,25,Fraunhofer EE
+DE,openspace,openspace_a,costExpConv,317,costOprConv,6.34,lifeConv,25,Fraunhofer EE
+DE,openspace,openspace_b,costExpConv,317,costOprConv,6.34,lifeConv,25,Fraunhofer EE
+DE,wind_offshore,offshore_a,costExpConv,2335,costOprConv,46.7,lifeConv,30,Fraunhofer EE
+DE,wind_offshore,offshore_b,costExpConv,2937,costOprConv,58.74,lifeConv,30,Fraunhofer EE
+DE,wind_offshore,offshore_c,costExpConv,3540,costOprConv,70.8,lifeConv,30,Fraunhofer EE
+DE,wind_onshore,onshore_a,costExpConv,1479,costOprConv,44.37,lifeConv,25,Fraunhofer EE
+DE,wind_onshore,onshore_b,costExpConv,1479,costOprConv,44.37,lifeConv,25,Fraunhofer EE
 DE,electrolysis,,costExpConv,418,costOprConv,14.6,lifeConv,30,OSMOSE
 DE,methanation,,costExpConv,719,costOprConv,18,lifeConv,30,OSMOSE
 DE,fermenter,,costOprConv,1.34,costExpConv,96.11,lifeConv,30,openEntrance
