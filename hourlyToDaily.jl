@@ -15,11 +15,3 @@ for x in filter(x -> x[1:3] == "par", readdir("dailyTimeSeries"))
 
     CSV.write(joinpath("dailyTimeSeries","new",x),newData_df)
 end
-
-x = "par_demand_central_DE"
-
-
-
-
-
-Int(floor(2.323))

@@ -1,5 +1,0 @@
-carrier_1,carrier_2,region_1,parameter,value,source
-electricity,electricity_central,,costLss,50000,
-heatResidental,,,costLss,50000,
-heatIndustry,,,costLss,50000,
-mobility,,,costLss,50000,

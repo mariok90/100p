@@ -22,6 +22,9 @@ include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/readIn.jl")
 include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/tree.jl")
 include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/util.jl")
 
+include("functions.jl")
+
+
 tradeInbalance_fl = 0
 
 
@@ -29,8 +32,9 @@ tradeInbalance_fl = 0
 
 #region # ! copperplate scenario
 
-# * solve as copperplate
-model_object = anyModel(["baseData","scenarios/testingCopper","timeSeries/daily"],"_results", objName = "copperFirstHigh");
+# ! solve as copperplate
+
+model_object = anyModel(["baseData","scenarios/testingCopper","timeSeries/daily"],"_results", objName = "copperFirst");
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -43,16 +47,10 @@ import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr)
 
 @constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
 
-
 set_optimizer(model_object.optModel,Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
 set_optimizer_attribute(model_object.optModel, "Crossover", 1);
 optimize!(model_object.optModel);
-
-reportResults(:summary,model_object);
-reportResults(:exchange,model_object);
-reportResults(:costs,model_object);
-plotEnergyFlow(:sankey,model_object);
 
 # * obtain capacities for technologies and write to parameter file
 eeSym_arr = filter(x -> model_object.parts.tech[x].type == :mature &&  keys(model_object.parts.tech[x].carrier)  |> (y -> :gen in y && !(:use in y)), collect(keys(model_object.parts.tech)));
@@ -71,7 +69,7 @@ eeReg_df = combine(groupby(eeGen_df,:R_dis),:gen => (x -> sum(x)) => :gen);
 eeShare_dic = Dict(x.R_dis => x.gen/sum(eeReg_df[!,:gen]) for x in eachrow(eeReg_df));
 
 # convert computed capacities into fixed limits in a parameter inputfile
-eeCapa_df = filter(x -> x.variable == :capaConv && x.Te in eeId_arr && x.R_dis == 6,reportResults(:summary,model_object, rtnOpt = (:rawDf,)));
+eeCapa_df = filter(x -> x.variable == :capaConv && x.Te in eeId_arr && x.R_dis in allNuts3_arr,reportResults(:summary,model_object, rtnOpt = (:rawDf,)));
 
 # for non-ee technologies, capacities are distributed among subregions proportional to ee generation
 nonEECapa_df = filter(x -> x.variable in (:capaConv,:capaStIn,:capaStSize) && x.Te in nonEeId_arr && x.R_dis == 6,reportResults(:summary,model_object, rtnOpt = (:rawDf,)));
@@ -92,7 +90,7 @@ select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]));
 CSV.write("conditionalData/intermediate/par_fixCapa.csv", fixCapa_df);
 
 # * solve again with regions and exchange expansion, but with fixed capacities
-model_object = anyModel(["baseData","scenarios/testingDecentral","conditionalData/intermediate","timeSeries/daily"],"_results", objName = "copperSecondHigh");
+model_object = anyModel(["baseData","scenarios/testingDecentral","conditionalData/intermediate","conditionalData/importHydro","timeSeries/daily"],"_results", objName = "copperSecond");
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -103,23 +101,25 @@ import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr)
 
 @constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
 
-
 set_optimizer(model_object.optModel, Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
-set_optimizer_attribute(model_object.optModel, "Crossover", 0);
+set_optimizer_attribute(model_object.optModel, "Crossover", 1);
 optimize!(model_object.optModel);
 
+# changes to objective to maximize decentral generation and fixed all cost-relevant variables and variables outside of Germany
+changeObj!(model_object,deRegions_arr)
 
+optimize!(model_object.optModel);
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
-plotEnergyFlow(:sankey,model_object);
+plotSankey(model_object);
 
 #endregion
 
 
 #region # ! efficient scenario
-model_object = anyModel(["baseData","scenarios/testingDecentral","timeSeries/daily"],"_results", objName = "efficientFirstHigh");
+model_object = anyModel(["baseData","scenarios/testingDecentral","timeSeries/daily"],"_results", objName = "efficientFirst");
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -135,53 +135,14 @@ set_optimizer_attribute(model_object.optModel, "Method", 2);
 set_optimizer_attribute(model_object.optModel, "Crossover", 0);
 optimize!(model_object.optModel);
 
+changeObj!(model_object,deRegions_arr)
+optimize!(model_object.optModel);
+
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
-plotEnergyFlow(:sankey,model_object);
+plotSankey(model_object);
 
 #endregion
 
 
-
-
-model_object.graInfo.names["grid"] = "Netzbatterie"
-model_object.graInfo.names["home"] = "Heimbatterie"
-model_object.graInfo.names["pumpedHydro"] = "Pumpspeicher"
-model_object.graInfo.names["caes"] = "CAES"
-model_object.graInfo.names["biomassPlant"] = "Biomasseanlage"
-model_object.graInfo.names["ror"] = "Laufwasser"
-model_object.graInfo.names["rooftop"] = "PV-Dach"
-model_object.graInfo.names["openspace"] = "PV-Freifläche"
-model_object.graInfo.names["wind_offshore"] = "Wind offshore"
-model_object.graInfo.names["wind_onshore"] = "Wind onshore"
-model_object.graInfo.names["electrolysis"] = "Elektrolyse"
-model_object.graInfo.names["ocgtHydrogen"] = "Wasserstoffturbine"
-model_object.graInfo.names["electricMobility"] = "E-Mobilität"
-model_object.graInfo.names["electricResidentalHeating"] = "Wärmepumpen"
-model_object.graInfo.names["electricIndustryHeating"] = "E-Heizer"
-model_object.graInfo.names["methanation"] = "Methanisierung"
-model_object.graInfo.names["fermenter"] = "Fermenter"
-model_object.graInfo.names["gasPlant"] = "CCGT"
-model_object.graInfo.names["electricity"] = "Strom"
-
-model_object.graInfo.names["electricity_central"] = "im Stromnetz"
-model_object.graInfo.names["electricity_decentral"] = "dezentral genutzt"
-model_object.graInfo.names["heatResidental"] = "Raumwärme"
-model_object.graInfo.names["heatIndustry"] = "Prozesswärme"
-model_object.graInfo.names["gas"] = "Gas"
-model_object.graInfo.names["synthGas"] = "Methan"
-model_object.graInfo.names["hydrogen"] = "Wasserstoff"
-model_object.graInfo.names["biomass"] = "Biomasse"
-model_object.graInfo.names["mobility"] = "Mobilität"
-
-
-model_object.graInfo.colors["electricity_central"] = (1.0, 0.9215, 0.2313)
-model_object.graInfo.colors["electricity_decentral"] = (1.0, 0.9215, 0.2313)
-
-model_object.graInfo.colors["heatResidental"] = (0.769, 0.176, 0.29)
-model_object.graInfo.colors["heatIndustry"] = (0.769, 0.176, 0.29)
-
-model_object.graInfo.colors["mobility"] = (111/265, 200/265, 182/265)
-
-plotEnergyFlow(:graph,model_object, scaDist = 20, initTemp = 2.0)
