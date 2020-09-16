@@ -1,4 +1,4 @@
-using Gurobi, AnyMOD
+using Gurobi, AnyMOD, CSV
 
 tradeInbalance_fl = 0
 pvPot = ARGS[1]
