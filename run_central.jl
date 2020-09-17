@@ -6,7 +6,7 @@ pvPot = ARGS[1]
 
 # ! solve as copperplate
 
-model_object = anyModel(["baseData","scenarios/copper","timeSeries/hourly"],"_results", objName = "copperFirst");
+model_object = anyModel(["baseData","scenarios/copper","conditionalData/fixEU","timeSeries/hourly"],"_results", objName = "copperFirst", decommExc = :decomm);
 
 deRegions_arr = vcat([6],model_object.sets[:R].nodes[6].down);
 #openspace: 21, 20; rooftop: 22, 23, 24
@@ -68,7 +68,7 @@ select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]));
 CSV.write("conditionalData/intermediate/par_fixCapa.csv", fixCapa_df);
 
 # ! solve again with regions and exchange expansion, but with fixed capacities
-model_object = anyModel(["baseData","scenarios/decentral","conditionalData/intermediate","conditionalData/importHydro","timeSeries/hourly"],"_results", objName = "copperSecond");
+model_object = anyModel(["baseData","scenarios/decentral","conditionalData/fixEU","conditionalData/intermediate","conditionalData/importHydro","timeSeries"],"_results", objName = "copperSecond");
 
 if pvPot == "breyer" # scale pv potential to breyer values
     sca_dic = Dict(21 => 4.89, 20 => 4.89, 22 => 4.89,23 => 4.89, 24 => 4.89)

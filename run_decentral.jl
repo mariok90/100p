@@ -3,7 +3,7 @@ using Gurobi, AnyMOD, CSV
 tradeInbalance_fl = 0
 pvPot = ARGS[1]
 
-model_object = anyModel(["baseData","scenarios/decentral","timeSeries/hourly"],"_results", objName = "efficientFirst");
+model_object = anyModel(["baseData","conditionalData/fixEU","scenarios/decentral","timeSeries",""],"_results", objName = "efficientFirst");
 
 deRegions_arr = vcat([6],model_object.sets[:R].nodes[6].down);
 
