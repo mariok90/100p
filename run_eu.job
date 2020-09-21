@@ -1,0 +1,19 @@
+#!/bin/bash --login
+#$ -cwd
+#$ -N anyMOD
+#$ -o /net/work/goeke/julia/job_log.$JOB_ID.$TASK_ID.out
+#$ -j y
+#$ -l h_rt=172800
+#$ -l mem_free=10G
+#$ -pe mp 10
+#$ -m bae
+#$ -M lgo@wip.tu-berlin.de
+
+
+GUROBI_HOME=/afs/math/software/gurobi/7.0.1/
+export GUROBI_HOME
+
+module add gurobi/7.0.1
+module add julia/1.3.1
+
+julia run_eu.jl $eePot $gridExp

@@ -1,27 +1,23 @@
-
 using Gurobi, AnyMOD, CSV
 
-tradeInbalance_fl = 0
-pvPot = ARGS[1]
+include("functions.jl")
+
+eePot = ARGS[1]
+gridExp = ARGS[2]
 
 # ! solve as copperplate
 
-model_object = anyModel(["baseData","scenarios/copper","conditionalData/fixEU","timeSeries/hourly"],"_results", objName = "copperFirst", decommExc = :decomm);
+model_object = anyModel(["baseData","scenarios/copper","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1" * eePot * "_" * gridExp);
 
 deRegions_arr = vcat([6],model_object.sets[:R].nodes[6].down);
-#openspace: 21, 20; rooftop: 22, 23, 24
-if pvPot == "breyer" # scale pv potential to breyer values
-    sca_dic = Dict(21 => 4.89, 20 => 4.89, 22 => 4.89,23 => 4.89, 24 => 4.89)
-    model_object.parts.lim.par[:capaConvUp].data  |>  (y -> y[!,:val] = map(x -> x.val * ((x.R_exp in deRegions_arr && x.Te in collect(keys(sca_dic))) ?  sca_dic[x.Te] : 1.0),eachrow(y)))
-end
 
 # create rest of model
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
 
 # limits the imbalance of the trade balance
-export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
-import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+#export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+#import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
 
 @constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
 
@@ -65,22 +61,17 @@ fixCapa_df[!,:technology_1] = map(x -> any(occursin.(["openspace_","rooftop_","o
 fixCapa_df[!,:technology_2] = map(x -> !any(occursin.(["openspace_","rooftop_","onshore_","offshore_","home","grid"],x)) ? "" : x, fixCapa_df[!,:Te]);
 select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]));
 
-CSV.write("conditionalData/intermediate/par_fixCapa.csv", fixCapa_df);
+CSV.write("conditionalData/intermediate_" * eePot * "_" * gridExp * "/par_fixCapa.csv", fixCapa_df);
 
 # ! solve again with regions and exchange expansion, but with fixed capacities
-model_object = anyModel(["baseData","scenarios/decentral","conditionalData/fixEU","conditionalData/intermediate","conditionalData/importHydro","timeSeries"],"_results", objName = "copperSecond");
-
-if pvPot == "breyer" # scale pv potential to breyer values
-    sca_dic = Dict(21 => 4.89, 20 => 4.89, 22 => 4.89,23 => 4.89, 24 => 4.89)
-    model_object.parts.lim.par[:capaConvUp].data  |>  (y -> y[!,:val] = map(x -> x.val * ((x.R_exp in deRegions_arr && x.Te in collect(keys(sca_dic))) ?  sca_dic[x.Te] : 1.0),eachrow(y)))
-end
+model_object = anyModel(["baseData","scenarios/decentral","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/fixEU","conditionalData/intermediate_" * eePot * "_" * gridExp],"_results", objName = "central2" * eePot * "_" * gridExp);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
 
 # limits the imbalance of the trade balance
-export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
-import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+#export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+#import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
 
 @constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
 

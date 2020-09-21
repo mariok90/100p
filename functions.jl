@@ -48,6 +48,7 @@ function plotSankey(model_object)
 
     # plot sankey diagram and remove nodes that are not required
     plotEnergyFlow(:sankey,model_object, rmvNode = ("Nachfrage; Prozesswärme","Nachfrage; Raumwärme","Nachfrage; E-Mobilität","Import*; Biomasse","Nachfrage; dezentrale Nachfrage", "Gas"));
+    plotEnergyFlow(:sankey,model_object, rmvNode = ("Nachfrage; Prozesswärme","Nachfrage; Raumwärme","Nachfrage; E-Mobilität","Import*; Biomasse","Nachfrage; dezentrale Nachfrage", "Gas"), dropDown = (:timestep,));
 end
 
 function changeObj!(model_object::anyModel,deRegions_arr)

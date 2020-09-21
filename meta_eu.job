@@ -1,0 +1,18 @@
+#!/bin/bash --login
+#$ -cwd
+#$ -N anyMOD
+#$ -o /net/work/goeke/julia/job_log.$JOB_ID.$TASK_ID.out
+#$ -j y
+#$ -l h_rt=172800
+#$ -l mem_free=4G
+#$ -pe mp 1
+#$ -m bae
+#$ -M lgo@wip.tu-berlin.de
+
+qsub -t 101 -v eePot='potentialBase' -v gridExp='grid' run_eu.job
+qsub -t 102 -v eePot='potentialBase' -v gridExp='noGrid' run_eu.job
+qsub -t 103 -v eePot='potentialBreyer' -v gridExp='grid' run_eu.job
+#qsub -t 104 -v eePot='potentialBreyer' -v gridExp='noGrid' run_eu.job
+
+
+

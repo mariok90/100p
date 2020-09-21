@@ -1,0 +1,23 @@
+#!/bin/bash --login
+#$ -cwd
+#$ -N anyMOD
+#$ -o /net/work/goeke/julia/job_log.$JOB_ID.$TASK_ID.out
+#$ -j y
+#$ -l h_rt=172800
+#$ -l mem_free=4G
+#$ -pe mp 1
+#$ -m bae
+#$ -M lgo@wip.tu-berlin.de
+
+qsub -t 201 -v eePot='potentialBase' -v gridExp='grid' run_central.job
+qsub -t 202 -v eePot='potentialBase' -v gridExp='noGrid' run_central.job
+qsub -t 203 -v eePot='potentialBreyer' -v gridExp='grid' run_central.job
+#qsub -t 204 -v eePot='potentialBreyer' -v gridExp='noGrid' run_central.job
+
+qsub -t 205 -v eePot='potentialBase' -v gridExp='grid' run_decentral.job
+qsub -t 206 -v eePot='potentialBase' -v gridExp='noGrid' run_decentral.job
+qsub -t 207 -v eePot='potentialBreyer' -v gridExp='grid' run_decentral.job
+#qsub -t 208 -v eePot='potentialBreyer' -v gridExp='noGrid' run_decentral.job
+
+
+
