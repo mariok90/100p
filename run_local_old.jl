@@ -24,8 +24,52 @@ include("C:/Users/pacop/.julia/dev/AnyMOD.jl/src/dataHandling/util.jl")
 
 include("functions.jl")
 
-
 tradeInbalance_fl = 0
+
+eePot = "potentialBase"
+gridExp = "grid"
+
+model_object = anyModel(["baseData","scenarios/decentral","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "decentral"  * eePot * "_" * gridExp );
+
+# ! solve for whole EU
+model_object = anyModel(["baseData","scenarios/testingCopper","conditionalData/potentialBase","timeSeries_daily","conditionalData/noGrid"],"_results", objName = "computeEU");
+
+createOptModel!(model_object);
+setObjective!(:costs, model_object);
+
+set_optimizer(model_object.optModel,Gurobi.Optimizer);
+set_optimizer_attribute(model_object.optModel, "Method", 2);
+set_optimizer_attribute(model_object.optModel, "Crossover", 1);
+optimize!(model_object.optModel);
+
+reportResults(:summary,model_object);
+reportResults(:exchange,model_object);
+reportResults(:costs,model_object);
+plotSankey(model_object);
+
+# write parameter file fixing capacity data
+fixEU_df = select(filter(x -> !(split(x.region_dispatch," < ")[1] == "DE") && x.variable in (:capaConv,:capaStIn,:capaStOut,:capaStSize), reportResults(:summary,model_object, rtnOpt = (:csvDf,))),[:region_dispatch,:technology,:variable,:value])
+fixEU_df[!,:region_1] = map(x -> split(x," < ")[1], fixEU_df[!,:region_dispatch])
+fixEU_df[!,:region_2] = fixEU_df[!,:region_1]
+fixEU_df[!,:parameter] = string.(fixEU_df[!,:variable]) .* "Resi"
+fixEU_df[!,:technology_1] = map(x -> split(x," < ")[1], fixEU_df[!,:technology])
+fixEU_df[!,:technology_2] = map(x -> split(x," < ") |> (x ->length(x) > 1 ? x[2] : ""), fixEU_df[!,:technology])
+
+CSV.write("conditionalData/fixEU/par_fixTech.csv", select(fixEU_df,[:region_1,:region_2,:technology_1,:technology_2,:parameter,:value,]));
+
+
+fixEU2_df = filter(x -> x.variable == :capaExc, reportResults(:exchange,model_object, rtnOpt = (:csvDf,)))
+fixEU2_df[!,:carrier_1] = map(x -> split(x," < ")[1], fixEU2_df[!,:carrier])
+fixEU2_df[!,:carrier_2] = map(x -> split(x," < ") |> (x ->length(x) > 1 ? x[2] : ""), fixEU2_df[!,:carrier])
+fixEU2_df[!,:parameter] = string.(fixEU2_df[!,:variable]) .* "Resi"
+fixEU2_df[!,:region_1] = fixEU2_df[!,:region_from]
+fixEU2_df[!,:region_2] = fixEU2_df[!,:region_from]
+fixEU2_df[!,:region_1_a] = fixEU2_df[!,:region_to]
+fixEU2_df[!,:region_2_a] = fixEU2_df[!,:region_to]
+
+# TODO write with same column names sort out exc folders and fixing to tyndp
+
+CSV.write("conditionalData/fixEU/par_fixExc.csv", select(fixEU2_df,[:region_1,:region_2,:region_1_a,:region_2_a,:carrier_1,:carrier_2,:parameter,:value,]));
 
 
 # * alternative zu code oben: using AnyMOD, Gurobi (dev branch von AnyMOD muss installiert sein!)

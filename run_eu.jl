@@ -5,7 +5,7 @@ include("functions.jl")
 eePot = ARGS[1]
 gridExp = ARGS[2]
 
-model_object = anyModel(["baseData","scenarios/copper","timeSeries","conditionalData/" * eePot, "conditionalData/" * gridExp],"_results", objName = "eu_" * eePot * "_" * gridExp);
+model_object = anyModel(["baseData","scenarios/copper","timeSeries","conditionalData/noFixEu","conditionalData/" * eePot, "conditionalData/" * gridExp],"_results", objName = "eu_" * eePot * "_" * gridExp);
 
 # create rest of model
 createOptModel!(model_object);
@@ -37,7 +37,7 @@ CSV.write("conditionalData/fixEU_" * eePot * "_" * gridExp * "/par_fixTech.csv",
 fixEU2_df = filter(x -> x.variable == :capaExc, reportResults(:exchange,model_object, rtnOpt = (:csvDf,)))
 fixEU2_df[!,:carrier_1] = map(x -> split(x," < ")[1], fixEU2_df[!,:carrier])
 fixEU2_df[!,:carrier_2] = map(x -> split(x," < ") |> (x ->length(x) > 1 ? x[2] : ""), fixEU2_df[!,:carrier])
-fixEU2_df[!,:parameter] = string.(fixEU2_df[!,:variable]) .* "Resi"
+fixEU2_df[!,:parameter] = string.(fixEU2_df[!,:variable]) .* "ResiDir"
 fixEU2_df[!,:region_1] = fixEU2_df[!,:region_from]
 fixEU2_df[!,:region_2] = fixEU2_df[!,:region_from]
 fixEU2_df[!,:region_1_a] = fixEU2_df[!,:region_to]
