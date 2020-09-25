@@ -29,10 +29,8 @@ tradeInbalance_fl = 0
 eePot = "potentialBase"
 gridExp = "grid"
 
-model_object = anyModel(["baseData","scenarios/decentral","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "decentral"  * eePot * "_" * gridExp );
-
-# ! solve for whole EU
-model_object = anyModel(["baseData","scenarios/testingCopper","conditionalData/potentialBase","timeSeries_daily","conditionalData/noGrid"],"_results", objName = "computeEU");
+#region # ! solve for whole EU
+model_object = anyModel(["baseData","scenarios/testingCopper","conditionalData/" * eePot,"timeSeries_daily","conditionalData/" * gridExp],"_results", objName = "computeEU");
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -54,46 +52,44 @@ fixEU_df[!,:region_2] = fixEU_df[!,:region_1]
 fixEU_df[!,:parameter] = string.(fixEU_df[!,:variable]) .* "Resi"
 fixEU_df[!,:technology_1] = map(x -> split(x," < ")[1], fixEU_df[!,:technology])
 fixEU_df[!,:technology_2] = map(x -> split(x," < ") |> (x ->length(x) > 1 ? x[2] : ""), fixEU_df[!,:technology])
+fixEU_df[!,:value] = floor.(fixEU_df[!,:value],digits = 2)
 
-CSV.write("conditionalData/fixEU/par_fixTech.csv", select(fixEU_df,[:region_1,:region_2,:technology_1,:technology_2,:parameter,:value,]));
+CSV.write("conditionalData/fixEU_" * eePot * "_" * gridExp * "/par_fixTech.csv", select(fixEU_df,[:region_1,:region_2,:technology_1,:technology_2,:parameter,:value,]));
 
 
-fixEU2_df = filter(x -> x.variable == :capaExc, reportResults(:exchange,model_object, rtnOpt = (:csvDf,)))
+fixEU2_df = filter(x -> x.variable == :capaExc && x.carrier != "gas", reportResults(:exchange,model_object, rtnOpt = (:csvDf,)))
 fixEU2_df[!,:carrier_1] = map(x -> split(x," < ")[1], fixEU2_df[!,:carrier])
 fixEU2_df[!,:carrier_2] = map(x -> split(x," < ") |> (x ->length(x) > 1 ? x[2] : ""), fixEU2_df[!,:carrier])
-fixEU2_df[!,:parameter] = string.(fixEU2_df[!,:variable]) .* "Resi"
+fixEU2_df[!,:parameter] = string.(fixEU2_df[!,:variable]) .* "ResiDir"
 fixEU2_df[!,:region_1] = fixEU2_df[!,:region_from]
 fixEU2_df[!,:region_2] = fixEU2_df[!,:region_from]
 fixEU2_df[!,:region_1_a] = fixEU2_df[!,:region_to]
 fixEU2_df[!,:region_2_a] = fixEU2_df[!,:region_to]
 
-# TODO write with same column names sort out exc folders and fixing to tyndp
-
-CSV.write("conditionalData/fixEU/par_fixExc.csv", select(fixEU2_df,[:region_1,:region_2,:region_1_a,:region_2_a,:carrier_1,:carrier_2,:parameter,:value,]));
-
+CSV.write("conditionalData/fixEU_" * eePot * "_" * gridExp * "/par_fixExc.csv", select(fixEU2_df,[:region_1,:region_2,:region_1_a,:region_2_a,:carrier_1,:carrier_2,:parameter,:value,]));
+#endregion
 
 # * alternative zu code oben: using AnyMOD, Gurobi (dev branch von AnyMOD muss installiert sein!)
 
 #region # ! copperplate scenario
 
 # ! solve as copperplate
-
-model_object = anyModel(["baseData","scenarios/testingCopper","timeSeries/daily"],"_results", objName = "copperFirst");
+model_object = anyModel(["baseData","scenarios/testingCopper","timeSeries_daily","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1" * eePot * "_" * gridExp);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
 
 # limits the imbalance of the trade balance
-deRegions_arr = vcat([6],model_object.sets[:R].nodes[6].down);
+#deRegions_arr = vcat([6],model_object.sets[:R].nodes[6].down);
 
-export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
-import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+#export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+#import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
 
-@constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
+#@constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
 
 set_optimizer(model_object.optModel,Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
-set_optimizer_attribute(model_object.optModel, "Crossover", 1);
+set_optimizer_attribute(model_object.optModel, "Crossover", 0);
 optimize!(model_object.optModel);
 
 # * obtain capacities for technologies and write to parameter file
@@ -129,21 +125,22 @@ fixCapa_df[!,:parameter] .= map(x -> x.Te == "ocgtHydrogen" ? Symbol(x.variable,
 fixCapa_df[!,:region_2] = map(x -> model_object.sets[:R].nodes[x].val,fixCapa_df[!,:R_dis]);
 fixCapa_df[!,:technology_1] = map(x -> any(occursin.(["openspace_","rooftop_","onshore_","offshore_","home","grid"],x)) ? "" : x, fixCapa_df[!,:Te]);
 fixCapa_df[!,:technology_2] = map(x -> !any(occursin.(["openspace_","rooftop_","onshore_","offshore_","home","grid"],x)) ? "" : x, fixCapa_df[!,:Te]);
+filter!(x -> x.value > 1.00E-04,fixCapa_df)
 select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]));
 
-CSV.write("conditionalData/intermediate/par_fixCapa.csv", fixCapa_df);
+CSV.write("conditionalData/intermediate_" * eePot * "_" * gridExp * "/par_fixCapa.csv", fixCapa_df);
 
 # * solve again with regions and exchange expansion, but with fixed capacities
-model_object = anyModel(["baseData","scenarios/testingDecentral","conditionalData/intermediate","conditionalData/importHydro","timeSeries/daily"],"_results", objName = "copperSecond");
+model_object = anyModel(["baseData","scenarios/testingDecentral","timeSeries_daily","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/intermediate_" * eePot * "_" * gridExp],"_results", objName = "central2" * eePot * "_" * gridExp);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
 
 # limits the imbalance of the trade balance
-export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
-import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+#export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+#import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
 
-@constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
+#@constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
 
 set_optimizer(model_object.optModel, Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
@@ -163,16 +160,19 @@ plotSankey(model_object);
 
 
 #region # ! efficient scenario
-model_object = anyModel(["baseData","scenarios/testingDecentral","timeSeries/daily"],"_results", objName = "efficientFirst");
+model_object = anyModel(["baseData","scenarios/testingDecentral","timeSeries_daily","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "decentral"  * eePot * "_" * gridExp );
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
 
-# limits the imbalance of the trade balance
-export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
-import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+#model_object.parts.tech[:ocgtHydrogen].var[:capaConv]
 
-@constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
+# limits the imbalance of the trade balance
+#export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+#import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+
+#@constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
+
 
 set_optimizer(model_object.optModel, Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
@@ -190,3 +190,12 @@ plotSankey(model_object);
 #endregion
 
 
+a = filter(x -> x.R_exp in (4,34), model_object.parts.tech[:rooftop_a].var[:capaConv])
+b = filter(x -> x.R_exp in (4,34), model_object.parts.tech[:rooftop_b].var[:capaConv])
+c = filter(x -> x.R_exp in (4,34), model_object.parts.tech[:rooftop_c].var[:capaConv])
+
+model_object.parts.tech[:ocgtHydrogen].var[:use]
+
+model_object.parts.bal.cns[:hydrogen][2,end]
+
+anyM.parts.bal.cns[:electricity_central][40,end]

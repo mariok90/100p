@@ -14,9 +14,9 @@ qsub -t 202 -v eePot='potentialBase' -v gridExp='noGrid' run_central.job
 qsub -t 203 -v eePot='potentialBreyer' -v gridExp='grid' run_central.job
 #qsub -t 204 -v eePot='potentialBreyer' -v gridExp='noGrid' run_central.job
 
-qsub -t 205 -v eePot='potentialBase' -v gridExp='grid' run_decentral.job
-qsub -t 206 -v eePot='potentialBase' -v gridExp='noGrid' run_decentral.job
-qsub -t 207 -v eePot='potentialBreyer' -v gridExp='grid' run_decentral.job
+#qsub -t 205 -v eePot='potentialBase' -v gridExp='grid' run_decentral.job
+#qsub -t 206 -v eePot='potentialBase' -v gridExp='noGrid' run_decentral.job
+#qsub -t 207 -v eePot='potentialBreyer' -v gridExp='grid' run_decentral.job
 #qsub -t 208 -v eePot='potentialBreyer' -v gridExp='noGrid' run_decentral.job
 
 
