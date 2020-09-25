@@ -4,3 +4,4 @@ electricity,electricity_central,lifeExc,60,"according to European Commission (20
 gas,,expExcFix,0,
 gas,,costOprExc,2,
 gas,,lossExc,0.05,
+electricity,electricity_central,lossExc,0.02,

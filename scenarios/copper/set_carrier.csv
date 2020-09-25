@@ -4,6 +4,6 @@ electricity,electricity_decentral,4,1,1,1,yes
 heatResidental,,3,1,1,1,no
 heatIndustry,,3,1,1,1,no
 mobility,,2,1,1,1,no
-gas,hydrogen,1,1,1,1,no
-gas,synthGas,1,1,1,1,no
+gas,hydrogen,2,1,1,1,no
+gas,synthGas,2,1,1,1,no
 biomass,,1,1,1,1,no

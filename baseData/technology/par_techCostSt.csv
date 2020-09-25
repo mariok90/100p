@@ -6,7 +6,9 @@ caes,,costExpStSize,26.4,lifeStSize,30,,,OSMOSE
 battery,,costOprStIn,1.1,,,,,OSMOSE
 caes,,costOprStIn,6.8,,,,,OSMOSE
 pumpedHydro,,costOprStIn,0.28,,,,,OSMOSE
-pumpedHydro,DE,sizeToStInFix,5,,,,,
+gasStorage,,costOprStIn,4.9725,,,,,OpenEntrance
+gasStorage,,costOprStOut,4.9725,,,,,OpenEntrance
+gasStorage,,costOprStSize,0.0049725,,,,,OpenEntrance
 battery,DE,sizeToStInLow,0.5,,,,,
 battery,DE,sizeToStInUp,10,,,,,
 caes,DE,sizeToStInLow,2,,,,,

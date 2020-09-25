@@ -4,20 +4,22 @@ include("functions.jl")
 
 eePot = ARGS[1]
 gridExp = ARGS[2]
+engTech = ARGS[3]
 
-# ! solve as copperplate
+engTech_arr = engTech == "both" ? ["ocgtHydrogen","grid"] :  (engTech == "ocgt" ? ["ocgtHydrogen"] : ["grid"])
 
+# * solve as copperplate
 model_object = anyModel(["baseData","scenarios/copper","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1" * eePot * "_" * gridExp);
 
-deRegions_arr = vcat([6],model_object.sets[:R].nodes[6].down);
-
-# create rest of model
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
 
 # limits the imbalance of the trade balance
+deRegions_arr = vcat([6],model_object.sets[:R].nodes[6].down);
+
 #export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
 #import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+
 #@constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
 
 set_optimizer(model_object.optModel,Gurobi.Optimizer);
@@ -25,7 +27,7 @@ set_optimizer_attribute(model_object.optModel, "Method", 2);
 set_optimizer_attribute(model_object.optModel, "Crossover", 0);
 optimize!(model_object.optModel);
 
-# ! obtain capacities for technologies and write to parameter file
+# * obtain capacities for technologies and write to parameter file
 eeSym_arr = filter(x -> model_object.parts.tech[x].type == :mature &&  keys(model_object.parts.tech[x].carrier)  |> (y -> :gen in y && !(:use in y)), collect(keys(model_object.parts.tech)));
 eeId_arr = map(x -> filter(y -> y.val == string(x),collect(values(model_object.sets[:Te].nodes)))[1].idx , eeSym_arr);
 noEeSym_arr = filter(x -> !(x in eeSym_arr) && model_object.parts.tech[x].type == :mature, collect(keys(model_object.parts.tech)));
@@ -54,7 +56,7 @@ nonEECapa_df[!,:value] = map(x -> eeShare_dic[x.R_dis]*x.value, eachrow(nonEECap
 # write final csv file that is used as an input for the next computation
 fixCapa_df = vcat(eeCapa_df,nonEECapa_df);
 fixCapa_df[!,:Te] = map(x -> model_object.sets[:Te].nodes[x].val,fixCapa_df[!,:Te]);
-fixCapa_df[!,:parameter] .= map(x -> x.Te == "ocgtHydrogen" ? Symbol(x.variable,:Low) : Symbol(x.variable,:Fix), eachrow(fixCapa_df));
+fixCapa_df[!,:parameter] .= map(x -> x.Te in engTech_arr ? Symbol(x.variable,:Low) : Symbol(x.variable,:Fix), eachrow(fixCapa_df));
 fixCapa_df[!,:region_2] = map(x -> model_object.sets[:R].nodes[x].val,fixCapa_df[!,:R_dis]);
 fixCapa_df[!,:technology_1] = map(x -> any(occursin.(["openspace_","rooftop_","onshore_","offshore_","home","grid"],x)) ? "" : x, fixCapa_df[!,:Te]);
 fixCapa_df[!,:technology_2] = map(x -> !any(occursin.(["openspace_","rooftop_","onshore_","offshore_","home","grid"],x)) ? "" : x, fixCapa_df[!,:Te]);
@@ -63,7 +65,7 @@ select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]));
 
 CSV.write("conditionalData/intermediate_" * eePot * "_" * gridExp * "/par_fixCapa.csv", fixCapa_df);
 
-# ! solve again with regions and exchange expansion, but with fixed capacities
+# * solve again with regions and exchange expansion, but with fixed capacities
 model_object = anyModel(["baseData","scenarios/decentral","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/intermediate_" * eePot * "_" * gridExp],"_results", objName = "central2" * eePot * "_" * gridExp);
 
 createOptModel!(model_object);
@@ -72,18 +74,20 @@ setObjective!(:costs, model_object);
 # limits the imbalance of the trade balance
 #export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
 #import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+
 #@constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
 
 set_optimizer(model_object.optModel, Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
-set_optimizer_attribute(model_object.optModel, "Crossover", 0);
+set_optimizer_attribute(model_object.optModel, "Crossover", 1);
 optimize!(model_object.optModel);
 
-# ! change objective to maximize decentral generation and fixed all cost-relevant variables and variables outside of Germany
+# * changes to objective to maximize decentral generation and fixed all cost-relevant variables and variables outside of Germany
 changeObj!(model_object,deRegions_arr)
 
 optimize!(model_object.optModel);
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
-plotSankey(model_object);
+plotSankey(model_object, "DE");
+plotSankey(model_object, "ENG");
