@@ -9,15 +9,23 @@
 #$ -m bae
 #$ -M lgo@wip.tu-berlin.de
 
-qsub -t 201 -v eePot='potentialBase' -v gridExp='grid' run_central.job
-qsub -t 202 -v eePot='potentialBase' -v gridExp='noGrid' run_central.job
-qsub -t 203 -v eePot='potentialBreyer' -v gridExp='grid' run_central.job
-#qsub -t 204 -v eePot='potentialBreyer' -v gridExp='noGrid' run_central.job
+qsub -t 201 -v eePot='potentialBase' -v gridExp='grid' -v engTech='both' run_central.job
+qsub -t 202 -v eePot='potentialBase' -v gridExp='noGrid' -v engTech='both' run_central.job
+qsub -t 203 -v eePot='potentialBreyer' -v gridExp='grid' -v engTech='both' run_central.job
 
-#qsub -t 205 -v eePot='potentialBase' -v gridExp='grid' run_decentral.job
-#qsub -t 206 -v eePot='potentialBase' -v gridExp='noGrid' run_decentral.job
-#qsub -t 207 -v eePot='potentialBreyer' -v gridExp='grid' run_decentral.job
-#qsub -t 208 -v eePot='potentialBreyer' -v gridExp='noGrid' run_decentral.job
+qsub -t 204 -v eePot='potentialBase' -v gridExp='grid' -v engTech='ocgt' run_central.job
+#qsub -t 205 -v eePot='potentialBase' -v gridExp='noGrid' -v engTech='ocgt' run_central.job
+#qsub -t 206 -v eePot='potentialBreyer' -v gridExp='grid' -v engTech='ocgt' run_central.job
+
+qsub -t 207 -v eePot='potentialBase' -v gridExp='grid' -v engTech='battery' run_central.job
+#qsub -t 208 -v eePot='potentialBase' -v gridExp='noGrid' -v engTech='battery' run_central.job
+#qsub -t 209 -v eePot='potentialBreyer' -v gridExp='grid' -v engTech='battery' run_central.job
+
+
+qsub -t 301 -v eePot='potentialBase' -v gridExp='grid' -v engTech='bla' run_decentral.job
+qsub -t 302 -v eePot='potentialBase' -v gridExp='noGrid' -v engTech='bla' run_decentral.job
+qsub -t 303 -v eePot='potentialBreyer' -v gridExp='grid' -v engTech='bla' run_decentral.job
+
 
 
 

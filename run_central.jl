@@ -9,7 +9,7 @@ engTech = ARGS[3]
 engTech_arr = engTech == "both" ? ["ocgtHydrogen","grid"] :  (engTech == "ocgt" ? ["ocgtHydrogen"] : ["grid"])
 
 # * solve as copperplate
-model_object = anyModel(["baseData","scenarios/copper","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1" * eePot * "_" * gridExp);
+model_object = anyModel(["baseData","scenarios/copper","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1" * eePot * "_" * gridExp * "_" * engTech);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -63,10 +63,10 @@ fixCapa_df[!,:technology_2] = map(x -> !any(occursin.(["openspace_","rooftop_","
 filter!(x -> x.value > 1.00E-04,fixCapa_df)
 select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]));
 
-CSV.write("conditionalData/intermediate_" * eePot * "_" * gridExp * "/par_fixCapa.csv", fixCapa_df);
+CSV.write("conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech * "/par_fixCapa.csv", fixCapa_df);
 
 # * solve again with regions and exchange expansion, but with fixed capacities
-model_object = anyModel(["baseData","scenarios/decentral","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/intermediate_" * eePot * "_" * gridExp],"_results", objName = "central2" * eePot * "_" * gridExp);
+model_object = anyModel(["baseData","scenarios/decentral","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech],"_results", objName = "central2" * eePot * "_" * gridExp * "_" * engTech);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -79,7 +79,7 @@ setObjective!(:costs, model_object);
 
 set_optimizer(model_object.optModel, Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
-set_optimizer_attribute(model_object.optModel, "Crossover", 1);
+set_optimizer_attribute(model_object.optModel, "Crossover", 0);
 optimize!(model_object.optModel);
 
 # * changes to objective to maximize decentral generation and fixed all cost-relevant variables and variables outside of Germany
