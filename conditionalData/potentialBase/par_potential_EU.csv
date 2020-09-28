@@ -231,3 +231,5 @@ SI,wind_offshore,offshore_c,capaConvUp,0.1
 SK,wind_offshore,offshore_c,capaConvUp,0
 TR,wind_offshore,offshore_c,capaConvUp,10
 UK,wind_offshore,offshore_c,capaConvUp,33
+DE11,wind_offshore,offshore_b,capaConvUp,0
+DE11,wind_offshore,offshore_c,capaConvUp,0

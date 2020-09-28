@@ -5,7 +5,7 @@ include("functions.jl")
 eePot = ARGS[1]
 gridExp = ARGS[2]
 
-model_object = anyModel(["baseData","scenarios/copper","timeSeries","conditionalData/" * eePot, "conditionalData/runEU_" * gridExp],"_results", objName = "eu_" * eePot * "_" * gridExp);
+model_object = anyModel(["baseData","scenarios/copper","conditionalData/lowerEE_DE","timeSeries","conditionalData/" * eePot, "conditionalData/runEU_" * gridExp],"_results", objName = "eu_" * eePot * "_" * gridExp);
 
 # create rest of model
 createOptModel!(model_object);

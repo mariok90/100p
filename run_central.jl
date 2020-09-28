@@ -6,10 +6,10 @@ eePot = ARGS[1]
 gridExp = ARGS[2]
 engTech = ARGS[3]
 
-engTech_arr = engTech == "both" ? ["ocgtHydrogen","grid"] :  (engTech == "ocgt" ? ["ocgtHydrogen"] : ["grid"])
+engTech_arr = engTech == "both" ? ["ocgtHydrogen","electrolysis","grid"] :  (engTech == "ocgt" ? ["ocgtHydrogen","electrolysis"] : (engTech == "bothNoE" ? ["ocgtHydrogen","grid"] : ["grid"]))
 
 # * solve as copperplate
-model_object = anyModel(["baseData","scenarios/copper","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1" * eePot * "_" * gridExp * "_" * engTech);
+model_object = anyModel(["baseData","scenarios/copper","conditionalData/lowerEE_DE","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7));
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -47,7 +47,7 @@ eeShare_dic = Dict(x.R_dis => x.gen/sum(eeReg_df[!,:gen]) for x in eachrow(eeReg
 eeCapa_df = filter(x -> x.variable == :capaConv && x.Te in eeId_arr && x.R_dis in allNuts3_arr,reportResults(:summary,model_object, rtnOpt = (:rawDf,)));
 
 # for non-ee technologies, capacities are distributed among subregions proportional to ee generation
-nonEECapa_df = filter(x -> x.variable in (:capaConv,:capaStIn,:capaStSize) && x.Te in nonEeId_arr && x.R_dis == 6,reportResults(:summary,model_object, rtnOpt = (:rawDf,)));
+nonEECapa_df = filter(x -> x.variable in (:capaConv,:capaStIn,:capaStOut,:capaStSize) && x.Te in nonEeId_arr && x.R_dis == 6,reportResults(:summary,model_object, rtnOpt = (:rawDf,)));
 nonEECapa_df[!,:R_dis] = map(x -> model_object.sets[:R].nodes[x].down, nonEECapa_df[!,:R_dis]);
 nonEECapa_df = flatten(nonEECapa_df,:R_dis)
 nonEECapa_df[!,:value] = map(x -> eeShare_dic[x.R_dis]*x.value, eachrow(nonEECapa_df));
@@ -56,17 +56,21 @@ nonEECapa_df[!,:value] = map(x -> eeShare_dic[x.R_dis]*x.value, eachrow(nonEECap
 # write final csv file that is used as an input for the next computation
 fixCapa_df = vcat(eeCapa_df,nonEECapa_df);
 fixCapa_df[!,:Te] = map(x -> model_object.sets[:Te].nodes[x].val,fixCapa_df[!,:Te]);
-fixCapa_df[!,:parameter] .= map(x -> x.Te in engTech_arr ? Symbol(x.variable,:Low) : Symbol(x.variable,:Fix), eachrow(fixCapa_df));
+if engTech != "all"
+    fixCapa_df[!,:parameter] .= map(x -> x.Te in engTech_arr ? Symbol(x.variable,:Low) : Symbol(x.variable,:Fix), eachrow(fixCapa_df));
+else
+    fixCapa_df[!,:parameter] .= map(x -> Symbol(x.variable,:Low), eachrow(fixCapa_df));
+end
 fixCapa_df[!,:region_2] = map(x -> model_object.sets[:R].nodes[x].val,fixCapa_df[!,:R_dis]);
 fixCapa_df[!,:technology_1] = map(x -> any(occursin.(["openspace_","rooftop_","onshore_","offshore_","home","grid"],x)) ? "" : x, fixCapa_df[!,:Te]);
 fixCapa_df[!,:technology_2] = map(x -> !any(occursin.(["openspace_","rooftop_","onshore_","offshore_","home","grid"],x)) ? "" : x, fixCapa_df[!,:Te]);
-filter!(x -> x.value > 1.00E-04,fixCapa_df)
+fixCapa_df[!,:value] = map(x -> x > 1.00E-04 ? x : 0.0, fixCapa_df[!,:value])
 select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]));
 
 CSV.write("conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech * "/par_fixCapa.csv", fixCapa_df);
 
 # * solve again with regions and exchange expansion, but with fixed capacities
-model_object = anyModel(["baseData","scenarios/decentral","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech],"_results", objName = "central2" * eePot * "_" * gridExp * "_" * engTech);
+model_object = anyModel(["baseData","scenarios/decentral","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech],"_results", objName = "central2" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7));
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -81,6 +85,11 @@ set_optimizer(model_object.optModel, Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
 set_optimizer_attribute(model_object.optModel, "Crossover", 0);
 optimize!(model_object.optModel);
+reportResults(:summary,model_object);
+reportResults(:exchange,model_object);
+reportResults(:costs,model_object);
+plotSankey(model_object, "DE");
+plotSankey(model_object, "ENG");
 
 # * changes to objective to maximize decentral generation and fixed all cost-relevant variables and variables outside of Germany
 changeObj!(model_object,deRegions_arr)

@@ -5,7 +5,7 @@
 #$ -j y
 #$ -l h_rt=172800
 #$ -l mem_free=16G
-#$ -pe mp 8
+#$ -pe mp 10
 #$ -m bae
 #$ -M lgo@wip.tu-berlin.de
 

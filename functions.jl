@@ -111,7 +111,7 @@ function changeObj!(model_object::anyModel,deRegions_arr)
         if any(occursin.(["exp","capa","Capa"],string(v))) # fix all capacity and expansion variables
             vcat(map(x -> collect(keys(x.terms)),model_object.parts.tech[t].var[v][!,:var])...) |> (y -> fix.(y,value.(y), force = true))
         else # only fix dispatch variables outside of germany
-            vcat(map(x -> collect(keys(x.terms)), filter(x -> !(x.R_dis in deRegions_arr), model_object.parts.tech[t].var[v])[!,:var])...) |> (y -> fix.(y,value.(y), force = true))
+            #vcat(map(x -> collect(keys(x.terms)), filter(x -> !(x.R_dis in deRegions_arr), model_object.parts.tech[t].var[v])[!,:var])...) |> (y -> fix.(y,value.(y), force = true))
         end
 
     end
@@ -126,7 +126,7 @@ function changeObj!(model_object::anyModel,deRegions_arr)
         if any(occursin.(["exp","capa"],string(v))) # fix all capacity and expansion variable
             vcat(map(x -> collect(keys(x.terms)) ,model_object.parts.exc.var[v][!,:var])...) |> (y -> fix.(y,value.(y), force = true))
         else # only fix dispatch variables outside of germany
-            vcat(map(x -> collect(keys(x.terms)), filter(x -> !(x.R_to in deRegions_arr) && !(x.R_from in deRegions_arr), model_object.parts.exc.var[v])[!,:var])...) |> (y -> fix.(y,value.(y), force = true))
+           #vcat(map(x -> collect(keys(x.terms)), filter(x -> !(x.R_to in deRegions_arr) && !(x.R_from in deRegions_arr), model_object.parts.exc.var[v])[!,:var])...) |> (y -> fix.(y,value.(y), force = true))
         end
     end
 
