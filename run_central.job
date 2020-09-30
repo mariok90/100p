@@ -4,7 +4,7 @@
 #$ -o /net/work/goeke/julia/job_log.$JOB_ID.$TASK_ID.out
 #$ -j y
 #$ -l h_rt=172800
-#$ -l mem_free=16G
+#$ -l mem_free=20G
 #$ -pe mp 10
 #$ -m bae
 #$ -M lgo@wip.tu-berlin.de

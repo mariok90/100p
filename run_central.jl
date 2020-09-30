@@ -9,7 +9,7 @@ engTech = ARGS[3]
 engTech_arr = engTech == "both" ? ["ocgtHydrogen","electrolysis","grid"] :  (engTech == "ocgt" ? ["ocgtHydrogen","electrolysis"] : (engTech == "bothNoE" ? ["ocgtHydrogen","grid"] : ["grid"]))
 
 # * solve as copperplate
-model_object = anyModel(["baseData","scenarios/copper","conditionalData/lowerEE_DE","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7));
+model_object = anyModel(["baseData","scenarios/copper","conditionalData/lowerEE_DE","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1_" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7));
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -70,7 +70,7 @@ select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]));
 CSV.write("conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech * "/par_fixCapa.csv", fixCapa_df);
 
 # * solve again with regions and exchange expansion, but with fixed capacities
-model_object = anyModel(["baseData","scenarios/decentral","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech],"_results", objName = "central2" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7));
+model_object = anyModel(["baseData","scenarios/decentral","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech],"_results", objName = "central2_" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7));
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
