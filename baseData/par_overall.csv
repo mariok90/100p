@@ -39,6 +39,6 @@ biomass,,UK,useUp,43004.72496
 electricity,electricity_central,,costLss,13000
 gas,hydrogen,,costLss,13000
 gas,synthGas,,costLss,13000
-heatResidental,,,,13000
-heatIndustry,,,,13000
-mobility,,,,13000
+heatResidental,,,costLss,13000
+heatIndustry,,,costLss,13000
+mobility,,,costLss,13000
