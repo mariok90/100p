@@ -65,7 +65,11 @@ fixCapa_df[!,:region_2] = map(x -> model_object.sets[:R].nodes[x].val,fixCapa_df
 fixCapa_df[!,:technology_1] = map(x -> any(occursin.(["openspace_","rooftop_","onshore_","offshore_","home","grid"],x)) ? "" : x, fixCapa_df[!,:Te]);
 fixCapa_df[!,:technology_2] = map(x -> !any(occursin.(["openspace_","rooftop_","onshore_","offshore_","home","grid"],x)) ? "" : x, fixCapa_df[!,:Te]);
 fixCapa_df[!,:value] = map(x -> x > 1.00E-04 ? x : 0.0, fixCapa_df[!,:value])
-select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable]));
+
+fixCapa_df = leftjoin(fixCapa_df,model_object.parts.lim.par[:capaConvUp].data,on = [:Te => :Te, :R_dis => :R_exp])
+fixCapa_df[!,:value] = map(x -> ismissing(x.val) ? x.value : min(x.val,x.value), eachrow(fixCapa_df))
+
+select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable,:val]));
 
 CSV.write("conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech * "/par_fixCapa.csv", fixCapa_df);
 
