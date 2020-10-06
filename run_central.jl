@@ -27,6 +27,12 @@ set_optimizer_attribute(model_object.optModel, "Method", 2);
 set_optimizer_attribute(model_object.optModel, "Crossover", 0);
 optimize!(model_object.optModel);
 
+reportResults(:summary,model_object);
+reportResults(:exchange,model_object);
+reportResults(:costs,model_object);
+plotSankey(model_object, "DE");
+plotSankey(model_object, "ENG");
+
 # * obtain capacities for technologies and write to parameter file
 eeSym_arr = filter(x -> model_object.parts.tech[x].type == :mature &&  keys(model_object.parts.tech[x].carrier)  |> (y -> :gen in y && !(:use in y)), collect(keys(model_object.parts.tech)));
 eeId_arr = map(x -> filter(y -> y.val == string(x),collect(values(model_object.sets[:Te].nodes)))[1].idx , eeSym_arr);
@@ -89,6 +95,7 @@ set_optimizer(model_object.optModel, Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
 set_optimizer_attribute(model_object.optModel, "Crossover", 0);
 optimize!(model_object.optModel);
+
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
