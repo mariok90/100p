@@ -26,7 +26,7 @@ function plotSankey(model_object, lang::String)
 
         # define german names for carriers
         model_object.graInfo.names["electricity_central"] = "ins Netz eingespeist"
-        model_object.graInfo.names["electricity_decentral"] = ""
+        model_object.graInfo.names["electricity_decentral"] = "Prosumage"
         model_object.graInfo.names["heatResidental"] = "Raumwärme"
         model_object.graInfo.names["heatIndustry"] = "Prozesswärme"
         model_object.graInfo.names["gas"] = "Gas"
@@ -68,7 +68,7 @@ function plotSankey(model_object, lang::String)
 
         # define german names for carriers
         model_object.graInfo.names["electricity_central"] = "grid"
-        model_object.graInfo.names["electricity_decentral"] = ""
+        model_object.graInfo.names["electricity_decentral"] = "prosumage"
         model_object.graInfo.names["heatResidental"] = "residental heat"
         model_object.graInfo.names["heatIndustry"] = "process heat"
         model_object.graInfo.names["gas"] = "gas"
