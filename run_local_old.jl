@@ -28,10 +28,10 @@ tradeInbalance_fl = 0
 
 eePot = "potentialBase"
 gridExp = "grid"
-engTech = "all" # battery, ocgt
+engTech = "both" # battery, ocgt
 
 #region # ! solve for whole EU
-model_object = anyModel(["baseData","scenarios/testingCopper","conditionalData/" * eePot,"timeSeries_daily","conditionalData/runEU_" * gridExp],"_results", objName = "computeEU");
+model_object = anyModel(["baseData","scenarios/testingCopper_euOnly","conditionalData/" * eePot,"timeSeries_daily","conditionalData/runEU_" * gridExp],"_results", objName = "computeEU", decommExc = :decomm);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -40,6 +40,13 @@ set_optimizer(model_object.optModel,Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
 set_optimizer_attribute(model_object.optModel, "Crossover", 0);
 optimize!(model_object.optModel);
+
+changeObj!(model_object,unique(model_object.parts.bal.cns[:electricity][!,:R_dis]))
+optimize!(model_object.optModel);
+
+reportTimeSeries(:electricity, model_object)
+
+printObject(model_object.parts.tech[:gasStorage].var[:stLvl], model_object, fileName = "gasStorage")
 
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
@@ -146,6 +153,7 @@ model_object = anyModel(["baseData","scenarios/testingDecentral","timeSeries_dai
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
 
+printObject(model_object.parts.lim.cns[:capaConvFix],model_object)
 # limits the imbalance of the trade balance
 #export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
 #import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
@@ -200,3 +208,12 @@ plotSankey(model_object, "ENG");
 #endregion
 
 printIIS(model_object)
+
+model_object.parts.tech[:gasStorage].cns[:insCapaStOut]
+model_object.parts.tech[:gasStorage].cns[:insCapaStIn]
+
+model_object.parts.tech[:gasStorage].var[:capaStIn]
+
+model_object.parts.tech[:gasStorage].var[:insCapaStIn]
+
+model_object.parts.exc.var

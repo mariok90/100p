@@ -30,7 +30,7 @@ fixEU_df[!,:technology_1] = map(x -> split(x," < ")[1], fixEU_df[!,:technology])
 fixEU_df[!,:technology_2] = map(x -> split(x," < ") |> (x ->length(x) > 1 ? x[2] : ""), fixEU_df[!,:technology])
 fixEU_df[!,:value] = floor.(fixEU_df[!,:value],digits = 2)
 
-#CSV.write("conditionalData/fixEU_" * eePot * "_" * gridExp * "/par_fixTech.csv", select(fixEU_df,[:region_1,:region_2,:technology_1,:technology_2,:parameter,:value,]));
+CSV.write("conditionalData/fixEU_" * eePot * "_" * gridExp * "/par_fixTech.csv", select(fixEU_df,[:region_1,:region_2,:technology_1,:technology_2,:parameter,:value,]));
 
 
 fixEU2_df = filter(x -> x.variable == :capaExc && x.carrier != "gas", reportResults(:exchange,model_object, rtnOpt = (:csvDf,)))
@@ -42,7 +42,7 @@ fixEU2_df[!,:region_2] = fixEU2_df[!,:region_from]
 fixEU2_df[!,:region_1_a] = fixEU2_df[!,:region_to]
 fixEU2_df[!,:region_2_a] = fixEU2_df[!,:region_to]
 
-#CSV.write("conditionalData/fixEU_" * eePot * "_" * gridExp * "/par_fixExc.csv", select(fixEU2_df,[:region_1,:region_2,:region_1_a,:region_2_a,:carrier_1,:carrier_2,:parameter,:value,]));
+CSV.write("conditionalData/fixEU_" * eePot * "_" * gridExp * "/par_fixExc.csv", select(fixEU2_df,[:region_1,:region_2,:region_1_a,:region_2_a,:carrier_1,:carrier_2,:parameter,:value,]));
 
 plotSankey(model_object, "DE");
 plotSankey(model_object, "ENG");
