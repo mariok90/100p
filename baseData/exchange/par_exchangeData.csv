@@ -1,7 +1,8 @@
 carrier_1,carrier_2,parameter,value,comment
 electricity,electricity_central,avaExc,0.7,"used to estimate n-1 operation based on tennet (2020), Infrastructure Outlook 2050"
+gas,hydrogen,avaExc,0.8,"used to reflect that capacities decreases if hydrogne is transported, based on Quarto (2018)"
 electricity,electricity_central,lifeExc,60,"according to European Commission (2014), Energy Technology Reference Indicator"
-gas,,expExcFix,0,
-gas,,costOprExc,2,
-gas,,lossExc,0.05,
+gas,hydrogen,expExcFix,0,
+gas,hydrogen,costOprExc,2,
+gas,hydrogen,lossExc,0.05,
 electricity,electricity_central,lossExc,0.02,
