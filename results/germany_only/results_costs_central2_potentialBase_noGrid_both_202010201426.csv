@@ -1,0 +1,2202 @@
+timestep_superordinate_dispatch,region,technology,carrier,variable,value
+2050,DE,gasStorage,none,costOprStSize,466.0755057850136
+2050,AT,gasStorage,none,costOprStSize,8.621419541904917
+2050,BE,gasStorage,none,costOprStSize,44.75885681013985
+2050,BG,gasStorage,none,costOprStSize,63.439451207913514
+2050,CZ,gasStorage,none,costOprStSize,109.93923901484284
+2050,DK,gasStorage,none,costOprStSize,7.994755074577546
+2050,ES,gasStorage,none,costOprStSize,129.04621959211676
+2050,FR,gasStorage,none,costOprStSize,608.6912069283621
+2050,GR,gasStorage,none,costOprStSize,19.196286521976056
+2050,HR,gasStorage,none,costOprStSize,11.457732541994595
+2050,HU,gasStorage,none,costOprStSize,57.58581990194769
+2050,IT,gasStorage,none,costOprStSize,396.865318902324
+2050,LV,gasStorage,none,costOprStSize,43.322955917326425
+2050,NL,gasStorage,none,costOprStSize,162.73285480053195
+2050,PL,gasStorage,none,costOprStSize,165.31554921549926
+2050,PT,gasStorage,none,costOprStSize,17.75177520915908
+2050,RO,gasStorage,none,costOprStSize,66.48903554414909
+2050,SE,gasStorage,none,costOprStSize,0.48228273141384165
+2050,SK,gasStorage,none,costOprStSize,97.91777283267761
+2050,TR,gasStorage,none,costOprStSize,471.8509671671945
+2050,UK,gasStorage,none,costOprStSize,300.22453107840613
+2050,DE < DE11,caes,none,costExpStSize,0.0
+2050,DE < DE11,battery < home,none,costExpStSize,7.573733555567539
+2050,DE < DE11,battery < grid,none,costExpStSize,50.45530065350143
+2050,DE < DE12,caes,none,costExpStSize,0.0
+2050,DE < DE12,battery < home,none,costExpStSize,4.214656735202636
+2050,DE < DE12,battery < grid,none,costExpStSize,3.721095635645338
+2050,DE < DE13,caes,none,costExpStSize,0.0
+2050,DE < DE13,battery < home,none,costExpStSize,3.867472278747334
+2050,DE < DE13,battery < grid,none,costExpStSize,3.4145063989597797
+2050,DE < DE14,caes,none,costExpStSize,0.0
+2050,DE < DE14,battery < home,none,costExpStSize,5.579136636991764
+2050,DE < DE14,battery < grid,none,costExpStSize,39.502836625348976
+2050,DE < DE21,caes,none,costExpStSize,0.0
+2050,DE < DE21,battery < home,none,costExpStSize,8.43936191922764
+2050,DE < DE21,battery < grid,none,costExpStSize,76.67907905304504
+2050,DE < DE22,caes,none,costExpStSize,0.0
+2050,DE < DE22,battery < home,none,costExpStSize,7.597794986174273
+2050,DE < DE22,battery < grid,none,costExpStSize,6.707881565134337
+2050,DE < DE23,caes,none,costExpStSize,0.0
+2050,DE < DE23,battery < home,none,costExpStSize,5.351777569612421
+2050,DE < DE23,battery < grid,none,costExpStSize,19.91011382293676
+2050,DE < DE24,caes,none,costExpStSize,0.0
+2050,DE < DE24,battery < home,none,costExpStSize,4.770585855758532
+2050,DE < DE24,battery < grid,none,costExpStSize,8.023960897493515
+2050,DE < DE25,caes,none,costExpStSize,0.0
+2050,DE < DE25,battery < home,none,costExpStSize,4.710484974990141
+2050,DE < DE25,battery < grid,none,costExpStSize,25.70473825330901
+2050,DE < DE26,caes,none,costExpStSize,0.0
+2050,DE < DE26,battery < home,none,costExpStSize,6.648436210101137
+2050,DE < DE26,battery < grid,none,costExpStSize,48.7108616229708
+2050,DE < DE27,caes,none,costExpStSize,0.0
+2050,DE < DE27,battery < home,none,costExpStSize,8.459560121425804
+2050,DE < DE27,battery < grid,none,costExpStSize,43.20619298473384
+2050,DE < DE30,caes,none,costExpStSize,0.0
+2050,DE < DE30,battery < home,none,costExpStSize,1.0883135159344361
+2050,DE < DE30,battery < grid,none,costExpStSize,0.9608290120115286
+2050,DE < DE40,caes,none,costExpStSize,0.0
+2050,DE < DE40,battery < home,none,costExpStSize,24.740692898936437
+2050,DE < DE40,battery < grid,none,costExpStSize,21.842457886406912
+2050,DE < DE50,caes,none,costExpStSize,0.0
+2050,DE < DE50,battery < home,none,costExpStSize,0.7189337522913992
+2050,DE < DE50,battery < grid,none,costExpStSize,0.634735756909423
+2050,DE < DE60,caes,none,costExpStSize,0.0
+2050,DE < DE60,battery < home,none,costExpStSize,0.9062943693394643
+2050,DE < DE60,battery < grid,none,costExpStSize,0.8001344530443502
+2050,DE < DE71,caes,none,costExpStSize,0.0
+2050,DE < DE71,battery < home,none,costExpStSize,4.689472121988126
+2050,DE < DE71,battery < grid,none,costExpStSize,4.14058308548324
+2050,DE < DE72,caes,none,costExpStSize,0.0
+2050,DE < DE72,battery < home,none,costExpStSize,3.0426292925587015
+2050,DE < DE72,battery < grid,none,costExpStSize,2.6863254764273554
+2050,DE < DE73,caes,none,costExpStSize,0.0
+2050,DE < DE73,battery < home,none,costExpStSize,5.6037325895322105
+2050,DE < DE73,battery < grid,none,costExpStSize,4.947649144653508
+2050,DE < DE80,caes,none,costExpStSize,0.0
+2050,DE < DE80,battery < home,none,costExpStSize,38.364162299990056
+2050,DE < DE80,battery < grid,none,costExpStSize,33.87001045480305
+2050,DE < DE91,caes,none,costExpStSize,0.0
+2050,DE < DE91,battery < home,none,costExpStSize,4.371830973215612
+2050,DE < DE91,battery < grid,none,costExpStSize,3.859713675845845
+2050,DE < DE92,caes,none,costExpStSize,0.0
+2050,DE < DE92,battery < home,none,costExpStSize,15.282112430861144
+2050,DE < DE92,battery < grid,none,costExpStSize,13.491910810146148
+2050,DE < DE93,caes,none,costExpStSize,0.0
+2050,DE < DE93,battery < home,none,costExpStSize,15.657216328293956
+2050,DE < DE93,battery < grid,none,costExpStSize,13.823063925761705
+2050,DE < DE94,caes,none,costExpStSize,0.0
+2050,DE < DE94,battery < home,none,costExpStSize,28.58757177301702
+2050,DE < DE94,battery < grid,none,costExpStSize,25.238705178119304
+2050,DE < DEA1,caes,none,costExpStSize,0.0
+2050,DE < DEA1,battery < home,none,costExpStSize,5.4227138749967025
+2050,DE < DEA1,battery < grid,none,costExpStSize,4.7876735498030545
+2050,DE < DEA2,caes,none,costExpStSize,0.0
+2050,DE < DEA2,battery < home,none,costExpStSize,7.209219344953878
+2050,DE < DEA2,battery < grid,none,costExpStSize,82.82651393603922
+2050,DE < DEA3,caes,none,costExpStSize,0.0
+2050,DE < DEA3,battery < home,none,costExpStSize,8.91415258528822
+2050,DE < DEA3,battery < grid,none,costExpStSize,7.870081872125214
+2050,DE < DEA4,caes,none,costExpStSize,0.0
+2050,DE < DEA4,battery < home,none,costExpStSize,8.085222566011039
+2050,DE < DEA4,battery < grid,none,costExpStSize,7.138134730202787
+2050,DE < DEA5,caes,none,costExpStSize,0.0
+2050,DE < DEA5,battery < home,none,costExpStSize,4.772511800281245
+2050,DE < DEA5,battery < grid,none,costExpStSize,65.77335300934696
+2050,DE < DEB1,caes,none,costExpStSize,0.0
+2050,DE < DEB1,battery < home,none,costExpStSize,5.328540376255395
+2050,DE < DEB1,battery < grid,none,costExpStSize,4.704702870710088
+2050,DE < DEB2,caes,none,costExpStSize,0.0
+2050,DE < DEB2,battery < home,none,costExpStSize,3.5477993418240024
+2050,DE < DEB2,battery < grid,none,costExpStSize,3.1322432221303464
+2050,DE < DEB3,caes,none,costExpStSize,0.0
+2050,DE < DEB3,battery < home,none,costExpStSize,4.81276205137751
+2050,DE < DEB3,battery < grid,none,costExpStSize,21.715770835692048
+2050,DE < DEC0_,caes,none,costExpStSize,0.0
+2050,DE < DEC0_,battery < home,none,costExpStSize,2.09972344376767
+2050,DE < DEC0_,battery < grid,none,costExpStSize,8.590905943584369
+2050,DE < DED2,caes,none,costExpStSize,0.0
+2050,DE < DED2,battery < home,none,costExpStSize,7.322857713289513
+2050,DE < DED2,battery < grid,none,costExpStSize,6.465029122197363
+2050,DE < DED4,caes,none,costExpStSize,0.0
+2050,DE < DED4,battery < home,none,costExpStSize,5.332666758720972
+2050,DE < DED4,battery < grid,none,costExpStSize,4.707979760287426
+2050,DE < DED5,caes,none,costExpStSize,0.0
+2050,DE < DED5,battery < home,none,costExpStSize,3.2900887699394725
+2050,DE < DED5,battery < grid,none,costExpStSize,2.9046789359907117
+2050,DE < DEE0,caes,none,costExpStSize,0.0
+2050,DE < DEE0,battery < home,none,costExpStSize,24.489770847031036
+2050,DE < DEE0,battery < grid,none,costExpStSize,21.620960249995505
+2050,DE < DEF0,caes,none,costExpStSize,0.0
+2050,DE < DEF0,battery < home,none,costExpStSize,55.45461883312046
+2050,DE < DEF0,battery < grid,none,costExpStSize,48.95841165332137
+2050,DE < DEG0,caes,none,costExpStSize,0.0
+2050,DE < DEG0,battery < home,none,costExpStSize,8.612625125874928
+2050,DE < DEG0,battery < grid,none,costExpStSize,7.604873671633902
+2050,AT,none,biomass,costTrdBuy,0.0
+2050,BE,none,biomass,costTrdBuy,0.0
+2050,BG,none,biomass,costTrdBuy,0.0
+2050,CH,none,biomass,costTrdBuy,0.0
+2050,CZ,none,biomass,costTrdBuy,0.0
+2050,DE,none,biomass,costTrdBuy,0.0
+2050,DK,none,biomass,costTrdBuy,0.0
+2050,EE,none,biomass,costTrdBuy,0.0
+2050,ES,none,biomass,costTrdBuy,0.0
+2050,FI,none,biomass,costTrdBuy,0.0
+2050,FR,none,biomass,costTrdBuy,0.0
+2050,GR,none,biomass,costTrdBuy,0.0
+2050,HR,none,biomass,costTrdBuy,0.0
+2050,HU,none,biomass,costTrdBuy,0.0
+2050,IE,none,biomass,costTrdBuy,0.0
+2050,IT,none,biomass,costTrdBuy,0.0
+2050,LT,none,biomass,costTrdBuy,0.0
+2050,LU,none,biomass,costTrdBuy,0.0
+2050,LV,none,biomass,costTrdBuy,0.0
+2050,NL,none,biomass,costTrdBuy,0.0
+2050,NO,none,biomass,costTrdBuy,0.0
+2050,NONEU_Balkan,none,biomass,costTrdBuy,0.0
+2050,PL,none,biomass,costTrdBuy,0.0
+2050,PT,none,biomass,costTrdBuy,0.0
+2050,RO,none,biomass,costTrdBuy,0.0
+2050,SE,none,biomass,costTrdBuy,0.0
+2050,SI,none,biomass,costTrdBuy,0.0
+2050,SK,none,biomass,costTrdBuy,0.0
+2050,TR,none,biomass,costTrdBuy,0.0
+2050,UK,none,biomass,costTrdBuy,0.0
+2050,AT < AT,pumpedHydro,none,costOprStIn,1.5820000000000005
+2050,AT < AT,battery < home,none,costOprStIn,1.8260000000000003
+2050,AT < AT,battery < grid,none,costOprStIn,1.54
+2050,BE < BE,pumpedHydro,none,costOprStIn,0.3192
+2050,BE < BE,battery < home,none,costOprStIn,4.928000000000001
+2050,BE < BE,battery < grid,none,costOprStIn,4.312
+2050,BG < BG,pumpedHydro,none,costOprStIn,0.2604
+2050,BG < BG,battery < home,none,costOprStIn,6.5230000000000015
+2050,BG < BG,battery < grid,none,costOprStIn,5.643000000000001
+2050,CH < CH,pumpedHydro,none,costOprStIn,1.148
+2050,CH < CH,battery < home,none,costOprStIn,0.649
+2050,CH < CH,battery < grid,none,costOprStIn,0.528
+2050,CZ < CZ,pumpedHydro,none,costOprStIn,0.28
+2050,CZ < CZ,battery < home,none,costOprStIn,8.822000000000001
+2050,CZ < CZ,battery < grid,none,costOprStIn,7.689000000000002
+2050,DE < DE12,pumpedHydro,none,costOprStIn,0.016856
+2050,DE < DE12,caes,none,costOprStIn,0.0
+2050,DE < DE12,battery < home,none,costOprStIn,0.2117760405456777
+2050,DE < DE12,battery < grid,none,costOprStIn,0.18697580903327995
+2050,DE < DE13,pumpedHydro,none,costOprStIn,0.581896
+2050,DE < DE13,caes,none,costOprStIn,0.0
+2050,DE < DE13,battery < home,none,costOprStIn,0.19433088328933656
+2050,DE < DE13,battery < grid,none,costOprStIn,0.17157046447962976
+2050,DE < DE14,pumpedHydro,none,costOprStIn,0.031360000000000006
+2050,DE < DE14,caes,none,costOprStIn,0.0
+2050,DE < DE14,battery < home,none,costOprStIn,0.28033776909441166
+2050,DE < DE14,battery < grid,none,costOprStIn,1.9849193711898188
+2050,DE < DE21,pumpedHydro,none,costOprStIn,0.030800000000000004
+2050,DE < DE21,caes,none,costOprStIn,0.0
+2050,DE < DE21,battery < home,none,costOprStIn,0.4240569907053347
+2050,DE < DE21,battery < grid,none,costOprStIn,3.8529331650857728
+2050,DE < DE23,pumpedHydro,none,costOprStIn,0.022400000000000003
+2050,DE < DE23,caes,none,costOprStIn,0.0
+2050,DE < DE23,battery < home,none,costOprStIn,0.26891354024331876
+2050,DE < DE23,battery < grid,none,costOprStIn,1.0004337422281606
+2050,DE < DE26,pumpedHydro,none,costOprStIn,0.06428800000000001
+2050,DE < DE26,caes,none,costOprStIn,0.0
+2050,DE < DE26,battery < home,none,costOprStIn,0.33406741873796647
+2050,DE < DE26,battery < grid,none,costOprStIn,2.447599743975007
+2050,DE < DE73,pumpedHydro,none,costOprStIn,0.24421600000000002
+2050,DE < DE73,caes,none,costOprStIn,0.0
+2050,DE < DE73,battery < home,none,costOprStIn,0.2815736546646311
+2050,DE < DE73,battery < grid,none,costOprStIn,0.24860707465753426
+2050,DE < DE91,pumpedHydro,none,costOprStIn,0.05264000000000001
+2050,DE < DE91,caes,none,costOprStIn,0.0
+2050,DE < DE91,battery < home,none,costOprStIn,0.21967365591353316
+2050,DE < DE91,battery < grid,none,costOprStIn,0.19394102108709124
+2050,DE < DEA5,pumpedHydro,none,costOprStIn,0.07168000000000001
+2050,DE < DEA5,caes,none,costOprStIn,0.0
+2050,DE < DEA5,battery < home,none,costOprStIn,0.23980687301987186
+2050,DE < DEA5,battery < grid,none,costOprStIn,3.304947533500375
+2050,DE < DEB2,pumpedHydro,none,costOprStIn,0.25900000000000006
+2050,DE < DEB2,caes,none,costOprStIn,0.0
+2050,DE < DEB2,battery < home,none,costOprStIn,0.17826811160836448
+2050,DE < DEB2,battery < grid,none,costOprStIn,0.1573874387223525
+2050,DE < DED2,pumpedHydro,none,costOprStIn,0.04424
+2050,DE < DED2,caes,none,costOprStIn,0.0
+2050,DE < DED2,battery < home,none,costOprStIn,0.36795542541978027
+2050,DE < DED2,battery < grid,none,costOprStIn,0.3248516501164984
+2050,DE < DED4,pumpedHydro,none,costOprStIn,0.22512000000000004
+2050,DE < DED4,caes,none,costOprStIn,0.0
+2050,DE < DED4,battery < home,none,costOprStIn,0.267953269427334
+2050,DE < DED4,battery < grid,none,costOprStIn,0.2365642855158632
+2050,DE < DEF0,pumpedHydro,none,costOprStIn,0.029904000000000003
+2050,DE < DEF0,caes,none,costOprStIn,0.0
+2050,DE < DEF0,battery < home,none,costOprStIn,2.7864569629971023
+2050,DE < DEF0,battery < grid,none,costOprStIn,2.460038521624402
+2050,DE < DEG0,pumpedHydro,none,costOprStIn,0.70056
+2050,DE < DEG0,caes,none,costOprStIn,0.0
+2050,DE < DEG0,battery < home,none,costOprStIn,0.4327630368156939
+2050,DE < DEG0,battery < grid,none,costOprStIn,0.382126003555328
+2050,ES < ES,pumpedHydro,none,costOprStIn,2.3156
+2050,ES < ES,battery < home,none,costOprStIn,42.801
+2050,ES < ES,battery < grid,none,costOprStIn,36.300000000000004
+2050,FR < FR,pumpedHydro,none,costOprStIn,1.54
+2050,FR < FR,battery < home,none,costOprStIn,39.644000000000005
+2050,FR < FR,battery < grid,none,costOprStIn,34.43000000000001
+2050,GR < GR,pumpedHydro,none,costOprStIn,0.35840000000000005
+2050,GR < GR,battery < home,none,costOprStIn,10.417000000000002
+2050,GR < GR,battery < grid,none,costOprStIn,10.164000000000001
+2050,HR < HR,pumpedHydro,none,costOprStIn,0.084
+2050,HR < HR,battery < home,none,costOprStIn,0.37400000000000005
+2050,HR < HR,battery < grid,none,costOprStIn,0.37400000000000005
+2050,IE < IE,pumpedHydro,none,costOprStIn,0.12320000000000002
+2050,IE < IE,battery < home,none,costOprStIn,1.3970000000000002
+2050,IE < IE,battery < grid,none,costOprStIn,1.364
+2050,IT < IT,pumpedHydro,none,costOprStIn,1.6044000000000003
+2050,IT < IT,battery < home,none,costOprStIn,23.793
+2050,IT < IT,battery < grid,none,costOprStIn,20.911000000000005
+2050,LT < LT,pumpedHydro,none,costOprStIn,0.266
+2050,LT < LT,battery < home,none,costOprStIn,0.88
+2050,LT < LT,battery < grid,none,costOprStIn,0.847
+2050,LU < LU,pumpedHydro,none,costOprStIn,0.2856
+2050,NO < NO,pumpedHydro,none,costOprStIn,0.3108000000000001
+2050,PL < PL,pumpedHydro,none,costOprStIn,0.4144
+2050,PL < PL,battery < home,none,costOprStIn,20.911000000000005
+2050,PL < PL,battery < grid,none,costOprStIn,18.722
+2050,PT < PT,pumpedHydro,none,costOprStIn,1.1508000000000003
+2050,PT < PT,battery < home,none,costOprStIn,0.7260000000000001
+2050,PT < PT,battery < grid,none,costOprStIn,0.561
+2050,SI < SI,pumpedHydro,none,costOprStIn,0.1708
+2050,SI < SI,battery < home,none,costOprStIn,0.8250000000000001
+2050,SI < SI,battery < grid,none,costOprStIn,0.671
+2050,SK < SK,pumpedHydro,none,costOprStIn,0.4144
+2050,SK < SK,battery < home,none,costOprStIn,3.993
+2050,SK < SK,battery < grid,none,costOprStIn,3.498
+2050,DE,gasStorage,none,costOprStIn,261.8803759577333
+2050,AT,gasStorage,none,costOprStIn,2.6851497499613752
+2050,BE,gasStorage,none,costOprStIn,18.24907458728008
+2050,BG,gasStorage,none,costOprStIn,19.094399666424504
+2050,CZ,gasStorage,none,costOprStIn,90.17662103798722
+2050,DK,gasStorage,none,costOprStIn,20.834774993909356
+2050,ES,gasStorage,none,costOprStIn,52.31069999643512
+2050,FR,gasStorage,none,costOprStIn,262.10047425918617
+2050,GR,gasStorage,none,costOprStIn,11.387024988927887
+2050,HR,gasStorage,none,costOprStIn,3.3812999134129376
+2050,HU,gasStorage,none,costOprStIn,15.663374880223236
+2050,IT,gasStorage,none,costOprStIn,119.2405492101118
+2050,LV,gasStorage,none,costOprStIn,25.80727481135564
+2050,NL,gasStorage,none,costOprStIn,157.37961642441704
+2050,PL,gasStorage,none,costOprStIn,60.91312484928933
+2050,PT,gasStorage,none,costOprStIn,6.663149997255399
+2050,RO,gasStorage,none,costOprStIn,17.85127485952784
+2050,SE,gasStorage,none,costOprStIn,0.8453249982325826
+2050,SK,gasStorage,none,costOprStIn,30.43169952656118
+2050,TR,gasStorage,none,costOprStIn,141.6665249972152
+2050,UK,gasStorage,none,costOprStIn,199.0988991189195
+2050,DE < DE11,caes,none,costOprStIn,0.0
+2050,DE < DE11,battery < home,none,costOprStIn,0.3805613138430159
+2050,DE < DE11,battery < grid,none,costOprStIn,2.535253470110987
+2050,DE < DE22,caes,none,costOprStIn,0.0
+2050,DE < DE22,battery < home,none,costOprStIn,0.38177034101270135
+2050,DE < DE22,battery < grid,none,costOprStIn,0.3370543813591896
+2050,DE < DE24,caes,none,costOprStIn,0.0
+2050,DE < DE24,battery < home,none,costOprStIn,0.23971009908762628
+2050,DE < DE24,battery < grid,none,costOprStIn,0.4031840951811934
+2050,DE < DE25,caes,none,costOprStIn,0.0
+2050,DE < DE25,battery < home,none,costOprStIn,0.23669017899398526
+2050,DE < DE25,battery < grid,none,costOprStIn,1.2915992181111975
+2050,DE < DE27,caes,none,costOprStIn,0.0
+2050,DE < DE27,battery < home,none,costOprStIn,0.4250719002356746
+2050,DE < DE27,battery < grid,none,costOprStIn,2.1710038261998448
+2050,DE < DE30,caes,none,costOprStIn,0.0
+2050,DE < DE30,battery < home,none,costOprStIn,0.054685053079621446
+2050,DE < DE30,battery < grid,none,costOprStIn,0.048279271182735575
+2050,DE < DE40,caes,none,costOprStIn,0.0
+2050,DE < DE40,battery < home,none,costOprStIn,1.2431584140010428
+2050,DE < DE40,battery < grid,none,costOprStIn,1.097529230097741
+2050,DE < DE50,caes,none,costOprStIn,0.0
+2050,DE < DE50,battery < home,none,costOprStIn,0.0361246367238492
+2050,DE < DE50,battery < grid,none,costOprStIn,0.03189389518283418
+2050,DE < DE60,caes,none,costOprStIn,0.0
+2050,DE < DE60,battery < home,none,costOprStIn,0.045539042718345094
+2050,DE < DE60,battery < grid,none,costOprStIn,0.04020476879126
+2050,DE < DE71,caes,none,costOprStIn,0.0
+2050,DE < DE71,battery < home,none,costOprStIn,0.23563433528264172
+2050,DE < DE71,battery < grid,none,costOprStIn,0.2080540108827598
+2050,DE < DE72,caes,none,costOprStIn,0.0
+2050,DE < DE72,battery < home,none,costOprStIn,0.15288457041932696
+2050,DE < DE72,battery < grid,none,costOprStIn,0.13498118004956788
+2050,DE < DE80,caes,none,costOprStIn,0.0
+2050,DE < DE80,battery < home,none,costOprStIn,1.927703939180477
+2050,DE < DE80,battery < grid,none,costOprStIn,1.7018838584144274
+2050,DE < DE92,caes,none,costOprStIn,0.0
+2050,DE < DE92,battery < home,none,costOprStIn,0.7678882208247149
+2050,DE < DE92,battery < grid,none,costOprStIn,0.677934989742376
+2050,DE < DE93,caes,none,costOprStIn,0.0
+2050,DE < DE93,battery < home,none,costOprStIn,0.7867362606966389
+2050,DE < DE93,battery < grid,none,costOprStIn,0.6945746110494029
+2050,DE < DE94,caes,none,costOprStIn,0.0
+2050,DE < DE94,battery < home,none,costOprStIn,1.4364545298168498
+2050,DE < DE94,battery < grid,none,costOprStIn,1.268182216028452
+2050,DE < DEA1,caes,none,costOprStIn,0.0
+2050,DE < DEA1,battery < home,none,costOprStIn,0.27247791353136064
+2050,DE < DEA1,battery < grid,none,costOprStIn,0.24056869997346664
+2050,DE < DEA2,caes,none,costOprStIn,0.0
+2050,DE < DEA2,battery < home,none,costOprStIn,0.36224537945110546
+2050,DE < DEA2,battery < grid,none,costOprStIn,4.161826492411412
+2050,DE < DEA3,caes,none,costOprStIn,0.0
+2050,DE < DEA3,battery < home,none,costOprStIn,0.4479140432872266
+2050,DE < DEA3,battery < grid,none,costOprStIn,0.39545205771764713
+2050,DE < DEA4,caes,none,costOprStIn,0.0
+2050,DE < DEA4,battery < home,none,costOprStIn,0.4062623671481654
+2050,DE < DEA4,battery < grid,none,costOprStIn,0.3586735317117586
+2050,DE < DEB1,caes,none,costOprStIn,0.0
+2050,DE < DEB1,battery < home,none,costOprStIn,0.2677459289497483
+2050,DE < DEB1,battery < grid,none,costOprStIn,0.23639962818814636
+2050,DE < DEB3,caes,none,costOprStIn,0.0
+2050,DE < DEB3,battery < home,none,costOprStIn,0.24182934823996266
+2050,DE < DEB3,battery < grid,none,costOprStIn,1.0911635185077417
+2050,DE < DEC0_,caes,none,costOprStIn,0.0
+2050,DE < DEC0_,battery < home,none,costOprStIn,0.10550589172493374
+2050,DE < DEC0_,battery < grid,none,costOprStIn,0.4316716769810788
+2050,DE < DED5,caes,none,costOprStIn,0.0
+2050,DE < DED5,battery < home,none,costOprStIn,0.16531879498558524
+2050,DE < DED5,battery < grid,none,costOprStIn,0.14595289904567438
+2050,DE < DEE0,caes,none,costOprStIn,0.0
+2050,DE < DEE0,battery < home,none,costOprStIn,1.23055020365872
+2050,DE < DEE0,battery < grid,none,costOprStIn,1.0863995222081422
+2050,DK < DK,battery < home,none,costOprStIn,1.4960000000000002
+2050,DK < DK,battery < grid,none,costOprStIn,1.4520000000000002
+2050,FI < FI,battery < home,none,costOprStIn,4.279000000000001
+2050,FI < FI,battery < grid,none,costOprStIn,4.224
+2050,HU < HU,battery < home,none,costOprStIn,6.457
+2050,HU < HU,battery < grid,none,costOprStIn,5.489000000000001
+2050,LV < LV,battery < home,none,costOprStIn,0.803
+2050,LV < LV,battery < grid,none,costOprStIn,0.781
+2050,NL < NL,battery < home,none,costOprStIn,6.226000000000001
+2050,NL < NL,battery < grid,none,costOprStIn,5.456
+2050,NONEU_Balkan < NONEU_Balkan,battery < home,none,costOprStIn,16.643
+2050,NONEU_Balkan < NONEU_Balkan,battery < grid,none,costOprStIn,14.806000000000003
+2050,RO < RO,battery < home,none,costOprStIn,17.391000000000002
+2050,RO < RO,battery < grid,none,costOprStIn,16.973000000000003
+2050,SE < SE,battery < home,none,costOprStIn,7.282000000000001
+2050,SE < SE,battery < grid,none,costOprStIn,7.007000000000001
+2050,TR < TR,battery < home,none,costOprStIn,80.74000000000001
+2050,TR < TR,battery < grid,none,costOprStIn,78.639
+2050,UK < UK,battery < home,none,costOprStIn,23.837000000000003
+2050,UK < UK,battery < grid,none,costOprStIn,20.911000000000005
+2050,AT < AT,none,electricity < electricity_central,costLss,6.936496297206166e-6
+2050,AT < AT,none,mobility,costLss,2.8605299658261087e-7
+2050,AT < AT,none,heatIndustry,costLss,1.7610902806446724e-6
+2050,AT < AT,none,heatResidental,costLss,1.6939934404586373e-6
+2050,BE < BE,none,electricity < electricity_central,costLss,7.373215475125353e-6
+2050,BE < BE,none,mobility,costLss,2.938699797076877e-7
+2050,BE < BE,none,heatIndustry,costLss,1.8625325679761462e-6
+2050,BE < BE,none,heatResidental,costLss,1.7775654210658868e-6
+2050,BG < BG,none,electricity < electricity_central,costLss,7.3311580474179025e-6
+2050,BG < BG,none,mobility,costLss,2.8508730033255135e-7
+2050,BG < BG,none,heatIndustry,costLss,1.820522861110557e-6
+2050,BG < BG,none,heatResidental,costLss,1.7371922334217078e-6
+2050,CH < CH,none,electricity < electricity_central,costLss,7.11342175297585e-6
+2050,CH < CH,none,mobility,costLss,2.8774555565373425e-7
+2050,CH < CH,none,heatIndustry,costLss,1.7922348469805128e-6
+2050,CH < CH,none,heatResidental,costLss,1.7249472197859427e-6
+2050,CZ < CZ,none,electricity < electricity_central,costLss,7.056913123307132e-6
+2050,CZ < CZ,none,mobility,costLss,2.881082984055885e-7
+2050,CZ < CZ,none,heatIndustry,costLss,1.7914921334350292e-6
+2050,CZ < CZ,none,heatResidental,costLss,1.7064727677152254e-6
+2050,DE < DE11,none,electricity < electricity_central,costLss,7.20904974445523e-6
+2050,DE < DE11,none,mobility,costLss,2.9101712734100607e-7
+2050,DE < DE11,none,heatIndustry,costLss,1.7959173156530409e-6
+2050,DE < DE11,none,heatResidental,costLss,1.370463172611447e-6
+2050,DE < DE12,none,electricity < electricity_central,costLss,7.215995663392414e-6
+2050,DE < DE12,none,mobility,costLss,2.882590447621276e-7
+2050,DE < DE12,none,heatIndustry,costLss,1.79136338994299e-6
+2050,DE < DE12,none,heatResidental,costLss,1.3618218741561484e-6
+2050,DE < DE13,none,electricity < electricity_central,costLss,7.26121745753005e-6
+2050,DE < DE13,none,mobility,costLss,2.8714679934918135e-7
+2050,DE < DE13,none,heatIndustry,costLss,1.78968494896641e-6
+2050,DE < DE13,none,heatResidental,costLss,1.357678442236348e-6
+2050,DE < DE14,none,electricity < electricity_central,costLss,7.222806541009194e-6
+2050,DE < DE14,none,mobility,costLss,2.8570033418413397e-7
+2050,DE < DE14,none,heatIndustry,costLss,1.7841962569264287e-6
+2050,DE < DE14,none,heatResidental,costLss,1.353820445510237e-6
+2050,DE < DE21,none,electricity < electricity_central,costLss,7.220845171651674e-6
+2050,DE < DE21,none,mobility,costLss,2.9218618943767533e-7
+2050,DE < DE21,none,heatIndustry,costLss,1.79748421089658e-6
+2050,DE < DE21,none,heatResidental,costLss,1.3739735559292415e-6
+2050,DE < DE22,none,electricity < electricity_central,costLss,7.2440920531205714e-6
+2050,DE < DE22,none,mobility,costLss,2.8493053773468667e-7
+2050,DE < DE22,none,heatIndustry,costLss,1.7744977355275517e-6
+2050,DE < DE22,none,heatResidental,costLss,1.3497803016494377e-6
+2050,DE < DE23,none,electricity < electricity_central,costLss,7.223545348634471e-6
+2050,DE < DE23,none,mobility,costLss,2.847051954544243e-7
+2050,DE < DE23,none,heatIndustry,costLss,1.770096975709604e-6
+2050,DE < DE23,none,heatResidental,costLss,1.3493558415396432e-6
+2050,DE < DE24,none,electricity < electricity_central,costLss,7.203308176291317e-6
+2050,DE < DE24,none,mobility,costLss,2.844830808474835e-7
+2050,DE < DE24,none,heatIndustry,costLss,1.7690789944690101e-6
+2050,DE < DE24,none,heatResidental,costLss,1.348780271366389e-6
+2050,DE < DE25,none,electricity < electricity_central,costLss,7.208384770614246e-6
+2050,DE < DE25,none,mobility,costLss,2.855723446746417e-7
+2050,DE < DE25,none,heatIndustry,costLss,1.7826688484119671e-6
+2050,DE < DE25,none,heatResidental,costLss,1.353096308826174e-6
+2050,DE < DE26,none,electricity < electricity_central,costLss,7.200773601906896e-6
+2050,DE < DE26,none,mobility,costLss,2.8467721205907714e-7
+2050,DE < DE26,none,heatIndustry,costLss,1.7752335864309725e-6
+2050,DE < DE26,none,heatResidental,costLss,1.3497536823927172e-6
+2050,DE < DE27,none,electricity < electricity_central,costLss,7.219433336776154e-6
+2050,DE < DE27,none,mobility,costLss,2.8561419990978704e-7
+2050,DE < DE27,none,heatIndustry,costLss,1.783824849520401e-6
+2050,DE < DE27,none,heatResidental,costLss,1.3535572219996649e-6
+2050,DE < DE30,none,electricity < electricity_central,costLss,7.1862961304639295e-6
+2050,DE < DE30,none,mobility,costLss,2.9071328221422727e-7
+2050,DE < DE30,none,heatIndustry,costLss,1.7933481335162046e-6
+2050,DE < DE30,none,heatResidental,costLss,1.3676700188629325e-6
+2050,DE < DE40,none,electricity < electricity_central,costLss,7.2111536458092984e-6
+2050,DE < DE40,none,mobility,costLss,2.866640668993267e-7
+2050,DE < DE40,none,heatIndustry,costLss,1.788751366082409e-6
+2050,DE < DE40,none,heatResidental,costLss,1.3567886791949455e-6
+2050,DE < DE50,none,electricity < electricity_central,costLss,7.199317325656572e-6
+2050,DE < DE50,none,mobility,costLss,2.841562255231185e-7
+2050,DE < DE50,none,heatIndustry,costLss,1.753274552351715e-6
+2050,DE < DE50,none,heatResidental,costLss,1.3475625031643355e-6
+2050,DE < DE60,none,electricity < electricity_central,costLss,7.203202577159253e-6
+2050,DE < DE60,none,mobility,costLss,2.860549663115215e-7
+2050,DE < DE60,none,heatIndustry,costLss,1.7827364636324873e-6
+2050,DE < DE60,none,heatResidental,costLss,1.3537997731213044e-6
+2050,DE < DE71,none,electricity < electricity_central,costLss,7.202073902532398e-6
+2050,DE < DE71,none,mobility,costLss,2.9112723758913034e-7
+2050,DE < DE71,none,heatIndustry,costLss,1.7952403649768188e-6
+2050,DE < DE71,none,heatResidental,costLss,1.3702503503491183e-6
+2050,DE < DE72,none,electricity < electricity_central,costLss,7.197693341766144e-6
+2050,DE < DE72,none,mobility,costLss,2.844112846207379e-7
+2050,DE < DE72,none,heatIndustry,costLss,1.7678650972376444e-6
+2050,DE < DE72,none,heatResidental,costLss,1.3486301471427897e-6
+2050,DE < DE73,none,electricity < electricity_central,costLss,7.195473679889664e-6
+2050,DE < DE73,none,mobility,costLss,2.8456139654094995e-7
+2050,DE < DE73,none,heatIndustry,costLss,1.7726720566563464e-6
+2050,DE < DE73,none,heatResidental,costLss,1.3491333159946248e-6
+2050,DE < DE80,none,electricity < electricity_central,costLss,7.229934339269e-6
+2050,DE < DE80,none,mobility,costLss,2.853496694526593e-7
+2050,DE < DE80,none,heatIndustry,costLss,1.7811867164729547e-6
+2050,DE < DE80,none,heatResidental,costLss,1.3511865951131353e-6
+2050,DE < DE91,none,electricity < electricity_central,costLss,7.193860382618226e-6
+2050,DE < DE91,none,mobility,costLss,2.8514889634467507e-7
+2050,DE < DE91,none,heatIndustry,costLss,1.7800656217696796e-6
+2050,DE < DE91,none,heatResidental,costLss,1.351222267279213e-6
+2050,DE < DE92,none,electricity < electricity_central,costLss,7.197538190383239e-6
+2050,DE < DE92,none,mobility,costLss,2.862652599767731e-7
+2050,DE < DE92,none,heatIndustry,costLss,1.786462242367278e-6
+2050,DE < DE92,none,heatResidental,costLss,1.355618326717065e-6
+2050,DE < DE93,none,electricity < electricity_central,costLss,7.204868080427301e-6
+2050,DE < DE93,none,mobility,costLss,2.8527395980292294e-7
+2050,DE < DE93,none,heatIndustry,costLss,1.781902654144287e-6
+2050,DE < DE93,none,heatResidental,costLss,1.3517374287747524e-6
+2050,DE < DE94,none,electricity < electricity_central,costLss,7.217767540864337e-6
+2050,DE < DE94,none,mobility,costLss,2.870338893953724e-7
+2050,DE < DE94,none,heatIndustry,costLss,1.7892052446107515e-6
+2050,DE < DE94,none,heatResidental,costLss,1.3581458873692931e-6
+2050,DE < DEA1,none,electricity < electricity_central,costLss,7.224470312362959e-6
+2050,DE < DEA1,none,mobility,costLss,2.933721906527413e-7
+2050,DE < DEA1,none,heatIndustry,costLss,1.7982410954711668e-6
+2050,DE < DEA1,none,heatResidental,costLss,1.3781254849838602e-6
+2050,DE < DEA2,none,electricity < electricity_central,costLss,7.2350450551213475e-6
+2050,DE < DEA2,none,mobility,costLss,2.921768277978436e-7
+2050,DE < DEA2,none,heatIndustry,costLss,1.7970735692546014e-6
+2050,DE < DEA2,none,heatResidental,costLss,1.3736457572338503e-6
+2050,DE < DEA3,none,electricity < electricity_central,costLss,7.21463466960489e-6
+2050,DE < DEA3,none,mobility,costLss,2.8770532694134754e-7
+2050,DE < DEA3,none,heatIndustry,costLss,1.7901689865741733e-6
+2050,DE < DEA3,none,heatResidental,costLss,1.3602076738144087e-6
+2050,DE < DEA4,none,electricity < electricity_central,costLss,7.199131405411341e-6
+2050,DE < DEA4,none,mobility,costLss,2.860831946850332e-7
+2050,DE < DEA4,none,heatIndustry,costLss,1.7858333650179208e-6
+2050,DE < DEA4,none,heatResidental,costLss,1.3550883409767006e-6
+2050,DE < DEA5,none,electricity < electricity_central,costLss,7.207393036861142e-6
+2050,DE < DEA5,none,mobility,costLss,2.904159373578234e-7
+2050,DE < DEA5,none,heatIndustry,costLss,1.7944490980200706e-6
+2050,DE < DEA5,none,heatResidental,costLss,1.3681070912170351e-6
+2050,DE < DEB1,none,electricity < electricity_central,costLss,7.2146545483082594e-6
+2050,DE < DEB1,none,mobility,costLss,2.8514404309294643e-7
+2050,DE < DEB1,none,heatIndustry,costLss,1.7793212747587297e-6
+2050,DE < DEB1,none,heatResidental,costLss,1.351341715052438e-6
+2050,DE < DEB2,none,electricity < electricity_central,costLss,7.226251149261363e-6
+2050,DE < DEB2,none,mobility,costLss,2.846091681170883e-7
+2050,DE < DEB2,none,heatIndustry,costLss,1.7465465655372514e-6
+2050,DE < DEB2,none,heatResidental,costLss,1.349191140909343e-6
+2050,DE < DEB3,none,electricity < electricity_central,costLss,7.214293695895731e-6
+2050,DE < DEB3,none,mobility,costLss,2.8633307451904864e-7
+2050,DE < DEB3,none,heatIndustry,costLss,1.7862800293471715e-6
+2050,DE < DEB3,none,heatResidental,costLss,1.3559151472996487e-6
+2050,DE < DEC0_,none,electricity < electricity_central,costLss,7.2483108335216464e-6
+2050,DE < DEC0_,none,mobility,costLss,2.848639761338089e-7
+2050,DE < DEC0_,none,heatIndustry,costLss,1.7691463451471504e-6
+2050,DE < DEC0_,none,heatResidental,costLss,1.3494753635703315e-6
+2050,DE < DED2,none,electricity < electricity_central,costLss,7.225893052887066e-6
+2050,DE < DED2,none,mobility,costLss,2.853479376192871e-7
+2050,DE < DED2,none,heatIndustry,costLss,1.7811193431678901e-6
+2050,DE < DED2,none,heatResidental,costLss,1.3513609883184167e-6
+2050,DE < DED4,none,electricity < electricity_central,costLss,7.214333647688642e-6
+2050,DE < DED4,none,mobility,costLss,2.850200035276015e-7
+2050,DE < DED4,none,heatIndustry,costLss,1.77846275313816e-6
+2050,DE < DED4,none,heatResidental,costLss,1.3504016538777815e-6
+2050,DE < DED5,none,electricity < electricity_central,costLss,7.204670598613371e-6
+2050,DE < DED5,none,mobility,costLss,2.8447170200170173e-7
+2050,DE < DED5,none,heatIndustry,costLss,1.7674215564445319e-6
+2050,DE < DED5,none,heatResidental,costLss,1.3483853681121797e-6
+2050,DE < DEE0,none,electricity < electricity_central,costLss,7.196707457445919e-6
+2050,DE < DEE0,none,mobility,costLss,2.8612616598136945e-7
+2050,DE < DEE0,none,heatIndustry,costLss,1.7873521918589009e-6
+2050,DE < DEE0,none,heatResidental,costLss,1.3552657171484281e-6
+2050,DE < DEF0,none,electricity < electricity_central,costLss,7.223787150096097e-6
+2050,DE < DEF0,none,mobility,costLss,2.8805188478021083e-7
+2050,DE < DEF0,none,heatIndustry,costLss,1.7909477460964606e-6
+2050,DE < DEF0,none,heatResidental,costLss,1.360706293685068e-6
+2050,DE < DEG0,none,electricity < electricity_central,costLss,7.197061576940831e-6
+2050,DE < DEG0,none,mobility,costLss,2.8627427824342154e-7
+2050,DE < DEG0,none,heatIndustry,costLss,1.7868262981664772e-6
+2050,DE < DEG0,none,heatResidental,costLss,1.3557104558753864e-6
+2050,DK < DK,none,electricity < electricity_central,costLss,6.868472453489016e-6
+2050,DK < DK,none,mobility,costLss,2.848408551137761e-7
+2050,DK < DK,none,heatIndustry,costLss,1.7627848062613855e-6
+2050,DK < DK,none,heatResidental,costLss,1.6758531654179965e-6
+2050,EE < EE,none,electricity < electricity_central,costLss,6.9375988466390064e-6
+2050,EE < EE,none,mobility,costLss,2.8597941037305994e-7
+2050,EE < EE,none,heatIndustry,costLss,1.7370587236085743e-6
+2050,EE < EE,none,heatResidental,costLss,1.736721112431297e-6
+2050,ES < ES,none,electricity < electricity_central,costLss,51.373932089215856
+2050,ES < ES,none,mobility,costLss,3.0429172852787363e-7
+2050,ES < ES,none,heatIndustry,costLss,12.70529841742787
+2050,ES < ES,none,heatResidental,costLss,12.425405363367336
+2050,FI < FI,none,electricity < electricity_central,costLss,3.540906096673628
+2050,FI < FI,none,mobility,costLss,2.90275600182589e-7
+2050,FI < FI,none,heatIndustry,costLss,0.8785148891518488
+2050,FI < FI,none,heatResidental,costLss,0.8772138097804798
+2050,FR < FR,none,electricity < electricity_central,costLss,7.301376927319501e-6
+2050,FR < FR,none,mobility,costLss,2.911464633552109e-7
+2050,FR < FR,none,heatIndustry,costLss,1.8397211263486124e-6
+2050,FR < FR,none,heatResidental,costLss,1.806630970664306e-6
+2050,GR < GR,none,electricity < electricity_central,costLss,12.407595862718587
+2050,GR < GR,none,mobility,costLss,3.0703449556947493e-7
+2050,GR < GR,none,heatIndustry,costLss,3.0051858769456743
+2050,GR < GR,none,heatResidental,costLss,2.9679971298488415
+2050,HR < HR,none,electricity < electricity_central,costLss,7.225332996545314e-6
+2050,HR < HR,none,mobility,costLss,2.8373162439690543e-7
+2050,HR < HR,none,heatIndustry,costLss,1.7905862788499093e-6
+2050,HR < HR,none,heatResidental,costLss,1.717501813074758e-6
+2050,HU < HU,none,electricity < electricity_central,costLss,7.660368082913925e-6
+2050,HU < HU,none,mobility,costLss,2.855273550269478e-7
+2050,HU < HU,none,heatIndustry,costLss,1.9154629356414153e-6
+2050,HU < HU,none,heatResidental,costLss,1.8423136221416665e-6
+2050,IE < IE,none,electricity < electricity_central,costLss,0.3996063136527973
+2050,IE < IE,none,mobility,costLss,2.8557072723222814e-7
+2050,IE < IE,none,heatIndustry,costLss,0.0990028578670411
+2050,IE < IE,none,heatResidental,costLss,0.09807002217771879
+2050,IT < IT,none,electricity < electricity_central,costLss,7.543634635530286e-6
+2050,IT < IT,none,mobility,costLss,2.9073987819250497e-7
+2050,IT < IT,none,heatIndustry,costLss,1.8928127838022687e-6
+2050,IT < IT,none,heatResidental,costLss,1.5760916033091206e-6
+2050,LT < LT,none,electricity < electricity_central,costLss,7.122805901440207e-6
+2050,LT < LT,none,mobility,costLss,2.846919810095927e-7
+2050,LT < LT,none,heatIndustry,costLss,1.7829428374866964e-6
+2050,LT < LT,none,heatResidental,costLss,1.6995294715305313e-6
+2050,LU < LU,none,electricity < electricity_central,costLss,7.175302762079354e-6
+2050,LU < LU,none,mobility,costLss,2.81919909745373e-7
+2050,LU < LU,none,heatIndustry,costLss,1.7824373673443852e-6
+2050,LU < LU,none,heatResidental,costLss,1.6868751816795967e-6
+2050,LV < LV,none,electricity < electricity_central,costLss,7.128076928758226e-6
+2050,LV < LV,none,mobility,costLss,2.8404134624255117e-7
+2050,LV < LV,none,heatIndustry,costLss,1.760706739607633e-6
+2050,LV < LV,none,heatResidental,costLss,1.6894415988120126e-6
+2050,NL < NL,none,electricity < electricity_central,costLss,7.281113510026055e-6
+2050,NL < NL,none,mobility,costLss,2.9650356652372694e-7
+2050,NL < NL,none,heatIndustry,costLss,1.854011067029846e-6
+2050,NL < NL,none,heatResidental,costLss,1.8004510499623177e-6
+2050,NO < NO,none,electricity < electricity_central,costLss,6.655008039863431e-6
+2050,NO < NO,none,mobility,costLss,2.9320847949749364e-7
+2050,NO < NO,none,heatIndustry,costLss,1.7297429646633299e-6
+2050,NO < NO,none,heatResidental,costLss,1.718857231532611e-6
+2050,NONEU_Balkan < NONEU_Balkan,none,electricity < electricity_central,costLss,7.320914692416091e-6
+2050,NONEU_Balkan < NONEU_Balkan,none,mobility,costLss,2.838110105956659e-7
+2050,NONEU_Balkan < NONEU_Balkan,none,heatIndustry,costLss,1.8240316265785167e-6
+2050,NONEU_Balkan < NONEU_Balkan,none,heatResidental,costLss,1.7444649733062497e-6
+2050,PL < PL,none,electricity < electricity_central,costLss,3.698150638618143
+2050,PL < PL,none,mobility,costLss,3.0919256245058776e-7
+2050,PL < PL,none,heatIndustry,costLss,0.9073864766110207
+2050,PL < PL,none,heatResidental,costLss,0.9036405012172167
+2050,PT < PT,none,electricity < electricity_central,costLss,8.246412636446957
+2050,PT < PT,none,mobility,costLss,0.2720412328998074
+2050,PT < PT,none,heatIndustry,costLss,2.0252625253146546
+2050,PT < PT,none,heatResidental,costLss,1.9897500402324306
+2050,RO < RO,none,electricity < electricity_central,costLss,7.57301186562814
+2050,RO < RO,none,mobility,costLss,2.872926586623056e-7
+2050,RO < RO,none,heatIndustry,costLss,1.8619162417677075
+2050,RO < RO,none,heatResidental,costLss,1.7097874075307269
+2050,SE < SE,none,electricity < electricity_central,costLss,7.1153104077477e-6
+2050,SE < SE,none,mobility,costLss,2.903761862562933e-7
+2050,SE < SE,none,heatIndustry,costLss,1.8246330974135051e-6
+2050,SE < SE,none,heatResidental,costLss,1.7571909463008132e-6
+2050,SI < SI,none,electricity < electricity_central,costLss,7.440919158320562e-6
+2050,SI < SI,none,mobility,costLss,2.8361165461597597e-7
+2050,SI < SI,none,heatIndustry,costLss,1.8399620681794065e-6
+2050,SI < SI,none,heatResidental,costLss,1.7567466285364202e-6
+2050,SK < SK,none,electricity < electricity_central,costLss,7.5585600392921505e-6
+2050,SK < SK,none,mobility,costLss,2.84139816419036e-7
+2050,SK < SK,none,heatIndustry,costLss,1.8991936889565773e-6
+2050,SK < SK,none,heatResidental,costLss,1.7752503475714431e-6
+2050,TR < TR,none,electricity < electricity_central,costLss,8.69749172432771
+2050,TR < TR,none,mobility,costLss,8.012762185489737e-7
+2050,TR < TR,none,heatIndustry,costLss,2.172680660487022
+2050,TR < TR,none,heatResidental,costLss,2.135225701596596
+2050,UK < UK,none,electricity < electricity_central,costLss,17.734465909707637
+2050,UK < UK,none,mobility,costLss,2.924354967295021e-7
+2050,UK < UK,none,heatIndustry,costLss,4.404592752472622
+2050,UK < UK,none,heatResidental,costLss,4.304266930494564
+2050,AT,none,gas < hydrogen,costLss,2.967003180874373e-7
+2050,AT,none,gas < synthGas,costLss,316.21298861264364
+2050,BE,none,gas < hydrogen,costLss,2.918725204772307e-7
+2050,BE,none,gas < synthGas,costLss,589.3967597660406
+2050,BG,none,gas < hydrogen,costLss,2.934179350485627e-7
+2050,BG,none,gas < synthGas,costLss,64.59638132055917
+2050,CH,none,gas < hydrogen,costLss,2.899081875763626e-7
+2050,CH,none,gas < synthGas,costLss,245.02853159412274
+2050,CZ,none,gas < hydrogen,costLss,2.9035647601372743e-7
+2050,CZ,none,gas < synthGas,costLss,192.39012583920643
+2050,DE,none,gas < hydrogen,costLss,2.5690793912343073e-7
+2050,DE,none,gas < synthGas,costLss,3.0256612771605817e-7
+2050,DK,none,gas < hydrogen,costLss,2.919750484817994e-7
+2050,DK,none,gas < synthGas,costLss,714.284628299452
+2050,EE,none,gas < hydrogen,costLss,2.8430083040085735e-7
+2050,EE,none,gas < synthGas,costLss,606.623728401251
+2050,ES,none,gas < hydrogen,costLss,2.9085640703064405e-7
+2050,ES,none,gas < synthGas,costLss,2.940655315610316e-7
+2050,FI,none,gas < hydrogen,costLss,18.385903566297177
+2050,FI,none,gas < synthGas,costLss,2.9464396788606675e-7
+2050,FR,none,gas < hydrogen,costLss,2.887575964602358e-7
+2050,FR,none,gas < synthGas,costLss,599.8540185239801
+2050,GR,none,gas < hydrogen,costLss,2.92026036778215e-7
+2050,GR,none,gas < synthGas,costLss,2.9326372950066216e-7
+2050,HR,none,gas < hydrogen,costLss,2.9401117227986417e-7
+2050,HR,none,gas < synthGas,costLss,141.32018429321081
+2050,HU,none,gas < hydrogen,costLss,2.9390994130187054e-7
+2050,HU,none,gas < synthGas,costLss,263.1459335637891
+2050,IE,none,gas < hydrogen,costLss,2.9004269018510194e-7
+2050,IE,none,gas < synthGas,costLss,2.828578721277156e-7
+2050,IT,none,gas < hydrogen,costLss,2.8974843064517513e-7
+2050,IT,none,gas < synthGas,costLss,325.6767583097379
+2050,LT,none,gas < hydrogen,costLss,2.908371908803478e-7
+2050,LT,none,gas < synthGas,costLss,434.76127088480354
+2050,LU,none,gas < hydrogen,costLss,2.899065761334028e-7
+2050,LU,none,gas < synthGas,costLss,296.0719434844341
+2050,LV,none,gas < hydrogen,costLss,2.959712391583267e-7
+2050,LV,none,gas < synthGas,costLss,571.5535858306479
+2050,NL,none,gas < hydrogen,costLss,2.918729494687416e-7
+2050,NL,none,gas < synthGas,costLss,2.936315191417369e-7
+2050,NO,none,gas < hydrogen,costLss,2.9471576856613706e-7
+2050,NO,none,gas < synthGas,costLss,454.91916968562543
+2050,NONEU_Balkan,none,gas < hydrogen,costLss,2.880297968411223e-7
+2050,NONEU_Balkan,none,gas < synthGas,costLss,704.0529652567036
+2050,PL,none,gas < hydrogen,costLss,2.8959483363169673e-7
+2050,PL,none,gas < synthGas,costLss,731.6249081683849
+2050,PT,none,gas < hydrogen,costLss,2.9176369119461234e-7
+2050,PT,none,gas < synthGas,costLss,2.913560651348117e-7
+2050,RO,none,gas < hydrogen,costLss,2.919780948486812e-7
+2050,RO,none,gas < synthGas,costLss,412.6742454822529
+2050,SE,none,gas < hydrogen,costLss,2.8907556860693686e-7
+2050,SE,none,gas < synthGas,costLss,2.937241503844669e-7
+2050,SI,none,gas < hydrogen,costLss,2.950017618492079e-7
+2050,SI,none,gas < synthGas,costLss,-0.005839415160924233
+2050,SK,none,gas < hydrogen,costLss,2.962527179260954e-7
+2050,SK,none,gas < synthGas,costLss,291.2526563644957
+2050,TR,none,gas < hydrogen,costLss,2.879553314704634e-7
+2050,TR,none,gas < synthGas,costLss,2.9643941890460533e-7
+2050,UK,none,gas < hydrogen,costLss,2.9068559764058733e-7
+2050,UK,none,gas < synthGas,costLss,676.5199705042503
+2050,DE,gasStorage,none,costOprStOut,390.295499631827
+2050,AT,gasStorage,none,costOprStOut,6.165897355101383
+2050,BE,gasStorage,none,costOprStOut,17.799197756231234
+2050,BG,gasStorage,none,costOprStOut,24.315524696022063
+2050,CZ,gasStorage,none,costOprStOut,67.52131069148334
+2050,DK,gasStorage,none,costOprStOut,40.2275242761204
+2050,ES,gasStorage,none,costOprStOut,88.85857499738573
+2050,FR,gasStorage,none,costOprStOut,447.12719640370216
+2050,GR,gasStorage,none,costOprStOut,9.09967499877187
+2050,HR,gasStorage,none,costOprStOut,11.933999463503225
+2050,HU,gasStorage,none,costOprStOut,44.55359908491327
+2050,IT,gasStorage,none,costOprStOut,180.80867561361512
+2050,LV,gasStorage,none,costOprStOut,46.41109505125948
+2050,NL,gasStorage,none,costOprStOut,132.88150795013894
+2050,PL,gasStorage,none,costOprStOut,158.12549999654132
+2050,PT,gasStorage,none,costOprStOut,17.7020999979665
+2050,RO,gasStorage,none,costOprStOut,47.53709890552205
+2050,SE,gasStorage,none,costOprStOut,2.33707499849934
+2050,SK,gasStorage,none,costOprStOut,39.318656289439815
+2050,TR,gasStorage,none,costOprStOut,188.9052749977074
+2050,UK,gasStorage,none,costOprStOut,379.99254956493303
+2050,DE < DE11,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE11,electrolysis,none,costExpConv,34.04055873850083
+2050,DE < DE11,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE11,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE11,rooftop < rooftop_c,none,costExpConv,45.28153430248747
+2050,DE < DE11,openspace < openspace_a,none,costExpConv,23.836495289106747
+2050,DE < DE11,wind_onshore < onshore_a,none,costExpConv,197.4306402211585
+2050,DE < DE11,ocgtHydrogen,none,costExpConv,15.202194644637318
+2050,DE < DE11,gasPlant,none,costExpConv,0.0
+2050,DE < DE11,wind_onshore < onshore_b,none,costExpConv,209.63865907648426
+2050,DE < DE11,openspace < openspace_b,none,costExpConv,16.1756977210928
+2050,DE < DE11,biomassPlant,none,costExpConv,0.0
+2050,DE < DE11,rooftop < rooftop_b,none,costExpConv,30.19974419307843
+2050,DE < DE11,rooftop < rooftop_a,none,costExpConv,72.32544382106295
+2050,DE < DE12,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE12,electrolysis,none,costExpConv,18.943004716516132
+2050,DE < DE12,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE12,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE12,rooftop < rooftop_c,none,costExpConv,49.16818221635865
+2050,DE < DE12,openspace < openspace_a,none,costExpConv,4.0458149998756925
+2050,DE < DE12,wind_onshore < onshore_a,none,costExpConv,138.10685090567983
+2050,DE < DE12,ocgtHydrogen,none,costExpConv,8.459768570079508
+2050,DE < DE12,gasPlant,none,costExpConv,0.0
+2050,DE < DE12,wind_onshore < onshore_b,none,costExpConv,81.40132971636187
+2050,DE < DE12,openspace < openspace_b,none,costExpConv,16.948901016345886
+2050,DE < DE12,biomassPlant,none,costExpConv,0.0
+2050,DE < DE12,rooftop < rooftop_b,none,costExpConv,5.399975980423571
+2050,DE < DE12,rooftop < rooftop_a,none,costExpConv,36.148716237249445
+2050,DE < DE13,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE13,electrolysis,none,costExpConv,17.382565281296195
+2050,DE < DE13,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE13,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE13,rooftop < rooftop_c,none,costExpConv,17.78843109660431
+2050,DE < DE13,openspace < openspace_a,none,costExpConv,3.414308594830362
+2050,DE < DE13,wind_onshore < onshore_a,none,costExpConv,168.27501394849256
+2050,DE < DE13,ocgtHydrogen,none,costExpConv,7.762890782306147
+2050,DE < DE13,gasPlant,none,costExpConv,0.0
+2050,DE < DE13,wind_onshore < onshore_b,none,costExpConv,0.0
+2050,DE < DE13,openspace < openspace_b,none,costExpConv,30.675310766249343
+2050,DE < DE13,biomassPlant,none,costExpConv,0.0
+2050,DE < DE13,rooftop < rooftop_b,none,costExpConv,13.98443572276995
+2050,DE < DE13,rooftop < rooftop_a,none,costExpConv,56.14653002596219
+2050,DE < DE14,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE14,electrolysis,none,costExpConv,25.075734111036986
+2050,DE < DE14,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE14,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE14,rooftop < rooftop_c,none,costExpConv,42.83802532895837
+2050,DE < DE14,openspace < openspace_a,none,costExpConv,25.572762955674804
+2050,DE < DE14,wind_onshore < onshore_a,none,costExpConv,149.53274213400243
+2050,DE < DE14,ocgtHydrogen,none,costExpConv,11.198587925357389
+2050,DE < DE14,gasPlant,none,costExpConv,0.0
+2050,DE < DE14,wind_onshore < onshore_b,none,costExpConv,205.76750080117506
+2050,DE < DE14,openspace < openspace_b,none,costExpConv,11.463011296974615
+2050,DE < DE14,biomassPlant,none,costExpConv,0.0
+2050,DE < DE14,rooftop < rooftop_b,none,costExpConv,12.018620190985146
+2050,DE < DE14,rooftop < rooftop_a,none,costExpConv,25.2546182100016
+2050,DE < DE21,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE21,electrolysis,none,costExpConv,37.931172650459125
+2050,DE < DE21,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE21,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE21,rooftop < rooftop_c,none,costExpConv,30.34227835759032
+2050,DE < DE21,openspace < openspace_a,none,costExpConv,7.579616849463984
+2050,DE < DE21,wind_onshore < onshore_a,none,costExpConv,495.18574753872093
+2050,DE < DE21,ocgtHydrogen,none,costExpConv,19.42004302091594
+2050,DE < DE21,gasPlant,none,costExpConv,0.0
+2050,DE < DE21,wind_onshore < onshore_b,none,costExpConv,0.0
+2050,DE < DE21,openspace < openspace_b,none,costExpConv,50.812100162574104
+2050,DE < DE21,biomassPlant,none,costExpConv,0.0
+2050,DE < DE21,rooftop < rooftop_b,none,costExpConv,1.361407071407725
+2050,DE < DE21,rooftop < rooftop_a,none,costExpConv,106.59387999367178
+2050,DE < DE22,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE22,electrolysis,none,costExpConv,34.14870421205881
+2050,DE < DE22,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE22,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE22,rooftop < rooftop_c,none,costExpConv,30.885365870167732
+2050,DE < DE22,openspace < openspace_a,none,costExpConv,6.04945496509922
+2050,DE < DE22,wind_onshore < onshore_a,none,costExpConv,2.534637939749134
+2050,DE < DE22,ocgtHydrogen,none,costExpConv,15.250491364094165
+2050,DE < DE22,gasPlant,none,costExpConv,0.0
+2050,DE < DE22,wind_onshore < onshore_b,none,costExpConv,438.2171128800833
+2050,DE < DE22,openspace < openspace_b,none,costExpConv,54.59105356052667
+2050,DE < DE22,biomassPlant,none,costExpConv,0.0
+2050,DE < DE22,rooftop < rooftop_b,none,costExpConv,18.117554239873254
+2050,DE < DE22,rooftop < rooftop_a,none,costExpConv,29.200525066020948
+2050,DE < DE23,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE23,electrolysis,none,costExpConv,24.053856596437615
+2050,DE < DE23,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE23,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE23,rooftop < rooftop_c,none,costExpConv,13.881295721656006
+2050,DE < DE23,openspace < openspace_a,none,costExpConv,19.597820816320112
+2050,DE < DE23,wind_onshore < onshore_a,none,costExpConv,157.8878428693923
+2050,DE < DE23,ocgtHydrogen,none,costExpConv,10.742226885867876
+2050,DE < DE23,gasPlant,none,costExpConv,0.0
+2050,DE < DE23,wind_onshore < onshore_b,none,costExpConv,215.74682572567775
+2050,DE < DE23,openspace < openspace_b,none,costExpConv,15.041412816812358
+2050,DE < DE23,biomassPlant,none,costExpConv,0.0
+2050,DE < DE23,rooftop < rooftop_b,none,costExpConv,20.324175348196018
+2050,DE < DE23,rooftop < rooftop_a,none,costExpConv,14.517885783773721
+2050,DE < DE24,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE24,electrolysis,none,costExpConv,21.441658715696068
+2050,DE < DE24,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE24,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE24,rooftop < rooftop_c,none,costExpConv,2.396917763892647
+2050,DE < DE24,openspace < openspace_a,none,costExpConv,22.828347344955453
+2050,DE < DE24,wind_onshore < onshore_a,none,costExpConv,194.25281632083062
+2050,DE < DE24,ocgtHydrogen,none,costExpConv,9.575643787782258
+2050,DE < DE24,gasPlant,none,costExpConv,0.0
+2050,DE < DE24,wind_onshore < onshore_b,none,costExpConv,111.11886420448852
+2050,DE < DE24,openspace < openspace_b,none,costExpConv,6.44468692451172
+2050,DE < DE24,biomassPlant,none,costExpConv,0.0
+2050,DE < DE24,rooftop < rooftop_b,none,costExpConv,20.98518197735767
+2050,DE < DE24,rooftop < rooftop_a,none,costExpConv,25.85320784574248
+2050,DE < DE25,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE25,electrolysis,none,costExpConv,21.171531917007705
+2050,DE < DE25,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE25,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE25,rooftop < rooftop_c,none,costExpConv,28.85842743024719
+2050,DE < DE25,openspace < openspace_a,none,costExpConv,18.784593046704703
+2050,DE < DE25,wind_onshore < onshore_a,none,costExpConv,147.69412661241012
+2050,DE < DE25,ocgtHydrogen,none,costExpConv,9.455007746079838
+2050,DE < DE25,gasPlant,none,costExpConv,0.0
+2050,DE < DE25,wind_onshore < onshore_b,none,costExpConv,122.36230758521982
+2050,DE < DE25,openspace < openspace_b,none,costExpConv,7.177318776411045
+2050,DE < DE25,biomassPlant,none,costExpConv,0.0
+2050,DE < DE25,rooftop < rooftop_b,none,costExpConv,11.950434286610829
+2050,DE < DE25,rooftop < rooftop_a,none,costExpConv,26.4355922933661
+2050,DE < DE26,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE26,electrolysis,none,costExpConv,29.88175943875072
+2050,DE < DE26,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE26,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE26,rooftop < rooftop_c,none,costExpConv,29.168983549533234
+2050,DE < DE26,openspace < openspace_a,none,costExpConv,11.904414891738021
+2050,DE < DE26,wind_onshore < onshore_a,none,costExpConv,242.93897332562483
+2050,DE < DE26,ocgtHydrogen,none,costExpConv,13.344913776330152
+2050,DE < DE26,gasPlant,none,costExpConv,0.0
+2050,DE < DE26,wind_onshore < onshore_b,none,costExpConv,191.60502742276836
+2050,DE < DE26,openspace < openspace_b,none,costExpConv,30.193067059936453
+2050,DE < DE26,biomassPlant,none,costExpConv,0.0
+2050,DE < DE26,rooftop < rooftop_b,none,costExpConv,18.673076004654426
+2050,DE < DE26,rooftop < rooftop_a,none,costExpConv,25.34018158538342
+2050,DE < DE27,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE27,electrolysis,none,costExpConv,38.021954646010094
+2050,DE < DE27,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE27,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE27,rooftop < rooftop_c,none,costExpConv,53.045131211264206
+2050,DE < DE27,openspace < openspace_a,none,costExpConv,52.21633442951574
+2050,DE < DE27,wind_onshore < onshore_a,none,costExpConv,12.036101691263065
+2050,DE < DE27,ocgtHydrogen,none,costExpConv,16.980248719556716
+2050,DE < DE27,gasPlant,none,costExpConv,0.0
+2050,DE < DE27,wind_onshore < onshore_b,none,costExpConv,508.7756417164977
+2050,DE < DE27,openspace < openspace_b,none,costExpConv,0.03596921439035016
+2050,DE < DE27,biomassPlant,none,costExpConv,0.0
+2050,DE < DE27,rooftop < rooftop_b,none,costExpConv,32.196492208202805
+2050,DE < DE27,rooftop < rooftop_a,none,costExpConv,14.334040950413602
+2050,DE < DE30,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE30,electrolysis,none,costExpConv,4.8914849013017845
+2050,DE < DE30,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE30,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE30,rooftop < rooftop_c,none,costExpConv,2.1152826480909437
+2050,DE < DE30,openspace < openspace_a,none,costExpConv,0.24373636756078879
+2050,DE < DE30,wind_onshore < onshore_a,none,costExpConv,2.262307831488794
+2050,DE < DE30,ocgtHydrogen,none,costExpConv,2.18449114498209
+2050,DE < DE30,gasPlant,none,costExpConv,0.0
+2050,DE < DE30,wind_onshore < onshore_b,none,costExpConv,2.1253749953272814
+2050,DE < DE30,openspace < openspace_b,none,costExpConv,0.034807109149094156
+2050,DE < DE30,biomassPlant,none,costExpConv,0.0
+2050,DE < DE30,rooftop < rooftop_b,none,costExpConv,60.213856947913925
+2050,DE < DE30,rooftop < rooftop_a,none,costExpConv,4.406392859075371
+2050,DE < DE40,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE40,electrolysis,none,costExpConv,111.19839542150028
+2050,DE < DE40,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE40,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE40,rooftop < rooftop_c,none,costExpConv,31.448764656443718
+2050,DE < DE40,openspace < openspace_a,none,costExpConv,88.1146896704644
+2050,DE < DE40,wind_onshore < onshore_a,none,costExpConv,423.28221586685515
+2050,DE < DE40,ocgtHydrogen,none,costExpConv,49.66016111253165
+2050,DE < DE40,gasPlant,none,costExpConv,0.0
+2050,DE < DE40,wind_onshore < onshore_b,none,costExpConv,835.3186674197667
+2050,DE < DE40,openspace < openspace_b,none,costExpConv,37.10827193255377
+2050,DE < DE40,biomassPlant,none,costExpConv,0.0
+2050,DE < DE40,rooftop < rooftop_b,none,costExpConv,69.09936710841467
+2050,DE < DE40,rooftop < rooftop_a,none,costExpConv,89.32135043793883
+2050,DE < DE50,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE50,electrolysis,none,costExpConv,3.231287275751142
+2050,DE < DE50,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE50,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE50,rooftop < rooftop_c,none,costExpConv,0.729982124989886
+2050,DE < DE50,openspace < openspace_a,none,costExpConv,0.1914450470654049
+2050,DE < DE50,wind_onshore < onshore_a,none,costExpConv,12.303298410554433
+2050,DE < DE50,ocgtHydrogen,none,costExpConv,1.4430624938298122
+2050,DE < DE50,gasPlant,none,costExpConv,0.0
+2050,DE < DE50,wind_onshore < onshore_b,none,costExpConv,12.303298410554433
+2050,DE < DE50,openspace < openspace_b,none,costExpConv,0.0051203876949041955
+2050,DE < DE50,biomassPlant,none,costExpConv,0.0
+2050,DE < DE50,rooftop < rooftop_b,none,costExpConv,3.999396161580631
+2050,DE < DE50,rooftop < rooftop_a,none,costExpConv,14.806456283617154
+2050,DE < DE60,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE60,electrolysis,none,costExpConv,4.0733910073513355
+2050,DE < DE60,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE60,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE60,rooftop < rooftop_c,none,costExpConv,0.8873230262899159
+2050,DE < DE60,openspace < openspace_a,none,costExpConv,0.6549303034056428
+2050,DE < DE60,wind_onshore < onshore_a,none,costExpConv,9.92679226918701
+2050,DE < DE60,ocgtHydrogen,none,costExpConv,1.819137588638886
+2050,DE < DE60,gasPlant,none,costExpConv,0.0
+2050,DE < DE60,wind_onshore < onshore_b,none,costExpConv,2.9644330556357517
+2050,DE < DE60,openspace < openspace_b,none,costExpConv,0.7063512521560862
+2050,DE < DE60,biomassPlant,none,costExpConv,0.0
+2050,DE < DE60,rooftop < rooftop_b,none,costExpConv,5.16465380793989
+2050,DE < DE60,rooftop < rooftop_a,none,costExpConv,39.890444156388945
+2050,DE < DE71,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE71,electrolysis,none,costExpConv,21.077088405464874
+2050,DE < DE71,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE71,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE71,rooftop < rooftop_c,none,costExpConv,57.48416850280995
+2050,DE < DE71,openspace < openspace_a,none,costExpConv,16.22076142922315
+2050,DE < DE71,wind_onshore < onshore_a,none,costExpConv,171.64991254067945
+2050,DE < DE71,ocgtHydrogen,none,costExpConv,9.412830205022587
+2050,DE < DE71,gasPlant,none,costExpConv,0.0
+2050,DE < DE71,wind_onshore < onshore_b,none,costExpConv,80.09899852706097
+2050,DE < DE71,openspace < openspace_b,none,costExpConv,6.754375119889958
+2050,DE < DE71,biomassPlant,none,costExpConv,0.0
+2050,DE < DE71,rooftop < rooftop_b,none,costExpConv,26.228334789407707
+2050,DE < DE71,rooftop < rooftop_a,none,costExpConv,20.975643685877937
+2050,DE < DE72,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE72,electrolysis,none,costExpConv,13.675263499080028
+2050,DE < DE72,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE72,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE72,rooftop < rooftop_c,none,costExpConv,18.652862827803403
+2050,DE < DE72,openspace < openspace_a,none,costExpConv,5.1327468006016375
+2050,DE < DE72,wind_onshore < onshore_a,none,costExpConv,119.72258110406516
+2050,DE < DE72,ocgtHydrogen,none,costExpConv,6.107244512333954
+2050,DE < DE72,gasPlant,none,costExpConv,0.0
+2050,DE < DE72,wind_onshore < onshore_b,none,costExpConv,59.44535453649723
+2050,DE < DE72,openspace < openspace_b,none,costExpConv,11.140332860398503
+2050,DE < DE72,biomassPlant,none,costExpConv,0.0
+2050,DE < DE72,rooftop < rooftop_b,none,costExpConv,21.50682323448081
+2050,DE < DE72,rooftop < rooftop_a,none,costExpConv,9.803417003487416
+2050,DE < DE73,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE73,electrolysis,none,costExpConv,25.18628198646265
+2050,DE < DE73,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE73,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE73,rooftop < rooftop_c,none,costExpConv,36.869252798922076
+2050,DE < DE73,openspace < openspace_a,none,costExpConv,15.039386598370358
+2050,DE < DE73,wind_onshore < onshore_a,none,costExpConv,280.11264707893866
+2050,DE < DE73,ocgtHydrogen,none,costExpConv,11.247957540658723
+2050,DE < DE73,gasPlant,none,costExpConv,0.0
+2050,DE < DE73,wind_onshore < onshore_b,none,costExpConv,77.7711225662973
+2050,DE < DE73,openspace < openspace_b,none,costExpConv,19.141244534585763
+2050,DE < DE73,biomassPlant,none,costExpConv,0.0
+2050,DE < DE73,rooftop < rooftop_b,none,costExpConv,13.995354887373459
+2050,DE < DE73,rooftop < rooftop_a,none,costExpConv,13.995357762119253
+2050,DE < DE80,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE80,electrolysis,none,costExpConv,302.0321955203752
+2050,DE < DE80,wind_offshore < offshore_a,none,costExpConv,1257.3462767744559
+2050,DE < DE80,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE80,rooftop < rooftop_c,none,costExpConv,26.072995460570485
+2050,DE < DE80,openspace < openspace_a,none,costExpConv,57.82364517355016
+2050,DE < DE80,wind_onshore < onshore_a,none,costExpConv,865.1661812050982
+2050,DE < DE80,ocgtHydrogen,none,costExpConv,77.00554259093725
+2050,DE < DE80,gasPlant,none,costExpConv,0.0
+2050,DE < DE80,wind_onshore < onshore_b,none,costExpConv,274.12268577859516
+2050,DE < DE80,openspace < openspace_b,none,costExpConv,61.18429213157317
+2050,DE < DE80,biomassPlant,none,costExpConv,0.0
+2050,DE < DE80,rooftop < rooftop_b,none,costExpConv,38.581555087205
+2050,DE < DE80,rooftop < rooftop_a,none,costExpConv,24.802091926197654
+2050,DE < DE91,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE91,electrolysis,none,costExpConv,19.64943312254969
+2050,DE < DE91,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE91,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE91,rooftop < rooftop_c,none,costExpConv,42.531915678798256
+2050,DE < DE91,openspace < openspace_a,none,costExpConv,12.890787337256471
+2050,DE < DE91,wind_onshore < onshore_a,none,costExpConv,145.63083345368858
+2050,DE < DE91,ocgtHydrogen,none,costExpConv,8.775252633303325
+2050,DE < DE91,gasPlant,none,costExpConv,0.0
+2050,DE < DE91,wind_onshore < onshore_b,none,costExpConv,59.39546287161955
+2050,DE < DE91,openspace < openspace_b,none,costExpConv,5.916394500303268
+2050,DE < DE91,biomassPlant,none,costExpConv,0.0
+2050,DE < DE91,rooftop < rooftop_b,none,costExpConv,30.469647348234215
+2050,DE < DE91,rooftop < rooftop_a,none,costExpConv,9.588513811745912
+2050,DE < DE92,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE92,electrolysis,none,costExpConv,68.68628827830709
+2050,DE < DE92,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE92,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE92,rooftop < rooftop_c,none,costExpConv,37.68222894149246
+2050,DE < DE92,openspace < openspace_a,none,costExpConv,76.32635515512949
+2050,DE < DE92,wind_onshore < onshore_a,none,costExpConv,411.31393303174616
+2050,DE < DE92,ocgtHydrogen,none,costExpConv,30.674652830756372
+2050,DE < DE92,gasPlant,none,costExpConv,0.0
+2050,DE < DE92,wind_onshore < onshore_b,none,costExpConv,365.7704937488193
+2050,DE < DE92,openspace < openspace_b,none,costExpConv,5.275307511988508
+2050,DE < DE92,biomassPlant,none,costExpConv,0.0
+2050,DE < DE92,rooftop < rooftop_b,none,costExpConv,15.617948644857222
+2050,DE < DE92,rooftop < rooftop_a,none,costExpConv,44.68610697741649
+2050,DE < DE93,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE93,electrolysis,none,costExpConv,70.3722133921353
+2050,DE < DE93,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DE93,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE93,rooftop < rooftop_c,none,costExpConv,63.13992802587194
+2050,DE < DE93,openspace < openspace_a,none,costExpConv,60.20907659698308
+2050,DE < DE93,wind_onshore < onshore_a,none,costExpConv,444.16511604823137
+2050,DE < DE93,ocgtHydrogen,none,costExpConv,31.427571112212664
+2050,DE < DE93,gasPlant,none,costExpConv,0.0
+2050,DE < DE93,wind_onshore < onshore_b,none,costExpConv,274.8186763502943
+2050,DE < DE93,openspace < openspace_b,none,costExpConv,15.272824091843272
+2050,DE < DE93,biomassPlant,none,costExpConv,0.0
+2050,DE < DE93,rooftop < rooftop_b,none,costExpConv,9.689651667400183
+2050,DE < DE93,rooftop < rooftop_a,none,costExpConv,37.657504393390205
+2050,DE < DE94,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DE94,electrolysis,none,costExpConv,128.48840112666423
+2050,DE < DE94,wind_offshore < offshore_a,none,costExpConv,948.7438738513724
+2050,DE < DE94,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DE94,rooftop < rooftop_c,none,costExpConv,74.90171255144219
+2050,DE < DE94,openspace < openspace_a,none,costExpConv,69.42807449510212
+2050,DE < DE94,wind_onshore < onshore_a,none,costExpConv,339.9885237551091
+2050,DE < DE94,ocgtHydrogen,none,costExpConv,57.381716262716296
+2050,DE < DE94,gasPlant,none,costExpConv,0.0
+2050,DE < DE94,wind_onshore < onshore_b,none,costExpConv,438.5766057058842
+2050,DE < DE94,openspace < openspace_b,none,costExpConv,14.25118900009129
+2050,DE < DE94,biomassPlant,none,costExpConv,0.0
+2050,DE < DE94,rooftop < rooftop_b,none,costExpConv,9.783629365726526
+2050,DE < DE94,rooftop < rooftop_a,none,costExpConv,55.32808366925869
+2050,DE < DEA1,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEA1,electrolysis,none,costExpConv,24.37268345339266
+2050,DE < DEA1,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEA1,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEA1,rooftop < rooftop_c,none,costExpConv,78.28844900233129
+2050,DE < DEA1,openspace < openspace_a,none,costExpConv,15.482189637253075
+2050,DE < DEA1,wind_onshore < onshore_a,none,costExpConv,29.12978116392619
+2050,DE < DEA1,ocgtHydrogen,none,costExpConv,10.884612077437618
+2050,DE < DEA1,gasPlant,none,costExpConv,0.0
+2050,DE < DEA1,wind_onshore < onshore_b,none,costExpConv,154.27136468536722
+2050,DE < DEA1,openspace < openspace_b,none,costExpConv,3.632053547319422
+2050,DE < DEA1,biomassPlant,none,costExpConv,0.0
+2050,DE < DEA1,rooftop < rooftop_b,none,costExpConv,0.19825818637921536
+2050,DE < DEA1,rooftop < rooftop_a,none,costExpConv,60.39047376067877
+2050,DE < DEA2,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEA2,electrolysis,none,costExpConv,32.40222973381933
+2050,DE < DEA2,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEA2,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEA2,rooftop < rooftop_c,none,costExpConv,35.100976188323074
+2050,DE < DEA2,openspace < openspace_a,none,costExpConv,21.60457057382249
+2050,DE < DEA2,wind_onshore < onshore_a,none,costExpConv,209.5655193274345
+2050,DE < DEA2,ocgtHydrogen,none,costExpConv,14.470532238639949
+2050,DE < DEA2,gasPlant,none,costExpConv,0.0
+2050,DE < DEA2,wind_onshore < onshore_b,none,costExpConv,93.06150159206501
+2050,DE < DEA2,openspace < openspace_b,none,costExpConv,8.22218196388414
+2050,DE < DEA2,biomassPlant,none,costExpConv,0.0
+2050,DE < DEA2,rooftop < rooftop_b,none,costExpConv,41.937619143248185
+2050,DE < DEA2,rooftop < rooftop_a,none,costExpConv,63.91487551177924
+2050,DE < DEA3,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEA3,electrolysis,none,costExpConv,40.065145224193905
+2050,DE < DEA3,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEA3,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEA3,rooftop < rooftop_c,none,costExpConv,39.170174580101005
+2050,DE < DEA3,openspace < openspace_a,none,costExpConv,6.282006354664242
+2050,DE < DEA3,wind_onshore < onshore_a,none,costExpConv,350.50476341570754
+2050,DE < DEA3,ocgtHydrogen,none,costExpConv,17.892718502283575
+2050,DE < DEA3,gasPlant,none,costExpConv,0.0
+2050,DE < DEA3,wind_onshore < onshore_b,none,costExpConv,30.77010182505128
+2050,DE < DEA3,openspace < openspace_b,none,costExpConv,33.94118980876938
+2050,DE < DEA3,biomassPlant,none,costExpConv,0.0
+2050,DE < DEA3,rooftop < rooftop_b,none,costExpConv,15.649454541175324
+2050,DE < DEA3,rooftop < rooftop_a,none,costExpConv,60.119192246373885
+2050,DE < DEA4,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEA4,electrolysis,none,costExpConv,36.33947407682529
+2050,DE < DEA4,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEA4,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEA4,rooftop < rooftop_c,none,costExpConv,48.97293919738624
+2050,DE < DEA4,openspace < openspace_a,none,costExpConv,33.35008077951988
+2050,DE < DEA4,wind_onshore < onshore_a,none,costExpConv,97.80081741075435
+2050,DE < DEA4,ocgtHydrogen,none,costExpConv,16.228868646598308
+2050,DE < DEA4,gasPlant,none,costExpConv,0.0
+2050,DE < DEA4,wind_onshore < onshore_b,none,costExpConv,294.9139239021776
+2050,DE < DEA4,openspace < openspace_b,none,costExpConv,5.638262093743678
+2050,DE < DEA4,biomassPlant,none,costExpConv,0.0
+2050,DE < DEA4,rooftop < rooftop_b,none,costExpConv,40.38445951818453
+2050,DE < DEA4,rooftop < rooftop_a,none,costExpConv,16.747089635708548
+2050,DE < DEA5,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEA5,electrolysis,none,costExpConv,21.45031478313482
+2050,DE < DEA5,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEA5,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEA5,rooftop < rooftop_c,none,costExpConv,17.18020203961274
+2050,DE < DEA5,openspace < openspace_a,none,costExpConv,7.322035159795294
+2050,DE < DEA5,wind_onshore < onshore_a,none,costExpConv,56.50796929027286
+2050,DE < DEA5,ocgtHydrogen,none,costExpConv,9.57950959214808
+2050,DE < DEA5,gasPlant,none,costExpConv,0.0
+2050,DE < DEA5,wind_onshore < onshore_b,none,costExpConv,139.39530663279933
+2050,DE < DEA5,openspace < openspace_b,none,costExpConv,9.2991696316875
+2050,DE < DEA5,biomassPlant,none,costExpConv,0.0
+2050,DE < DEA5,rooftop < rooftop_b,none,costExpConv,68.49144877069881
+2050,DE < DEA5,rooftop < rooftop_a,none,costExpConv,29.341979845077798
+2050,DE < DEB1,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEB1,electrolysis,none,costExpConv,23.94941552904177
+2050,DE < DEB1,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEB1,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEB1,rooftop < rooftop_c,none,costExpConv,21.412559244900493
+2050,DE < DEB1,openspace < openspace_a,none,costExpConv,17.448910400420782
+2050,DE < DEB1,wind_onshore < onshore_a,none,costExpConv,162.83075999637035
+2050,DE < DEB1,ocgtHydrogen,none,costExpConv,10.695584585819132
+2050,DE < DEB1,gasPlant,none,costExpConv,0.0
+2050,DE < DEB1,wind_onshore < onshore_b,none,costExpConv,136.67827627598805
+2050,DE < DEB1,openspace < openspace_b,none,costExpConv,9.635224082118114
+2050,DE < DEB1,biomassPlant,none,costExpConv,0.0
+2050,DE < DEB1,rooftop < rooftop_b,none,costExpConv,9.167359313525013
+2050,DE < DEB1,rooftop < rooftop_a,none,costExpConv,39.87345052133409
+2050,DE < DEB2,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEB2,electrolysis,none,costExpConv,15.945777808867867
+2050,DE < DEB2,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEB2,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEB2,rooftop < rooftop_c,none,costExpConv,3.7484151974434927
+2050,DE < DEB2,openspace < openspace_a,none,costExpConv,9.069498402809472
+2050,DE < DEB2,wind_onshore < onshore_a,none,costExpConv,69.5852720492897
+2050,DE < DEB2,ocgtHydrogen,none,costExpConv,7.121234950332321
+2050,DE < DEB2,gasPlant,none,costExpConv,0.0
+2050,DE < DEB2,wind_onshore < onshore_b,none,costExpConv,139.1182108108244
+2050,DE < DEB2,openspace < openspace_b,none,costExpConv,10.603360498649646
+2050,DE < DEB2,biomassPlant,none,costExpConv,0.0
+2050,DE < DEB2,rooftop < rooftop_b,none,costExpConv,14.221601049113799
+2050,DE < DEB2,rooftop < rooftop_a,none,costExpConv,8.173049429469557
+2050,DE < DEB3,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEB3,electrolysis,none,costExpConv,21.631221701488187
+2050,DE < DEB3,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEB3,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEB3,rooftop < rooftop_c,none,costExpConv,14.989148639374323
+2050,DE < DEB3,openspace < openspace_a,none,costExpConv,8.341601670503639
+2050,DE < DEB3,wind_onshore < onshore_a,none,costExpConv,153.469369857708
+2050,DE < DEB3,ocgtHydrogen,none,costExpConv,9.660301040708855
+2050,DE < DEB3,gasPlant,none,costExpConv,0.0
+2050,DE < DEB3,wind_onshore < onshore_b,none,costExpConv,122.94137286254137
+2050,DE < DEB3,openspace < openspace_b,none,costExpConv,18.070897037079668
+2050,DE < DEB3,biomassPlant,none,costExpConv,0.0
+2050,DE < DEB3,rooftop < rooftop_b,none,costExpConv,24.716698508658062
+2050,DE < DEB3,rooftop < rooftop_a,none,costExpConv,33.81281203848436
+2050,DE < DEC0_,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEC0_,electrolysis,none,costExpConv,9.437321689208929
+2050,DE < DEC0_,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEC0_,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEC0_,rooftop < rooftop_c,none,costExpConv,7.216857198802247
+2050,DE < DEC0_,openspace < openspace_a,none,costExpConv,5.0759569182780595
+2050,DE < DEC0_,wind_onshore < onshore_a,none,costExpConv,58.349686598892916
+2050,DE < DEC0_,ocgtHydrogen,none,costExpConv,5.919674990623674
+2050,DE < DEC0_,gasPlant,none,costExpConv,0.0
+2050,DE < DEC0_,wind_onshore < onshore_b,none,costExpConv,34.61333028605373
+2050,DE < DEC0_,openspace < openspace_b,none,costExpConv,3.5386785389894317
+2050,DE < DEC0_,biomassPlant,none,costExpConv,0.0
+2050,DE < DEC0_,rooftop < rooftop_b,none,costExpConv,10.436243999021888
+2050,DE < DEC0_,rooftop < rooftop_a,none,costExpConv,30.148794654187117
+2050,DE < DED2,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DED2,electrolysis,none,costExpConv,32.91298408565729
+2050,DE < DED2,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DED2,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DED2,rooftop < rooftop_c,none,costExpConv,33.32631192780993
+2050,DE < DED2,openspace < openspace_a,none,costExpConv,12.598200681675129
+2050,DE < DED2,wind_onshore < onshore_a,none,costExpConv,272.66106489707323
+2050,DE < DED2,ocgtHydrogen,none,costExpConv,14.698630121005085
+2050,DE < DED2,gasPlant,none,costExpConv,0.0
+2050,DE < DED2,wind_onshore < onshore_b,none,costExpConv,85.85767609813566
+2050,DE < DED2,openspace < openspace_b,none,costExpConv,23.38331951213054
+2050,DE < DED2,biomassPlant,none,costExpConv,0.0
+2050,DE < DED2,rooftop < rooftop_b,none,costExpConv,43.794262494069315
+2050,DE < DED2,rooftop < rooftop_a,none,costExpConv,16.25166974860577
+2050,DE < DED4,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DED4,electrolysis,none,costExpConv,23.96796210811082
+2050,DE < DED4,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DED4,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DED4,rooftop < rooftop_c,none,costExpConv,7.585008147168845
+2050,DE < DED4,openspace < openspace_a,none,costExpConv,17.657222032390656
+2050,DE < DED4,wind_onshore < onshore_a,none,costExpConv,165.74394131707146
+2050,DE < DED4,ocgtHydrogen,none,costExpConv,10.703867167096613
+2050,DE < DED4,gasPlant,none,costExpConv,0.0
+2050,DE < DED4,wind_onshore < onshore_b,none,costExpConv,81.49697523038921
+2050,DE < DED4,openspace < openspace_b,none,costExpConv,8.146695553886627
+2050,DE < DED4,biomassPlant,none,costExpConv,0.0
+2050,DE < DED4,rooftop < rooftop_b,none,costExpConv,34.0652883277448
+2050,DE < DED4,rooftop < rooftop_a,none,costExpConv,47.82682916304642
+2050,DE < DED5,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DED5,electrolysis,none,costExpConv,14.787483910798912
+2050,DE < DED5,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DED5,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DED5,rooftop < rooftop_c,none,costExpConv,1.1997960287608969
+2050,DE < DED5,openspace < openspace_a,none,costExpConv,12.949212682595013
+2050,DE < DED5,wind_onshore < onshore_a,none,costExpConv,31.071340619421623
+2050,DE < DED5,ocgtHydrogen,none,costExpConv,6.603951597999138
+2050,DE < DED5,gasPlant,none,costExpConv,0.0
+2050,DE < DED5,wind_onshore < onshore_b,none,costExpConv,125.82521911495992
+2050,DE < DED5,openspace < openspace_b,none,costExpConv,3.1597079491968714
+2050,DE < DED5,biomassPlant,none,costExpConv,0.0
+2050,DE < DED5,rooftop < rooftop_b,none,costExpConv,16.04309115469678
+2050,DE < DED5,rooftop < rooftop_a,none,costExpConv,28.86847852409376
+2050,DE < DEE0,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEE0,electrolysis,none,costExpConv,110.07061312392574
+2050,DE < DEE0,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEE0,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEE0,rooftop < rooftop_c,none,costExpConv,61.68077996841341
+2050,DE < DEE0,openspace < openspace_a,none,costExpConv,100.93349737023128
+2050,DE < DEE0,wind_onshore < onshore_a,none,costExpConv,427.2792708301545
+2050,DE < DEE0,ocgtHydrogen,none,costExpConv,49.15650385569946
+2050,DE < DEE0,gasPlant,none,costExpConv,0.0
+2050,DE < DEE0,wind_onshore < onshore_b,none,costExpConv,955.5042444257101
+2050,DE < DEE0,openspace < openspace_b,none,costExpConv,46.004221530648536
+2050,DE < DEE0,biomassPlant,none,costExpConv,0.0
+2050,DE < DEE0,rooftop < rooftop_b,none,costExpConv,57.86941234441363
+2050,DE < DEE0,rooftop < rooftop_a,none,costExpConv,24.13610669659977
+2050,DE < DEF0,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEF0,electrolysis,none,costExpConv,359.5465140838941
+2050,DE < DEF0,wind_offshore < offshore_a,none,costExpConv,3002.6179742391146
+2050,DE < DEF0,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEF0,rooftop < rooftop_c,none,costExpConv,76.6679050704249
+2050,DE < DEF0,openspace < openspace_a,none,costExpConv,66.0827334913449
+2050,DE < DEF0,wind_onshore < onshore_a,none,costExpConv,642.300469810203
+2050,DE < DEF0,ocgtHydrogen,none,costExpConv,111.3099506521029
+2050,DE < DEF0,gasPlant,none,costExpConv,0.0
+2050,DE < DEF0,wind_onshore < onshore_b,none,costExpConv,232.6466464938643
+2050,DE < DEF0,openspace < openspace_b,none,costExpConv,32.4944562404147
+2050,DE < DEF0,biomassPlant,none,costExpConv,0.0
+2050,DE < DEF0,rooftop < rooftop_b,none,costExpConv,11.126433553338892
+2050,DE < DEF0,rooftop < rooftop_a,none,costExpConv,40.07497465218145
+2050,DE < DEG0,wind_offshore < offshore_c,none,costExpConv,0.0
+2050,DE < DEG0,electrolysis,none,costExpConv,38.70991387570688
+2050,DE < DEG0,wind_offshore < offshore_a,none,costExpConv,0.0
+2050,DE < DEG0,wind_offshore < offshore_b,none,costExpConv,0.0
+2050,DE < DEG0,rooftop < rooftop_c,none,costExpConv,46.41562099467644
+2050,DE < DEG0,openspace < openspace_a,none,costExpConv,16.040895421098107
+2050,DE < DEG0,wind_onshore < onshore_a,none,costExpConv,247.29204860084138
+2050,DE < DEG0,ocgtHydrogen,none,costExpConv,17.287484757360886
+2050,DE < DEG0,gasPlant,none,costExpConv,0.0
+2050,DE < DEG0,wind_onshore < onshore_b,none,costExpConv,245.04371856994095
+2050,DE < DEG0,openspace < openspace_b,none,costExpConv,31.07378461027451
+2050,DE < DEG0,biomassPlant,none,costExpConv,0.0
+2050,DE < DEG0,rooftop < rooftop_b,none,costExpConv,20.776693519467113
+2050,DE < DEG0,rooftop < rooftop_a,none,costExpConv,50.35423660944791
+2050,DE,fermenter,none,costExpConv,122.06839114610418
+2050,DE,methanation,none,costExpConv,0.0
+2050,none,none,electricity < electricity_central,costExpExc,768.2969194242418
+2050,DE < DE11,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE11,electrolysis,none,costOprConv,26.62885829302765
+2050,DE < DE11,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE11,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE11,rooftop < rooftop_c,none,costOprConv,17.68104128023616
+2050,DE < DE11,openspace < openspace_a,none,costOprConv,9.307415565194292
+2050,DE < DE11,wind_onshore < onshore_a,none,costOprConv,115.63585532730049
+2050,DE < DE11,ocgtHydrogen,none,costOprConv,6.076627435910829
+2050,DE < DE11,gasPlant,none,costOprConv,0.0
+2050,DE < DE11,wind_onshore < onshore_b,none,costOprConv,122.78613706982064
+2050,DE < DE11,openspace < openspace_b,none,costOprConv,6.316110607752807
+2050,DE < DE11,biomassPlant,none,costOprConv,0.0
+2050,DE < DE11,rooftop < rooftop_b,none,costOprConv,11.79206782534
+2050,DE < DE11,rooftop < rooftop_a,none,costOprConv,28.240853087466316
+2050,DE < DE12,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE12,electrolysis,none,costOprConv,14.818516702833593
+2050,DE < DE12,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE12,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE12,rooftop < rooftop_c,none,costOprConv,19.19865730772852
+2050,DE < DE12,openspace < openspace_a,none,costOprConv,1.5797658610050933
+2050,DE < DE12,wind_onshore < onshore_a,none,costOprConv,80.88969277083238
+2050,DE < DE12,ocgtHydrogen,none,costOprConv,3.3815421388868616
+2050,DE < DE12,gasPlant,none,costOprConv,0.0
+2050,DE < DE12,wind_onshore < onshore_b,none,costOprConv,47.67705952828255
+2050,DE < DE12,openspace < openspace_b,none,costOprConv,6.618022625354946
+2050,DE < DE12,biomassPlant,none,costOprConv,0.0
+2050,DE < DE12,rooftop < rooftop_b,none,costOprConv,2.1085239202441954
+2050,DE < DE12,rooftop < rooftop_a,none,costOprConv,14.114957760679058
+2050,DE < DE13,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE13,electrolysis,none,costOprConv,13.597834019140551
+2050,DE < DE13,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE13,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE13,rooftop < rooftop_c,none,costOprConv,6.945833204958779
+2050,DE < DE13,openspace < openspace_a,none,costOprConv,1.333182104771227
+2050,DE < DE13,wind_onshore < onshore_a,none,costOprConv,98.55929731246444
+2050,DE < DE13,ocgtHydrogen,none,costOprConv,3.102985865687567
+2050,DE < DE13,gasPlant,none,costOprConv,0.0
+2050,DE < DE13,wind_onshore < onshore_b,none,costOprConv,0.0
+2050,DE < DE13,openspace < openspace_b,none,costOprConv,11.977761891171895
+2050,DE < DE13,biomassPlant,none,costOprConv,0.0
+2050,DE < DE13,rooftop < rooftop_b,none,costOprConv,5.460490442823222
+2050,DE < DE13,rooftop < rooftop_a,none,costOprConv,21.923486702095307
+2050,DE < DE14,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE14,electrolysis,none,costOprConv,19.615957991935453
+2050,DE < DE14,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE14,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE14,rooftop < rooftop_c,none,costOprConv,16.726926458485913
+2050,DE < DE14,openspace < openspace_a,none,costOprConv,9.985374489489017
+2050,DE < DE14,wind_onshore < onshore_a,none,costOprConv,87.58187947287495
+2050,DE < DE14,ocgtHydrogen,none,costOprConv,4.476304127226226
+2050,DE < DE14,gasPlant,none,costOprConv,0.0
+2050,DE < DE14,wind_onshore < onshore_b,none,costOprConv,120.51878536710979
+2050,DE < DE14,openspace < openspace_b,none,costOprConv,4.475952042254183
+2050,DE < DE14,biomassPlant,none,costOprConv,0.0
+2050,DE < DE14,rooftop < rooftop_b,none,costOprConv,4.692900163425221
+2050,DE < DE14,rooftop < rooftop_a,none,costOprConv,9.8611487876
+2050,DE < DE21,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE21,electrolysis,none,costOprConv,29.672363169968524
+2050,DE < DE21,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE21,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE21,rooftop < rooftop_c,none,costOprConv,11.847723016476932
+2050,DE < DE21,openspace < openspace_a,none,costOprConv,2.959606392939391
+2050,DE < DE21,wind_onshore < onshore_a,none,costOprConv,290.03212165237176
+2050,DE < DE21,ocgtHydrogen,none,costOprConv,7.76258750700148
+2050,DE < DE21,gasPlant,none,costOprConv,0.0
+2050,DE < DE21,wind_onshore < onshore_b,none,costOprConv,0.0
+2050,DE < DE21,openspace < openspace_b,none,costOprConv,19.84055651711021
+2050,DE < DE21,biomassPlant,none,costOprConv,0.0
+2050,DE < DE21,rooftop < rooftop_b,none,costOprConv,0.5315874340292196
+2050,DE < DE21,rooftop < rooftop_a,none,costOprConv,41.62161952814213
+2050,DE < DE22,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE22,electrolysis,none,costOprConv,26.713457095078176
+2050,DE < DE22,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE22,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE22,rooftop < rooftop_c,none,costOprConv,12.05978192474
+2050,DE < DE22,openspace < openspace_a,none,costOprConv,2.3621254140006736
+2050,DE < DE22,wind_onshore < onshore_a,none,costOprConv,1.4845468047897616
+2050,DE < DE22,ocgtHydrogen,none,costOprConv,6.095932620285607
+2050,DE < DE22,gasPlant,none,costOprConv,0.0
+2050,DE < DE22,wind_onshore < onshore_b,none,costOprConv,256.6653818788456
+2050,DE < DE22,openspace < openspace_b,none,costOprConv,21.316121160722947
+2050,DE < DE22,biomassPlant,none,costOprConv,0.0
+2050,DE < DE22,rooftop < rooftop_b,none,costOprConv,7.074345632200001
+2050,DE < DE22,rooftop < rooftop_a,none,costOprConv,11.40190360264637
+2050,DE < DE23,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE23,electrolysis,none,costOprConv,18.81657535729259
+2050,DE < DE23,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE23,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE23,rooftop < rooftop_c,none,costOprConv,5.420217456374548
+2050,DE < DE23,openspace < openspace_a,none,costOprConv,7.652344033691288
+2050,DE < DE23,wind_onshore < onshore_a,none,costOprConv,92.47549283906926
+2050,DE < DE23,ocgtHydrogen,none,costOprConv,4.293887306624536
+2050,DE < DE23,gasPlant,none,costOprConv,0.0
+2050,DE < DE23,wind_onshore < onshore_b,none,costOprConv,126.36371284108878
+2050,DE < DE23,openspace < openspace_b,none,costOprConv,5.87320736860551
+2050,DE < DE23,biomassPlant,none,costOprConv,0.0
+2050,DE < DE23,rooftop < rooftop_b,none,costOprConv,7.935963055440714
+2050,DE < DE23,rooftop < rooftop_a,none,costOprConv,5.66878622376
+2050,DE < DE24,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE24,electrolysis,none,costOprConv,16.77313512665561
+2050,DE < DE24,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE24,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE24,rooftop < rooftop_c,none,costOprConv,0.9359223926824662
+2050,DE < DE24,openspace < openspace_a,none,costOprConv,8.913764915062831
+2050,DE < DE24,wind_onshore < onshore_a,none,costOprConv,113.77459212933732
+2050,DE < DE24,ocgtHydrogen,none,costOprConv,3.827580235454549
+2050,DE < DE24,gasPlant,none,costOprConv,0.0
+2050,DE < DE24,wind_onshore < onshore_b,none,costOprConv,65.08272926071953
+2050,DE < DE24,openspace < openspace_b,none,costOprConv,2.5164512931318748
+2050,DE < DE24,biomassPlant,none,costOprConv,0.0
+2050,DE < DE24,rooftop < rooftop_b,none,costOprConv,8.194065738504499
+2050,DE < DE24,rooftop < rooftop_a,none,costOprConv,10.094879561578537
+2050,DE < DE25,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE25,electrolysis,none,costOprConv,16.561823429374744
+2050,DE < DE25,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE25,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE25,rooftop < rooftop_c,none,costOprConv,11.268325036611458
+2050,DE < DE25,openspace < openspace_a,none,costOprConv,7.334803694427331
+2050,DE < DE25,wind_onshore < onshore_a,none,costOprConv,86.5049955696509
+2050,DE < DE25,ocgtHydrogen,none,costOprConv,3.779359547724622
+2050,DE < DE25,gasPlant,none,costOprConv,0.0
+2050,DE < DE25,wind_onshore < onshore_b,none,costOprConv,71.66805558442765
+2050,DE < DE25,openspace < openspace_b,none,costOprConv,2.8025214145662596
+2050,DE < DE25,biomassPlant,none,costOprConv,0.0
+2050,DE < DE25,rooftop < rooftop_b,none,costOprConv,4.666275672701938
+2050,DE < DE25,rooftop < rooftop_a,none,costOprConv,10.322282709860001
+2050,DE < DE26,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE26,electrolysis,none,costOprConv,23.37556042347966
+2050,DE < DE26,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE26,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE26,rooftop < rooftop_c,none,costOprConv,11.389587614161195
+2050,DE < DE26,openspace < openspace_a,none,costOprConv,4.6483065196471385
+2050,DE < DE26,wind_onshore < onshore_a,none,costOprConv,142.29025414381562
+2050,DE < DE26,ocgtHydrogen,none,costOprConv,5.334234370674764
+2050,DE < DE26,gasPlant,none,costOprConv,0.0
+2050,DE < DE26,wind_onshore < onshore_b,none,costOprConv,112.22377239026042
+2050,DE < DE26,openspace < openspace_b,none,costOprConv,11.789460610974684
+2050,DE < DE26,biomassPlant,none,costOprConv,0.0
+2050,DE < DE26,rooftop < rooftop_b,none,costOprConv,7.291259732096698
+2050,DE < DE26,rooftop < rooftop_a,none,costOprConv,9.8945586443
+2050,DE < DE27,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE27,electrolysis,none,costOprConv,29.74337906937416
+2050,DE < DE27,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE27,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE27,rooftop < rooftop_c,none,costOprConv,20.71248620677556
+2050,DE < DE27,openspace < openspace_a,none,costOprConv,20.38886664889727
+2050,DE < DE27,wind_onshore < onshore_a,none,costOprConv,7.0495892244309
+2050,DE < DE27,ocgtHydrogen,none,costOprConv,6.787351935021204
+2050,DE < DE27,gasPlant,none,costOprConv,0.0
+2050,DE < DE27,wind_onshore < onshore_b,none,costOprConv,297.99177287618573
+2050,DE < DE27,openspace < openspace_b,none,costOprConv,0.014044867830781732
+2050,DE < DE27,biomassPlant,none,costOprConv,0.0
+2050,DE < DE27,rooftop < rooftop_b,none,costOprConv,12.571736284580002
+2050,DE < DE27,rooftop < rooftop_a,none,costOprConv,5.59700049172
+2050,DE < DE30,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE30,electrolysis,none,costOprConv,3.8264547676747704
+2050,DE < DE30,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE30,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE30,rooftop < rooftop_c,none,costOprConv,0.8259525741867079
+2050,DE < DE30,openspace < openspace_a,none,costOprConv,0.09517152726206064
+2050,DE < DE30,wind_onshore < onshore_a,none,costOprConv,1.32504205433773
+2050,DE < DE30,ocgtHydrogen,none,costOprConv,0.8731856903164338
+2050,DE < DE30,gasPlant,none,costOprConv,0.0
+2050,DE < DE30,wind_onshore < onshore_b,none,costOprConv,1.2448399863396107
+2050,DE < DE30,openspace < openspace_b,none,costOprConv,0.013591101608873975
+2050,DE < DE30,biomassPlant,none,costOprConv,0.0
+2050,DE < DE30,rooftop < rooftop_b,none,costOprConv,23.511652304586693
+2050,DE < DE30,rooftop < rooftop_a,none,costOprConv,1.7205603837935683
+2050,DE < DE40,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE40,electrolysis,none,costOprConv,86.98700678911341
+2050,DE < DE40,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE40,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE40,rooftop < rooftop_c,none,costOprConv,12.279771758362608
+2050,DE < DE40,openspace < openspace_a,none,costOprConv,34.40606616929709
+2050,DE < DE40,wind_onshore < onshore_a,none,costOprConv,247.9179575255881
+2050,DE < DE40,ocgtHydrogen,none,costOprConv,19.850179828779662
+2050,DE < DE40,gasPlant,none,costOprConv,0.0
+2050,DE < DE40,wind_onshore < onshore_b,none,costOprConv,489.2492293483117
+2050,DE < DE40,openspace < openspace_b,none,costOprConv,14.489634637704174
+2050,DE < DE40,biomassPlant,none,costOprConv,0.0
+2050,DE < DE40,rooftop < rooftop_b,none,costOprConv,26.98116972186956
+2050,DE < DE40,rooftop < rooftop_a,none,costOprConv,34.87722994874051
+2050,DE < DE50,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE50,electrolysis,none,costOprConv,2.527734389762547
+2050,DE < DE50,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE50,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE50,rooftop < rooftop_c,none,costOprConv,0.2850354848747179
+2050,DE < DE50,openspace < openspace_a,none,costOprConv,0.07475338086930133
+2050,DE < DE50,wind_onshore < onshore_a,none,costOprConv,7.206087329999999
+2050,DE < DE50,ocgtHydrogen,none,costOprConv,0.576821527859693
+2050,DE < DE50,gasPlant,none,costOprConv,0.0
+2050,DE < DE50,wind_onshore < onshore_b,none,costOprConv,7.206087329999999
+2050,DE < DE50,openspace < openspace_b,none,costOprConv,0.0019993533257869536
+2050,DE < DE50,biomassPlant,none,costOprConv,0.0
+2050,DE < DE50,rooftop < rooftop_b,none,costOprConv,1.5616407376249315
+2050,DE < DE50,rooftop < rooftop_a,none,costOprConv,5.7814640956250845
+2050,DE < DE60,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE60,electrolysis,none,costOprConv,3.186485649078654
+2050,DE < DE60,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE60,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE60,rooftop < rooftop_c,none,costOprConv,0.3464722496356365
+2050,DE < DE60,openspace < openspace_a,none,costOprConv,0.2557300654354515
+2050,DE < DE60,wind_onshore < onshore_a,none,costOprConv,5.814158903694094
+2050,DE < DE60,ocgtHydrogen,none,costOprConv,0.7271464179495412
+2050,DE < DE60,gasPlant,none,costOprConv,0.0
+2050,DE < DE60,wind_onshore < onshore_b,none,costOprConv,1.7362793919169295
+2050,DE < DE60,openspace < openspace_b,none,costOprConv,0.2758083585306471
+2050,DE < DE60,biomassPlant,none,costOprConv,0.0
+2050,DE < DE60,rooftop < rooftop_b,none,costOprConv,2.0166378764090984
+2050,DE < DE60,rooftop < rooftop_a,none,costOprConv,15.575987003985494
+2050,DE < DE71,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE71,electrolysis,none,costOprConv,16.487943241188365
+2050,DE < DE71,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE71,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE71,rooftop < rooftop_c,none,costOprConv,22.44579323369793
+2050,DE < DE71,openspace < openspace_a,none,costOprConv,6.333706594637232
+2050,DE < DE71,wind_onshore < onshore_a,none,costOprConv,100.53598788548426
+2050,DE < DE71,ocgtHydrogen,none,costOprConv,3.7625003238323558
+2050,DE < DE71,gasPlant,none,costOprConv,0.0
+2050,DE < DE71,wind_onshore < onshore_b,none,costOprConv,46.91427933962726
+2050,DE < DE71,openspace < openspace_b,none,costOprConv,2.637374973188884
+2050,DE < DE71,biomassPlant,none,costOprConv,0.0
+2050,DE < DE71,rooftop < rooftop_b,none,costOprConv,10.241355052712885
+2050,DE < DE71,rooftop < rooftop_a,none,costOprConv,8.19034133013376
+2050,DE < DE72,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE72,electrolysis,none,costOprConv,10.697728454878272
+2050,DE < DE72,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE72,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE72,rooftop < rooftop_c,none,costOprConv,7.283367110527821
+2050,DE < DE72,openspace < openspace_a,none,costOprConv,2.0041791750296833
+2050,DE < DE72,wind_onshore < onshore_a,none,costOprConv,70.12195803271779
+2050,DE < DE72,ocgtHydrogen,none,costOprConv,2.4411902642330454
+2050,DE < DE72,gasPlant,none,costOprConv,0.0
+2050,DE < DE72,wind_onshore < onshore_b,none,costOprConv,34.81736375550585
+2050,DE < DE72,openspace < openspace_b,none,costOprConv,4.3499560740250125
+2050,DE < DE72,biomassPlant,none,costOprConv,0.0
+2050,DE < DE72,rooftop < rooftop_b,none,costOprConv,8.397750546069906
+2050,DE < DE72,rooftop < rooftop_a,none,costOprConv,3.8279317032
+2050,DE < DE73,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE73,electrolysis,none,costOprConv,19.70243611739512
+2050,DE < DE73,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE73,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE73,rooftop < rooftop_c,none,costOprConv,14.396305044667917
+2050,DE < DE73,openspace < openspace_a,none,costOprConv,5.872416192854343
+2050,DE < DE73,wind_onshore < onshore_a,none,costOprConv,164.06301218839894
+2050,DE < DE73,ocgtHydrogen,none,costOprConv,4.496038169965001
+2050,DE < DE73,gasPlant,none,costOprConv,0.0
+2050,DE < DE73,wind_onshore < onshore_b,none,costOprConv,45.55083378975095
+2050,DE < DE73,openspace < openspace_b,none,costOprConv,7.474065090425041
+2050,DE < DE73,biomassPlant,none,costOprConv,0.0
+2050,DE < DE73,rooftop < rooftop_b,none,costOprConv,5.464754039520511
+2050,DE < DE73,rooftop < rooftop_a,none,costOprConv,5.46475516202
+2050,DE < DE80,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE80,electrolysis,none,costOprConv,236.27028557987475
+2050,DE < DE80,wind_offshore < offshore_a,none,costOprConv,563.202
+2050,DE < DE80,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE80,rooftop < rooftop_c,none,costOprConv,10.180699840209094
+2050,DE < DE80,openspace < openspace_a,none,costOprConv,22.57834839379782
+2050,DE < DE80,wind_onshore < onshore_a,none,costOprConv,506.73102843529205
+2050,DE < DE80,ocgtHydrogen,none,costOprConv,30.78068685236551
+2050,DE < DE80,gasPlant,none,costOprConv,0.0
+2050,DE < DE80,wind_onshore < onshore_b,none,costOprConv,160.5546697266273
+2050,DE < DE80,openspace < openspace_b,none,costOprConv,23.89057728595885
+2050,DE < DE80,biomassPlant,none,costOprConv,0.0
+2050,DE < DE80,rooftop < rooftop_b,none,costOprConv,15.064906228566189
+2050,DE < DE80,rooftop < rooftop_a,none,costOprConv,9.6844512435
+2050,DE < DE91,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE91,electrolysis,none,costOprConv,15.371133422874697
+2050,DE < DE91,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE91,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE91,rooftop < rooftop_c,none,costOprConv,16.607400089865
+2050,DE < DE91,openspace < openspace_a,none,costOprConv,5.0334545097836205
+2050,DE < DE91,wind_onshore < onshore_a,none,costOprConv,85.29651714435448
+2050,DE < DE91,ocgtHydrogen,none,costOprConv,3.507647557149924
+2050,DE < DE91,gasPlant,none,costOprConv,0.0
+2050,DE < DE91,wind_onshore < onshore_b,none,costOprConv,34.78814202307684
+2050,DE < DE91,openspace < openspace_b,none,costOprConv,2.3101694101446952
+2050,DE < DE91,biomassPlant,none,costOprConv,0.0
+2050,DE < DE91,rooftop < rooftop_b,none,costOprConv,11.897456675375347
+2050,DE < DE91,rooftop < rooftop_a,none,costOprConv,3.744018641
+2050,DE < DE92,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE92,electrolysis,none,costOprConv,53.731122667160946
+2050,DE < DE92,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE92,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE92,rooftop < rooftop_c,none,costOprConv,14.713747131338655
+2050,DE < DE92,openspace < openspace_a,none,costOprConv,29.803085453172827
+2050,DE < DE92,wind_onshore < onshore_a,none,costOprConv,240.9080900557436
+2050,DE < DE92,ocgtHydrogen,none,costOprConv,12.26128472471357
+2050,DE < DE92,gasPlant,none,costOprConv,0.0
+2050,DE < DE92,wind_onshore < onshore_b,none,costOprConv,214.23312942081466
+2050,DE < DE92,openspace < openspace_b,none,costOprConv,2.059844731901784
+2050,DE < DE92,biomassPlant,none,costOprConv,0.0
+2050,DE < DE92,rooftop < rooftop_b,none,costOprConv,6.098326811491445
+2050,DE < DE92,rooftop < rooftop_a,none,costOprConv,17.44854529095202
+2050,DE < DE93,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE93,electrolysis,none,costOprConv,55.04996884984747
+2050,DE < DE93,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DE93,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE93,rooftop < rooftop_c,none,costOprConv,24.654192731169342
+2050,DE < DE93,openspace < openspace_a,none,costOprConv,23.509785725120164
+2050,DE < DE93,wind_onshore < onshore_a,none,costOprConv,260.1491493075884
+2050,DE < DE93,ocgtHydrogen,none,costOprConv,12.56224152687569
+2050,DE < DE93,gasPlant,none,costOprConv,0.0
+2050,DE < DE93,wind_onshore < onshore_b,none,costOprConv,160.96231397560513
+2050,DE < DE93,openspace < openspace_b,none,costOprConv,5.963566327716772
+2050,DE < DE93,biomassPlant,none,costOprConv,0.0
+2050,DE < DE93,rooftop < rooftop_b,none,costOprConv,3.78350985145396
+2050,DE < DE93,rooftop < rooftop_a,none,costOprConv,14.704092958564589
+2050,DE < DE94,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DE94,electrolysis,none,costOprConv,100.51243436347667
+2050,DE < DE94,wind_offshore < offshore_a,none,costOprConv,424.9700000000001
+2050,DE < DE94,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DE94,rooftop < rooftop_c,none,costOprConv,29.246806495902717
+2050,DE < DE94,openspace < openspace_a,none,costOprConv,27.109519809000332
+2050,DE < DE94,wind_onshore < onshore_a,none,costOprConv,199.13253435154957
+2050,DE < DE94,ocgtHydrogen,none,costOprConv,22.93664299875772
+2050,DE < DE94,gasPlant,none,costOprConv,0.0
+2050,DE < DE94,wind_onshore < onshore_b,none,costOprConv,256.8759381549584
+2050,DE < DE94,openspace < openspace_b,none,costOprConv,5.564649362802614
+2050,DE < DE94,biomassPlant,none,costOprConv,0.0
+2050,DE < DE94,rooftop < rooftop_b,none,costOprConv,3.820205241509204
+2050,DE < DE94,rooftop < rooftop_a,none,costOprConv,21.60390866567399
+2050,DE < DEA1,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEA1,electrolysis,none,costOprConv,19.06598357820598
+2050,DE < DEA1,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEA1,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEA1,rooftop < rooftop_c,none,costOprConv,30.569222529631528
+2050,DE < DEA1,openspace < openspace_a,none,costOprConv,6.04531710997431
+2050,DE < DEA1,wind_onshore < onshore_a,none,costOprConv,17.06142043917
+2050,DE < DEA1,ocgtHydrogen,none,costOprConv,4.350801573398862
+2050,DE < DEA1,gasPlant,none,costOprConv,0.0
+2050,DE < DEA1,wind_onshore < onshore_b,none,costOprConv,90.35730820666464
+2050,DE < DEA1,openspace < openspace_b,none,costOprConv,1.4182047868164913
+2050,DE < DEA1,biomassPlant,none,costOprConv,0.0
+2050,DE < DEA1,rooftop < rooftop_b,none,costOprConv,0.07741370144613445
+2050,DE < DEA1,rooftop < rooftop_a,none,costOprConv,23.580615717717055
+2050,DE < DEA2,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEA2,electrolysis,none,costOprConv,25.347245049303858
+2050,DE < DEA2,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEA2,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEA2,rooftop < rooftop_c,none,costOprConv,13.70584761586212
+2050,DE < DEA2,openspace < openspace_a,none,costOprConv,8.435917864570829
+2050,DE < DEA2,wind_onshore < onshore_a,none,costOprConv,122.74329884860875
+2050,DE < DEA2,ocgtHydrogen,none,costOprConv,5.784167040945652
+2050,DE < DEA2,gasPlant,none,costOprConv,0.0
+2050,DE < DEA2,wind_onshore < onshore_b,none,costOprConv,54.50646527097722
+2050,DE < DEA2,openspace < openspace_b,none,costOprConv,3.2105082337959256
+2050,DE < DEA2,biomassPlant,none,costOprConv,0.0
+2050,DE < DEA2,rooftop < rooftop_b,none,costOprConv,16.375345638980704
+2050,DE < DEA2,rooftop < rooftop_a,none,costOprConv,24.956785801377862
+2050,DE < DEA3,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEA3,electrolysis,none,costOprConv,31.341702786386744
+2050,DE < DEA3,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEA3,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEA3,rooftop < rooftop_c,none,costOprConv,15.294743969547378
+2050,DE < DEA3,openspace < openspace_a,none,costOprConv,2.452929552641567
+2050,DE < DEA3,wind_onshore < onshore_a,none,costOprConv,205.29193476993427
+2050,DE < DEA3,ocgtHydrogen,none,costOprConv,7.152084728263892
+2050,DE < DEA3,gasPlant,none,costOprConv,0.0
+2050,DE < DEA3,wind_onshore < onshore_b,none,costOprConv,18.022162310075988
+2050,DE < DEA3,openspace < openspace_b,none,costOprConv,13.252986837864633
+2050,DE < DEA3,biomassPlant,none,costOprConv,0.0
+2050,DE < DEA3,rooftop < rooftop_b,none,costOprConv,6.1106288914
+2050,DE < DEA3,rooftop < rooftop_a,none,costOprConv,23.47468866098466
+2050,DE < DEA4,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEA4,electrolysis,none,costOprConv,28.427227445607723
+2050,DE < DEA4,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEA4,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEA4,rooftop < rooftop_c,none,costOprConv,19.122420936074935
+2050,DE < DEA4,openspace < openspace_a,none,costOprConv,13.022177009790703
+2050,DE < DEA4,wind_onshore < onshore_a,none,costOprConv,57.282300054000004
+2050,DE < DEA4,ocgtHydrogen,none,costOprConv,6.487009986186443
+2050,DE < DEA4,gasPlant,none,costOprConv,0.0
+2050,DE < DEA4,wind_onshore < onshore_b,none,costOprConv,172.73217470275904
+2050,DE < DEA4,openspace < openspace_b,none,costOprConv,2.2015672914774975
+2050,DE < DEA4,biomassPlant,none,costOprConv,0.0
+2050,DE < DEA4,rooftop < rooftop_b,none,costOprConv,15.768884752251472
+2050,DE < DEA4,rooftop < rooftop_a,none,costOprConv,6.539221511239999
+2050,DE < DEA5,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEA5,electrolysis,none,costOprConv,16.779906495920496
+2050,DE < DEA5,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEA5,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEA5,rooftop < rooftop_c,none,costOprConv,6.708338534555875
+2050,DE < DEA5,openspace < openspace_a,none,costOprConv,2.8590286948066024
+2050,DE < DEA5,wind_onshore < onshore_a,none,costOprConv,33.0969263654814
+2050,DE < DEA5,ocgtHydrogen,none,costOprConv,3.8291254763503755
+2050,DE < DEA5,gasPlant,none,costOprConv,0.0
+2050,DE < DEA5,wind_onshore < onshore_b,none,costOprConv,81.64434605002918
+2050,DE < DEA5,openspace < openspace_b,none,costOprConv,3.631038670894884
+2050,DE < DEA5,biomassPlant,none,costOprConv,0.0
+2050,DE < DEA5,rooftop < rooftop_b,none,costOprConv,26.743796377751742
+2050,DE < DEA5,rooftop < rooftop_a,none,costOprConv,11.457137327084315
+2050,DE < DEB1,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEB1,electrolysis,none,costOprConv,18.734874395653822
+2050,DE < DEB1,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEB1,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEB1,rooftop < rooftop_c,none,costOprConv,8.360943368117947
+2050,DE < DEB1,openspace < openspace_a,none,costOprConv,6.813260854282363
+2050,DE < DEB1,wind_onshore < onshore_a,none,costOprConv,95.37057766050224
+2050,DE < DEB1,ocgtHydrogen,none,costOprConv,4.275243427449489
+2050,DE < DEB1,gasPlant,none,costOprConv,0.0
+2050,DE < DEB1,wind_onshore < onshore_b,none,costOprConv,80.05297133277067
+2050,DE < DEB1,openspace < openspace_b,none,costOprConv,3.7622575596096226
+2050,DE < DEB1,biomassPlant,none,costOprConv,0.0
+2050,DE < DEB1,rooftop < rooftop_b,none,costOprConv,3.5795708107065867
+2050,DE < DEB1,rooftop < rooftop_a,none,costOprConv,15.569351514099067
+2050,DE < DEB2,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEB2,electrolysis,none,costOprConv,12.473880376240494
+2050,DE < DEB2,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEB2,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEB2,rooftop < rooftop_c,none,costOprConv,1.4636404190443302
+2050,DE < DEB2,openspace < openspace_a,none,costOprConv,3.54135914609018
+2050,DE < DEB2,wind_onshore < onshore_a,none,costOprConv,40.75635090170856
+2050,DE < DEB2,ocgtHydrogen,none,costOprConv,2.846502935154917
+2050,DE < DEB2,gasPlant,none,costOprConv,0.0
+2050,DE < DEB2,wind_onshore < onshore_b,none,costOprConv,81.48205000344898
+2050,DE < DEB2,openspace < openspace_b,none,costOprConv,4.140284943382562
+2050,DE < DEB2,biomassPlant,none,costOprConv,0.0
+2050,DE < DEB2,rooftop < rooftop_b,none,costOprConv,5.553096181341579
+2050,DE < DEB2,rooftop < rooftop_a,none,costOprConv,3.1913234958543244
+2050,DE < DEB3,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEB3,electrolysis,none,costOprConv,16.921424287389986
+2050,DE < DEB3,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEB3,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEB3,rooftop < rooftop_c,none,costOprConv,5.852799820738724
+2050,DE < DEB3,openspace < openspace_a,none,costOprConv,3.257137942681411
+2050,DE < DEB3,wind_onshore < onshore_a,none,costOprConv,89.88757687336924
+2050,DE < DEB3,ocgtHydrogen,none,costOprConv,3.861419467079178
+2050,DE < DEB3,gasPlant,none,costOprConv,0.0
+2050,DE < DEB3,wind_onshore < onshore_b,none,costOprConv,72.00721625654222
+2050,DE < DEB3,openspace < openspace_b,none,costOprConv,7.056127434841603
+2050,DE < DEB3,biomassPlant,none,costOprConv,0.0
+2050,DE < DEB3,rooftop < rooftop_b,none,costOprConv,9.651107750090702
+2050,DE < DEB3,rooftop < rooftop_a,none,costOprConv,13.202859281657918
+2050,DE < DEC0_,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEC0_,electrolysis,none,costOprConv,7.3825198892351835
+2050,DE < DEC0_,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEC0_,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEC0_,rooftop < rooftop_c,none,costOprConv,2.817959947938037
+2050,DE < DEC0_,openspace < openspace_a,none,costOprConv,1.9820044791159939
+2050,DE < DEC0_,wind_onshore < onshore_a,none,costOprConv,34.17562699682621
+2050,DE < DEC0_,ocgtHydrogen,none,costOprConv,2.3662148986092784
+2050,DE < DEC0_,gasPlant,none,costOprConv,0.0
+2050,DE < DEC0_,wind_onshore < onshore_b,none,costOprConv,20.273155417368844
+2050,DE < DEC0_,openspace < openspace_b,none,costOprConv,1.3817447285994653
+2050,DE < DEC0_,biomassPlant,none,costOprConv,0.0
+2050,DE < DEC0_,rooftop < rooftop_b,none,costOprConv,4.07503110925255
+2050,DE < DEC0_,rooftop < rooftop_a,none,costOprConv,11.772173603242123
+2050,DE < DED2,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DED2,electrolysis,none,costOprConv,25.746792112033383
+2050,DE < DED2,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DED2,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DED2,rooftop < rooftop_c,none,costOprConv,13.01289600695498
+2050,DE < DED2,openspace < openspace_a,none,costOprConv,4.91920845308373
+2050,DE < DED2,wind_onshore < onshore_a,none,costOprConv,159.69859297678894
+2050,DE < DED2,ocgtHydrogen,none,costOprConv,5.875342419399453
+2050,DE < DED2,gasPlant,none,costOprConv,0.0
+2050,DE < DED2,wind_onshore < onshore_b,none,costOprConv,50.28715806675606
+2050,DE < DED2,openspace < openspace_b,none,costOprConv,9.130464414060723
+2050,DE < DED2,biomassPlant,none,costOprConv,0.0
+2050,DE < DED2,rooftop < rooftop_b,none,costOprConv,17.10030755191529
+2050,DE < DED2,rooftop < rooftop_a,none,costOprConv,6.345775339199999
+2050,DE < DED4,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DED4,electrolysis,none,costOprConv,18.749382801042938
+2050,DE < DED4,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DED4,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DED4,rooftop < rooftop_c,none,costOprConv,2.961711528260931
+2050,DE < DED4,openspace < openspace_a,none,costOprConv,6.894600115876474
+2050,DE < DED4,wind_onshore < onshore_a,none,costOprConv,97.07683872193338
+2050,DE < DED4,ocgtHydrogen,none,costOprConv,4.278554144211602
+2050,DE < DED4,gasPlant,none,costOprConv,0.0
+2050,DE < DED4,wind_onshore < onshore_b,none,costOprConv,47.73307945918274
+2050,DE < DED4,openspace < openspace_b,none,costOprConv,3.1810331209972524
+2050,DE < DED4,biomassPlant,none,costOprConv,0.0
+2050,DE < DED4,rooftop < rooftop_b,none,costOprConv,13.301443478537694
+2050,DE < DED4,rooftop < rooftop_a,none,costOprConv,18.674900348687455
+2050,DE < DED5,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DED5,electrolysis,none,costOprConv,11.567783496036492
+2050,DE < DED5,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DED5,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DED5,rooftop < rooftop_c,none,costOprConv,0.46848331089389544
+2050,DE < DED5,openspace < openspace_a,none,costOprConv,5.056267803517045
+2050,DE < DED5,wind_onshore < onshore_a,none,costOprConv,18.198598984777338
+2050,DE < DED5,ocgtHydrogen,none,costOprConv,2.6397342228468825
+2050,DE < DED5,gasPlant,none,costOprConv,0.0
+2050,DE < DED5,wind_onshore < onshore_b,none,costOprConv,73.69629566011045
+2050,DE < DED5,openspace < openspace_b,none,costOprConv,1.2337684123077794
+2050,DE < DED5,biomassPlant,none,costOprConv,0.0
+2050,DE < DED5,rooftop < rooftop_b,none,costOprConv,6.264331837209919
+2050,DE < DED5,rooftop < rooftop_a,none,costOprConv,11.272249678475966
+2050,DE < DEE0,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEE0,electrolysis,none,costOprConv,86.10477817417794
+2050,DE < DEE0,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEE0,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEE0,rooftop < rooftop_c,none,costOprConv,24.084440459403154
+2050,DE < DEE0,openspace < openspace_a,none,costOprConv,39.411414852690456
+2050,DE < DEE0,wind_onshore < onshore_a,none,costOprConv,250.25904738354322
+2050,DE < DEE0,ocgtHydrogen,none,costOprConv,19.648857744915826
+2050,DE < DEE0,gasPlant,none,costOprConv,0.0
+2050,DE < DEE0,wind_onshore < onshore_b,none,costOprConv,559.6423657911624
+2050,DE < DEE0,openspace < openspace_b,none,costOprConv,17.96322833309654
+2050,DE < DEE0,biomassPlant,none,costOprConv,0.0
+2050,DE < DEE0,rooftop < rooftop_b,none,costOprConv,22.59621906116326
+2050,DE < DEE0,rooftop < rooftop_a,none,costOprConv,9.42440457065789
+2050,DE < DEF0,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEF0,electrolysis,none,costOprConv,281.2619277739196
+2050,DE < DEF0,wind_offshore < offshore_a,none,costOprConv,1344.959999933865
+2050,DE < DEF0,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEF0,rooftop < rooftop_c,none,costOprConv,29.936450151269366
+2050,DE < DEF0,openspace < openspace_a,none,costOprConv,25.803267419477187
+2050,DE < DEF0,wind_onshore < onshore_a,none,costOprConv,376.19775795910124
+2050,DE < DEF0,ocgtHydrogen,none,costOprConv,44.49285881634532
+2050,DE < DEF0,gasPlant,none,costOprConv,0.0
+2050,DE < DEF0,wind_onshore < onshore_b,none,costOprConv,136.26200029646168
+2050,DE < DEF0,openspace < openspace_b,none,costOprConv,12.688082040851665
+2050,DE < DEF0,biomassPlant,none,costOprConv,0.0
+2050,DE < DEF0,rooftop < rooftop_b,none,costOprConv,4.3445288236971855
+2050,DE < DEF0,rooftop < rooftop_a,none,costOprConv,15.648040466038578
+2050,DE < DEG0,wind_offshore < offshore_c,none,costOprConv,0.0
+2050,DE < DEG0,electrolysis,none,costOprConv,30.281547933748765
+2050,DE < DEG0,wind_offshore < offshore_a,none,costOprConv,0.0
+2050,DE < DEG0,wind_offshore < offshore_b,none,costOprConv,0.0
+2050,DE < DEG0,rooftop < rooftop_c,none,costOprConv,18.12386712368065
+2050,DE < DEG0,openspace < openspace_a,none,costOprConv,6.263474471023095
+2050,DE < DEG0,wind_onshore < onshore_a,none,costOprConv,144.83986641367366
+2050,DE < DEG0,ocgtHydrogen,none,costOprConv,6.9101604492037225
+2050,DE < DEG0,gasPlant,none,costOprConv,0.0
+2050,DE < DEG0,wind_onshore < onshore_b,none,costOprConv,143.52301120877743
+2050,DE < DEG0,openspace < openspace_b,none,costOprConv,12.133353626165654
+2050,DE < DEG0,biomassPlant,none,costOprConv,0.0
+2050,DE < DEG0,rooftop < rooftop_b,none,costOprConv,8.112657431847072
+2050,DE < DEG0,rooftop < rooftop_a,none,costOprConv,19.661774934104194
+2050,DE,fermenter,none,costOprConv,38.1170019487223
+2050,DE,methanation,none,costOprConv,0.0
+2050,AT,fermenter,none,costOprConv,0.938
+2050,BE,fermenter,none,costOprConv,7.0618
+2050,BG,fermenter,none,costOprConv,2.3718000000000004
+2050,CH,fermenter,none,costOprConv,1.1256
+2050,CZ,fermenter,none,costOprConv,1.1524
+2050,DK,fermenter,none,costOprConv,0.2546
+2050,ES,fermenter,none,costOprConv,26.679400000000005
+2050,ES,methanation,none,costOprConv,87.48
+2050,FI,fermenter,none,costOprConv,39.409400000000005
+2050,FI,methanation,none,costOprConv,10.98
+2050,FR,fermenter,none,costOprConv,16.8304
+2050,GR,fermenter,none,costOprConv,14.271
+2050,GR,methanation,none,costOprConv,2.5200000000000005
+2050,HR,fermenter,none,costOprConv,0.469
+2050,HU,fermenter,none,costOprConv,2.5326
+2050,IE,fermenter,none,costOprConv,0.2814
+2050,IE,methanation,none,costOprConv,3.06
+2050,IT,fermenter,none,costOprConv,16.5222
+2050,LU,fermenter,none,costOprConv,0.17420000000000002
+2050,NL,fermenter,none,costOprConv,9.768600000000001
+2050,NO,fermenter,none,costOprConv,0.41540000000000005
+2050,NONEU_Balkan,fermenter,none,costOprConv,3.3232000000000004
+2050,PL,fermenter,none,costOprConv,3.7922000000000002
+2050,PT,fermenter,none,costOprConv,8.9914
+2050,PT,methanation,none,costOprConv,6.84
+2050,RO,fermenter,none,costOprConv,8.6698
+2050,SE,fermenter,none,costOprConv,38.766200000000005
+2050,SI,fermenter,none,costOprConv,0.3216
+2050,SK,fermenter,none,costOprConv,7.839
+2050,TR,fermenter,none,costOprConv,80.2258
+2050,TR,methanation,none,costOprConv,60.12
+2050,UK,fermenter,none,costOprConv,11.175600000000001
+2050,AT < AT,ror,none,costOprConv,354.16929999999996
+2050,AT < AT,electrolysis,none,costOprConv,149.50399999999996
+2050,AT < AT,rooftop < rooftop_c,none,costOprConv,69.9226
+2050,AT < AT,openspace < openspace_a,none,costOprConv,95.35359999999999
+2050,AT < AT,wind_onshore < onshore_a,none,costOprConv,1352.8412999999996
+2050,AT < AT,ocgtHydrogen,none,costOprConv,5.874
+2050,AT < AT,openspace < openspace_b,none,costOprConv,95.35359999999999
+2050,AT < AT,rooftop < rooftop_b,none,costOprConv,69.9226
+2050,AT < AT,rooftop < rooftop_a,none,costOprConv,69.9226
+2050,BE < BE,ror,none,costOprConv,5.3037
+2050,BE < BE,wind_offshore < offshore_a,none,costOprConv,141.50100000000003
+2050,BE < BE,rooftop < rooftop_c,none,costOprConv,51.200599999999994
+2050,BE < BE,openspace < openspace_a,none,costOprConv,92.50059999999999
+2050,BE < BE,wind_onshore < onshore_a,none,costOprConv,523.1222999999998
+2050,BE < BE,ocgtHydrogen,none,costOprConv,89.00099999999999
+2050,BE < BE,wind_onshore < onshore_b,none,costOprConv,266.21999999999997
+2050,BE < BE,openspace < openspace_b,none,costOprConv,92.50059999999999
+2050,BE < BE,rooftop < rooftop_b,none,costOprConv,51.200599999999994
+2050,BE < BE,rooftop < rooftop_a,none,costOprConv,51.200599999999994
+2050,BG < BG,ror,none,costOprConv,133.7711
+2050,BG < BG,electrolysis,none,costOprConv,138.116
+2050,BG < BG,wind_offshore < offshore_a,none,costOprConv,180.262
+2050,BG < BG,rooftop < rooftop_c,none,costOprConv,94.9124
+2050,BG < BG,openspace < openspace_a,none,costOprConv,53.5096
+2050,BG < BG,wind_onshore < onshore_a,none,costOprConv,185.46659999999997
+2050,BG < BG,ocgtHydrogen,none,costOprConv,32.208
+2050,BG < BG,openspace < openspace_b,none,costOprConv,53.5096
+2050,BG < BG,rooftop < rooftop_b,none,costOprConv,94.9124
+2050,BG < BG,rooftop < rooftop_a,none,costOprConv,94.9124
+2050,CH < CH,ror,none,costOprConv,226.88050000000004
+2050,CH < CH,electrolysis,none,costOprConv,29.784
+2050,CH < CH,rooftop < rooftop_c,none,costOprConv,44.68860000000001
+2050,CH < CH,openspace < openspace_a,none,costOprConv,59.21559999999999
+2050,CH < CH,ocgtHydrogen,none,costOprConv,9.801
+2050,CH < CH,openspace < openspace_b,none,costOprConv,59.21559999999999
+2050,CH < CH,rooftop < rooftop_b,none,costOprConv,44.68860000000001
+2050,CH < CH,rooftop < rooftop_a,none,costOprConv,44.68860000000001
+2050,CZ < CZ,ror,none,costOprConv,12.9646
+2050,CZ < CZ,electrolysis,none,costOprConv,171.54999999999998
+2050,CZ < CZ,rooftop < rooftop_c,none,costOprConv,91.6564
+2050,CZ < CZ,openspace < openspace_a,none,costOprConv,120.39659999999999
+2050,CZ < CZ,wind_onshore < onshore_a,none,costOprConv,1588.4459999999997
+2050,CZ < CZ,ocgtHydrogen,none,costOprConv,59.763
+2050,CZ < CZ,openspace < openspace_b,none,costOprConv,120.39659999999999
+2050,CZ < CZ,rooftop < rooftop_b,none,costOprConv,91.6564
+2050,CZ < CZ,rooftop < rooftop_a,none,costOprConv,91.6564
+2050,ES < ES,ror,none,costOprConv,803.2159
+2050,ES < ES,electrolysis,none,costOprConv,920.8220000000001
+2050,ES < ES,wind_offshore < offshore_a,none,costOprConv,856.011
+2050,ES < ES,rooftop < rooftop_c,none,costOprConv,327.7164
+2050,ES < ES,openspace < openspace_a,none,costOprConv,751.2266000000001
+2050,ES < ES,wind_onshore < onshore_a,none,costOprConv,3603.2876999999994
+2050,ES < ES,ocgtHydrogen,none,costOprConv,124.47599999999998
+2050,ES < ES,gasPlant,none,costOprConv,77.142
+2050,ES < ES,openspace < openspace_b,none,costOprConv,751.2266000000001
+2050,ES < ES,rooftop < rooftop_b,none,costOprConv,327.7164
+2050,ES < ES,rooftop < rooftop_a,none,costOprConv,327.7164
+2050,FI < FI,ror,none,costOprConv,153.21800000000002
+2050,FI < FI,electrolysis,none,costOprConv,18.688
+2050,FI < FI,wind_offshore < offshore_a,none,costOprConv,898.0409999999999
+2050,FI < FI,openspace < openspace_a,none,costOprConv,82.3566
+2050,FI < FI,wind_onshore < onshore_a,none,costOprConv,665.55
+2050,FI < FI,ocgtHydrogen,none,costOprConv,3.8609999999999998
+2050,FI < FI,gasPlant,none,costOprConv,161.594
+2050,FI < FI,openspace < openspace_b,none,costOprConv,2.536
+2050,FR < FR,ror,none,costOprConv,608.7469
+2050,FR < FR,electrolysis,none,costOprConv,1325.972
+2050,FR < FR,wind_offshore < offshore_a,none,costOprConv,2080.952
+2050,FR < FR,rooftop < rooftop_c,none,costOprConv,602.8484000000001
+2050,FR < FR,openspace < openspace_a,none,costOprConv,723.9646
+2050,FR < FR,wind_onshore < onshore_a,none,costOprConv,8759.525399999999
+2050,FR < FR,ocgtHydrogen,none,costOprConv,396.924
+2050,FR < FR,openspace < openspace_b,none,costOprConv,723.9646
+2050,FR < FR,rooftop < rooftop_b,none,costOprConv,602.8484000000001
+2050,FR < FR,rooftop < rooftop_a,none,costOprConv,602.8484000000001
+2050,GR < GR,ror,none,costOprConv,13.553899999999999
+2050,GR < GR,electrolysis,none,costOprConv,83.22
+2050,GR < GR,wind_offshore < offshore_a,none,costOprConv,429.173
+2050,GR < GR,openspace < openspace_a,none,costOprConv,247.19660000000005
+2050,GR < GR,wind_onshore < onshore_a,none,costOprConv,533.3273999999999
+2050,GR < GR,ocgtHydrogen,none,costOprConv,15.278999999999998
+2050,GR < GR,gasPlant,none,costOprConv,59.34
+2050,GR < GR,openspace < openspace_b,none,costOprConv,110.88659999999997
+2050,HR < HR,ror,none,costOprConv,108.43119999999999
+2050,HR < HR,electrolysis,none,costOprConv,114.02600000000001
+2050,HR < HR,wind_offshore < offshore_a,none,costOprConv,732.723
+2050,HR < HR,openspace < openspace_a,none,costOprConv,37.0256
+2050,HR < HR,ocgtHydrogen,none,costOprConv,0.8250000000000001
+2050,HR < HR,openspace < openspace_b,none,costOprConv,37.0256
+2050,HU < HU,ror,none,costOprConv,2.9465000000000003
+2050,HU < HU,electrolysis,none,costOprConv,186.15
+2050,HU < HU,rooftop < rooftop_c,none,costOprConv,106.06420000000001
+2050,HU < HU,openspace < openspace_a,none,costOprConv,73.7976
+2050,HU < HU,wind_onshore < onshore_a,none,costOprConv,1145.1897
+2050,HU < HU,ocgtHydrogen,none,costOprConv,39.303
+2050,HU < HU,openspace < openspace_b,none,costOprConv,73.7976
+2050,HU < HU,rooftop < rooftop_b,none,costOprConv,106.06420000000001
+2050,HU < HU,rooftop < rooftop_a,none,costOprConv,106.06420000000001
+2050,IE < IE,ror,none,costOprConv,8.250200000000001
+2050,IE < IE,electrolysis,none,costOprConv,92.564
+2050,IE < IE,wind_offshore < offshore_a,none,costOprConv,785.4940000000001
+2050,IE < IE,openspace < openspace_a,none,costOprConv,51.60760000000001
+2050,IE < IE,wind_onshore < onshore_a,none,costOprConv,83.41559999999998
+2050,IE < IE,ocgtHydrogen,none,costOprConv,33.297
+2050,IE < IE,openspace < openspace_b,none,costOprConv,51.60760000000001
+2050,IT < IT,ror,none,costOprConv,434.3141
+2050,IT < IT,electrolysis,none,costOprConv,926.954
+2050,IT < IT,wind_offshore < offshore_a,none,costOprConv,1209.0629999999999
+2050,IT < IT,rooftop < rooftop_c,none,costOprConv,382.8242
+2050,IT < IT,openspace < openspace_a,none,costOprConv,469.73060000000004
+2050,IT < IT,wind_onshore < onshore_a,none,costOprConv,1280.9619000000002
+2050,IT < IT,ocgtHydrogen,none,costOprConv,156.585
+2050,IT < IT,openspace < openspace_b,none,costOprConv,469.73060000000004
+2050,IT < IT,rooftop < rooftop_b,none,costOprConv,382.8242
+2050,IT < IT,rooftop < rooftop_a,none,costOprConv,382.8242
+2050,LT < LT,ror,none,costOprConv,7.6609
+2050,LT < LT,electrolysis,none,costOprConv,36.354
+2050,LT < LT,wind_offshore < offshore_a,none,costOprConv,142.902
+2050,LT < LT,openspace < openspace_a,none,costOprConv,95.03659999999999
+2050,LT < LT,ocgtHydrogen,none,costOprConv,9.834
+2050,LU < LU,ror,none,costOprConv,2.3572
+2050,LU < LU,rooftop < rooftop_c,none,costOprConv,3.1746000000000003
+2050,LU < LU,openspace < openspace_a,none,costOprConv,6.593600000000001
+2050,LU < LU,wind_onshore < onshore_a,none,costOprConv,48.3633
+2050,LU < LU,ocgtHydrogen,none,costOprConv,1.023
+2050,LU < LU,openspace < openspace_b,none,costOprConv,6.593600000000001
+2050,LU < LU,rooftop < rooftop_b,none,costOprConv,3.1746000000000003
+2050,LU < LU,rooftop < rooftop_a,none,costOprConv,3.1746000000000003
+2050,LV < LV,ror,none,costOprConv,90.7522
+2050,LV < LV,electrolysis,none,costOprConv,58.984
+2050,LV < LV,wind_offshore < offshore_a,none,costOprConv,247.51000000000002
+2050,LV < LV,openspace < openspace_a,none,costOprConv,72.4028
+2050,LV < LV,ocgtHydrogen,none,costOprConv,11.286
+2050,NL < NL,ror,none,costOprConv,2.3572
+2050,NL < NL,wind_offshore < offshore_a,none,costOprConv,888.701
+2050,NL < NL,rooftop < rooftop_c,none,costOprConv,76.1904
+2050,NL < NL,openspace < openspace_a,none,costOprConv,114.37360000000001
+2050,NL < NL,wind_onshore < onshore_a,none,costOprConv,696.1652999999999
+2050,NL < NL,ocgtHydrogen,none,costOprConv,166.023
+2050,NL < NL,gasPlant,none,costOprConv,7.052
+2050,NL < NL,openspace < openspace_b,none,costOprConv,114.37360000000001
+2050,NL < NL,rooftop < rooftop_b,none,costOprConv,76.1904
+2050,NL < NL,rooftop < rooftop_a,none,costOprConv,76.1904
+2050,NO < NO,ror,none,costOprConv,371.259
+2050,NO < NO,electrolysis,none,costOprConv,401.938
+2050,NO < NO,wind_offshore < offshore_a,none,costOprConv,1902.0909999999997
+2050,NO < NO,openspace < openspace_a,none,costOprConv,37.9766
+2050,NO < NO,openspace < openspace_b,none,costOprConv,37.9766
+2050,NONEU_Balkan < NONEU_Balkan,ror,none,costOprConv,213.32660000000004
+2050,NONEU_Balkan < NONEU_Balkan,electrolysis,none,costOprConv,496.1079999999999
+2050,NONEU_Balkan < NONEU_Balkan,wind_offshore < offshore_a,none,costOprConv,85.46100000000001
+2050,NONEU_Balkan < NONEU_Balkan,rooftop < rooftop_c,none,costOprConv,96.5404
+2050,NONEU_Balkan < NONEU_Balkan,openspace < openspace_a,none,costOprConv,277.6286
+2050,NONEU_Balkan < NONEU_Balkan,ocgtHydrogen,none,costOprConv,22.340999999999998
+2050,NONEU_Balkan < NONEU_Balkan,wind_onshore < onshore_b,none,costOprConv,408.20399999999995
+2050,NONEU_Balkan < NONEU_Balkan,openspace < openspace_b,none,costOprConv,277.6286
+2050,NONEU_Balkan < NONEU_Balkan,rooftop < rooftop_b,none,costOprConv,96.5404
+2050,NONEU_Balkan < NONEU_Balkan,rooftop < rooftop_a,none,costOprConv,96.5404
+2050,PL < PL,ror,none,costOprConv,50.09049999999999
+2050,PL < PL,electrolysis,none,costOprConv,626.3399999999999
+2050,PL < PL,wind_offshore < offshore_a,none,costOprConv,633.2520000000001
+2050,PL < PL,rooftop < rooftop_c,none,costOprConv,140.9848
+2050,PL < PL,openspace < openspace_a,none,costOprConv,475.43659999999994
+2050,PL < PL,wind_onshore < onshore_a,none,costOprConv,3974.2208999999993
+2050,PL < PL,ocgtHydrogen,none,costOprConv,140.052
+2050,PL < PL,openspace < openspace_b,none,costOprConv,475.43659999999994
+2050,PL < PL,rooftop < rooftop_b,none,costOprConv,140.9848
+2050,PL < PL,rooftop < rooftop_a,none,costOprConv,140.9848
+2050,PT < PT,ror,none,costOprConv,385.9915
+2050,PT < PT,electrolysis,none,costOprConv,70.80999999999999
+2050,PT < PT,wind_offshore < offshore_a,none,costOprConv,259.652
+2050,PT < PT,rooftop < rooftop_c,none,costOprConv,14.977600000000002
+2050,PT < PT,openspace < openspace_a,none,costOprConv,79.50359999999999
+2050,PT < PT,wind_onshore < onshore_a,none,costOprConv,634.9347
+2050,PT < PT,ocgtHydrogen,none,costOprConv,18.546
+2050,PT < PT,gasPlant,none,costOprConv,35.088
+2050,PT < PT,openspace < openspace_b,none,costOprConv,79.50359999999999
+2050,PT < PT,rooftop < rooftop_b,none,costOprConv,14.977600000000002
+2050,PT < PT,rooftop < rooftop_a,none,costOprConv,14.977600000000002
+2050,RO < RO,ror,none,costOprConv,368.31250000000006
+2050,RO < RO,electrolysis,none,costOprConv,429.38599999999997
+2050,RO < RO,wind_offshore < offshore_a,none,costOprConv,377.803
+2050,RO < RO,openspace < openspace_a,none,costOprConv,399.3566
+2050,RO < RO,wind_onshore < onshore_a,none,costOprConv,443.2563
+2050,RO < RO,ocgtHydrogen,none,costOprConv,49.599
+2050,RO < RO,openspace < openspace_b,none,costOprConv,399.3566
+2050,SE < SE,ror,none,costOprConv,661.1946
+2050,SE < SE,electrolysis,none,costOprConv,268.34799999999996
+2050,SE < SE,wind_offshore < offshore_a,none,costOprConv,2610.063
+2050,SE < SE,openspace < openspace_a,none,costOprConv,135.9296
+2050,SE < SE,wind_onshore < onshore_a,none,costOprConv,41.70779999999999
+2050,SE < SE,ocgtHydrogen,none,costOprConv,30.326999999999998
+2050,SE < SE,gasPlant,none,costOprConv,158.928
+2050,SE < SE,openspace < openspace_b,none,costOprConv,135.9296
+2050,SI < SI,ror,none,costOprConv,60.1086
+2050,SI < SI,wind_offshore < offshore_a,none,costOprConv,4.203
+2050,SI < SI,rooftop < rooftop_c,none,costOprConv,12.9426
+2050,SI < SI,openspace < openspace_a,none,costOprConv,18.005599999999998
+2050,SI < SI,ocgtHydrogen,none,costOprConv,8.283
+2050,SI < SI,openspace < openspace_b,none,costOprConv,18.005599999999998
+2050,SI < SI,rooftop < rooftop_b,none,costOprConv,12.9426
+2050,SI < SI,rooftop < rooftop_a,none,costOprConv,12.9426
+2050,SK < SK,ror,none,costOprConv,91.3415
+2050,SK < SK,electrolysis,none,costOprConv,22.046
+2050,SK < SK,rooftop < rooftop_c,none,costOprConv,43.8746
+2050,SK < SK,openspace < openspace_a,none,costOprConv,55.72859999999999
+2050,SK < SK,ocgtHydrogen,none,costOprConv,36.3
+2050,SK < SK,openspace < openspace_b,none,costOprConv,55.72859999999999
+2050,SK < SK,rooftop < rooftop_b,none,costOprConv,43.8746
+2050,SK < SK,rooftop < rooftop_a,none,costOprConv,43.8746
+2050,TR < TR,ror,none,costOprConv,400.72399999999993
+2050,TR < TR,electrolysis,none,costOprConv,1342.7620000000002
+2050,TR < TR,wind_offshore < offshore_a,none,costOprConv,466.533
+2050,TR < TR,openspace < openspace_a,none,costOprConv,1397.5895999999998
+2050,TR < TR,ocgtHydrogen,none,costOprConv,194.50199999999998
+2050,TR < TR,gasPlant,none,costOprConv,313.9
+2050,TR < TR,wind_onshore < onshore_b,none,costOprConv,3447.992699999999
+2050,TR < TR,openspace < openspace_b,none,costOprConv,1397.5895999999998
+2050,UK < UK,ror,none,costOprConv,55.39419999999999
+2050,UK < UK,electrolysis,none,costOprConv,903.156
+2050,UK < UK,wind_offshore < offshore_a,none,costOprConv,1540.6330000000005
+2050,UK < UK,rooftop < rooftop_c,none,costOprConv,417.6634
+2050,UK < UK,openspace < openspace_a,none,costOprConv,484.9466
+2050,UK < UK,wind_onshore < onshore_a,none,costOprConv,6286.7853
+2050,UK < UK,ocgtHydrogen,none,costOprConv,316.79999999999995
+2050,UK < UK,openspace < openspace_b,none,costOprConv,484.9466
+2050,UK < UK,rooftop < rooftop_b,none,costOprConv,417.6634
+2050,UK < UK,rooftop < rooftop_a,none,costOprConv,417.6634
+2050,DK < DK,electrolysis,none,costOprConv,291.562
+2050,DK < DK,wind_offshore < offshore_a,none,costOprConv,1948.791
+2050,DK < DK,openspace < openspace_a,none,costOprConv,55.09459999999999
+2050,DK < DK,wind_onshore < onshore_a,none,costOprConv,59.012100000000004
+2050,DK < DK,ocgtHydrogen,none,costOprConv,23.561999999999998
+2050,DK < DK,openspace < openspace_b,none,costOprConv,55.09459999999999
+2050,EE < EE,electrolysis,none,costOprConv,14.892
+2050,EE < EE,wind_offshore < offshore_a,none,costOprConv,164.851
+2050,EE < EE,openspace < openspace_a,none,costOprConv,8.1786
+2050,EE < EE,ocgtHydrogen,none,costOprConv,9.569999999999999
+2050,EE,methanation,none,costOprConv,0.36
+2050,LT,methanation,none,costOprConv,0.54
+2050,LV,methanation,none,costOprConv,0.9000000000000001
+2050,DE < DE11,caes,none,costExpStIn,0.0
+2050,DE < DE11,battery < home,none,costExpStIn,1.7238206367322941
+2050,DE < DE11,battery < grid,none,costExpStIn,11.483884704390281
+2050,DE < DE12,caes,none,costExpStIn,0.0
+2050,DE < DE12,battery < home,none,costExpStIn,0.9592775087188331
+2050,DE < DE12,battery < grid,none,costExpStIn,0.8469404178960782
+2050,DE < DE13,caes,none,costExpStIn,0.0
+2050,DE < DE13,battery < home,none,costExpStIn,0.8802565441708549
+2050,DE < DE13,battery < grid,none,costExpStIn,0.7771591503537126
+2050,DE < DE14,caes,none,costExpStIn,0.0
+2050,DE < DE14,battery < home,none,costExpStIn,1.2698401388738747
+2050,DE < DE14,battery < grid,none,costExpStIn,8.991047828151418
+2050,DE < DE21,caes,none,costExpStIn,0.0
+2050,DE < DE21,battery < home,none,costExpStIn,1.9208420959729824
+2050,DE < DE21,battery < grid,none,costExpStIn,17.45255090396525
+2050,DE < DE22,caes,none,costExpStIn,0.0
+2050,DE < DE22,battery < home,none,costExpStIn,1.7292971418568628
+2050,DE < DE22,battery < grid,none,costExpStIn,1.5267481931378941
+2050,DE < DE23,caes,none,costExpStIn,0.0
+2050,DE < DE23,battery < home,none,costExpStIn,1.218092047998852
+2050,DE < DE23,battery < grid,none,costExpStIn,4.53164383189936
+2050,DE < DE24,caes,none,costExpStIn,0.0
+2050,DE < DE24,battery < home,none,costExpStIn,1.0858098303992298
+2050,DE < DE24,battery < grid,none,costExpStIn,1.8262945769686874
+2050,DE < DE25,caes,none,costExpStIn,0.0
+2050,DE < DE25,battery < home,none,costExpStIn,1.0721305614106633
+2050,DE < DE25,battery < grid,none,costExpStIn,5.850530008118003
+2050,DE < DE26,caes,none,costExpStIn,0.0
+2050,DE < DE26,battery < home,none,costExpStIn,1.5132182109239471
+2050,DE < DE26,battery < grid,none,costExpStIn,11.086841451428386
+2050,DE < DE27,caes,none,costExpStIn,0.0
+2050,DE < DE27,battery < home,none,costExpStIn,1.9254393104800194
+2050,DE < DE27,battery < grid,none,costExpStIn,9.833950698340917
+2050,DE < DE30,caes,none,costExpStIn,0.0
+2050,DE < DE30,battery < home,none,costExpStIn,0.24770574304443937
+2050,DE < DE30,battery < grid,none,costExpStIn,0.2186896065466211
+2050,DE < DE40,caes,none,costExpStIn,0.0
+2050,DE < DE40,battery < home,none,costExpStIn,5.631108709243055
+2050,DE < DE40,battery < grid,none,costExpStIn,4.971455235830493
+2050,DE < DE50,caes,none,costExpStIn,0.0
+2050,DE < DE50,battery < home,none,costExpStIn,0.16363301264173247
+2050,DE < DE50,battery < grid,none,costExpStIn,0.1444691110264182
+2050,DE < DE60,caes,none,costExpStIn,0.0
+2050,DE < DE60,battery < home,none,costExpStIn,0.20627725089076981
+2050,DE < DE60,battery < grid,none,costExpStIn,0.18211470166937038
+2050,DE < DE71,caes,none,costExpStIn,0.0
+2050,DE < DE71,battery < home,none,costExpStIn,1.0673479281986895
+2050,DE < DE71,battery < grid,none,costExpStIn,0.9424179086752136
+2050,DE < DE72,caes,none,costExpStIn,0.0
+2050,DE < DE72,battery < home,none,costExpStIn,0.6925180462129206
+2050,DE < DE72,battery < grid,none,costExpStIn,0.611421432699557
+2050,DE < DE73,caes,none,costExpStIn,0.0
+2050,DE < DE73,battery < home,none,costExpStIn,1.2754383039345063
+2050,DE < DE73,battery < grid,none,costExpStIn,1.1261102748585872
+2050,DE < DE80,caes,none,costExpStIn,0.0
+2050,DE < DE80,battery < home,none,costExpStIn,8.731880280506411
+2050,DE < DE80,battery < grid,none,costExpStIn,7.708987776057972
+2050,DE < DE91,caes,none,costExpStIn,0.0
+2050,DE < DE91,battery < home,none,costExpStIn,0.9950511721388078
+2050,DE < DE91,battery < grid,none,costExpStIn,0.8784905934941405
+2050,DE < DE92,caes,none,costExpStIn,0.0
+2050,DE < DE92,battery < home,none,costExpStIn,3.4782872394310793
+2050,DE < DE92,battery < grid,none,costExpStIn,3.0708279669301195
+2050,DE < DE93,caes,none,costExpStIn,0.0
+2050,DE < DE93,battery < home,none,costExpStIn,3.5636628120689706
+2050,DE < DE93,battery < grid,none,costExpStIn,3.1462001121090584
+2050,DE < DE94,caes,none,costExpStIn,0.0
+2050,DE < DE94,battery < home,none,costExpStIn,6.506678088796265
+2050,DE < DE94,battery < grid,none,costExpStIn,5.744458502759232
+2050,DE < DEA1,caes,none,costExpStIn,0.0
+2050,DE < DEA1,battery < home,none,costExpStIn,1.2342375152532523
+2050,DE < DEA1,battery < grid,none,costExpStIn,1.089699016903192
+2050,DE < DEA2,caes,none,costExpStIn,0.0
+2050,DE < DEA2,battery < home,none,costExpStIn,1.640855331176212
+2050,DE < DEA2,battery < grid,none,costExpStIn,18.85173855868438
+2050,DE < DEA3,caes,none,costExpStIn,0.0
+2050,DE < DEA3,battery < home,none,costExpStIn,2.028906888888946
+2050,DE < DEA3,battery < grid,none,costExpStIn,1.7912709283243944
+2050,DE < DEA4,caes,none,costExpStIn,0.0
+2050,DE < DEA4,battery < home,none,costExpStIn,1.8402381612194232
+2050,DE < DEA4,battery < grid,none,costExpStIn,1.6246760070558106
+2050,DE < DEA5,caes,none,costExpStIn,0.0
+2050,DE < DEA5,battery < home,none,costExpStIn,1.0862481852593655
+2050,DE < DEA5,battery < grid,none,costExpStIn,14.970351831178375
+2050,DE < DEB1,caes,none,costExpStIn,0.0
+2050,DE < DEB1,battery < home,none,costExpStIn,1.2128031435035078
+2050,DE < DEB1,battery < grid,none,costExpStIn,1.0708144594925086
+2050,DE < DEB2,caes,none,costExpStIn,0.0
+2050,DE < DEB2,battery < home,none,costExpStIn,0.8074973426977361
+2050,DE < DEB2,battery < grid,none,costExpStIn,0.7129145947397765
+2050,DE < DEB3,caes,none,costExpStIn,0.0
+2050,DE < DEB3,battery < home,none,costExpStIn,1.0954093490320718
+2050,DE < DEB3,battery < grid,none,costExpStIn,4.942620604965062
+2050,DE < DEC0_,caes,none,costExpStIn,0.0
+2050,DE < DEC0_,battery < home,none,costExpStIn,0.4779078346552789
+2050,DE < DEC0_,battery < grid,none,costExpStIn,1.9553341813923228
+2050,DE < DED2,caes,none,costExpStIn,0.0
+2050,DE < DED2,battery < home,none,costExpStIn,1.6667200071678232
+2050,DE < DED2,battery < grid,none,costExpStIn,1.4714737362357242
+2050,DE < DED4,caes,none,costExpStIn,0.0
+2050,DE < DED4,battery < home,none,costExpStIn,1.213742329335307
+2050,DE < DED4,battery < grid,none,costExpStIn,1.0715603043516226
+2050,DE < DED5,caes,none,costExpStIn,0.0
+2050,DE < DED5,battery < home,none,costExpStIn,0.7488410935889905
+2050,DE < DED5,battery < grid,none,costExpStIn,0.6611197991334031
+2050,DE < DEE0,caes,none,costExpStIn,0.0
+2050,DE < DEE0,battery < home,none,costExpStIn,5.573997562130179
+2050,DE < DEE0,battery < grid,none,costExpStIn,4.921041230404794
+2050,DE < DEF0,caes,none,costExpStIn,0.0
+2050,DE < DEF0,battery < home,none,costExpStIn,12.621755920682503
+2050,DE < DEF0,battery < grid,none,costExpStIn,11.143185122810067
+2050,DE < DEG0,caes,none,costExpStIn,0.0
+2050,DE < DEG0,battery < home,none,costExpStIn,1.9602776912462605
+2050,DE < DEG0,battery < grid,none,costExpStIn,1.7309081790495329
+2050,none,none,electricity < electricity_central,costOprExc,3196.1997515999965
+2050,none,none,gas < hydrogen,costOprExc,2067.9576794519994
+2050,DE,methanation,none,costVarGen,0.0
+2050,EE,methanation,none,costVarGen,0.04178737247389101
+2050,ES,methanation,none,costVarGen,5.421352272629324
+2050,FI,methanation,none,costVarGen,0.6017391141316555
+2050,GR,methanation,none,costVarGen,0.15441514600521064
+2050,IE,methanation,none,costVarGen,0.09742825904082583
+2050,LT,methanation,none,costVarGen,0.06268105871385232
+2050,LV,methanation,none,costVarGen,0.10446723015668839
+2050,PT,methanation,none,costVarGen,0.5306116149110067
+2050,TR,methanation,none,costVarGen,6.2968937495498984

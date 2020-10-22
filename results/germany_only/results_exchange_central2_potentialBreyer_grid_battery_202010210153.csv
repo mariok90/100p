@@ -1,0 +1,1742 @@
+timestep_superordinate_dispatch,region_from,region_to,carrier,variable,value
+2050,DE < DE11,DE < DE12,electricity < electricity_central,expExc,1.1441964812802108e-7
+2050,DE < DE11,DE < DE14,electricity < electricity_central,expExc,7.9847456740522e-8
+2050,DE < DE11,DE < DE25,electricity < electricity_central,expExc,5.0899323211582645
+2050,DE < DE11,DE < DE26,electricity < electricity_central,expExc,4.718856504613251e-7
+2050,DE < DE11,DE < DE27,electricity < electricity_central,expExc,4.2029733467594075e-5
+2050,DE < DE12,DE < DE13,electricity < electricity_central,expExc,3.6511395211935886e-7
+2050,DE < DE12,DE < DE14,electricity < electricity_central,expExc,1.9073803472269374e-5
+2050,DE < DE12,DE < DE26,electricity < electricity_central,expExc,1.2781977335403644e-7
+2050,DE < DE12,DE < DE71,electricity < electricity_central,expExc,1.1048090988794406
+2050,DE < DE12,DE < DEB3,electricity < electricity_central,expExc,0.4250873324785984
+2050,DE < DE13,DE < DE14,electricity < electricity_central,expExc,10.349808463662802
+2050,DE < DE14,DE < DE27,electricity < electricity_central,expExc,0.06563845434261581
+2050,DE < DE21,DE < DE22,electricity < electricity_central,expExc,9.02495813736734e-8
+2050,DE < DE21,DE < DE23,electricity < electricity_central,expExc,2.9272527569685512e-5
+2050,DE < DE21,DE < DE25,electricity < electricity_central,expExc,1.5467819990994906e-7
+2050,DE < DE21,DE < DE27,electricity < electricity_central,expExc,0.142718236118565
+2050,DE < DE22,DE < DE23,electricity < electricity_central,expExc,1.020280805528571
+2050,DE < DE23,DE < DE24,electricity < electricity_central,expExc,2.132843561628306
+2050,DE < DE23,DE < DE25,electricity < electricity_central,expExc,2.1046990704482722e-7
+2050,DE < DE24,DE < DE25,electricity < electricity_central,expExc,2.0319406025758883e-7
+2050,DE < DE24,DE < DE26,electricity < electricity_central,expExc,1.2063042804718204e-7
+2050,DE < DE24,DE < DED4,electricity < electricity_central,expExc,0.9092711346035315
+2050,DE < DE24,DE < DEG0,electricity < electricity_central,expExc,3.75088360372526e-7
+2050,DE < DE25,DE < DE26,electricity < electricity_central,expExc,8.888260336752902e-8
+2050,DE < DE25,DE < DE27,electricity < electricity_central,expExc,0.00045025472935620876
+2050,DE < DE26,DE < DE71,electricity < electricity_central,expExc,2.616669727308191e-7
+2050,DE < DE26,DE < DE73,electricity < electricity_central,expExc,1.3836134358854113
+2050,DE < DE26,DE < DEG0,electricity < electricity_central,expExc,4.240278604896824
+2050,DE < DE30,DE < DE40,electricity < electricity_central,expExc,8.640002712593166e-8
+2050,DE < DE40,DE < DE80,electricity < electricity_central,expExc,14.947470956074923
+2050,DE < DE40,DE < DE93,electricity < electricity_central,expExc,0.27757502175495724
+2050,DE < DE40,DE < DED2,electricity < electricity_central,expExc,1.6924595416531844e-6
+2050,DE < DE40,DE < DED5,electricity < electricity_central,expExc,2.099238188529955e-5
+2050,DE < DE40,DE < DEE0,electricity < electricity_central,expExc,6.028091892737e-8
+2050,DE < DE50,DE < DE92,electricity < electricity_central,expExc,6.970928933223775e-5
+2050,DE < DE50,DE < DE93,electricity < electricity_central,expExc,4.348676103487653
+2050,DE < DE50,DE < DE94,electricity < electricity_central,expExc,2.0990501638876846e-7
+2050,DE < DE60,DE < DE93,electricity < electricity_central,expExc,0.7473581690003479
+2050,DE < DE60,DE < DEF0,electricity < electricity_central,expExc,1.0584922259520604
+2050,DE < DE71,DE < DE72,electricity < electricity_central,expExc,1.195838022005816e-7
+2050,DE < DE71,DE < DE73,electricity < electricity_central,expExc,1.745991558438891e-7
+2050,DE < DE71,DE < DEB1,electricity < electricity_central,expExc,1.842435983803747e-7
+2050,DE < DE71,DE < DEB3,electricity < electricity_central,expExc,1.1564348518106173
+2050,DE < DE72,DE < DE73,electricity < electricity_central,expExc,9.142574525543486
+2050,DE < DE72,DE < DEA5,electricity < electricity_central,expExc,7.739312560942058e-5
+2050,DE < DE72,DE < DEB1,electricity < electricity_central,expExc,3.5829674483119615e-7
+2050,DE < DE73,DE < DE91,electricity < electricity_central,expExc,1.2737092915357273
+2050,DE < DE73,DE < DEA4,electricity < electricity_central,expExc,2.5731850913050805e-7
+2050,DE < DE73,DE < DEA5,electricity < electricity_central,expExc,8.831364683141586e-8
+2050,DE < DE73,DE < DEG0,electricity < electricity_central,expExc,0.2418222687282426
+2050,DE < DE80,DE < DE93,electricity < electricity_central,expExc,5.669321751534007e-5
+2050,DE < DE80,DE < DEF0,electricity < electricity_central,expExc,2.4320519404064115e-5
+2050,DE < DE91,DE < DE92,electricity < electricity_central,expExc,1.4206427604574485e-7
+2050,DE < DE91,DE < DE93,electricity < electricity_central,expExc,2.456025223838539e-7
+2050,DE < DE91,DE < DEA4,electricity < electricity_central,expExc,5.739504411961365e-5
+2050,DE < DE91,DE < DEE0,electricity < electricity_central,expExc,10.779106080746173
+2050,DE < DE91,DE < DEG0,electricity < electricity_central,expExc,2.749819987479972
+2050,DE < DE92,DE < DE93,electricity < electricity_central,expExc,9.633277731927157
+2050,DE < DE92,DE < DE94,electricity < electricity_central,expExc,8.670794018153838e-8
+2050,DE < DE92,DE < DEA4,electricity < electricity_central,expExc,12.154036913362328
+2050,DE < DE93,DE < DE94,electricity < electricity_central,expExc,2.7914426869313735e-7
+2050,DE < DE93,DE < DEE0,electricity < electricity_central,expExc,9.316130251535338e-5
+2050,DE < DE93,DE < DEF0,electricity < electricity_central,expExc,1.670639798293203
+2050,DE < DE94,DE < DEA3,electricity < electricity_central,expExc,10.735931321922369
+2050,DE < DE94,DE < DEA4,electricity < electricity_central,expExc,7.090004804509615e-8
+2050,DE < DEA1,DE < DEA2,electricity < electricity_central,expExc,1.0160444206462629e-7
+2050,DE < DEA1,DE < DEA3,electricity < electricity_central,expExc,10.3649045498869
+2050,DE < DEA1,DE < DEA5,electricity < electricity_central,expExc,5.630048832888778e-7
+2050,DE < DEA2,DE < DEA5,electricity < electricity_central,expExc,2.7083690800615087e-5
+2050,DE < DEA2,DE < DEB1,electricity < electricity_central,expExc,1.6759071690502374e-7
+2050,DE < DEA2,DE < DEB2,electricity < electricity_central,expExc,9.399979209054767e-8
+2050,DE < DEA3,DE < DEA4,electricity < electricity_central,expExc,0.25197911574984216
+2050,DE < DEA3,DE < DEA5,electricity < electricity_central,expExc,8.544931696084393e-8
+2050,DE < DEA4,DE < DEA5,electricity < electricity_central,expExc,10.9763100053449
+2050,DE < DEA5,DE < DEB1,electricity < electricity_central,expExc,2.895209761827537e-7
+2050,DE < DEB1,DE < DEB2,electricity < electricity_central,expExc,1.9522244960424012e-7
+2050,DE < DEB1,DE < DEB3,electricity < electricity_central,expExc,2.084974447642206e-7
+2050,DE < DEB1,DE < DEC0_,electricity < electricity_central,expExc,19.012078806040908
+2050,DE < DEB2,DE < DEC0_,electricity < electricity_central,expExc,2.938754471561963
+2050,DE < DEB3,DE < DEC0_,electricity < electricity_central,expExc,6.886589977111606
+2050,DE < DED2,DE < DED4,electricity < electricity_central,expExc,1.5256057399134004e-7
+2050,DE < DED2,DE < DED5,electricity < electricity_central,expExc,1.5422680170753733e-7
+2050,DE < DED4,DE < DED5,electricity < electricity_central,expExc,3.576662735059805
+2050,DE < DED4,DE < DEG0,electricity < electricity_central,expExc,1.3166075798536795e-7
+2050,DE < DED5,DE < DEE0,electricity < electricity_central,expExc,7.092382554985113
+2050,DE < DED5,DE < DEG0,electricity < electricity_central,expExc,9.958600259461105e-8
+2050,DE < DEE0,DE < DEG0,electricity < electricity_central,expExc,0.9823963580590591
+2050,DE < DE12,DE < DE11,electricity < electricity_central,expExc,1.1441964812802108e-7
+2050,DE < DE14,DE < DE11,electricity < electricity_central,expExc,7.9847456740522e-8
+2050,DE < DE25,DE < DE11,electricity < electricity_central,expExc,5.0899323211582645
+2050,DE < DE26,DE < DE11,electricity < electricity_central,expExc,4.718856504613251e-7
+2050,DE < DE27,DE < DE11,electricity < electricity_central,expExc,4.2029733467594075e-5
+2050,DE < DE13,DE < DE12,electricity < electricity_central,expExc,3.6511395211935886e-7
+2050,DE < DE14,DE < DE12,electricity < electricity_central,expExc,1.9073803472269374e-5
+2050,DE < DE26,DE < DE12,electricity < electricity_central,expExc,1.2781977335403644e-7
+2050,DE < DE71,DE < DE12,electricity < electricity_central,expExc,1.1048090988794406
+2050,DE < DEB3,DE < DE12,electricity < electricity_central,expExc,0.4250873324785984
+2050,DE < DE14,DE < DE13,electricity < electricity_central,expExc,10.349808463662802
+2050,DE < DE27,DE < DE14,electricity < electricity_central,expExc,0.06563845434261581
+2050,DE < DE22,DE < DE21,electricity < electricity_central,expExc,9.02495813736734e-8
+2050,DE < DE23,DE < DE21,electricity < electricity_central,expExc,2.9272527569685512e-5
+2050,DE < DE25,DE < DE21,electricity < electricity_central,expExc,1.5467819990994906e-7
+2050,DE < DE27,DE < DE21,electricity < electricity_central,expExc,0.142718236118565
+2050,DE < DE23,DE < DE22,electricity < electricity_central,expExc,1.020280805528571
+2050,DE < DE24,DE < DE23,electricity < electricity_central,expExc,2.132843561628306
+2050,DE < DE25,DE < DE23,electricity < electricity_central,expExc,2.1046990704482722e-7
+2050,DE < DE25,DE < DE24,electricity < electricity_central,expExc,2.0319406025758883e-7
+2050,DE < DE26,DE < DE24,electricity < electricity_central,expExc,1.2063042804718204e-7
+2050,DE < DED4,DE < DE24,electricity < electricity_central,expExc,0.9092711346035315
+2050,DE < DEG0,DE < DE24,electricity < electricity_central,expExc,3.75088360372526e-7
+2050,DE < DE26,DE < DE25,electricity < electricity_central,expExc,8.888260336752902e-8
+2050,DE < DE27,DE < DE25,electricity < electricity_central,expExc,0.00045025472935620876
+2050,DE < DE71,DE < DE26,electricity < electricity_central,expExc,2.616669727308191e-7
+2050,DE < DE73,DE < DE26,electricity < electricity_central,expExc,1.3836134358854113
+2050,DE < DEG0,DE < DE26,electricity < electricity_central,expExc,4.240278604896824
+2050,DE < DE40,DE < DE30,electricity < electricity_central,expExc,8.640002712593166e-8
+2050,DE < DE80,DE < DE40,electricity < electricity_central,expExc,14.947470956074923
+2050,DE < DE93,DE < DE40,electricity < electricity_central,expExc,0.27757502175495724
+2050,DE < DED2,DE < DE40,electricity < electricity_central,expExc,1.6924595416531844e-6
+2050,DE < DED5,DE < DE40,electricity < electricity_central,expExc,2.099238188529955e-5
+2050,DE < DEE0,DE < DE40,electricity < electricity_central,expExc,6.028091892737e-8
+2050,DE < DE92,DE < DE50,electricity < electricity_central,expExc,6.970928933223775e-5
+2050,DE < DE93,DE < DE50,electricity < electricity_central,expExc,4.348676103487653
+2050,DE < DE94,DE < DE50,electricity < electricity_central,expExc,2.0990501638876846e-7
+2050,DE < DE93,DE < DE60,electricity < electricity_central,expExc,0.7473581690003479
+2050,DE < DEF0,DE < DE60,electricity < electricity_central,expExc,1.0584922259520604
+2050,DE < DE72,DE < DE71,electricity < electricity_central,expExc,1.195838022005816e-7
+2050,DE < DE73,DE < DE71,electricity < electricity_central,expExc,1.745991558438891e-7
+2050,DE < DEB1,DE < DE71,electricity < electricity_central,expExc,1.842435983803747e-7
+2050,DE < DEB3,DE < DE71,electricity < electricity_central,expExc,1.1564348518106173
+2050,DE < DE73,DE < DE72,electricity < electricity_central,expExc,9.142574525543486
+2050,DE < DEA5,DE < DE72,electricity < electricity_central,expExc,7.739312560942058e-5
+2050,DE < DEB1,DE < DE72,electricity < electricity_central,expExc,3.5829674483119615e-7
+2050,DE < DE91,DE < DE73,electricity < electricity_central,expExc,1.2737092915357273
+2050,DE < DEA4,DE < DE73,electricity < electricity_central,expExc,2.5731850913050805e-7
+2050,DE < DEA5,DE < DE73,electricity < electricity_central,expExc,8.831364683141586e-8
+2050,DE < DEG0,DE < DE73,electricity < electricity_central,expExc,0.2418222687282426
+2050,DE < DE93,DE < DE80,electricity < electricity_central,expExc,5.669321751534007e-5
+2050,DE < DEF0,DE < DE80,electricity < electricity_central,expExc,2.4320519404064115e-5
+2050,DE < DE92,DE < DE91,electricity < electricity_central,expExc,1.4206427604574485e-7
+2050,DE < DE93,DE < DE91,electricity < electricity_central,expExc,2.456025223838539e-7
+2050,DE < DEA4,DE < DE91,electricity < electricity_central,expExc,5.739504411961365e-5
+2050,DE < DEE0,DE < DE91,electricity < electricity_central,expExc,10.779106080746173
+2050,DE < DEG0,DE < DE91,electricity < electricity_central,expExc,2.749819987479972
+2050,DE < DE93,DE < DE92,electricity < electricity_central,expExc,9.633277731927157
+2050,DE < DE94,DE < DE92,electricity < electricity_central,expExc,8.670794018153838e-8
+2050,DE < DEA4,DE < DE92,electricity < electricity_central,expExc,12.154036913362328
+2050,DE < DE94,DE < DE93,electricity < electricity_central,expExc,2.7914426869313735e-7
+2050,DE < DEE0,DE < DE93,electricity < electricity_central,expExc,9.316130251535338e-5
+2050,DE < DEF0,DE < DE93,electricity < electricity_central,expExc,1.670639798293203
+2050,DE < DEA3,DE < DE94,electricity < electricity_central,expExc,10.735931321922369
+2050,DE < DEA4,DE < DE94,electricity < electricity_central,expExc,7.090004804509615e-8
+2050,DE < DEA2,DE < DEA1,electricity < electricity_central,expExc,1.0160444206462629e-7
+2050,DE < DEA3,DE < DEA1,electricity < electricity_central,expExc,10.3649045498869
+2050,DE < DEA5,DE < DEA1,electricity < electricity_central,expExc,5.630048832888778e-7
+2050,DE < DEA5,DE < DEA2,electricity < electricity_central,expExc,2.7083690800615087e-5
+2050,DE < DEB1,DE < DEA2,electricity < electricity_central,expExc,1.6759071690502374e-7
+2050,DE < DEB2,DE < DEA2,electricity < electricity_central,expExc,9.399979209054767e-8
+2050,DE < DEA4,DE < DEA3,electricity < electricity_central,expExc,0.25197911574984216
+2050,DE < DEA5,DE < DEA3,electricity < electricity_central,expExc,8.544931696084393e-8
+2050,DE < DEA5,DE < DEA4,electricity < electricity_central,expExc,10.9763100053449
+2050,DE < DEB1,DE < DEA5,electricity < electricity_central,expExc,2.895209761827537e-7
+2050,DE < DEB2,DE < DEB1,electricity < electricity_central,expExc,1.9522244960424012e-7
+2050,DE < DEB3,DE < DEB1,electricity < electricity_central,expExc,2.084974447642206e-7
+2050,DE < DEC0_,DE < DEB1,electricity < electricity_central,expExc,19.012078806040908
+2050,DE < DEC0_,DE < DEB2,electricity < electricity_central,expExc,2.938754471561963
+2050,DE < DEC0_,DE < DEB3,electricity < electricity_central,expExc,6.886589977111606
+2050,DE < DED4,DE < DED2,electricity < electricity_central,expExc,1.5256057399134004e-7
+2050,DE < DED5,DE < DED2,electricity < electricity_central,expExc,1.5422680170753733e-7
+2050,DE < DED5,DE < DED4,electricity < electricity_central,expExc,3.576662735059805
+2050,DE < DEG0,DE < DED4,electricity < electricity_central,expExc,1.3166075798536795e-7
+2050,DE < DEE0,DE < DED5,electricity < electricity_central,expExc,7.092382554985113
+2050,DE < DEG0,DE < DED5,electricity < electricity_central,expExc,9.958600259461105e-8
+2050,DE < DEG0,DE < DEE0,electricity < electricity_central,expExc,0.9823963580590591
+2050,DE < DE11,DE < DE12,electricity < electricity_central,capaExc,6.080000114419648
+2050,DE < DE11,DE < DE14,electricity < electricity_central,capaExc,17.980000079847457
+2050,DE < DE11,DE < DE25,electricity < electricity_central,capaExc,5.0899323211582645
+2050,DE < DE11,DE < DE26,electricity < electricity_central,capaExc,5.10000047188565
+2050,DE < DE11,DE < DE27,electricity < electricity_central,capaExc,4.2029733467594075e-5
+2050,DE < DE12,DE < DE13,electricity < electricity_central,capaExc,6.0800003651139525
+2050,DE < DE12,DE < DE14,electricity < electricity_central,capaExc,1.9073803472269374e-5
+2050,DE < DE12,DE < DE26,electricity < electricity_central,capaExc,1.7000001278197734
+2050,DE < DE12,DE < DE71,electricity < electricity_central,capaExc,3.0648090988794405
+2050,DE < DE12,DE < DEB3,electricity < electricity_central,capaExc,4.085087332478599
+2050,DE < DE13,DE < DE14,electricity < electricity_central,capaExc,15.939808463662802
+2050,DE < DE14,DE < DE27,electricity < electricity_central,capaExc,7.355638454342616
+2050,DE < DE21,DE < DE22,electricity < electricity_central,capaExc,11.670000090249582
+2050,DE < DE21,DE < DE23,electricity < electricity_central,capaExc,2.9272527569685512e-5
+2050,DE < DE21,DE < DE25,electricity < electricity_central,capaExc,4.3800001546782
+2050,DE < DE21,DE < DE27,electricity < electricity_central,capaExc,3.542718236118565
+2050,DE < DE22,DE < DE23,electricity < electricity_central,capaExc,3.210280805528571
+2050,DE < DE23,DE < DE24,electricity < electricity_central,capaExc,4.322843561628305
+2050,DE < DE23,DE < DE25,electricity < electricity_central,capaExc,0.49000021046990705
+2050,DE < DE24,DE < DE25,electricity < electricity_central,capaExc,3.40000020319406
+2050,DE < DE24,DE < DE26,electricity < electricity_central,capaExc,3.400000120630428
+2050,DE < DE24,DE < DED4,electricity < electricity_central,capaExc,0.9092711346035315
+2050,DE < DE24,DE < DEG0,electricity < electricity_central,capaExc,6.80000037508836
+2050,DE < DE25,DE < DE26,electricity < electricity_central,capaExc,4.870000088882604
+2050,DE < DE25,DE < DE27,electricity < electricity_central,capaExc,0.00045025472935620876
+2050,DE < DE26,DE < DE71,electricity < electricity_central,capaExc,7.780000261666973
+2050,DE < DE26,DE < DE73,electricity < electricity_central,capaExc,1.3836134358854113
+2050,DE < DE26,DE < DEG0,electricity < electricity_central,capaExc,4.240278604896824
+2050,DE < DE30,DE < DE40,electricity < electricity_central,capaExc,14.580000086400027
+2050,DE < DE40,DE < DE80,electricity < electricity_central,capaExc,22.727470956074924
+2050,DE < DE40,DE < DE93,electricity < electricity_central,capaExc,0.27757502175495724
+2050,DE < DE40,DE < DED2,electricity < electricity_central,capaExc,10.20000169245954
+2050,DE < DE40,DE < DED5,electricity < electricity_central,capaExc,2.099238188529955e-5
+2050,DE < DE40,DE < DEE0,electricity < electricity_central,capaExc,13.60000006028092
+2050,DE < DE50,DE < DE92,electricity < electricity_central,capaExc,6.970928933223775e-5
+2050,DE < DE50,DE < DE93,electricity < electricity_central,capaExc,4.8386761034876535
+2050,DE < DE50,DE < DE94,electricity < electricity_central,capaExc,3.8900002099050166
+2050,DE < DE60,DE < DE93,electricity < electricity_central,capaExc,4.147358169000348
+2050,DE < DE60,DE < DEF0,electricity < electricity_central,capaExc,7.858492225952061
+2050,DE < DE71,DE < DE72,electricity < electricity_central,capaExc,5.100000119583802
+2050,DE < DE71,DE < DE73,electricity < electricity_central,capaExc,3.400000174599156
+2050,DE < DE71,DE < DEB1,electricity < electricity_central,capaExc,4.380000184243598
+2050,DE < DE71,DE < DEB3,electricity < electricity_central,capaExc,5.306434851810618
+2050,DE < DE72,DE < DE73,electricity < electricity_central,capaExc,12.542574525543486
+2050,DE < DE72,DE < DEA5,electricity < electricity_central,capaExc,7.739312560942059e-5
+2050,DE < DE72,DE < DEB1,electricity < electricity_central,capaExc,8.500000358296745
+2050,DE < DE73,DE < DE91,electricity < electricity_central,capaExc,5.653709291535727
+2050,DE < DE73,DE < DEA4,electricity < electricity_central,capaExc,7.780000257318509
+2050,DE < DE73,DE < DEA5,electricity < electricity_central,capaExc,3.4000000883136465
+2050,DE < DE73,DE < DEG0,electricity < electricity_central,capaExc,3.6418222687282427
+2050,DE < DE80,DE < DE93,electricity < electricity_central,capaExc,5.669321751534007e-5
+2050,DE < DE80,DE < DEF0,electricity < electricity_central,capaExc,3.400024320519404
+2050,DE < DE91,DE < DE92,electricity < electricity_central,capaExc,14.120000142064276
+2050,DE < DE91,DE < DE93,electricity < electricity_central,capaExc,3.4000002456025222
+2050,DE < DE91,DE < DEA4,electricity < electricity_central,capaExc,5.739504411961366e-5
+2050,DE < DE91,DE < DEE0,electricity < electricity_central,capaExc,14.179106080746173
+2050,DE < DE91,DE < DEG0,electricity < electricity_central,capaExc,2.7498199874799725
+2050,DE < DE92,DE < DE93,electricity < electricity_central,capaExc,12.313277731927156
+2050,DE < DE92,DE < DE94,electricity < electricity_central,capaExc,12.390000086707941
+2050,DE < DE92,DE < DEA4,electricity < electricity_central,capaExc,17.254036913362327
+2050,DE < DE93,DE < DE94,electricity < electricity_central,capaExc,3.8900002791442687
+2050,DE < DE93,DE < DEE0,electricity < electricity_central,capaExc,9.316130251535338e-5
+2050,DE < DE93,DE < DEF0,electricity < electricity_central,capaExc,12.850639798293203
+2050,DE < DE94,DE < DEA3,electricity < electricity_central,capaExc,21.685931321922368
+2050,DE < DE94,DE < DEA4,electricity < electricity_central,capaExc,3.890000070900048
+2050,DE < DEA1,DE < DEA2,electricity < electricity_central,capaExc,22.850000101604444
+2050,DE < DEA1,DE < DEA3,electricity < electricity_central,capaExc,18.634904549886897
+2050,DE < DEA1,DE < DEA5,electricity < electricity_central,capaExc,6.080000563004884
+2050,DE < DEA2,DE < DEA5,electricity < electricity_central,capaExc,0.9800270836908006
+2050,DE < DEA2,DE < DEB1,electricity < electricity_central,capaExc,9.970000167590717
+2050,DE < DEA2,DE < DEB2,electricity < electricity_central,capaExc,3.400000093999792
+2050,DE < DEA3,DE < DEA4,electricity < electricity_central,capaExc,1.951979115749842
+2050,DE < DEA3,DE < DEA5,electricity < electricity_central,capaExc,18.73000008544932
+2050,DE < DEA4,DE < DEA5,electricity < electricity_central,capaExc,12.676310005344899
+2050,DE < DEA5,DE < DEB1,electricity < electricity_central,capaExc,4.870000289520976
+2050,DE < DEB1,DE < DEB2,electricity < electricity_central,capaExc,0.4900001952224496
+2050,DE < DEB1,DE < DEB3,electricity < electricity_central,capaExc,0.49000020849744474
+2050,DE < DEB1,DE < DEC0_,electricity < electricity_central,capaExc,19.012078806040908
+2050,DE < DEB2,DE < DEC0_,electricity < electricity_central,capaExc,6.828754471561963
+2050,DE < DEB3,DE < DEC0_,electricity < electricity_central,capaExc,11.266589977111606
+2050,DE < DED2,DE < DED4,electricity < electricity_central,capaExc,6.800000152560574
+2050,DE < DED2,DE < DED5,electricity < electricity_central,capaExc,3.4000001542268015
+2050,DE < DED4,DE < DED5,electricity < electricity_central,capaExc,4.066662735059805
+2050,DE < DED4,DE < DEG0,electricity < electricity_central,capaExc,1.470000131660758
+2050,DE < DED5,DE < DEE0,electricity < electricity_central,capaExc,7.092382554985114
+2050,DE < DED5,DE < DEG0,electricity < electricity_central,capaExc,1.4700000995860025
+2050,DE < DEE0,DE < DEG0,electricity < electricity_central,capaExc,4.382396358059059
+2050,AT < AT,CH < CH,electricity < electricity_central,capaExc,1.586651902
+2050,AT < AT,CZ < CZ,electricity < electricity_central,capaExc,0.900007127
+2050,AT < AT,DE < DE22,electricity < electricity_central,capaExc,2.250001585
+2050,AT < AT,DE < DE27,electricity < electricity_central,capaExc,6.750004755
+2050,AT < AT,HU < HU,electricity < electricity_central,capaExc,0.800000063
+2050,AT < AT,IT < IT,electricity < electricity_central,capaExc,0.7050267
+2050,AT < AT,SI < SI,electricity < electricity_central,capaExc,9.592088946
+2050,AT < AT,SK < SK,electricity < electricity_central,capaExc,0.000717113
+2050,BE < BE,DE < DEA2,electricity < electricity_central,capaExc,2.00000193
+2050,BE < BE,FR < FR,electricity < electricity_central,capaExc,3.300036452
+2050,BE < BE,LU < LU,electricity < electricity_central,capaExc,12.82662122
+2050,BE < BE,NL < NL,electricity < electricity_central,capaExc,4.599502195
+2050,BE < BE,NO < NO,electricity < electricity_central,capaExc,0.512754214
+2050,BE < BE,UK < UK,electricity < electricity_central,capaExc,4.0568824
+2050,BG < BG,GR < GR,electricity < electricity_central,capaExc,4.578848515
+2050,BG < BG,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,capaExc,7.802921963
+2050,BG < BG,RO < RO,electricity < electricity_central,capaExc,9.154704645
+2050,BG < BG,TR < TR,electricity < electricity_central,capaExc,29.99983254
+2050,CH < CH,AT < AT,electricity < electricity_central,capaExc,1.586651902
+2050,CH < CH,DE < DE13,electricity < electricity_central,capaExc,5.400000658
+2050,CH < CH,FR < FR,electricity < electricity_central,capaExc,28.14989714
+2050,CH < CH,IT < IT,electricity < electricity_central,capaExc,4.240002077
+2050,CZ < CZ,AT < AT,electricity < electricity_central,capaExc,0.800007127
+2050,CZ < CZ,DE < DE23,electricity < electricity_central,capaExc,10.93254039
+2050,CZ < CZ,DE < DED4,electricity < electricity_central,capaExc,10.93254039
+2050,CZ < CZ,PL < PL,electricity < electricity_central,capaExc,0.600022589
+2050,CZ < CZ,SK < SK,electricity < electricity_central,capaExc,15.14315984
+2050,DE < DE13,CH < CH,electricity < electricity_central,capaExc,3.500000658
+2050,DE < DE13,FR < FR,electricity < electricity_central,capaExc,22.49995949
+2050,DE < DE22,AT < AT,electricity < electricity_central,capaExc,2.250001585
+2050,DE < DE23,CZ < CZ,electricity < electricity_central,capaExc,10.63254039
+2050,DE < DE27,AT < AT,electricity < electricity_central,capaExc,6.750004755
+2050,DE < DE40,PL < PL,electricity < electricity_central,capaExc,13.9999833
+2050,DE < DE80,SE < SE,electricity < electricity_central,capaExc,4.999961457
+2050,DE < DE94,NL < NL,electricity < electricity_central,capaExc,7.499987123
+2050,DE < DE94,NO < NO,electricity < electricity_central,capaExc,1.400003927
+2050,DE < DEA1,NL < NL,electricity < electricity_central,capaExc,7.499987123
+2050,DE < DEA2,BE < BE,electricity < electricity_central,capaExc,2.00000193
+2050,DE < DEA2,NL < NL,electricity < electricity_central,capaExc,7.499987123
+2050,DE < DEA3,NL < NL,electricity < electricity_central,capaExc,7.499987123
+2050,DE < DEC0_,FR < FR,electricity < electricity_central,capaExc,7.499986498
+2050,DE < DEC0_,LU < LU,electricity < electricity_central,capaExc,29.99985372
+2050,DE < DED2,PL < PL,electricity < electricity_central,capaExc,13.9999833
+2050,DE < DED4,CZ < CZ,electricity < electricity_central,capaExc,10.63254039
+2050,DE < DEF0,DK < DK,electricity < electricity_central,capaExc,4.500055298
+2050,DK < DK,DE < DEF0,electricity < electricity_central,capaExc,4.485055298
+2050,DK < DK,NL < NL,electricity < electricity_central,capaExc,0.700031552
+2050,DK < DK,NO < NO,electricity < electricity_central,capaExc,1.6400191
+2050,DK < DK,PL < PL,electricity < electricity_central,capaExc,0.000478717
+2050,DK < DK,SE < SE,electricity < electricity_central,capaExc,4.467051582
+2050,DK < DK,UK < UK,electricity < electricity_central,capaExc,0.000703378
+2050,EE < EE,FI < FI,electricity < electricity_central,capaExc,2.307038059
+2050,EE < EE,LV < LV,electricity < electricity_central,capaExc,2.246059118
+2050,EE < EE,SE < SE,electricity < electricity_central,capaExc,0.00069055
+2050,ES < ES,FR < FR,electricity < electricity_central,capaExc,29.79989988
+2050,ES < ES,IT < IT,electricity < electricity_central,capaExc,0.000213945
+2050,ES < ES,PT < PT,electricity < electricity_central,capaExc,7.871178162
+2050,ES < ES,UK < UK,electricity < electricity_central,capaExc,0.000257401
+2050,FI < FI,EE < EE,electricity < electricity_central,capaExc,2.291038059
+2050,FI < FI,NO < NO,electricity < electricity_central,capaExc,0.000612226
+2050,FI < FI,SE < SE,electricity < electricity_central,capaExc,6.037301918
+2050,FR < FR,BE < BE,electricity < electricity_central,capaExc,4.800036452
+2050,FR < FR,CH < CH,electricity < electricity_central,capaExc,29.99989714
+2050,FR < FR,DE < DE13,electricity < electricity_central,capaExc,22.12495949
+2050,FR < FR,DE < DEC0_,electricity < electricity_central,capaExc,7.374986498
+2050,FR < FR,ES < ES,electricity < electricity_central,capaExc,29.99989988
+2050,FR < FR,IT < IT,electricity < electricity_central,capaExc,6.800000117
+2050,FR < FR,LU < LU,electricity < electricity_central,capaExc,15.92385779
+2050,FR < FR,UK < UK,electricity < electricity_central,capaExc,4.999916798
+2050,GR < GR,BG < BG,electricity < electricity_central,capaExc,3.818848515
+2050,GR < GR,IT < IT,electricity < electricity_central,capaExc,4.999756326
+2050,GR < GR,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,capaExc,29.99980354
+2050,GR < GR,TR < TR,electricity < electricity_central,capaExc,26.86160693
+2050,HR < HR,HU < HU,electricity < electricity_central,capaExc,2.000019153
+2050,HR < HR,IT < IT,electricity < electricity_central,capaExc,1.362314197
+2050,HR < HR,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,capaExc,1.300047218
+2050,HR < HR,SI < SI,electricity < electricity_central,capaExc,1.640050315
+2050,HU < HU,AT < AT,electricity < electricity_central,capaExc,0.800000063
+2050,HU < HU,HR < HR,electricity < electricity_central,capaExc,2.000019153
+2050,HU < HU,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,capaExc,24.86232328
+2050,HU < HU,RO < RO,electricity < electricity_central,capaExc,10.35158493
+2050,HU < HU,SI < SI,electricity < electricity_central,capaExc,8.465811284
+2050,HU < HU,SK < SK,electricity < electricity_central,capaExc,19.50821352
+2050,IE < IE,UK < UK,electricity < electricity_central,capaExc,15.24644084
+2050,IT < IT,AT < AT,electricity < electricity_central,capaExc,0.5350267
+2050,IT < IT,CH < CH,electricity < electricity_central,capaExc,1.910002077
+2050,IT < IT,ES < ES,electricity < electricity_central,capaExc,0.000213945
+2050,IT < IT,FR < FR,electricity < electricity_central,capaExc,4.310000117
+2050,IT < IT,GR < GR,electricity < electricity_central,capaExc,4.999756326
+2050,IT < IT,HR < HR,electricity < electricity_central,capaExc,1.362314197
+2050,IT < IT,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,capaExc,0.800427088
+2050,IT < IT,SI < SI,electricity < electricity_central,capaExc,1.897681942
+2050,LT < LT,LV < LV,electricity < electricity_central,capaExc,2.530643975
+2050,LT < LT,PL < PL,electricity < electricity_central,capaExc,3.606402445
+2050,LT < LT,SE < SE,electricity < electricity_central,capaExc,0.700005474
+2050,LU < LU,BE < BE,electricity < electricity_central,capaExc,12.32662122
+2050,LU < LU,DE < DEC0_,electricity < electricity_central,capaExc,29.99985372
+2050,LU < LU,FR < FR,electricity < electricity_central,capaExc,15.54385779
+2050,LV < LV,EE < EE,electricity < electricity_central,capaExc,2.246059118
+2050,LV < LV,LT < LT,electricity < electricity_central,capaExc,2.830643975
+2050,LV < LV,SE < SE,electricity < electricity_central,capaExc,0.000857345
+2050,NL < NL,BE < BE,electricity < electricity_central,capaExc,3.599502195
+2050,NL < NL,DE < DE94,electricity < electricity_central,capaExc,7.499987123
+2050,NL < NL,DE < DEA1,electricity < electricity_central,capaExc,7.499987123
+2050,NL < NL,DE < DEA2,electricity < electricity_central,capaExc,7.499987123
+2050,NL < NL,DE < DEA3,electricity < electricity_central,capaExc,7.499987123
+2050,NL < NL,DK < DK,electricity < electricity_central,capaExc,0.700031552
+2050,NL < NL,NO < NO,electricity < electricity_central,capaExc,1.098528237
+2050,NL < NL,UK < UK,electricity < electricity_central,capaExc,13.63263221
+2050,NO < NO,BE < BE,electricity < electricity_central,capaExc,0.512754214
+2050,NO < NO,DE < DE94,electricity < electricity_central,capaExc,1.400003927
+2050,NO < NO,DK < DK,electricity < electricity_central,capaExc,1.6400191
+2050,NO < NO,FI < FI,electricity < electricity_central,capaExc,0.000612226
+2050,NO < NO,NL < NL,electricity < electricity_central,capaExc,1.098528237
+2050,NO < NO,SE < SE,electricity < electricity_central,capaExc,28.67416391
+2050,NO < NO,UK < UK,electricity < electricity_central,capaExc,4.998442912
+2050,NONEU_Balkan < NONEU_Balkan,BG < BG,electricity < electricity_central,capaExc,7.202921963
+2050,NONEU_Balkan < NONEU_Balkan,GR < GR,electricity < electricity_central,capaExc,29.74980354
+2050,NONEU_Balkan < NONEU_Balkan,HR < HR,electricity < electricity_central,capaExc,1.350047218
+2050,NONEU_Balkan < NONEU_Balkan,HU < HU,electricity < electricity_central,capaExc,24.86232328
+2050,NONEU_Balkan < NONEU_Balkan,IT < IT,electricity < electricity_central,capaExc,0.800427088
+2050,NONEU_Balkan < NONEU_Balkan,RO < RO,electricity < electricity_central,capaExc,0.800009757
+2050,PL < PL,CZ < CZ,electricity < electricity_central,capaExc,0.800022589
+2050,PL < PL,DE < DE40,electricity < electricity_central,capaExc,14.9999833
+2050,PL < PL,DE < DED2,electricity < electricity_central,capaExc,14.9999833
+2050,PL < PL,DK < DK,electricity < electricity_central,capaExc,0.000478717
+2050,PL < PL,LT < LT,electricity < electricity_central,capaExc,3.606402445
+2050,PL < PL,SE < SE,electricity < electricity_central,capaExc,0.600000216
+2050,PL < PL,SK < SK,electricity < electricity_central,capaExc,5.242526254
+2050,PT < PT,ES < ES,electricity < electricity_central,capaExc,6.271178162
+2050,RO < RO,BG < BG,electricity < electricity_central,capaExc,9.154704645
+2050,RO < RO,HU < HU,electricity < electricity_central,capaExc,10.16958493
+2050,RO < RO,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,capaExc,1.000009757
+2050,RO < RO,TR < TR,electricity < electricity_central,capaExc,3.668530325
+2050,SE < SE,DE < DE80,electricity < electricity_central,capaExc,4.999961457
+2050,SE < SE,DK < DK,electricity < electricity_central,capaExc,4.007051582
+2050,SE < SE,EE < EE,electricity < electricity_central,capaExc,0.00069055
+2050,SE < SE,FI < FI,electricity < electricity_central,capaExc,6.037301918
+2050,SE < SE,LT < LT,electricity < electricity_central,capaExc,0.700005474
+2050,SE < SE,LV < LV,electricity < electricity_central,capaExc,0.000857345
+2050,SE < SE,NO < NO,electricity < electricity_central,capaExc,28.97416391
+2050,SE < SE,PL < PL,electricity < electricity_central,capaExc,0.600000216
+2050,SI < SI,AT < AT,electricity < electricity_central,capaExc,9.592088946
+2050,SI < SI,HR < HR,electricity < electricity_central,capaExc,1.500050315
+2050,SI < SI,HU < HU,electricity < electricity_central,capaExc,8.465811284
+2050,SI < SI,IT < IT,electricity < electricity_central,capaExc,1.947681942
+2050,SK < SK,AT < AT,electricity < electricity_central,capaExc,0.000717113
+2050,SK < SK,CZ < CZ,electricity < electricity_central,capaExc,14.44315984
+2050,SK < SK,HU < HU,electricity < electricity_central,capaExc,20.00821352
+2050,SK < SK,PL < PL,electricity < electricity_central,capaExc,5.242526254
+2050,TR < TR,BG < BG,electricity < electricity_central,capaExc,29.59983254
+2050,TR < TR,GR < GR,electricity < electricity_central,capaExc,26.78160693
+2050,TR < TR,RO < RO,electricity < electricity_central,capaExc,3.668530325
+2050,UK < UK,BE < BE,electricity < electricity_central,capaExc,4.0568824
+2050,UK < UK,DK < DK,electricity < electricity_central,capaExc,0.000703378
+2050,UK < UK,ES < ES,electricity < electricity_central,capaExc,0.000257401
+2050,UK < UK,FR < FR,electricity < electricity_central,capaExc,4.999916798
+2050,UK < UK,IE < IE,electricity < electricity_central,capaExc,15.19644084
+2050,UK < UK,NL < NL,electricity < electricity_central,capaExc,13.63263221
+2050,UK < UK,NO < NO,electricity < electricity_central,capaExc,4.998442912
+2050,AT,HU,gas < hydrogen,capaExc,7.7
+2050,AT,IT,gas < hydrogen,capaExc,68.0
+2050,AT,SI,gas < hydrogen,capaExc,6.7
+2050,AT,SK,gas < hydrogen,capaExc,14.7
+2050,BE,FR,gas < hydrogen,capaExc,51.7
+2050,BE,LU,gas < hydrogen,capaExc,2.3
+2050,BE,NL,gas < hydrogen,capaExc,23.4
+2050,BE,UK,gas < hydrogen,capaExc,47.8
+2050,BG,RO,gas < hydrogen,capaExc,0.9
+2050,CH,IT,gas < hydrogen,capaExc,37.0
+2050,CZ,PL,gas < hydrogen,capaExc,1.7
+2050,CZ,SK,gas < hydrogen,capaExc,41.4
+2050,DK,NL,gas < hydrogen,capaExc,23.5
+2050,DK,SE,gas < hydrogen,capaExc,5.2
+2050,EE,LV,gas < hydrogen,capaExc,11.9
+2050,ES,FR,gas < hydrogen,capaExc,13.4
+2050,ES,PT,gas < hydrogen,capaExc,8.6
+2050,FR,CH,gas < hydrogen,capaExc,15.5
+2050,FR,ES,gas < hydrogen,capaExc,9.8
+2050,HR,HU,gas < hydrogen,capaExc,4.5
+2050,HU,HR,gas < hydrogen,capaExc,4.6
+2050,HU,NONEU_Balkan,gas < hydrogen,capaExc,8.4
+2050,HU,RO,gas < hydrogen,capaExc,3.1
+2050,IE,UK,gas < hydrogen,capaExc,5.3
+2050,IT,AT,gas < hydrogen,capaExc,68.0
+2050,IT,SI,gas < hydrogen,capaExc,1.7
+2050,LT,LV,gas < hydrogen,capaExc,4.0
+2050,LV,EE,gas < hydrogen,capaExc,10.9
+2050,LV,LT,gas < hydrogen,capaExc,3.9
+2050,NL,BE,gas < hydrogen,capaExc,47.4
+2050,NL,UK,gas < hydrogen,capaExc,29.4
+2050,NO,BE,gas < hydrogen,capaExc,29.0
+2050,NO,FR,gas < hydrogen,capaExc,33.9
+2050,NO,NL,gas < hydrogen,capaExc,31.4
+2050,NO,UK,gas < hydrogen,capaExc,89.1
+2050,PT,ES,gas < hydrogen,capaExc,4.8
+2050,SI,HR,gas < hydrogen,capaExc,3.2
+2050,SI,IT,gas < hydrogen,capaExc,1.3
+2050,SK,AT,gas < hydrogen,capaExc,91.5
+2050,SK,CZ,gas < hydrogen,capaExc,30.9
+2050,SK,HU,gas < hydrogen,capaExc,7.5
+2050,UK,BE,gas < hydrogen,capaExc,37.5
+2050,UK,IE,gas < hydrogen,capaExc,20.3
+2050,AT,DE,gas < hydrogen,capaExc,33.85051368
+2050,CZ,DE,gas < hydrogen,capaExc,2.242942402
+2050,DE,DK,gas < hydrogen,capaExc,5.833062184
+2050,DE,NL,gas < hydrogen,capaExc,9.834
+2050,DE,NO,gas < hydrogen,capaExc,19.41832146
+2050,DE < DE12,DE < DE11,electricity < electricity_central,capaExc,6.080000114419648
+2050,DE < DE14,DE < DE11,electricity < electricity_central,capaExc,17.980000079847457
+2050,DE < DE25,DE < DE11,electricity < electricity_central,capaExc,5.0899323211582645
+2050,DE < DE26,DE < DE11,electricity < electricity_central,capaExc,5.10000047188565
+2050,DE < DE27,DE < DE11,electricity < electricity_central,capaExc,4.2029733467594075e-5
+2050,DE < DE13,DE < DE12,electricity < electricity_central,capaExc,6.0800003651139525
+2050,DE < DE14,DE < DE12,electricity < electricity_central,capaExc,1.9073803472269374e-5
+2050,DE < DE26,DE < DE12,electricity < electricity_central,capaExc,1.7000001278197734
+2050,DE < DE71,DE < DE12,electricity < electricity_central,capaExc,3.0648090988794405
+2050,DE < DEB3,DE < DE12,electricity < electricity_central,capaExc,4.085087332478599
+2050,DE < DE14,DE < DE13,electricity < electricity_central,capaExc,15.939808463662802
+2050,DE < DE27,DE < DE14,electricity < electricity_central,capaExc,7.355638454342616
+2050,DE < DE22,DE < DE21,electricity < electricity_central,capaExc,11.670000090249582
+2050,DE < DE23,DE < DE21,electricity < electricity_central,capaExc,2.9272527569685512e-5
+2050,DE < DE25,DE < DE21,electricity < electricity_central,capaExc,4.3800001546782
+2050,DE < DE27,DE < DE21,electricity < electricity_central,capaExc,3.542718236118565
+2050,DE < DE23,DE < DE22,electricity < electricity_central,capaExc,3.210280805528571
+2050,DE < DE24,DE < DE23,electricity < electricity_central,capaExc,4.322843561628305
+2050,DE < DE25,DE < DE23,electricity < electricity_central,capaExc,0.49000021046990705
+2050,DE < DE25,DE < DE24,electricity < electricity_central,capaExc,3.40000020319406
+2050,DE < DE26,DE < DE24,electricity < electricity_central,capaExc,3.400000120630428
+2050,DE < DED4,DE < DE24,electricity < electricity_central,capaExc,0.9092711346035315
+2050,DE < DEG0,DE < DE24,electricity < electricity_central,capaExc,6.80000037508836
+2050,DE < DE26,DE < DE25,electricity < electricity_central,capaExc,4.870000088882604
+2050,DE < DE27,DE < DE25,electricity < electricity_central,capaExc,0.00045025472935620876
+2050,DE < DE71,DE < DE26,electricity < electricity_central,capaExc,7.780000261666973
+2050,DE < DE73,DE < DE26,electricity < electricity_central,capaExc,1.3836134358854113
+2050,DE < DEG0,DE < DE26,electricity < electricity_central,capaExc,4.240278604896824
+2050,DE < DE40,DE < DE30,electricity < electricity_central,capaExc,14.580000086400027
+2050,DE < DE80,DE < DE40,electricity < electricity_central,capaExc,22.727470956074924
+2050,DE < DE93,DE < DE40,electricity < electricity_central,capaExc,0.27757502175495724
+2050,DE < DED2,DE < DE40,electricity < electricity_central,capaExc,10.20000169245954
+2050,DE < DED5,DE < DE40,electricity < electricity_central,capaExc,2.099238188529955e-5
+2050,DE < DEE0,DE < DE40,electricity < electricity_central,capaExc,13.60000006028092
+2050,DE < DE92,DE < DE50,electricity < electricity_central,capaExc,6.970928933223775e-5
+2050,DE < DE93,DE < DE50,electricity < electricity_central,capaExc,4.8386761034876535
+2050,DE < DE94,DE < DE50,electricity < electricity_central,capaExc,3.8900002099050166
+2050,DE < DE93,DE < DE60,electricity < electricity_central,capaExc,4.147358169000348
+2050,DE < DEF0,DE < DE60,electricity < electricity_central,capaExc,7.858492225952061
+2050,DE < DE72,DE < DE71,electricity < electricity_central,capaExc,5.100000119583802
+2050,DE < DE73,DE < DE71,electricity < electricity_central,capaExc,3.400000174599156
+2050,DE < DEB1,DE < DE71,electricity < electricity_central,capaExc,4.380000184243598
+2050,DE < DEB3,DE < DE71,electricity < electricity_central,capaExc,5.306434851810618
+2050,DE < DE73,DE < DE72,electricity < electricity_central,capaExc,12.542574525543486
+2050,DE < DEA5,DE < DE72,electricity < electricity_central,capaExc,7.739312560942059e-5
+2050,DE < DEB1,DE < DE72,electricity < electricity_central,capaExc,8.500000358296745
+2050,DE < DE91,DE < DE73,electricity < electricity_central,capaExc,5.653709291535727
+2050,DE < DEA4,DE < DE73,electricity < electricity_central,capaExc,7.780000257318509
+2050,DE < DEA5,DE < DE73,electricity < electricity_central,capaExc,3.4000000883136465
+2050,DE < DEG0,DE < DE73,electricity < electricity_central,capaExc,3.6418222687282427
+2050,DE < DE93,DE < DE80,electricity < electricity_central,capaExc,5.669321751534007e-5
+2050,DE < DEF0,DE < DE80,electricity < electricity_central,capaExc,3.400024320519404
+2050,DE < DE92,DE < DE91,electricity < electricity_central,capaExc,14.120000142064276
+2050,DE < DE93,DE < DE91,electricity < electricity_central,capaExc,3.4000002456025222
+2050,DE < DEA4,DE < DE91,electricity < electricity_central,capaExc,5.739504411961366e-5
+2050,DE < DEE0,DE < DE91,electricity < electricity_central,capaExc,14.179106080746173
+2050,DE < DEG0,DE < DE91,electricity < electricity_central,capaExc,2.7498199874799725
+2050,DE < DE93,DE < DE92,electricity < electricity_central,capaExc,12.313277731927156
+2050,DE < DE94,DE < DE92,electricity < electricity_central,capaExc,12.390000086707941
+2050,DE < DEA4,DE < DE92,electricity < electricity_central,capaExc,17.254036913362327
+2050,DE < DE94,DE < DE93,electricity < electricity_central,capaExc,3.8900002791442687
+2050,DE < DEE0,DE < DE93,electricity < electricity_central,capaExc,9.316130251535338e-5
+2050,DE < DEF0,DE < DE93,electricity < electricity_central,capaExc,12.850639798293203
+2050,DE < DEA3,DE < DE94,electricity < electricity_central,capaExc,21.685931321922368
+2050,DE < DEA4,DE < DE94,electricity < electricity_central,capaExc,3.890000070900048
+2050,DE < DEA2,DE < DEA1,electricity < electricity_central,capaExc,22.850000101604444
+2050,DE < DEA3,DE < DEA1,electricity < electricity_central,capaExc,18.634904549886897
+2050,DE < DEA5,DE < DEA1,electricity < electricity_central,capaExc,6.080000563004884
+2050,DE < DEA5,DE < DEA2,electricity < electricity_central,capaExc,0.9800270836908006
+2050,DE < DEB1,DE < DEA2,electricity < electricity_central,capaExc,9.970000167590717
+2050,DE < DEB2,DE < DEA2,electricity < electricity_central,capaExc,3.400000093999792
+2050,DE < DEA4,DE < DEA3,electricity < electricity_central,capaExc,1.951979115749842
+2050,DE < DEA5,DE < DEA3,electricity < electricity_central,capaExc,18.73000008544932
+2050,DE < DEA5,DE < DEA4,electricity < electricity_central,capaExc,12.676310005344899
+2050,DE < DEB1,DE < DEA5,electricity < electricity_central,capaExc,4.870000289520976
+2050,DE < DEB2,DE < DEB1,electricity < electricity_central,capaExc,0.4900001952224496
+2050,DE < DEB3,DE < DEB1,electricity < electricity_central,capaExc,0.49000020849744474
+2050,DE < DEC0_,DE < DEB1,electricity < electricity_central,capaExc,19.012078806040908
+2050,DE < DEC0_,DE < DEB2,electricity < electricity_central,capaExc,6.828754471561963
+2050,DE < DEC0_,DE < DEB3,electricity < electricity_central,capaExc,11.266589977111606
+2050,DE < DED4,DE < DED2,electricity < electricity_central,capaExc,6.800000152560574
+2050,DE < DED5,DE < DED2,electricity < electricity_central,capaExc,3.4000001542268015
+2050,DE < DED5,DE < DED4,electricity < electricity_central,capaExc,4.066662735059805
+2050,DE < DEG0,DE < DED4,electricity < electricity_central,capaExc,1.470000131660758
+2050,DE < DEE0,DE < DED5,electricity < electricity_central,capaExc,7.092382554985114
+2050,DE < DEG0,DE < DED5,electricity < electricity_central,capaExc,1.4700000995860025
+2050,DE < DEG0,DE < DEE0,electricity < electricity_central,capaExc,4.382396358059059
+2050,DE,AT,gas < hydrogen,capaExc,33.85051368
+2050,DE,CZ,gas < hydrogen,capaExc,2.242942402
+2050,DK,DE,gas < hydrogen,capaExc,5.833062184
+2050,NL,DE,gas < hydrogen,capaExc,9.834
+2050,NO,DE,gas < hydrogen,capaExc,19.41832146
+2050,DE < DE11,DE < DE12,electricity < electricity_central,exc,12.547056644229292
+2050,DE < DE11,DE < DE14,electricity < electricity_central,exc,7.26886264792052
+2050,DE < DE11,DE < DE25,electricity < electricity_central,exc,1.3506194098193205
+2050,DE < DE11,DE < DE26,electricity < electricity_central,exc,1.9251259970313002
+2050,DE < DE11,DE < DE27,electricity < electricity_central,exc,2.036268183152638e-5
+2050,DE < DE12,DE < DE13,electricity < electricity_central,exc,9.502429860318319
+2050,DE < DE12,DE < DE14,electricity < electricity_central,exc,4.203852906652691e-6
+2050,DE < DE12,DE < DE26,electricity < electricity_central,exc,0.3294159782963487
+2050,DE < DE12,DE < DE71,electricity < electricity_central,exc,2.831195283793926
+2050,DE < DE12,DE < DEB3,electricity < electricity_central,exc,9.229861381961262
+2050,DE < DE13,DE < DE14,electricity < electricity_central,exc,8.251051883939903
+2050,DE < DE14,DE < DE27,electricity < electricity_central,exc,4.197230577262282
+2050,DE < DE21,DE < DE22,electricity < electricity_central,exc,0.9004080884012795
+2050,DE < DE21,DE < DE23,electricity < electricity_central,exc,7.830142078107259e-5
+2050,DE < DE21,DE < DE25,electricity < electricity_central,exc,4.087079977789936
+2050,DE < DE21,DE < DE27,electricity < electricity_central,exc,5.132740674148093
+2050,DE < DE22,DE < DE23,electricity < electricity_central,exc,12.846015430983558
+2050,DE < DE23,DE < DE24,electricity < electricity_central,exc,1.789306748324125
+2050,DE < DE23,DE < DE25,electricity < electricity_central,exc,0.4176856678297798
+2050,DE < DE24,DE < DE25,electricity < electricity_central,exc,5.11480469371588
+2050,DE < DE24,DE < DE26,electricity < electricity_central,exc,3.7637799656806665
+2050,DE < DE24,DE < DED4,electricity < electricity_central,exc,2.132317250585371
+2050,DE < DE24,DE < DEG0,electricity < electricity_central,exc,1.135392036427109
+2050,DE < DE25,DE < DE26,electricity < electricity_central,exc,2.667004629813361
+2050,DE < DE25,DE < DE27,electricity < electricity_central,exc,0.0003883043524623153
+2050,DE < DE26,DE < DE71,electricity < electricity_central,exc,24.685538726839713
+2050,DE < DE26,DE < DE73,electricity < electricity_central,exc,1.1126842150384502
+2050,DE < DE26,DE < DEG0,electricity < electricity_central,exc,0.8835285203522542
+2050,DE < DE30,DE < DE40,electricity < electricity_central,exc,0.08203374635299099
+2050,DE < DE40,DE < DE80,electricity < electricity_central,exc,2.4402110896013105
+2050,DE < DE40,DE < DE93,electricity < electricity_central,exc,0.2982396742340012
+2050,DE < DE40,DE < DED2,electricity < electricity_central,exc,33.00689238853616
+2050,DE < DE40,DE < DED5,electricity < electricity_central,exc,2.6654011997712542e-5
+2050,DE < DE40,DE < DEE0,electricity < electricity_central,exc,5.4842261907480285
+2050,DE < DE50,DE < DE92,electricity < electricity_central,exc,2.4825474653640743e-5
+2050,DE < DE50,DE < DE93,electricity < electricity_central,exc,0.14794140769131117
+2050,DE < DE50,DE < DE94,electricity < electricity_central,exc,11.254643078530362
+2050,DE < DE60,DE < DE93,electricity < electricity_central,exc,12.080158691755152
+2050,DE < DE60,DE < DEF0,electricity < electricity_central,exc,0.19417857997210042
+2050,DE < DE71,DE < DE72,electricity < electricity_central,exc,1.6285664457817914
+2050,DE < DE71,DE < DE73,electricity < electricity_central,exc,1.1733989255795831
+2050,DE < DE71,DE < DEB1,electricity < electricity_central,exc,9.134464252696267
+2050,DE < DE71,DE < DEB3,electricity < electricity_central,exc,15.102559451367759
+2050,DE < DE72,DE < DE73,electricity < electricity_central,exc,2.081281075164074
+2050,DE < DE72,DE < DEA5,electricity < electricity_central,exc,0.00012770133824576774
+2050,DE < DE72,DE < DEB1,electricity < electricity_central,exc,27.699174907119353
+2050,DE < DE73,DE < DE91,electricity < electricity_central,exc,0.8199925156459171
+2050,DE < DE73,DE < DEA4,electricity < electricity_central,exc,2.9840211138429167
+2050,DE < DE73,DE < DEA5,electricity < electricity_central,exc,6.695245597690368
+2050,DE < DE73,DE < DEG0,electricity < electricity_central,exc,0.3085895921558813
+2050,DE < DE80,DE < DE93,electricity < electricity_central,exc,7.656327107946052e-5
+2050,DE < DE80,DE < DEF0,electricity < electricity_central,exc,2.5540552552967615
+2050,DE < DE91,DE < DE92,electricity < electricity_central,exc,16.776184604218265
+2050,DE < DE91,DE < DE93,electricity < electricity_central,exc,2.1464183963586287
+2050,DE < DE91,DE < DEA4,electricity < electricity_central,exc,0.0001734038361101268
+2050,DE < DE91,DE < DEE0,electricity < electricity_central,exc,1.2998217506805028
+2050,DE < DE91,DE < DEG0,electricity < electricity_central,exc,2.0716274497059213
+2050,DE < DE92,DE < DE93,electricity < electricity_central,exc,4.0643428769619545
+2050,DE < DE92,DE < DE94,electricity < electricity_central,exc,18.474850362160478
+2050,DE < DE92,DE < DEA4,electricity < electricity_central,exc,51.84826826078517
+2050,DE < DE93,DE < DE94,electricity < electricity_central,exc,14.105102623272792
+2050,DE < DE93,DE < DEE0,electricity < electricity_central,exc,5.136882492485489e-5
+2050,DE < DE93,DE < DEF0,electricity < electricity_central,exc,3.2037117894666527
+2050,DE < DE94,DE < DEA3,electricity < electricity_central,exc,55.57872325067122
+2050,DE < DE94,DE < DEA4,electricity < electricity_central,exc,1.197099207229583
+2050,DE < DEA1,DE < DEA2,electricity < electricity_central,exc,19.448649799250184
+2050,DE < DEA1,DE < DEA3,electricity < electricity_central,exc,1.7778900813621772
+2050,DE < DEA1,DE < DEA5,electricity < electricity_central,exc,0.6935370093535501
+2050,DE < DEA2,DE < DEA5,electricity < electricity_central,exc,0.22878756613149823
+2050,DE < DEA2,DE < DEB1,electricity < electricity_central,exc,2.181486293993563
+2050,DE < DEA2,DE < DEB2,electricity < electricity_central,exc,3.1927874433670818
+2050,DE < DEA3,DE < DEA4,electricity < electricity_central,exc,0.23915044505705157
+2050,DE < DEA3,DE < DEA5,electricity < electricity_central,exc,0.9584708835197244
+2050,DE < DEA4,DE < DEA5,electricity < electricity_central,exc,48.3826168264829
+2050,DE < DEA5,DE < DEB1,electricity < electricity_central,exc,10.00929776065914
+2050,DE < DEB1,DE < DEB2,electricity < electricity_central,exc,0.3902974201823463
+2050,DE < DEB1,DE < DEB3,electricity < electricity_central,exc,0.2818170150067122
+2050,DE < DEB1,DE < DEC0_,electricity < electricity_central,exc,43.79614325576347
+2050,DE < DEB2,DE < DEC0_,electricity < electricity_central,exc,16.585893967740198
+2050,DE < DEB3,DE < DEC0_,electricity < electricity_central,exc,30.93589293899329
+2050,DE < DED2,DE < DED4,electricity < electricity_central,exc,5.017475365883772
+2050,DE < DED2,DE < DED5,electricity < electricity_central,exc,0.27937559292315367
+2050,DE < DED4,DE < DED5,electricity < electricity_central,exc,0.8679147907343501
+2050,DE < DED4,DE < DEG0,electricity < electricity_central,exc,0.36168919474008515
+2050,DE < DED5,DE < DEE0,electricity < electricity_central,exc,0.6257701349913275
+2050,DE < DED5,DE < DEG0,electricity < electricity_central,exc,1.164232551984391
+2050,DE < DEE0,DE < DEG0,electricity < electricity_central,exc,8.74335634037123
+2050,AT < AT,CH < CH,electricity < electricity_central,exc,1.6544640459555817
+2050,AT < AT,CZ < CZ,electricity < electricity_central,exc,3.350837310807952
+2050,AT < AT,DE < DE22,electricity < electricity_central,exc,1.2321386133751528
+2050,AT < AT,DE < DE27,electricity < electricity_central,exc,4.269123403048057
+2050,AT < AT,HU < HU,electricity < electricity_central,exc,2.440544447725824
+2050,AT < AT,IT < IT,electricity < electricity_central,exc,0.42837851813979294
+2050,AT < AT,SI < SI,electricity < electricity_central,exc,20.781972017972755
+2050,AT < AT,SK < SK,electricity < electricity_central,exc,0.002515149865007602
+2050,BE < BE,DE < DEA2,electricity < electricity_central,exc,1.2505486223326883
+2050,BE < BE,FR < FR,electricity < electricity_central,exc,2.4593902906933094
+2050,BE < BE,LU < LU,electricity < electricity_central,exc,5.283898359854983
+2050,BE < BE,NL < NL,electricity < electricity_central,exc,11.318543333229668
+2050,BE < BE,NO < NO,electricity < electricity_central,exc,0.792828093707647
+2050,BE < BE,UK < UK,electricity < electricity_central,exc,8.53400268489548
+2050,BG < BG,GR < GR,electricity < electricity_central,exc,1.1429583116099757
+2050,BG < BG,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,exc,0.830220741177433
+2050,BG < BG,RO < RO,electricity < electricity_central,exc,2.3834713374297802
+2050,BG < BG,TR < TR,electricity < electricity_central,exc,116.3738975301994
+2050,CH < CH,AT < AT,electricity < electricity_central,exc,4.785375137680972
+2050,CH < CH,DE < DE13,electricity < electricity_central,exc,9.394244075415921
+2050,CH < CH,FR < FR,electricity < electricity_central,exc,134.02554280050364
+2050,CH < CH,IT < IT,electricity < electricity_central,exc,7.783085599464491
+2050,CZ < CZ,AT < AT,electricity < electricity_central,exc,0.3461102424780567
+2050,CZ < CZ,DE < DE23,electricity < electricity_central,exc,2.904021719533918
+2050,CZ < CZ,DE < DED4,electricity < electricity_central,exc,4.314916070242405
+2050,CZ < CZ,PL < PL,electricity < electricity_central,exc,2.691927004456039
+2050,CZ < CZ,SK < SK,electricity < electricity_central,exc,24.24139380894996
+2050,DE < DE13,CH < CH,electricity < electricity_central,exc,2.4626962562153243
+2050,DE < DE13,FR < FR,electricity < electricity_central,exc,52.86950878266411
+2050,DE < DE22,AT < AT,electricity < electricity_central,exc,6.450295293273701
+2050,DE < DE23,CZ < CZ,electricity < electricity_central,exc,45.77592400856106
+2050,DE < DE27,AT < AT,electricity < electricity_central,exc,17.455012163608608
+2050,DE < DE40,PL < PL,electricity < electricity_central,exc,78.1029457475572
+2050,DE < DE80,SE < SE,electricity < electricity_central,exc,19.49135512086254
+2050,DE < DE94,NL < NL,electricity < electricity_central,exc,38.501128159736986
+2050,DE < DE94,NO < NO,electricity < electricity_central,exc,3.6118936816238407
+2050,DE < DEA1,NL < NL,electricity < electricity_central,exc,30.397098310257324
+2050,DE < DEA2,BE < BE,electricity < electricity_central,exc,8.709621270586892
+2050,DE < DEA2,NL < NL,electricity < electricity_central,exc,27.344061788223787
+2050,DE < DEA3,NL < NL,electricity < electricity_central,exc,35.551714073206476
+2050,DE < DEC0_,FR < FR,electricity < electricity_central,exc,9.994604176222124
+2050,DE < DEC0_,LU < LU,electricity < electricity_central,exc,83.268719420613
+2050,DE < DED2,PL < PL,electricity < electricity_central,exc,73.32669679791444
+2050,DE < DED4,CZ < CZ,electricity < electricity_central,exc,46.56399036007957
+2050,DE < DEF0,DK < DK,electricity < electricity_central,exc,18.519916291038836
+2050,DK < DK,DE < DEF0,electricity < electricity_central,exc,2.848479377789983
+2050,DK < DK,NL < NL,electricity < electricity_central,exc,1.489185732453135
+2050,DK < DK,NO < NO,electricity < electricity_central,exc,0.9869193310246837
+2050,DK < DK,PL < PL,electricity < electricity_central,exc,0.0015665758022852412
+2050,DK < DK,SE < SE,electricity < electricity_central,exc,9.641122198199021
+2050,DK < DK,UK < UK,electricity < electricity_central,exc,0.0016746249438453484
+2050,EE < EE,FI < FI,electricity < electricity_central,exc,1.713698285555211
+2050,EE < EE,LV < LV,electricity < electricity_central,exc,3.707259501122394
+2050,EE < EE,SE < SE,electricity < electricity_central,exc,0.0003779807552173901
+2050,ES < ES,FR < FR,electricity < electricity_central,exc,62.834253358093896
+2050,ES < ES,IT < IT,electricity < electricity_central,exc,0.0003541657611160611
+2050,ES < ES,PT < PT,electricity < electricity_central,exc,6.504134544861626
+2050,ES < ES,UK < UK,electricity < electricity_central,exc,0.0006993248866989154
+2050,FI < FI,EE < EE,electricity < electricity_central,exc,8.689584864707781
+2050,FI < FI,NO < NO,electricity < electricity_central,exc,0.0003253418939826523
+2050,FI < FI,SE < SE,electricity < electricity_central,exc,5.074353544858206
+2050,FR < FR,BE < BE,electricity < electricity_central,exc,9.627009154890821
+2050,FR < FR,CH < CH,electricity < electricity_central,exc,4.829656910459791
+2050,FR < FR,DE < DE13,electricity < electricity_central,exc,10.660642184846735
+2050,FR < FR,DE < DEC0_,electricity < electricity_central,exc,3.5330571002684774
+2050,FR < FR,ES < ES,electricity < electricity_central,exc,35.18671078937859
+2050,FR < FR,IT < IT,electricity < electricity_central,exc,3.6654953373519708
+2050,FR < FR,LU < LU,electricity < electricity_central,exc,17.158286878365114
+2050,FR < FR,UK < UK,electricity < electricity_central,exc,10.63620954941423
+2050,GR < GR,BG < BG,electricity < electricity_central,exc,5.183865861222228
+2050,GR < GR,IT < IT,electricity < electricity_central,exc,3.0567369608269934
+2050,GR < GR,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,exc,3.9958707761909307
+2050,GR < GR,TR < TR,electricity < electricity_central,exc,110.57584546201095
+2050,HR < HR,HU < HU,electricity < electricity_central,exc,4.399769071869728
+2050,HR < HR,IT < IT,electricity < electricity_central,exc,0.8574870187349888
+2050,HR < HR,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,exc,2.9835607192564697
+2050,HR < HR,SI < SI,electricity < electricity_central,exc,2.50882855615941
+2050,HU < HU,AT < AT,electricity < electricity_central,exc,0.717667443354606
+2050,HU < HU,HR < HR,electricity < electricity_central,exc,0.7186959169521279
+2050,HU < HU,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,exc,8.124027685939089
+2050,HU < HU,RO < RO,electricity < electricity_central,exc,18.078323425520612
+2050,HU < HU,SI < SI,electricity < electricity_central,exc,5.930616413053822
+2050,HU < HU,SK < SK,electricity < electricity_central,exc,47.610563433470375
+2050,IE < IE,UK < UK,electricity < electricity_central,exc,52.65076843772318
+2050,IT < IT,AT < AT,electricity < electricity_central,exc,1.4311974522127848
+2050,IT < IT,CH < CH,electricity < electricity_central,exc,3.791110443240525
+2050,IT < IT,ES < ES,electricity < electricity_central,exc,0.0006906140297874439
+2050,IT < IT,FR < FR,electricity < electricity_central,exc,12.292931778904636
+2050,IT < IT,GR < GR,electricity < electricity_central,exc,23.412501730149334
+2050,IT < IT,HR < HR,electricity < electricity_central,exc,5.15705558195898
+2050,IT < IT,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,exc,2.696880538102397
+2050,IT < IT,SI < SI,electricity < electricity_central,exc,7.173155014685289
+2050,LT < LT,LV < LV,electricity < electricity_central,exc,7.277591201694553
+2050,LT < LT,PL < PL,electricity < electricity_central,exc,1.2475154815762828
+2050,LT < LT,SE < SE,electricity < electricity_central,exc,0.4309048506075943
+2050,LU < LU,BE < BE,electricity < electricity_central,exc,50.34677272406822
+2050,LU < LU,DE < DEC0_,electricity < electricity_central,exc,10.643728762418355
+2050,LU < LU,FR < FR,electricity < electricity_central,exc,32.720934910158505
+2050,LV < LV,EE < EE,electricity < electricity_central,exc,3.352823984442627
+2050,LV < LV,LT < LT,electricity < electricity_central,exc,1.1630713881140342
+2050,LV < LV,SE < SE,electricity < electricity_central,exc,0.0004944876908948446
+2050,NL < NL,BE < BE,electricity < electricity_central,exc,9.904041619005241
+2050,NL < NL,DE < DE94,electricity < electricity_central,exc,2.566093990810894
+2050,NL < NL,DE < DEA1,electricity < electricity_central,exc,2.181252183243376
+2050,NL < NL,DE < DEA2,electricity < electricity_central,exc,2.0316240083758488
+2050,NL < NL,DE < DEA3,electricity < electricity_central,exc,2.219554438092608
+2050,NL < NL,DK < DK,electricity < electricity_central,exc,1.262923620626133
+2050,NL < NL,NO < NO,electricity < electricity_central,exc,1.9531425752394302
+2050,NL < NL,UK < UK,electricity < electricity_central,exc,32.2046586815943
+2050,NO < NO,BE < BE,electricity < electricity_central,exc,1.0542122518462365
+2050,NO < NO,DE < DE94,electricity < electricity_central,exc,2.23888241565695
+2050,NO < NO,DK < DK,electricity < electricity_central,exc,3.3698375575402495
+2050,NO < NO,FI < FI,electricity < electricity_central,exc,0.002861392661226858
+2050,NO < NO,NL < NL,electricity < electricity_central,exc,2.463919024185164
+2050,NO < NO,SE < SE,electricity < electricity_central,exc,117.674056823745
+2050,NO < NO,UK < UK,electricity < electricity_central,exc,12.932498862636216
+2050,NONEU_Balkan < NONEU_Balkan,BG < BG,electricity < electricity_central,exc,38.68116425560188
+2050,NONEU_Balkan < NONEU_Balkan,GR < GR,electricity < electricity_central,exc,66.2889624326277
+2050,NONEU_Balkan < NONEU_Balkan,HR < HR,electricity < electricity_central,exc,2.4198303314352794
+2050,NONEU_Balkan < NONEU_Balkan,HU < HU,electricity < electricity_central,exc,55.147053649582126
+2050,NONEU_Balkan < NONEU_Balkan,IT < IT,electricity < electricity_central,exc,0.6771798334096926
+2050,NONEU_Balkan < NONEU_Balkan,RO < RO,electricity < electricity_central,exc,1.578178106303776
+2050,PL < PL,CZ < CZ,electricity < electricity_central,exc,0.23822698884198867
+2050,PL < PL,DE < DE40,electricity < electricity_central,exc,1.4404236857349109
+2050,PL < PL,DE < DED2,electricity < electricity_central,exc,0.9746402921764004
+2050,PL < PL,DK < DK,electricity < electricity_central,exc,0.00044838188297810353
+2050,PL < PL,LT < LT,electricity < electricity_central,exc,16.06824955982437
+2050,PL < PL,SE < SE,electricity < electricity_central,exc,0.9971459936099755
+2050,PL < PL,SK < SK,electricity < electricity_central,exc,2.9996716667590912
+2050,PT < PT,ES < ES,electricity < electricity_central,exc,13.065414393081442
+2050,RO < RO,BG < BG,electricity < electricity_central,exc,34.61050271908169
+2050,RO < RO,HU < HU,electricity < electricity_central,exc,8.060134949735959
+2050,RO < RO,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,exc,0.3131838739595352
+2050,RO < RO,TR < TR,electricity < electricity_central,exc,19.28705088353418
+2050,SE < SE,DE < DE80,electricity < electricity_central,exc,4.491598915750223
+2050,SE < SE,DK < DK,electricity < electricity_central,exc,3.531646585204486
+2050,SE < SE,EE < EE,electricity < electricity_central,exc,0.0033991610531121496
+2050,SE < SE,FI < FI,electricity < electricity_central,exc,22.727763093008353
+2050,SE < SE,LT < LT,electricity < electricity_central,exc,2.8584697194525908
+2050,SE < SE,LV < LV,electricity < electricity_central,exc,0.003949539832545681
+2050,SE < SE,NO < NO,electricity < electricity_central,exc,0.604154609537813
+2050,SE < SE,PL < PL,electricity < electricity_central,exc,1.587779000570148
+2050,SI < SI,AT < AT,electricity < electricity_central,exc,6.435799466368705
+2050,SI < SI,HR < HR,electricity < electricity_central,exc,2.148985271218269
+2050,SI < SI,HU < HU,electricity < electricity_central,exc,17.4128881042669
+2050,SI < SI,IT < IT,electricity < electricity_central,exc,1.0033595504994828
+2050,SK < SK,AT < AT,electricity < electricity_central,exc,0.00021102675069600626
+2050,SK < SK,CZ < CZ,electricity < electricity_central,exc,11.481344066734817
+2050,SK < SK,HU < HU,electricity < electricity_central,exc,8.903306351928297
+2050,SK < SK,PL < PL,electricity < electricity_central,exc,23.772630933095634
+2050,TR < TR,BG < BG,electricity < electricity_central,exc,1.932563505294497
+2050,TR < TR,GR < GR,electricity < electricity_central,exc,1.1589694127544958
+2050,TR < TR,RO < RO,electricity < electricity_central,exc,0.665939014847514
+2050,UK < UK,BE < BE,electricity < electricity_central,exc,4.3103479915196
+2050,UK < UK,DK < DK,electricity < electricity_central,exc,0.0010347028643246181
+2050,UK < UK,ES < ES,electricity < electricity_central,exc,0.0002924709811169197
+2050,UK < UK,FR < FR,electricity < electricity_central,exc,5.323730756739117
+2050,UK < UK,IE < IE,electricity < electricity_central,exc,3.6428208805832405
+2050,UK < UK,NL < NL,electricity < electricity_central,exc,18.844757089640694
+2050,UK < UK,NO < NO,electricity < electricity_central,exc,7.375247526004787
+2050,AT,HU,gas < hydrogen,exc,1.2057325399233678
+2050,AT,IT,gas < hydrogen,exc,0.07097767485333771
+2050,AT,SI,gas < hydrogen,exc,0.12291535257387179
+2050,AT,SK,gas < hydrogen,exc,7.530719022900136
+2050,BE,FR,gas < hydrogen,exc,0.12951402736338571
+2050,BE,LU,gas < hydrogen,exc,0.09758747814135879
+2050,BE,NL,gas < hydrogen,exc,6.398680760351537
+2050,BE,UK,gas < hydrogen,exc,0.024220561108551468
+2050,BG,RO,gas < hydrogen,exc,0.13943431268692094
+2050,CH,IT,gas < hydrogen,exc,18.78745184397914
+2050,CZ,PL,gas < hydrogen,exc,9.099828490036993
+2050,CZ,SK,gas < hydrogen,exc,0.014664861932847625
+2050,DK,NL,gas < hydrogen,exc,0.12151503235925391
+2050,DK,SE,gas < hydrogen,exc,7.520404670050518
+2050,EE,LV,gas < hydrogen,exc,1.0891874794927745
+2050,ES,FR,gas < hydrogen,exc,31.96661206125844
+2050,ES,PT,gas < hydrogen,exc,0.011981244034423091
+2050,FR,CH,gas < hydrogen,exc,4.107118885186216e-12
+2050,FR,ES,gas < hydrogen,exc,3.4268237055127706
+2050,HR,HU,gas < hydrogen,exc,0.24600350130007773
+2050,HU,HR,gas < hydrogen,exc,5.100353648475637e-12
+2050,HU,NONEU_Balkan,gas < hydrogen,exc,4.313074636302675
+2050,HU,RO,gas < hydrogen,exc,0.7329053901067201
+2050,IE,UK,gas < hydrogen,exc,11.90618040269029
+2050,IT,AT,gas < hydrogen,exc,2.8458984892787176
+2050,IT,SI,gas < hydrogen,exc,2.9879916423830726
+2050,LT,LV,gas < hydrogen,exc,0.1114373295214854
+2050,LV,EE,gas < hydrogen,exc,0.8949663187432555
+2050,LV,LT,gas < hydrogen,exc,0.4094897512207106
+2050,NL,BE,gas < hydrogen,exc,5.254041575996956
+2050,NL,UK,gas < hydrogen,exc,44.23626810709089
+2050,NO,BE,gas < hydrogen,exc,0.10284625283414593
+2050,NO,FR,gas < hydrogen,exc,1.6655674173095945
+2050,NO,NL,gas < hydrogen,exc,5.350035354703593
+2050,NO,UK,gas < hydrogen,exc,1.8685092945930153
+2050,PT,ES,gas < hydrogen,exc,11.84811963679722
+2050,SI,HR,gas < hydrogen,exc,0.18356908392821727
+2050,SI,IT,gas < hydrogen,exc,5.31940673639846e-12
+2050,SK,AT,gas < hydrogen,exc,3.960706665464366e-12
+2050,SK,CZ,gas < hydrogen,exc,0.7695440613182801
+2050,SK,HU,gas < hydrogen,exc,4.455249127999451e-12
+2050,UK,BE,gas < hydrogen,exc,0.026482502233871816
+2050,UK,IE,gas < hydrogen,exc,1.0502165480644101
+2050,AT,DE,gas < hydrogen,exc,0.5066665038882906
+2050,CZ,DE,gas < hydrogen,exc,2.55565367694572e-12
+2050,DE,DK,gas < hydrogen,exc,26.30489532185715
+2050,DE,NL,gas < hydrogen,exc,36.463972904608724
+2050,DE,NO,gas < hydrogen,exc,17.53960797465782
+2050,DE < DE12,DE < DE11,electricity < electricity_central,exc,1.4282158526237034
+2050,DE < DE14,DE < DE11,electricity < electricity_central,exc,6.353975111381856
+2050,DE < DE25,DE < DE11,electricity < electricity_central,exc,8.892473767435018
+2050,DE < DE26,DE < DE11,electricity < electricity_central,exc,6.585488283587068
+2050,DE < DE27,DE < DE11,electricity < electricity_central,exc,8.081755257125192e-5
+2050,DE < DE13,DE < DE12,electricity < electricity_central,exc,6.749518259847192
+2050,DE < DE14,DE < DE12,electricity < electricity_central,exc,2.720092977884215e-5
+2050,DE < DE26,DE < DE12,electricity < electricity_central,exc,3.8542142402116952
+2050,DE < DE71,DE < DE12,electricity < electricity_central,exc,2.21991325995598
+2050,DE < DEB3,DE < DE12,electricity < electricity_central,exc,1.2877052282276256
+2050,DE < DE14,DE < DE13,electricity < electricity_central,exc,31.795079429592047
+2050,DE < DE27,DE < DE14,electricity < electricity_central,exc,16.74038563315454
+2050,DE < DE22,DE < DE21,electricity < electricity_central,exc,6.362800427477558
+2050,DE < DE23,DE < DE21,electricity < electricity_central,exc,1.379360980773395e-5
+2050,DE < DE25,DE < DE21,electricity < electricity_central,exc,2.209039202736302
+2050,DE < DE27,DE < DE21,electricity < electricity_central,exc,2.6043944518430173
+2050,DE < DE23,DE < DE22,electricity < electricity_central,exc,0.8064546136030932
+2050,DE < DE24,DE < DE23,electricity < electricity_central,exc,15.41617942283535
+2050,DE < DE25,DE < DE23,electricity < electricity_central,exc,1.2909394620022954
+2050,DE < DE25,DE < DE24,electricity < electricity_central,exc,2.002813660659324
+2050,DE < DE26,DE < DE24,electricity < electricity_central,exc,0.7922681546217221
+2050,DE < DED4,DE < DE24,electricity < electricity_central,exc,0.5977403956927617
+2050,DE < DEG0,DE < DE24,electricity < electricity_central,exc,10.860966482510124
+2050,DE < DE26,DE < DE25,electricity < electricity_central,exc,1.4852782779592413
+2050,DE < DE27,DE < DE25,electricity < electricity_central,exc,0.0004251660964585901
+2050,DE < DE71,DE < DE26,electricity < electricity_central,exc,0.8831786418957044
+2050,DE < DE73,DE < DE26,electricity < electricity_central,exc,0.851170117348605
+2050,DE < DEG0,DE < DE26,electricity < electricity_central,exc,10.949952959388904
+2050,DE < DE40,DE < DE30,electricity < electricity_central,exc,27.075478606207703
+2050,DE < DE80,DE < DE40,electricity < electricity_central,exc,58.6088412087857
+2050,DE < DE93,DE < DE40,electricity < electricity_central,exc,0.19086218445172934
+2050,DE < DED2,DE < DE40,electricity < electricity_central,exc,0.3886633225751074
+2050,DE < DED5,DE < DE40,electricity < electricity_central,exc,2.804562501425526e-6
+2050,DE < DEE0,DE < DE40,electricity < electricity_central,exc,6.30237539995241
+2050,DE < DE92,DE < DE50,electricity < electricity_central,exc,5.837315585190035e-5
+2050,DE < DE93,DE < DE50,electricity < electricity_central,exc,16.34353661891431
+2050,DE < DE94,DE < DE50,electricity < electricity_central,exc,1.5148677282623204
+2050,DE < DE93,DE < DE60,electricity < electricity_central,exc,6.717165572747584
+2050,DE < DEF0,DE < DE60,electricity < electricity_central,exc,25.34374211243845
+2050,DE < DE72,DE < DE71,electricity < electricity_central,exc,6.070374465681153
+2050,DE < DE73,DE < DE71,electricity < electricity_central,exc,7.1943913063927045
+2050,DE < DEB1,DE < DE71,electricity < electricity_central,exc,0.8710231828442794
+2050,DE < DEB3,DE < DE71,electricity < electricity_central,exc,1.2672918328880105
+2050,DE < DE73,DE < DE72,electricity < electricity_central,exc,29.203042804129325
+2050,DE < DEA5,DE < DE72,electricity < electricity_central,exc,3.0358427973197378e-5
+2050,DE < DEB1,DE < DE72,electricity < electricity_central,exc,1.099975621973417
+2050,DE < DE91,DE < DE73,electricity < electricity_central,exc,14.891181776861647
+2050,DE < DEA4,DE < DE73,electricity < electricity_central,exc,7.655126489804816
+2050,DE < DEA5,DE < DE73,electricity < electricity_central,exc,0.11585177167169737
+2050,DE < DEG0,DE < DE73,electricity < electricity_central,exc,9.662734097236381
+2050,DE < DE93,DE < DE80,electricity < electricity_central,exc,1.797103111703949e-5
+2050,DE < DEF0,DE < DE80,electricity < electricity_central,exc,3.254095052113841
+2050,DE < DE92,DE < DE91,electricity < electricity_central,exc,0.9896702752488363
+2050,DE < DE93,DE < DE91,electricity < electricity_central,exc,4.046474817607534
+2050,DE < DEA4,DE < DE91,electricity < electricity_central,exc,5.420991496431222e-6
+2050,DE < DEE0,DE < DE91,electricity < electricity_central,exc,29.55575854809057
+2050,DE < DEG0,DE < DE91,electricity < electricity_central,exc,1.6306916433342376
+2050,DE < DE93,DE < DE92,electricity < electricity_central,exc,29.175996222267916
+2050,DE < DE94,DE < DE92,electricity < electricity_central,exc,0.4006912406899119
+2050,DE < DEA4,DE < DE92,electricity < electricity_central,exc,2.5694692394251066
+2050,DE < DE94,DE < DE93,electricity < electricity_central,exc,0.5047516269701245
+2050,DE < DEE0,DE < DE93,electricity < electricity_central,exc,8.097823081869156e-5
+2050,DE < DEF0,DE < DE93,electricity < electricity_central,exc,24.50552961690738
+2050,DE < DEA3,DE < DE94,electricity < electricity_central,exc,1.96464047306581
+2050,DE < DEA4,DE < DE94,electricity < electricity_central,exc,0.9563084876816511
+2050,DE < DEA2,DE < DEA1,electricity < electricity_central,exc,5.341684526991361
+2050,DE < DEA3,DE < DEA1,electricity < electricity_central,exc,41.519630112971264
+2050,DE < DEA5,DE < DEA1,electricity < electricity_central,exc,22.072742167583712
+2050,DE < DEA5,DE < DEA2,electricity < electricity_central,exc,3.710845092121455
+2050,DE < DEB1,DE < DEA2,electricity < electricity_central,exc,18.742747814282946
+2050,DE < DEB2,DE < DEA2,electricity < electricity_central,exc,5.160797329860458
+2050,DE < DEA4,DE < DEA3,electricity < electricity_central,exc,9.416180118862727
+2050,DE < DEA5,DE < DEA3,electricity < electricity_central,exc,0.9555015939665961
+2050,DE < DEA5,DE < DEA4,electricity < electricity_central,exc,0.5294773095468093
+2050,DE < DEB1,DE < DEA5,electricity < electricity_central,exc,2.5322780659526942
+2050,DE < DEB2,DE < DEB1,electricity < electricity_central,exc,0.14894827569340574
+2050,DE < DEB3,DE < DEB1,electricity < electricity_central,exc,0.4992513579275643
+2050,DE < DEC0_,DE < DEB1,electricity < electricity_central,exc,7.262584550416722
+2050,DE < DEC0_,DE < DEB2,electricity < electricity_central,exc,2.159939979657875
+2050,DE < DEC0_,DE < DEB3,electricity < electricity_central,exc,4.462267220707574
+2050,DE < DED4,DE < DED2,electricity < electricity_central,exc,5.776937400146597
+2050,DE < DED5,DE < DED2,electricity < electricity_central,exc,14.904340282433804
+2050,DE < DED5,DE < DED4,electricity < electricity_central,exc,18.13135426839378
+2050,DE < DEG0,DE < DED4,electricity < electricity_central,exc,5.56161178351393
+2050,DE < DEE0,DE < DED5,electricity < electricity_central,exc,26.78440992080779
+2050,DE < DEG0,DE < DED5,electricity < electricity_central,exc,0.9866281371938268
+2050,DE < DEG0,DE < DEE0,electricity < electricity_central,exc,1.2414714047340087
+2050,HU,AT,gas < hydrogen,exc,0.5376025219493344
+2050,SI,AT,gas < hydrogen,exc,0.0011733138911950546
+2050,FR,BE,gas < hydrogen,exc,1.0724691780921374
+2050,LU,BE,gas < hydrogen,exc,0.004667089600770651
+2050,RO,BG,gas < hydrogen,exc,12.821025984187264
+2050,IT,CH,gas < hydrogen,exc,27.85382943892799
+2050,PL,CZ,gas < hydrogen,exc,2.4231598582060245e-12
+2050,NL,DK,gas < hydrogen,exc,1.3900019505610062
+2050,SE,DK,gas < hydrogen,exc,0.0026791261716565696
+2050,CH,FR,gas < hydrogen,exc,38.681283357620295
+2050,NONEU_Balkan,HU,gas < hydrogen,exc,52.829885549917414
+2050,RO,HU,gas < hydrogen,exc,0.7007161813971533
+2050,UK,NL,gas < hydrogen,exc,15.12398143433406
+2050,BE,NO,gas < hydrogen,exc,7.539473383113953e-12
+2050,FR,NO,gas < hydrogen,exc,1.524947279720366
+2050,NL,NO,gas < hydrogen,exc,4.471796899449016e-12
+2050,UK,NO,gas < hydrogen,exc,0.046097247662910255
+2050,HR,SI,gas < hydrogen,exc,0.023825547971513646
+2050,HU,SK,gas < hydrogen,exc,4.539152885388527
+2050,DE,AT,gas < hydrogen,exc,6.443361792460549
+2050,DE,CZ,gas < hydrogen,exc,8.094447018429245
+2050,DK,DE,gas < hydrogen,exc,3.4762993405248368e-12
+2050,NL,DE,gas < hydrogen,exc,0.11534326342047907
+2050,NO,DE,gas < hydrogen,exc,4.8811992190331094e-12
+2050,DE < DE11,DE < DE12,electricity < electricity_central,flhExc,2063.6605934384825
+2050,DE < DE11,DE < DE12,electricity < electricity_central,flhExc,2063.6605934384825
+2050,DE < DE11,DE < DE14,electricity < electricity_central,flhExc,404.2748951968964
+2050,DE < DE11,DE < DE14,electricity < electricity_central,flhExc,404.2748951968964
+2050,DE < DE11,DE < DE25,electricity < electricity_central,flhExc,265.3511529426336
+2050,DE < DE11,DE < DE25,electricity < electricity_central,flhExc,265.3511529426336
+2050,DE < DE11,DE < DE26,electricity < electricity_central,flhExc,377.475650765874
+2050,DE < DE11,DE < DE26,electricity < electricity_central,flhExc,377.475650765874
+2050,DE < DE11,DE < DE27,electricity < electricity_central,flhExc,484.4827733020599
+2050,DE < DE11,DE < DE27,electricity < electricity_central,flhExc,484.4827733020599
+2050,DE < DE12,DE < DE13,electricity < electricity_central,flhExc,1562.8995542239943
+2050,DE < DE12,DE < DE13,electricity < electricity_central,flhExc,1562.8995542239943
+2050,DE < DE12,DE < DE14,electricity < electricity_central,flhExc,220.39929858585896
+2050,DE < DE12,DE < DE14,electricity < electricity_central,flhExc,220.39929858585896
+2050,DE < DE12,DE < DE26,electricity < electricity_central,flhExc,193.77409031069905
+2050,DE < DE12,DE < DE26,electricity < electricity_central,flhExc,193.77409031069905
+2050,DE < DE12,DE < DE71,electricity < electricity_central,flhExc,923.77541062152
+2050,DE < DE12,DE < DE71,electricity < electricity_central,flhExc,923.77541062152
+2050,DE < DE12,DE < DEB3,electricity < electricity_central,flhExc,2259.4036873040623
+2050,DE < DE12,DE < DEB3,electricity < electricity_central,flhExc,2259.4036873040623
+2050,DE < DE13,DE < DE14,electricity < electricity_central,flhExc,517.6380822109262
+2050,DE < DE13,DE < DE14,electricity < electricity_central,flhExc,517.6380822109262
+2050,DE < DE14,DE < DE27,electricity < electricity_central,flhExc,570.6140402787638
+2050,DE < DE14,DE < DE27,electricity < electricity_central,flhExc,570.6140402787638
+2050,DE < DE21,DE < DE22,electricity < electricity_central,flhExc,77.15579104010297
+2050,DE < DE21,DE < DE22,electricity < electricity_central,flhExc,77.15579104010297
+2050,DE < DE21,DE < DE23,electricity < electricity_central,flhExc,2674.9115051534245
+2050,DE < DE21,DE < DE23,electricity < electricity_central,flhExc,2674.9115051534245
+2050,DE < DE21,DE < DE25,electricity < electricity_central,flhExc,933.1232496475142
+2050,DE < DE21,DE < DE25,electricity < electricity_central,flhExc,933.1232496475142
+2050,DE < DE21,DE < DE27,electricity < electricity_central,flhExc,1448.8142528014228
+2050,DE < DE21,DE < DE27,electricity < electricity_central,flhExc,1448.8142528014228
+2050,DE < DE22,DE < DE23,electricity < electricity_central,flhExc,4001.523919297293
+2050,DE < DE22,DE < DE23,electricity < electricity_central,flhExc,4001.523919297293
+2050,DE < DE23,DE < DE24,electricity < electricity_central,flhExc,413.9189223054231
+2050,DE < DE23,DE < DE24,electricity < electricity_central,flhExc,413.9189223054231
+2050,DE < DE23,DE < DE25,electricity < electricity_central,flhExc,852.419364124807
+2050,DE < DE23,DE < DE25,electricity < electricity_central,flhExc,852.419364124807
+2050,DE < DE24,DE < DE25,electricity < electricity_central,flhExc,1504.3542317764811
+2050,DE < DE24,DE < DE25,electricity < electricity_central,flhExc,1504.3542317764811
+2050,DE < DE24,DE < DE26,electricity < electricity_central,flhExc,1106.9940682774995
+2050,DE < DE24,DE < DE26,electricity < electricity_central,flhExc,1106.9940682774995
+2050,DE < DE24,DE < DED4,electricity < electricity_central,flhExc,2345.084067267926
+2050,DE < DE24,DE < DED4,electricity < electricity_central,flhExc,2345.084067267926
+2050,DE < DE24,DE < DEG0,electricity < electricity_central,flhExc,166.9694079115923
+2050,DE < DE24,DE < DEG0,electricity < electricity_central,flhExc,166.9694079115923
+2050,DE < DE25,DE < DE26,electricity < electricity_central,flhExc,547.6395443814646
+2050,DE < DE25,DE < DE26,electricity < electricity_central,flhExc,547.6395443814646
+2050,DE < DE25,DE < DE27,electricity < electricity_central,flhExc,862.4103804917886
+2050,DE < DE25,DE < DE27,electricity < electricity_central,flhExc,862.4103804917886
+2050,DE < DE26,DE < DE71,electricity < electricity_central,flhExc,3172.9483157562895
+2050,DE < DE26,DE < DE71,electricity < electricity_central,flhExc,3172.9483157562895
+2050,DE < DE26,DE < DE73,electricity < electricity_central,flhExc,804.1872001094105
+2050,DE < DE26,DE < DE73,electricity < electricity_central,flhExc,804.1872001094105
+2050,DE < DE26,DE < DEG0,electricity < electricity_central,flhExc,208.36567656944146
+2050,DE < DE26,DE < DEG0,electricity < electricity_central,flhExc,208.36567656944146
+2050,DE < DE30,DE < DE40,electricity < electricity_central,flhExc,5.626457192514741
+2050,DE < DE30,DE < DE40,electricity < electricity_central,flhExc,5.626457192514741
+2050,DE < DE40,DE < DE80,electricity < electricity_central,flhExc,107.36835146847062
+2050,DE < DE40,DE < DE80,electricity < electricity_central,flhExc,107.36835146847062
+2050,DE < DE40,DE < DE93,electricity < electricity_central,flhExc,1074.4470894693352
+2050,DE < DE40,DE < DE93,electricity < electricity_central,flhExc,1074.4470894693352
+2050,DE < DE40,DE < DED2,electricity < electricity_central,flhExc,3235.9693050773562
+2050,DE < DE40,DE < DED2,electricity < electricity_central,flhExc,3235.9693050773562
+2050,DE < DE40,DE < DED5,electricity < electricity_central,flhExc,1269.6992720191365
+2050,DE < DE40,DE < DED5,electricity < electricity_central,flhExc,1269.6992720191365
+2050,DE < DE40,DE < DEE0,electricity < electricity_central,flhExc,403.2519240029141
+2050,DE < DE40,DE < DEE0,electricity < electricity_central,flhExc,403.2519240029141
+2050,DE < DE50,DE < DE92,electricity < electricity_central,flhExc,356.1286435631464
+2050,DE < DE50,DE < DE92,electricity < electricity_central,flhExc,356.1286435631464
+2050,DE < DE50,DE < DE93,electricity < electricity_central,flhExc,30.574769736018695
+2050,DE < DE50,DE < DE93,electricity < electricity_central,flhExc,30.574769736018695
+2050,DE < DE50,DE < DE94,electricity < electricity_central,flhExc,2893.224285662743
+2050,DE < DE50,DE < DE94,electricity < electricity_central,flhExc,2893.224285662743
+2050,DE < DE60,DE < DE93,electricity < electricity_central,flhExc,2912.7358186830716
+2050,DE < DE60,DE < DE93,electricity < electricity_central,flhExc,2912.7358186830716
+2050,DE < DE60,DE < DEF0,electricity < electricity_central,flhExc,24.70939391284765
+2050,DE < DE60,DE < DEF0,electricity < electricity_central,flhExc,24.70939391284765
+2050,DE < DE71,DE < DE72,electricity < electricity_central,flhExc,319.32674658735
+2050,DE < DE71,DE < DE72,electricity < electricity_central,flhExc,319.32674658735
+2050,DE < DE71,DE < DE73,electricity < electricity_central,flhExc,345.11731333011517
+2050,DE < DE71,DE < DE73,electricity < electricity_central,flhExc,345.11731333011517
+2050,DE < DE71,DE < DEB1,electricity < electricity_central,flhExc,2085.4940338943707
+2050,DE < DE71,DE < DEB1,electricity < electricity_central,flhExc,2085.4940338943707
+2050,DE < DE71,DE < DEB3,electricity < electricity_central,flhExc,2846.08402310161
+2050,DE < DE71,DE < DEB3,electricity < electricity_central,flhExc,2846.08402310161
+2050,DE < DE72,DE < DE73,electricity < electricity_central,flhExc,165.93730983423353
+2050,DE < DE72,DE < DE73,electricity < electricity_central,flhExc,165.93730983423353
+2050,DE < DE72,DE < DEA5,electricity < electricity_central,flhExc,1650.0346411932926
+2050,DE < DE72,DE < DEA5,electricity < electricity_central,flhExc,1650.0346411932926
+2050,DE < DE72,DE < DEB1,electricity < electricity_central,flhExc,3258.7263222974493
+2050,DE < DE72,DE < DEB1,electricity < electricity_central,flhExc,3258.7263222974493
+2050,DE < DE73,DE < DE91,electricity < electricity_central,flhExc,145.03620072463633
+2050,DE < DE73,DE < DE91,electricity < electricity_central,flhExc,145.03620072463633
+2050,DE < DE73,DE < DEA4,electricity < electricity_central,flhExc,383.55025901649566
+2050,DE < DE73,DE < DEA4,electricity < electricity_central,flhExc,383.55025901649566
+2050,DE < DE73,DE < DEA5,electricity < electricity_central,flhExc,1969.1898305247157
+2050,DE < DE73,DE < DEA5,electricity < electricity_central,flhExc,1969.1898305247157
+2050,DE < DE73,DE < DEG0,electricity < electricity_central,flhExc,84.73494019894703
+2050,DE < DE73,DE < DEG0,electricity < electricity_central,flhExc,84.73494019894703
+2050,DE < DE80,DE < DE93,electricity < electricity_central,flhExc,1350.483786861171
+2050,DE < DE80,DE < DE93,electricity < electricity_central,flhExc,1350.483786861171
+2050,DE < DE80,DE < DEF0,electricity < electricity_central,flhExc,751.1873488324318
+2050,DE < DE80,DE < DEF0,electricity < electricity_central,flhExc,751.1873488324318
+2050,DE < DE91,DE < DE92,electricity < electricity_central,flhExc,1188.1150450020937
+2050,DE < DE91,DE < DE92,electricity < electricity_central,flhExc,1188.1150450020937
+2050,DE < DE91,DE < DE93,electricity < electricity_central,flhExc,631.299482738201
+2050,DE < DE91,DE < DE93,electricity < electricity_central,flhExc,631.299482738201
+2050,DE < DE91,DE < DEA4,electricity < electricity_central,flhExc,3021.2336059668496
+2050,DE < DE91,DE < DEA4,electricity < electricity_central,flhExc,3021.2336059668496
+2050,DE < DE91,DE < DEE0,electricity < electricity_central,flhExc,91.67162889383643
+2050,DE < DE91,DE < DEE0,electricity < electricity_central,flhExc,91.67162889383643
+2050,DE < DE91,DE < DEG0,electricity < electricity_central,flhExc,753.3683874355828
+2050,DE < DE91,DE < DEG0,electricity < electricity_central,flhExc,753.3683874355828
+2050,DE < DE92,DE < DE93,electricity < electricity_central,flhExc,330.0780641391285
+2050,DE < DE92,DE < DE93,electricity < electricity_central,flhExc,330.0780641391285
+2050,DE < DE92,DE < DE94,electricity < electricity_central,flhExc,1491.1097847352235
+2050,DE < DE92,DE < DE94,electricity < electricity_central,flhExc,1491.1097847352235
+2050,DE < DE92,DE < DEA4,electricity < electricity_central,flhExc,3004.993470289348
+2050,DE < DE92,DE < DEA4,electricity < electricity_central,flhExc,3004.993470289348
+2050,DE < DE93,DE < DE94,electricity < electricity_central,flhExc,3625.990131387771
+2050,DE < DE93,DE < DE94,electricity < electricity_central,flhExc,3625.990131387771
+2050,DE < DE93,DE < DEE0,electricity < electricity_central,flhExc,551.3965942714153
+2050,DE < DE93,DE < DEE0,electricity < electricity_central,flhExc,551.3965942714153
+2050,DE < DE93,DE < DEF0,electricity < electricity_central,flhExc,249.30367979749644
+2050,DE < DE93,DE < DEF0,electricity < electricity_central,flhExc,249.30367979749644
+2050,DE < DE94,DE < DEA3,electricity < electricity_central,flhExc,2562.893076880979
+2050,DE < DE94,DE < DEA3,electricity < electricity_central,flhExc,2562.893076880979
+2050,DE < DE94,DE < DEA4,electricity < electricity_central,flhExc,307.7375797971655
+2050,DE < DE94,DE < DEA4,electricity < electricity_central,flhExc,307.7375797971655
+2050,DE < DEA1,DE < DEA2,electricity < electricity_central,flhExc,851.144407561056
+2050,DE < DEA1,DE < DEA2,electricity < electricity_central,flhExc,851.144407561056
+2050,DE < DEA1,DE < DEA3,electricity < electricity_central,flhExc,95.40644957974672
+2050,DE < DEA1,DE < DEA3,electricity < electricity_central,flhExc,95.40644957974672
+2050,DE < DEA1,DE < DEA5,electricity < electricity_central,flhExc,114.06857650203692
+2050,DE < DEA1,DE < DEA5,electricity < electricity_central,flhExc,114.06857650203692
+2050,DE < DEA2,DE < DEA5,electricity < electricity_central,flhExc,233.45024840525826
+2050,DE < DEA2,DE < DEA5,electricity < electricity_central,flhExc,233.45024840525826
+2050,DE < DEA2,DE < DEB1,electricity < electricity_central,flhExc,218.80504085495178
+2050,DE < DEA2,DE < DEB1,electricity < electricity_central,flhExc,218.80504085495178
+2050,DE < DEA2,DE < DEB2,electricity < electricity_central,flhExc,939.0551044400286
+2050,DE < DEA2,DE < DEB2,electricity < electricity_central,flhExc,939.0551044400286
+2050,DE < DEA3,DE < DEA4,electricity < electricity_central,flhExc,122.51690764897515
+2050,DE < DEA3,DE < DEA4,electricity < electricity_central,flhExc,122.51690764897515
+2050,DE < DEA3,DE < DEA5,electricity < electricity_central,flhExc,51.173031454726306
+2050,DE < DEA3,DE < DEA5,electricity < electricity_central,flhExc,51.173031454726306
+2050,DE < DEA4,DE < DEA5,electricity < electricity_central,flhExc,3816.7745034700656
+2050,DE < DEA4,DE < DEA5,electricity < electricity_central,flhExc,3816.7745034700656
+2050,DE < DEA5,DE < DEB1,electricity < electricity_central,flhExc,2055.2971592623203
+2050,DE < DEA5,DE < DEB1,electricity < electricity_central,flhExc,2055.2971592623203
+2050,DE < DEB1,DE < DEB2,electricity < electricity_central,flhExc,796.5250299648548
+2050,DE < DEB1,DE < DEB2,electricity < electricity_central,flhExc,796.5250299648548
+2050,DE < DEB1,DE < DEB3,electricity < electricity_central,flhExc,575.1365205963618
+2050,DE < DEB1,DE < DEB3,electricity < electricity_central,flhExc,575.1365205963618
+2050,DE < DEB1,DE < DEC0_,electricity < electricity_central,flhExc,2303.5957142070997
+2050,DE < DEB1,DE < DEC0_,electricity < electricity_central,flhExc,2303.5957142070997
+2050,DE < DEB2,DE < DEC0_,electricity < electricity_central,flhExc,2428.8315002115537
+2050,DE < DEB2,DE < DEC0_,electricity < electricity_central,flhExc,2428.8315002115537
+2050,DE < DEB3,DE < DEC0_,electricity < electricity_central,flhExc,2745.8080041823146
+2050,DE < DEB3,DE < DEC0_,electricity < electricity_central,flhExc,2745.8080041823146
+2050,DE < DED2,DE < DED4,electricity < electricity_central,flhExc,737.864007840414
+2050,DE < DED2,DE < DED4,electricity < electricity_central,flhExc,737.864007840414
+2050,DE < DED2,DE < DED5,electricity < electricity_central,flhExc,82.16928830895505
+2050,DE < DED2,DE < DED5,electricity < electricity_central,flhExc,82.16928830895505
+2050,DE < DED4,DE < DED5,electricity < electricity_central,flhExc,213.42187618654006
+2050,DE < DED4,DE < DED5,electricity < electricity_central,flhExc,213.42187618654006
+2050,DE < DED4,DE < DEG0,electricity < electricity_central,flhExc,246.0470492145198
+2050,DE < DED4,DE < DEG0,electricity < electricity_central,flhExc,246.0470492145198
+2050,DE < DED5,DE < DEE0,electricity < electricity_central,flhExc,88.23130029153383
+2050,DE < DED5,DE < DEE0,electricity < electricity_central,flhExc,88.23130029153383
+2050,DE < DED5,DE < DEG0,electricity < electricity_central,flhExc,791.9948796685625
+2050,DE < DED5,DE < DEG0,electricity < electricity_central,flhExc,791.9948796685625
+2050,DE < DEE0,DE < DEG0,electricity < electricity_central,flhExc,1995.1085264783349
+2050,DE < DEE0,DE < DEG0,electricity < electricity_central,flhExc,1995.1085264783349
+2050,AT < AT,CH < CH,electricity < electricity_central,flhExc,1042.73914389798
+2050,AT < AT,CH < CH,electricity < electricity_central,flhExc,1042.73914389798
+2050,AT < AT,CZ < CZ,electricity < electricity_central,flhExc,3723.1230845663654
+2050,AT < AT,CZ < CZ,electricity < electricity_central,flhExc,3723.1230845663654
+2050,AT < AT,DE < DE22,electricity < electricity_central,flhExc,547.6167757344725
+2050,AT < AT,DE < DE22,electricity < electricity_central,flhExc,547.6167757344725
+2050,AT < AT,DE < DE27,electricity < electricity_central,flhExc,632.4622808429499
+2050,AT < AT,DE < DE27,electricity < electricity_central,flhExc,632.4622808429499
+2050,AT < AT,HU < HU,electricity < electricity_central,flhExc,3050.680319416205
+2050,AT < AT,HU < HU,electricity < electricity_central,flhExc,3050.680319416205
+2050,AT < AT,IT < IT,electricity < electricity_central,flhExc,607.6060922796157
+2050,AT < AT,IT < IT,electricity < electricity_central,flhExc,607.6060922796157
+2050,AT < AT,SI < SI,electricity < electricity_central,flhExc,2166.574156575044
+2050,AT < AT,SI < SI,electricity < electricity_central,flhExc,2166.574156575044
+2050,AT < AT,SK < SK,electricity < electricity_central,flhExc,3507.327108848399
+2050,AT < AT,SK < SK,electricity < electricity_central,flhExc,3507.327108848399
+2050,BE < BE,DE < DEA2,electricity < electricity_central,flhExc,625.2737077772161
+2050,BE < BE,DE < DEA2,electricity < electricity_central,flhExc,625.2737077772161
+2050,BE < BE,FR < FR,electricity < electricity_central,flhExc,745.2615528542984
+2050,BE < BE,FR < FR,electricity < electricity_central,flhExc,745.2615528542984
+2050,BE < BE,LU < LU,electricity < electricity_central,flhExc,411.94779741495967
+2050,BE < BE,LU < LU,electricity < electricity_central,flhExc,411.94779741495967
+2050,BE < BE,NL < NL,electricity < electricity_central,flhExc,2460.81920463779
+2050,BE < BE,NL < NL,electricity < electricity_central,flhExc,2460.81920463779
+2050,BE < BE,NO < NO,electricity < electricity_central,flhExc,1546.2146815387205
+2050,BE < BE,NO < NO,electricity < electricity_central,flhExc,1546.2146815387205
+2050,BE < BE,UK < UK,electricity < electricity_central,flhExc,2103.5864103173117
+2050,BE < BE,UK < UK,electricity < electricity_central,flhExc,2103.5864103173117
+2050,BG < BG,GR < GR,electricity < electricity_central,flhExc,249.61697419465204
+2050,BG < BG,GR < GR,electricity < electricity_central,flhExc,249.61697419465204
+2050,BG < BG,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,106.39869847656875
+2050,BG < BG,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,106.39869847656875
+2050,BG < BG,RO < RO,electricity < electricity_central,flhExc,260.35480442632894
+2050,BG < BG,RO < RO,electricity < electricity_central,flhExc,260.35480442632894
+2050,BG < BG,TR < TR,electricity < electricity_central,flhExc,3879.1515710973836
+2050,BG < BG,TR < TR,electricity < electricity_central,flhExc,3879.1515710973836
+2050,CH < CH,AT < AT,electricity < electricity_central,flhExc,3016.0207993000417
+2050,CH < CH,AT < AT,electricity < electricity_central,flhExc,3016.0207993000417
+2050,CH < CH,DE < DE13,electricity < electricity_central,flhExc,1739.6746167981526
+2050,CH < CH,DE < DE13,electricity < electricity_central,flhExc,1739.6746167981526
+2050,CH < CH,FR < FR,electricity < electricity_central,flhExc,4761.137922953833
+2050,CH < CH,FR < FR,electricity < electricity_central,flhExc,4761.137922953833
+2050,CH < CH,IT < IT,electricity < electricity_central,flhExc,1835.6324968999518
+2050,CH < CH,IT < IT,electricity < electricity_central,flhExc,1835.6324968999518
+2050,CZ < CZ,AT < AT,electricity < electricity_central,flhExc,432.63394886987896
+2050,CZ < CZ,AT < AT,electricity < electricity_central,flhExc,432.63394886987896
+2050,CZ < CZ,DE < DE23,electricity < electricity_central,flhExc,265.6310076101094
+2050,CZ < CZ,DE < DE23,electricity < electricity_central,flhExc,265.6310076101094
+2050,CZ < CZ,DE < DED4,electricity < electricity_central,flhExc,394.68558233631234
+2050,CZ < CZ,DE < DED4,electricity < electricity_central,flhExc,394.68558233631234
+2050,CZ < CZ,PL < PL,electricity < electricity_central,flhExc,4486.376102843752
+2050,CZ < CZ,PL < PL,electricity < electricity_central,flhExc,4486.376102843752
+2050,CZ < CZ,SK < SK,electricity < electricity_central,flhExc,1600.8147615874313
+2050,CZ < CZ,SK < SK,electricity < electricity_central,flhExc,1600.8147615874313
+2050,DE < DE13,CH < CH,electricity < electricity_central,flhExc,703.6273694938615
+2050,DE < DE13,CH < CH,electricity < electricity_central,flhExc,703.6273694938615
+2050,DE < DE13,FR < FR,electricity < electricity_central,flhExc,2349.7601765088384
+2050,DE < DE13,FR < FR,electricity < electricity_central,flhExc,2349.7601765088384
+2050,DE < DE22,AT < AT,electricity < electricity_central,flhExc,2866.7958886232077
+2050,DE < DE22,AT < AT,electricity < electricity_central,flhExc,2866.7958886232077
+2050,DE < DE23,CZ < CZ,electricity < electricity_central,flhExc,4305.266881620664
+2050,DE < DE23,CZ < CZ,electricity < electricity_central,flhExc,4305.266881620664
+2050,DE < DE27,AT < AT,electricity < electricity_central,flhExc,2585.9259063008776
+2050,DE < DE27,AT < AT,electricity < electricity_central,flhExc,2585.9259063008776
+2050,DE < DE40,PL < PL,electricity < electricity_central,flhExc,5578.788493808932
+2050,DE < DE40,PL < PL,electricity < electricity_central,flhExc,5578.788493808932
+2050,DE < DE80,SE < SE,electricity < electricity_central,flhExc,3898.3010746161713
+2050,DE < DE80,SE < SE,electricity < electricity_central,flhExc,3898.3010746161713
+2050,DE < DE94,NL < NL,electricity < electricity_central,flhExc,5133.4925684961045
+2050,DE < DE94,NL < NL,electricity < electricity_central,flhExc,5133.4925684961045
+2050,DE < DE94,NO < NO,electricity < electricity_central,flhExc,2579.9168216360586
+2050,DE < DE94,NO < NO,electricity < electricity_central,flhExc,2579.9168216360586
+2050,DE < DEA1,NL < NL,electricity < electricity_central,flhExc,4052.953400018434
+2050,DE < DEA1,NL < NL,electricity < electricity_central,flhExc,4052.953400018434
+2050,DE < DEA2,BE < BE,electricity < electricity_central,flhExc,4354.806432905239
+2050,DE < DEA2,BE < BE,electricity < electricity_central,flhExc,4354.806432905239
+2050,DE < DEA2,NL < NL,electricity < electricity_central,flhExc,3645.881164831406
+2050,DE < DEA2,NL < NL,electricity < electricity_central,flhExc,3645.881164831406
+2050,DE < DEA3,NL < NL,electricity < electricity_central,flhExc,4740.236681764563
+2050,DE < DEA3,NL < NL,electricity < electricity_central,flhExc,4740.236681764563
+2050,DE < DEC0_,FR < FR,electricity < electricity_central,flhExc,1332.6162892276348
+2050,DE < DEC0_,FR < FR,electricity < electricity_central,flhExc,1332.6162892276348
+2050,DE < DEC0_,LU < LU,electricity < electricity_central,flhExc,2775.6375146956216
+2050,DE < DEC0_,LU < LU,electricity < electricity_central,flhExc,2775.6375146956216
+2050,DE < DED2,PL < PL,electricity < electricity_central,flhExc,5237.627447592344
+2050,DE < DED2,PL < PL,electricity < electricity_central,flhExc,5237.627447592344
+2050,DE < DED4,CZ < CZ,electricity < electricity_central,flhExc,4379.385231762056
+2050,DE < DED4,CZ < CZ,electricity < electricity_central,flhExc,4379.385231762056
+2050,DE < DEF0,DK < DK,electricity < electricity_central,flhExc,4115.486380638436
+2050,DE < DEF0,DK < DK,electricity < electricity_central,flhExc,4115.486380638436
+2050,DK < DK,DE < DEF0,electricity < electricity_central,flhExc,635.1046282662763
+2050,DK < DK,DE < DEF0,electricity < electricity_central,flhExc,635.1046282662763
+2050,DK < DK,NL < NL,electricity < electricity_central,flhExc,2127.312302136254
+2050,DK < DK,NL < NL,electricity < electricity_central,flhExc,2127.312302136254
+2050,DK < DK,NO < NO,electricity < electricity_central,flhExc,601.7730714384264
+2050,DK < DK,NO < NO,electricity < electricity_central,flhExc,601.7730714384264
+2050,DK < DK,PL < PL,electricity < electricity_central,flhExc,3272.4465650587745
+2050,DK < DK,PL < PL,electricity < electricity_central,flhExc,3272.4465650587745
+2050,DK < DK,SE < SE,electricity < electricity_central,flhExc,2158.2742041860356
+2050,DK < DK,SE < SE,electricity < electricity_central,flhExc,2158.2742041860356
+2050,DK < DK,UK < UK,electricity < electricity_central,flhExc,2380.832132715764
+2050,DK < DK,UK < UK,electricity < electricity_central,flhExc,2380.832132715764
+2050,EE < EE,FI < FI,electricity < electricity_central,flhExc,742.8131837140234
+2050,EE < EE,FI < FI,electricity < electricity_central,flhExc,742.8131837140234
+2050,EE < EE,LV < LV,electricity < electricity_central,flhExc,1650.561853609409
+2050,EE < EE,LV < LV,electricity < electricity_central,flhExc,1650.561853609409
+2050,EE < EE,SE < SE,electricity < electricity_central,flhExc,547.3618930090365
+2050,EE < EE,SE < SE,electricity < electricity_central,flhExc,547.3618930090365
+2050,ES < ES,FR < FR,electricity < electricity_central,flhExc,2108.5390760075898
+2050,ES < ES,FR < FR,electricity < electricity_central,flhExc,2108.5390760075898
+2050,ES < ES,IT < IT,electricity < electricity_central,flhExc,1655.4056468534488
+2050,ES < ES,IT < IT,electricity < electricity_central,flhExc,1655.4056468534488
+2050,ES < ES,PT < PT,electricity < electricity_central,flhExc,826.322872001792
+2050,ES < ES,PT < PT,electricity < electricity_central,flhExc,826.322872001792
+2050,ES < ES,UK < UK,electricity < electricity_central,flhExc,2716.8693466572217
+2050,ES < ES,UK < UK,electricity < electricity_central,flhExc,2716.8693466572217
+2050,FI < FI,EE < EE,electricity < electricity_central,flhExc,3792.8592371357813
+2050,FI < FI,EE < EE,electricity < electricity_central,flhExc,3792.8592371357813
+2050,FI < FI,NO < NO,electricity < electricity_central,flhExc,531.4081629702958
+2050,FI < FI,NO < NO,electricity < electricity_central,flhExc,531.4081629702958
+2050,FI < FI,SE < SE,electricity < electricity_central,flhExc,840.5002124755766
+2050,FI < FI,SE < SE,electricity < electricity_central,flhExc,840.5002124755766
+2050,FR < FR,BE < BE,electricity < electricity_central,flhExc,2005.6116763195826
+2050,FR < FR,BE < BE,electricity < electricity_central,flhExc,2005.6116763195826
+2050,FR < FR,CH < CH,electricity < electricity_central,flhExc,160.9891156600076
+2050,FR < FR,CH < CH,electricity < electricity_central,flhExc,160.9891156600076
+2050,FR < FR,DE < DE13,electricity < electricity_central,flhExc,481.83781713431443
+2050,FR < FR,DE < DE13,electricity < electricity_central,flhExc,481.83781713431443
+2050,FR < FR,DE < DEC0_,electricity < electricity_central,flhExc,479.0594669192406
+2050,FR < FR,DE < DEC0_,electricity < electricity_central,flhExc,479.0594669192406
+2050,FR < FR,ES < ES,electricity < electricity_central,flhExc,1172.8942739851097
+2050,FR < FR,ES < ES,electricity < electricity_central,flhExc,1172.8942739851097
+2050,FR < FR,IT < IT,electricity < electricity_central,flhExc,539.0434226888075
+2050,FR < FR,IT < IT,electricity < electricity_central,flhExc,539.0434226888075
+2050,FR < FR,LU < LU,electricity < electricity_central,flhExc,1077.5207305066692
+2050,FR < FR,LU < LU,electricity < electricity_central,flhExc,1077.5207305066692
+2050,FR < FR,UK < UK,electricity < electricity_central,flhExc,2127.2773086281727
+2050,FR < FR,UK < UK,electricity < electricity_central,flhExc,2127.2773086281727
+2050,GR < GR,BG < BG,electricity < electricity_central,flhExc,1357.442129704961
+2050,GR < GR,BG < BG,electricity < electricity_central,flhExc,1357.442129704961
+2050,GR < GR,IT < IT,electricity < electricity_central,flhExc,611.3771875103565
+2050,GR < GR,IT < IT,electricity < electricity_central,flhExc,611.3771875103565
+2050,GR < GR,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,133.1965647996017
+2050,GR < GR,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,133.1965647996017
+2050,GR < GR,TR < TR,electricity < electricity_central,flhExc,4116.501509018654
+2050,GR < GR,TR < TR,electricity < electricity_central,flhExc,4116.501509018654
+2050,HR < HR,HU < HU,electricity < electricity_central,flhExc,2199.8634689423534
+2050,HR < HR,HU < HU,electricity < electricity_central,flhExc,2199.8634689423534
+2050,HR < HR,IT < IT,electricity < electricity_central,flhExc,629.4341060405089
+2050,HR < HR,IT < IT,electricity < electricity_central,flhExc,629.4341060405089
+2050,HR < HR,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,2294.9633505207576
+2050,HR < HR,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,2294.9633505207576
+2050,HR < HR,SI < SI,electricity < electricity_central,flhExc,1529.7265780284367
+2050,HR < HR,SI < SI,electricity < electricity_central,flhExc,1529.7265780284367
+2050,HU < HU,AT < AT,electricity < electricity_central,flhExc,897.0842335478741
+2050,HU < HU,AT < AT,electricity < electricity_central,flhExc,897.0842335478741
+2050,HU < HU,HR < HR,electricity < electricity_central,flhExc,359.3445172132948
+2050,HU < HU,HR < HR,electricity < electricity_central,flhExc,359.3445172132948
+2050,HU < HU,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,326.7606005458992
+2050,HU < HU,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,326.7606005458992
+2050,HU < HU,RO < RO,electricity < electricity_central,flhExc,1746.430478788586
+2050,HU < HU,RO < RO,electricity < electricity_central,flhExc,1746.430478788586
+2050,HU < HU,SI < SI,electricity < electricity_central,flhExc,700.5372803741111
+2050,HU < HU,SI < SI,electricity < electricity_central,flhExc,700.5372803741111
+2050,HU < HU,SK < SK,electricity < electricity_central,flhExc,2440.539385354768
+2050,HU < HU,SK < SK,electricity < electricity_central,flhExc,2440.539385354768
+2050,IE < IE,UK < UK,electricity < electricity_central,flhExc,3453.315366533976
+2050,IE < IE,UK < UK,electricity < electricity_central,flhExc,3453.315366533976
+2050,IT < IT,AT < AT,electricity < electricity_central,flhExc,2675.001924600744
+2050,IT < IT,AT < AT,electricity < electricity_central,flhExc,2675.001924600744
+2050,IT < IT,CH < CH,electricity < electricity_central,flhExc,1984.8724191939846
+2050,IT < IT,CH < CH,electricity < electricity_central,flhExc,1984.8724191939846
+2050,IT < IT,ES < ES,electricity < electricity_central,flhExc,3227.997989144144
+2050,IT < IT,ES < ES,electricity < electricity_central,flhExc,3227.997989144144
+2050,IT < IT,FR < FR,electricity < electricity_central,flhExc,2852.1882703477045
+2050,IT < IT,FR < FR,electricity < electricity_central,flhExc,2852.1882703477045
+2050,IT < IT,GR < GR,electricity < electricity_central,flhExc,4682.728557869589
+2050,IT < IT,GR < GR,electricity < electricity_central,flhExc,4682.728557869589
+2050,IT < IT,HR < HR,electricity < electricity_central,flhExc,3785.511149568517
+2050,IT < IT,HR < HR,electricity < electricity_central,flhExc,3785.511149568517
+2050,IT < IT,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,3369.301937095858
+2050,IT < IT,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,3369.301937095858
+2050,IT < IT,SI < SI,electricity < electricity_central,flhExc,3779.956406775614
+2050,IT < IT,SI < SI,electricity < electricity_central,flhExc,3779.956406775614
+2050,LT < LT,LV < LV,electricity < electricity_central,flhExc,2875.786271632521
+2050,LT < LT,LV < LV,electricity < electricity_central,flhExc,2875.786271632521
+2050,LT < LT,PL < PL,electricity < electricity_central,flhExc,345.91687993830726
+2050,LT < LT,PL < PL,electricity < electricity_central,flhExc,345.91687993830726
+2050,LT < LT,SE < SE,electricity < electricity_central,flhExc,615.5735442257331
+2050,LT < LT,SE < SE,electricity < electricity_central,flhExc,615.5735442257331
+2050,LU < LU,BE < BE,electricity < electricity_central,flhExc,4084.39359216947
+2050,LU < LU,BE < BE,electricity < electricity_central,flhExc,4084.39359216947
+2050,LU < LU,DE < DEC0_,electricity < electricity_central,flhExc,354.79268871642864
+2050,LU < LU,DE < DEC0_,electricity < electricity_central,flhExc,354.79268871642864
+2050,LU < LU,FR < FR,electricity < electricity_central,flhExc,2105.0716850490758
+2050,LU < LU,FR < FR,electricity < electricity_central,flhExc,2105.0716850490758
+2050,LV < LV,EE < EE,electricity < electricity_central,flhExc,1492.758564355218
+2050,LV < LV,EE < EE,electricity < electricity_central,flhExc,1492.758564355218
+2050,LV < LV,LT < LT,electricity < electricity_central,flhExc,410.8857907904275
+2050,LV < LV,LT < LT,electricity < electricity_central,flhExc,410.8857907904275
+2050,LV < LV,SE < SE,electricity < electricity_central,flhExc,576.7662853283622
+2050,LV < LV,SE < SE,electricity < electricity_central,flhExc,576.7662853283622
+2050,NL < NL,BE < BE,electricity < electricity_central,flhExc,2751.5031475082187
+2050,NL < NL,BE < BE,electricity < electricity_central,flhExc,2751.5031475082187
+2050,NL < NL,DE < DE94,electricity < electricity_central,flhExc,342.1464528841024
+2050,NL < NL,DE < DE94,electricity < electricity_central,flhExc,342.1464528841024
+2050,NL < NL,DE < DEA1,electricity < electricity_central,flhExc,290.8341237752517
+2050,NL < NL,DE < DEA1,electricity < electricity_central,flhExc,290.8341237752517
+2050,NL < NL,DE < DEA2,electricity < electricity_central,flhExc,270.8836662059758
+2050,NL < NL,DE < DEA2,electricity < electricity_central,flhExc,270.8836662059758
+2050,NL < NL,DE < DEA3,electricity < electricity_central,flhExc,295.9410998568201
+2050,NL < NL,DE < DEA3,electricity < electricity_central,flhExc,295.9410998568201
+2050,NL < NL,DK < DK,electricity < electricity_central,flhExc,1804.0952825882523
+2050,NL < NL,DK < DK,electricity < electricity_central,flhExc,1804.0952825882523
+2050,NL < NL,NO < NO,electricity < electricity_central,flhExc,1777.9630140171175
+2050,NL < NL,NO < NO,electricity < electricity_central,flhExc,1777.9630140171175
+2050,NL < NL,UK < UK,electricity < electricity_central,flhExc,2362.3213907268096
+2050,NL < NL,UK < UK,electricity < electricity_central,flhExc,2362.3213907268096
+2050,NO < NO,BE < BE,electricity < electricity_central,flhExc,2055.9796937061087
+2050,NO < NO,BE < BE,electricity < electricity_central,flhExc,2055.9796937061087
+2050,NO < NO,DE < DE94,electricity < electricity_central,flhExc,1599.1972397209927
+2050,NO < NO,DE < DE94,electricity < electricity_central,flhExc,1599.1972397209927
+2050,NO < NO,DK < DK,electricity < electricity_central,flhExc,2054.7550681210055
+2050,NO < NO,DK < DK,electricity < electricity_central,flhExc,2054.7550681210055
+2050,NO < NO,FI < FI,electricity < electricity_central,flhExc,4673.752276490803
+2050,NO < NO,FI < FI,electricity < electricity_central,flhExc,4673.752276490803
+2050,NO < NO,NL < NL,electricity < electricity_central,flhExc,2242.927346969201
+2050,NO < NO,NL < NL,electricity < electricity_central,flhExc,2242.927346969201
+2050,NO < NO,SE < SE,electricity < electricity_central,flhExc,4103.8356756657395
+2050,NO < NO,SE < SE,electricity < electricity_central,flhExc,4103.8356756657395
+2050,NO < NO,UK < UK,electricity < electricity_central,flhExc,2587.3055049980762
+2050,NO < NO,UK < UK,electricity < electricity_central,flhExc,2587.3055049980762
+2050,NONEU_Balkan < NONEU_Balkan,BG < BG,electricity < electricity_central,flhExc,5370.204543975271
+2050,NONEU_Balkan < NONEU_Balkan,BG < BG,electricity < electricity_central,flhExc,5370.204543975271
+2050,NONEU_Balkan < NONEU_Balkan,GR < GR,electricity < electricity_central,flhExc,2228.2151323621047
+2050,NONEU_Balkan < NONEU_Balkan,GR < GR,electricity < electricity_central,flhExc,2228.2151323621047
+2050,NONEU_Balkan < NONEU_Balkan,HR < HR,electricity < electricity_central,flhExc,1792.4042205131816
+2050,NONEU_Balkan < NONEU_Balkan,HR < HR,electricity < electricity_central,flhExc,1792.4042205131816
+2050,NONEU_Balkan < NONEU_Balkan,HU < HU,electricity < electricity_central,flhExc,2218.0973607540564
+2050,NONEU_Balkan < NONEU_Balkan,HU < HU,electricity < electricity_central,flhExc,2218.0973607540564
+2050,NONEU_Balkan < NONEU_Balkan,IT < IT,electricity < electricity_central,flhExc,846.0231338518776
+2050,NONEU_Balkan < NONEU_Balkan,IT < IT,electricity < electricity_central,flhExc,846.0231338518776
+2050,NONEU_Balkan < NONEU_Balkan,RO < RO,electricity < electricity_central,flhExc,1972.698573354745
+2050,NONEU_Balkan < NONEU_Balkan,RO < RO,electricity < electricity_central,flhExc,1972.698573354745
+2050,PL < PL,CZ < CZ,electricity < electricity_central,flhExc,297.7753279938808
+2050,PL < PL,CZ < CZ,electricity < electricity_central,flhExc,297.7753279938808
+2050,PL < PL,DE < DE40,electricity < electricity_central,flhExc,96.02835262722664
+2050,PL < PL,DE < DE40,electricity < electricity_central,flhExc,96.02835262722664
+2050,PL < PL,DE < DED2,electricity < electricity_central,flhExc,64.97609181847558
+2050,PL < PL,DE < DED2,electricity < electricity_central,flhExc,64.97609181847558
+2050,PL < PL,DK < DK,electricity < electricity_central,flhExc,936.6324633929933
+2050,PL < PL,DK < DK,electricity < electricity_central,flhExc,936.6324633929933
+2050,PL < PL,LT < LT,electricity < electricity_central,flhExc,4455.478778332619
+2050,PL < PL,LT < LT,electricity < electricity_central,flhExc,4455.478778332619
+2050,PL < PL,SE < SE,electricity < electricity_central,flhExc,1661.9093910625784
+2050,PL < PL,SE < SE,electricity < electricity_central,flhExc,1661.9093910625784
+2050,PL < PL,SK < SK,electricity < electricity_central,flhExc,572.1805712408915
+2050,PL < PL,SK < SK,electricity < electricity_central,flhExc,572.1805712408915
+2050,PT < PT,ES < ES,electricity < electricity_central,flhExc,2083.4066670679035
+2050,PT < PT,ES < ES,electricity < electricity_central,flhExc,2083.4066670679035
+2050,RO < RO,BG < BG,electricity < electricity_central,flhExc,3780.624723702562
+2050,RO < RO,BG < BG,electricity < electricity_central,flhExc,3780.624723702562
+2050,RO < RO,HU < HU,electricity < electricity_central,flhExc,792.5726571159046
+2050,RO < RO,HU < HU,electricity < electricity_central,flhExc,792.5726571159046
+2050,RO < RO,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,313.1808182542915
+2050,RO < RO,NONEU_Balkan < NONEU_Balkan,electricity < electricity_central,flhExc,313.1808182542915
+2050,RO < RO,TR < TR,electricity < electricity_central,flhExc,5257.432588766779
+2050,RO < RO,TR < TR,electricity < electricity_central,flhExc,5257.432588766779
+2050,SE < SE,DE < DE80,electricity < electricity_central,flhExc,898.3267079913057
+2050,SE < SE,DE < DE80,electricity < electricity_central,flhExc,898.3267079913057
+2050,SE < SE,DK < DK,electricity < electricity_central,flhExc,881.3579044175344
+2050,SE < SE,DK < DK,electricity < electricity_central,flhExc,881.3579044175344
+2050,SE < SE,EE < EE,electricity < electricity_central,flhExc,4922.396717271957
+2050,SE < SE,EE < EE,electricity < electricity_central,flhExc,4922.396717271957
+2050,SE < SE,FI < FI,electricity < electricity_central,flhExc,3764.55632030698
+2050,SE < SE,FI < FI,electricity < electricity_central,flhExc,3764.55632030698
+2050,SE < SE,LT < LT,electricity < electricity_central,flhExc,4083.4962377059796
+2050,SE < SE,LT < LT,electricity < electricity_central,flhExc,4083.4962377059796
+2050,SE < SE,LV < LV,electricity < electricity_central,flhExc,4606.710055515202
+2050,SE < SE,LV < LV,electricity < electricity_central,flhExc,4606.710055515202
+2050,SE < SE,NO < NO,electricity < electricity_central,flhExc,20.851494159225698
+2050,SE < SE,NO < NO,electricity < electricity_central,flhExc,20.851494159225698
+2050,SE < SE,PL < PL,electricity < electricity_central,flhExc,2646.2973816165227
+2050,SE < SE,PL < PL,electricity < electricity_central,flhExc,2646.2973816165227
+2050,SI < SI,AT < AT,electricity < electricity_central,flhExc,670.9486851717007
+2050,SI < SI,AT < AT,electricity < electricity_central,flhExc,670.9486851717007
+2050,SI < SI,HR < HR,electricity < electricity_central,flhExc,1432.608793004566
+2050,SI < SI,HR < HR,electricity < electricity_central,flhExc,1432.608793004566
+2050,SI < SI,HU < HU,electricity < electricity_central,flhExc,2056.8481295084466
+2050,SI < SI,HU < HU,electricity < electricity_central,flhExc,2056.8481295084466
+2050,SI < SI,IT < IT,electricity < electricity_central,flhExc,515.1557494388285
+2050,SI < SI,IT < IT,electricity < electricity_central,flhExc,515.1557494388285
+2050,SK < SK,AT < AT,electricity < electricity_central,flhExc,294.2726609279239
+2050,SK < SK,AT < AT,electricity < electricity_central,flhExc,294.2726609279239
+2050,SK < SK,CZ < CZ,electricity < electricity_central,flhExc,794.9329782349633
+2050,SK < SK,CZ < CZ,electricity < electricity_central,flhExc,794.9329782349633
+2050,SK < SK,HU < HU,electricity < electricity_central,flhExc,444.9825739328823
+2050,SK < SK,HU < HU,electricity < electricity_central,flhExc,444.9825739328823
+2050,SK < SK,PL < PL,electricity < electricity_central,flhExc,4534.575466352187
+2050,SK < SK,PL < PL,electricity < electricity_central,flhExc,4534.575466352187
+2050,TR < TR,BG < BG,electricity < electricity_central,flhExc,65.28967698323663
+2050,TR < TR,BG < BG,electricity < electricity_central,flhExc,65.28967698323663
+2050,TR < TR,GR < GR,electricity < electricity_central,flhExc,43.27482722689993
+2050,TR < TR,GR < GR,electricity < electricity_central,flhExc,43.27482722689993
+2050,TR < TR,RO < RO,electricity < electricity_central,flhExc,181.52746627425358
+2050,TR < TR,RO < RO,electricity < electricity_central,flhExc,181.52746627425358
+2050,UK < UK,BE < BE,electricity < electricity_central,flhExc,1062.477924309465
+2050,UK < UK,BE < BE,electricity < electricity_central,flhExc,1062.477924309465
+2050,UK < UK,DK < DK,electricity < electricity_central,flhExc,1471.0480912462692
+2050,UK < UK,DK < DK,electricity < electricity_central,flhExc,1471.0480912462692
+2050,UK < UK,ES < ES,electricity < electricity_central,flhExc,1136.246483568128
+2050,UK < UK,ES < ES,electricity < electricity_central,flhExc,1136.246483568128
+2050,UK < UK,FR < FR,electricity < electricity_central,flhExc,1064.7638694445166
+2050,UK < UK,FR < FR,electricity < electricity_central,flhExc,1064.7638694445166
+2050,UK < UK,IE < IE,electricity < electricity_central,flhExc,239.7153990817787
+2050,UK < UK,IE < IE,electricity < electricity_central,flhExc,239.7153990817787
+2050,UK < UK,NL < NL,electricity < electricity_central,flhExc,1382.327110373991
+2050,UK < UK,NL < NL,electricity < electricity_central,flhExc,1382.327110373991
+2050,UK < UK,NO < NO,electricity < electricity_central,flhExc,1475.5090046739715
+2050,UK < UK,NO < NO,electricity < electricity_central,flhExc,1475.5090046739715
+2050,AT,HU,gas < hydrogen,flhExc,156.5886415484893
+2050,AT,HU,gas < hydrogen,flhExc,156.5886415484893
+2050,AT,IT,gas < hydrogen,flhExc,1.0437893360784958
+2050,AT,IT,gas < hydrogen,flhExc,1.0437893360784958
+2050,AT,SI,gas < hydrogen,flhExc,18.345575011025637
+2050,AT,SI,gas < hydrogen,flhExc,18.345575011025637
+2050,AT,SK,gas < hydrogen,flhExc,512.2938110816419
+2050,AT,SK,gas < hydrogen,flhExc,512.2938110816419
+2050,BE,FR,gas < hydrogen,flhExc,2.505106912251174
+2050,BE,FR,gas < hydrogen,flhExc,2.505106912251174
+2050,BE,LU,gas < hydrogen,flhExc,42.42933832232991
+2050,BE,LU,gas < hydrogen,flhExc,42.42933832232991
+2050,BE,NL,gas < hydrogen,flhExc,273.44789574151866
+2050,BE,NL,gas < hydrogen,flhExc,273.44789574151866
+2050,BE,UK,gas < hydrogen,flhExc,0.506706299342081
+2050,BE,UK,gas < hydrogen,flhExc,0.506706299342081
+2050,BG,RO,gas < hydrogen,flhExc,154.92701409657883
+2050,BG,RO,gas < hydrogen,flhExc,154.92701409657883
+2050,CH,IT,gas < hydrogen,flhExc,507.76896875619303
+2050,CH,IT,gas < hydrogen,flhExc,507.76896875619303
+2050,CZ,PL,gas < hydrogen,flhExc,5352.840288257055
+2050,CZ,PL,gas < hydrogen,flhExc,5352.840288257055
+2050,CZ,SK,gas < hydrogen,flhExc,0.35422371818472526
+2050,CZ,SK,gas < hydrogen,flhExc,0.35422371818472526
+2050,DK,NL,gas < hydrogen,flhExc,5.170852440819315
+2050,DK,NL,gas < hydrogen,flhExc,5.170852440819315
+2050,DK,SE,gas < hydrogen,flhExc,1446.2316673174073
+2050,DK,SE,gas < hydrogen,flhExc,1446.2316673174073
+2050,EE,LV,gas < hydrogen,flhExc,91.52835962124155
+2050,EE,LV,gas < hydrogen,flhExc,91.52835962124155
+2050,ES,FR,gas < hydrogen,flhExc,2385.568064273018
+2050,ES,FR,gas < hydrogen,flhExc,2385.568064273018
+2050,ES,PT,gas < hydrogen,flhExc,1.3931679109794293
+2050,ES,PT,gas < hydrogen,flhExc,1.3931679109794293
+2050,FR,CH,gas < hydrogen,flhExc,2.649754119474978e-10
+2050,FR,CH,gas < hydrogen,flhExc,2.649754119474978e-10
+2050,FR,ES,gas < hydrogen,flhExc,349.67588831762964
+2050,FR,ES,gas < hydrogen,flhExc,349.67588831762964
+2050,HR,HU,gas < hydrogen,flhExc,54.66744473335061
+2050,HR,HU,gas < hydrogen,flhExc,54.66744473335061
+2050,HU,HR,gas < hydrogen,flhExc,1.1087725322773124e-9
+2050,HU,HR,gas < hydrogen,flhExc,1.1087725322773124e-9
+2050,HU,NONEU_Balkan,gas < hydrogen,flhExc,513.4612662265089
+2050,HU,NONEU_Balkan,gas < hydrogen,flhExc,513.4612662265089
+2050,HU,RO,gas < hydrogen,flhExc,236.42109358281292
+2050,HU,RO,gas < hydrogen,flhExc,236.42109358281292
+2050,IE,UK,gas < hydrogen,flhExc,2246.449132583074
+2050,IE,UK,gas < hydrogen,flhExc,2246.449132583074
+2050,IT,AT,gas < hydrogen,flhExc,41.851448371745846
+2050,IT,AT,gas < hydrogen,flhExc,41.851448371745846
+2050,IT,SI,gas < hydrogen,flhExc,1757.642142578278
+2050,IT,SI,gas < hydrogen,flhExc,1757.642142578278
+2050,LT,LV,gas < hydrogen,flhExc,27.85933238037135
+2050,LT,LV,gas < hydrogen,flhExc,27.85933238037135
+2050,LV,EE,gas < hydrogen,flhExc,82.10700171956472
+2050,LV,EE,gas < hydrogen,flhExc,82.10700171956472
+2050,LV,LT,gas < hydrogen,flhExc,104.99737210787451
+2050,LV,LT,gas < hydrogen,flhExc,104.99737210787451
+2050,NL,BE,gas < hydrogen,flhExc,110.84475898727756
+2050,NL,BE,gas < hydrogen,flhExc,110.84475898727756
+2050,NL,UK,gas < hydrogen,flhExc,1504.6349696289421
+2050,NL,UK,gas < hydrogen,flhExc,1504.6349696289421
+2050,NO,BE,gas < hydrogen,flhExc,3.546422511522273
+2050,NO,BE,gas < hydrogen,flhExc,3.546422511522273
+2050,NO,FR,gas < hydrogen,flhExc,49.13178222152196
+2050,NO,FR,gas < hydrogen,flhExc,49.13178222152196
+2050,NO,NL,gas < hydrogen,flhExc,170.38329155106985
+2050,NO,NL,gas < hydrogen,flhExc,170.38329155106985
+2050,NO,UK,gas < hydrogen,flhExc,20.970923620572563
+2050,NO,UK,gas < hydrogen,flhExc,20.970923620572563
+2050,PT,ES,gas < hydrogen,flhExc,2468.3582576660874
+2050,PT,ES,gas < hydrogen,flhExc,2468.3582576660874
+2050,SI,HR,gas < hydrogen,flhExc,57.365338727567895
+2050,SI,HR,gas < hydrogen,flhExc,57.365338727567895
+2050,SI,IT,gas < hydrogen,flhExc,4.091851335691122e-9
+2050,SI,IT,gas < hydrogen,flhExc,4.091851335691122e-9
+2050,SK,AT,gas < hydrogen,flhExc,4.32864116444193e-11
+2050,SK,AT,gas < hydrogen,flhExc,4.32864116444193e-11
+2050,SK,CZ,gas < hydrogen,flhExc,24.90433855398965
+2050,SK,CZ,gas < hydrogen,flhExc,24.90433855398965
+2050,SK,HU,gas < hydrogen,flhExc,5.940332170665935e-10
+2050,SK,HU,gas < hydrogen,flhExc,5.940332170665935e-10
+2050,UK,BE,gas < hydrogen,flhExc,0.7062000595699152
+2050,UK,BE,gas < hydrogen,flhExc,0.7062000595699152
+2050,UK,IE,gas < hydrogen,flhExc,51.734805323369955
+2050,UK,IE,gas < hydrogen,flhExc,51.734805323369955
+2050,AT,DE,gas < hydrogen,flhExc,14.967764113654969
+2050,AT,DE,gas < hydrogen,flhExc,14.967764113654969
+2050,CZ,DE,gas < hydrogen,flhExc,1.1394201093469362e-9
+2050,CZ,DE,gas < hydrogen,flhExc,1.1394201093469362e-9
+2050,DE,DK,gas < hydrogen,flhExc,4509.620246122367
+2050,DE,DK,gas < hydrogen,flhExc,4509.620246122367
+2050,DE,NL,gas < hydrogen,flhExc,3707.9492479772957
+2050,DE,NL,gas < hydrogen,flhExc,3707.9492479772957
+2050,DE,NO,gas < hydrogen,flhExc,903.2504694490632
+2050,DE,NO,gas < hydrogen,flhExc,903.2504694490632
+2050,DE < DE12,DE < DE11,electricity < electricity_central,flhExc,234.9039187082368
+2050,DE < DE12,DE < DE11,electricity < electricity_central,flhExc,234.9039187082368
+2050,DE < DE14,DE < DE11,electricity < electricity_central,flhExc,353.39127270102676
+2050,DE < DE14,DE < DE11,electricity < electricity_central,flhExc,353.39127270102676
+2050,DE < DE25,DE < DE11,electricity < electricity_central,flhExc,1747.0711212544074
+2050,DE < DE25,DE < DE11,electricity < electricity_central,flhExc,1747.0711212544074
+2050,DE < DE26,DE < DE11,electricity < electricity_central,flhExc,1291.2720929910386
+2050,DE < DE26,DE < DE11,electricity < electricity_central,flhExc,1291.2720929910386
+2050,DE < DE27,DE < DE11,electricity < electricity_central,flhExc,1922.866168865053
+2050,DE < DE27,DE < DE11,electricity < electricity_central,flhExc,1922.866168865053
+2050,DE < DE13,DE < DE12,electricity < electricity_central,flhExc,1110.118068178881
+2050,DE < DE13,DE < DE12,electricity < electricity_central,flhExc,1110.118068178881
+2050,DE < DE14,DE < DE12,electricity < electricity_central,flhExc,1426.088394922831
+2050,DE < DE14,DE < DE12,electricity < electricity_central,flhExc,1426.088394922831
+2050,DE < DE26,DE < DE12,electricity < electricity_central,flhExc,2267.1846767180373
+2050,DE < DE26,DE < DE12,electricity < electricity_central,flhExc,2267.1846767180373
+2050,DE < DE71,DE < DE12,electricity < electricity_central,flhExc,724.3235021612365
+2050,DE < DE71,DE < DE12,electricity < electricity_central,flhExc,724.3235021612365
+2050,DE < DEB3,DE < DE12,electricity < electricity_central,flhExc,315.2209789958931
+2050,DE < DEB3,DE < DE12,electricity < electricity_central,flhExc,315.2209789958931
+2050,DE < DE14,DE < DE13,electricity < electricity_central,flhExc,1994.6964546075774
+2050,DE < DE14,DE < DE13,electricity < electricity_central,flhExc,1994.6964546075774
+2050,DE < DE27,DE < DE14,electricity < electricity_central,flhExc,2275.8575937444784
+2050,DE < DE27,DE < DE14,electricity < electricity_central,flhExc,2275.8575937444784
+2050,DE < DE22,DE < DE21,electricity < electricity_central,flhExc,545.2271103916914
+2050,DE < DE22,DE < DE21,electricity < electricity_central,flhExc,545.2271103916914
+2050,DE < DE23,DE < DE21,electricity < electricity_central,flhExc,471.213487625802
+2050,DE < DE23,DE < DE21,electricity < electricity_central,flhExc,471.213487625802
+2050,DE < DE25,DE < DE21,electricity < electricity_central,flhExc,504.34683212895936
+2050,DE < DE25,DE < DE21,electricity < electricity_central,flhExc,504.34683212895936
+2050,DE < DE27,DE < DE21,electricity < electricity_central,flhExc,735.1401602562715
+2050,DE < DE27,DE < DE21,electricity < electricity_central,flhExc,735.1401602562715
+2050,DE < DE23,DE < DE22,electricity < electricity_central,flhExc,251.2099914170315
+2050,DE < DE23,DE < DE22,electricity < electricity_central,flhExc,251.2099914170315
+2050,DE < DE24,DE < DE23,electricity < electricity_central,flhExc,3566.2126567977093
+2050,DE < DE24,DE < DE23,electricity < electricity_central,flhExc,3566.2126567977093
+2050,DE < DE25,DE < DE23,electricity < electricity_central,flhExc,2634.569198989308
+2050,DE < DE25,DE < DE23,electricity < electricity_central,flhExc,2634.569198989308
+2050,DE < DE25,DE < DE24,electricity < electricity_central,flhExc,589.0628061662532
+2050,DE < DE25,DE < DE24,electricity < electricity_central,flhExc,589.0628061662532
+2050,DE < DE26,DE < DE24,electricity < electricity_central,flhExc,233.0200372095339
+2050,DE < DE26,DE < DE24,electricity < electricity_central,flhExc,233.0200372095339
+2050,DE < DED4,DE < DE24,electricity < electricity_central,flhExc,657.3841101349751
+2050,DE < DED4,DE < DE24,electricity < electricity_central,flhExc,657.3841101349751
+2050,DE < DEG0,DE < DE24,electricity < electricity_central,flhExc,1597.200865208628
+2050,DE < DEG0,DE < DE24,electricity < electricity_central,flhExc,1597.200865208628
+2050,DE < DE26,DE < DE25,electricity < electricity_central,flhExc,304.9852671152683
+2050,DE < DE26,DE < DE25,electricity < electricity_central,flhExc,304.9852671152683
+2050,DE < DE27,DE < DE25,electricity < electricity_central,flhExc,944.2790241570781
+2050,DE < DE27,DE < DE25,electricity < electricity_central,flhExc,944.2790241570781
+2050,DE < DE71,DE < DE26,electricity < electricity_central,flhExc,113.51910182410086
+2050,DE < DE71,DE < DE26,electricity < electricity_central,flhExc,113.51910182410086
+2050,DE < DE73,DE < DE26,electricity < electricity_central,flhExc,615.1791354959764
+2050,DE < DE73,DE < DE26,electricity < electricity_central,flhExc,615.1791354959764
+2050,DE < DEG0,DE < DE26,electricity < electricity_central,flhExc,2582.366391383696
+2050,DE < DEG0,DE < DE26,electricity < electricity_central,flhExc,2582.366391383696
+2050,DE < DE40,DE < DE30,electricity < electricity_central,flhExc,1857.0286999835648
+2050,DE < DE40,DE < DE30,electricity < electricity_central,flhExc,1857.0286999835648
+2050,DE < DE80,DE < DE40,electricity < electricity_central,flhExc,2578.766521011432
+2050,DE < DE80,DE < DE40,electricity < electricity_central,flhExc,2578.766521011432
+2050,DE < DE93,DE < DE40,electricity < electricity_central,flhExc,687.6057623809616
+2050,DE < DE93,DE < DE40,electricity < electricity_central,flhExc,687.6057623809616
+2050,DE < DED2,DE < DE40,electricity < electricity_central,flhExc,38.10424098874717
+2050,DE < DED2,DE < DE40,electricity < electricity_central,flhExc,38.10424098874717
+2050,DE < DED5,DE < DE40,electricity < electricity_central,flhExc,133.5990606854143
+2050,DE < DED5,DE < DE40,electricity < electricity_central,flhExc,133.5990606854143
+2050,DE < DEE0,DE < DE40,electricity < electricity_central,flhExc,463.4099538248259
+2050,DE < DEE0,DE < DE40,electricity < electricity_central,flhExc,463.4099538248259
+2050,DE < DE92,DE < DE50,electricity < electricity_central,flhExc,837.379873056676
+2050,DE < DE92,DE < DE50,electricity < electricity_central,flhExc,837.379873056676
+2050,DE < DE93,DE < DE50,electricity < electricity_central,flhExc,3377.6876710416936
+2050,DE < DE93,DE < DE50,electricity < electricity_central,flhExc,3377.6876710416936
+2050,DE < DE94,DE < DE50,electricity < electricity_central,flhExc,389.4261302107512
+2050,DE < DE94,DE < DE50,electricity < electricity_central,flhExc,389.4261302107512
+2050,DE < DE93,DE < DE60,electricity < electricity_central,flhExc,1619.625144255782
+2050,DE < DE93,DE < DE60,electricity < electricity_central,flhExc,1619.625144255782
+2050,DE < DEF0,DE < DE60,electricity < electricity_central,flhExc,3225.013321097743
+2050,DE < DEF0,DE < DE60,electricity < electricity_central,flhExc,3225.013321097743
+2050,DE < DE72,DE < DE71,electricity < electricity_central,flhExc,1190.2694751655304
+2050,DE < DE72,DE < DE71,electricity < electricity_central,flhExc,1190.2694751655304
+2050,DE < DE73,DE < DE71,electricity < electricity_central,flhExc,2115.9973343945167
+2050,DE < DE73,DE < DE71,electricity < electricity_central,flhExc,2115.9973343945167
+2050,DE < DEB1,DE < DE71,electricity < electricity_central,flhExc,198.8637320102534
+2050,DE < DEB1,DE < DE71,electricity < electricity_central,flhExc,198.8637320102534
+2050,DE < DEB3,DE < DE71,electricity < electricity_central,flhExc,238.82170765850364
+2050,DE < DEB3,DE < DE71,electricity < electricity_central,flhExc,238.82170765850364
+2050,DE < DE73,DE < DE72,electricity < electricity_central,flhExc,2328.313277681236
+2050,DE < DE73,DE < DE72,electricity < electricity_central,flhExc,2328.313277681236
+2050,DE < DEA5,DE < DE72,electricity < electricity_central,flhExc,392.2625909490601
+2050,DE < DEA5,DE < DE72,electricity < electricity_central,flhExc,392.2625909490601
+2050,DE < DEB1,DE < DE72,electricity < electricity_central,flhExc,129.4088912478391
+2050,DE < DEB1,DE < DE72,electricity < electricity_central,flhExc,129.4088912478391
+2050,DE < DE91,DE < DE73,electricity < electricity_central,flhExc,2633.878222064851
+2050,DE < DE91,DE < DE73,electricity < electricity_central,flhExc,2633.878222064851
+2050,DE < DEA4,DE < DE73,electricity < electricity_central,flhExc,983.9493877399005
+2050,DE < DEA4,DE < DE73,electricity < electricity_central,flhExc,983.9493877399005
+2050,DE < DEA5,DE < DE73,electricity < electricity_central,flhExc,34.07404960661582
+2050,DE < DEA5,DE < DE73,electricity < electricity_central,flhExc,34.07404960661582
+2050,DE < DEG0,DE < DE73,electricity < electricity_central,flhExc,2653.268991243413
+2050,DE < DEG0,DE < DE73,electricity < electricity_central,flhExc,2653.268991243413
+2050,DE < DE93,DE < DE80,electricity < electricity_central,flhExc,316.9873206116213
+2050,DE < DE93,DE < DE80,electricity < electricity_central,flhExc,316.9873206116213
+2050,DE < DEF0,DE < DE80,electricity < electricity_central,flhExc,957.0799339508048
+2050,DE < DEF0,DE < DE80,electricity < electricity_central,flhExc,957.0799339508048
+2050,DE < DE92,DE < DE91,electricity < electricity_central,flhExc,70.08996213113006
+2050,DE < DE92,DE < DE91,electricity < electricity_central,flhExc,70.08996213113006
+2050,DE < DE93,DE < DE91,electricity < electricity_central,flhExc,1190.1395662665454
+2050,DE < DE93,DE < DE91,electricity < electricity_central,flhExc,1190.1395662665454
+2050,DE < DEA4,DE < DE91,electricity < electricity_central,flhExc,94.45051536389884
+2050,DE < DEA4,DE < DE91,electricity < electricity_central,flhExc,94.45051536389884
+2050,DE < DEE0,DE < DE91,electricity < electricity_central,flhExc,2084.4585250846226
+2050,DE < DEE0,DE < DE91,electricity < electricity_central,flhExc,2084.4585250846226
+2050,DE < DEG0,DE < DE91,electricity < electricity_central,flhExc,593.0175977914315
+2050,DE < DEG0,DE < DE91,electricity < electricity_central,flhExc,593.0175977914315
+2050,DE < DE93,DE < DE92,electricity < electricity_central,flhExc,2369.47438833588
+2050,DE < DE93,DE < DE92,electricity < electricity_central,flhExc,2369.47438833588
+2050,DE < DE94,DE < DE92,electricity < electricity_central,flhExc,32.33989006342104
+2050,DE < DE94,DE < DE92,electricity < electricity_central,flhExc,32.33989006342104
+2050,DE < DEA4,DE < DE92,electricity < electricity_central,flhExc,148.9198876951046
+2050,DE < DEA4,DE < DE92,electricity < electricity_central,flhExc,148.9198876951046
+2050,DE < DE94,DE < DE93,electricity < electricity_central,flhExc,129.7561929947113
+2050,DE < DE94,DE < DE93,electricity < electricity_central,flhExc,129.7561929947113
+2050,DE < DEE0,DE < DE93,electricity < electricity_central,flhExc,869.2260480723314
+2050,DE < DEE0,DE < DE93,electricity < electricity_central,flhExc,869.2260480723314
+2050,DE < DEF0,DE < DE93,electricity < electricity_central,flhExc,1906.95015980155
+2050,DE < DEF0,DE < DE93,electricity < electricity_central,flhExc,1906.95015980155
+2050,DE < DEA3,DE < DE94,electricity < electricity_central,flhExc,90.595162545763
+2050,DE < DEA3,DE < DE94,electricity < electricity_central,flhExc,90.595162545763
+2050,DE < DEA4,DE < DE94,electricity < electricity_central,flhExc,245.83765302101534
+2050,DE < DEA4,DE < DE94,electricity < electricity_central,flhExc,245.83765302101534
+2050,DE < DEA2,DE < DEA1,electricity < electricity_central,flhExc,233.7717506888014
+2050,DE < DEA2,DE < DEA1,electricity < electricity_central,flhExc,233.7717506888014
+2050,DE < DEA3,DE < DEA1,electricity < electricity_central,flhExc,2228.057031460527
+2050,DE < DEA3,DE < DEA1,electricity < electricity_central,flhExc,2228.057031460527
+2050,DE < DEA5,DE < DEA1,electricity < electricity_central,flhExc,3630.384888759752
+2050,DE < DEA5,DE < DEA1,electricity < electricity_central,flhExc,3630.384888759752
+2050,DE < DEA5,DE < DEA2,electricity < electricity_central,flhExc,3786.471980086858
+2050,DE < DEA5,DE < DEA2,electricity < electricity_central,flhExc,3786.471980086858
+2050,DE < DEB1,DE < DEA2,electricity < electricity_central,flhExc,1879.9144934028816
+2050,DE < DEB1,DE < DEA2,electricity < electricity_central,flhExc,1879.9144934028816
+2050,DE < DEB2,DE < DEA2,electricity < electricity_central,flhExc,1517.88152564115
+2050,DE < DEB2,DE < DEA2,electricity < electricity_central,flhExc,1517.88152564115
+2050,DE < DEA4,DE < DEA3,electricity < electricity_central,flhExc,4823.914376381815
+2050,DE < DEA4,DE < DEA3,electricity < electricity_central,flhExc,4823.914376381815
+2050,DE < DEA5,DE < DEA3,electricity < electricity_central,flhExc,51.01450024599262
+2050,DE < DEA5,DE < DEA3,electricity < electricity_central,flhExc,51.01450024599262
+2050,DE < DEA5,DE < DEA4,electricity < electricity_central,flhExc,41.76904077949797
+2050,DE < DEA5,DE < DEA4,electricity < electricity_central,flhExc,41.76904077949797
+2050,DE < DEB1,DE < DEA5,electricity < electricity_central,flhExc,519.9749312954916
+2050,DE < DEB1,DE < DEA5,electricity < electricity_central,flhExc,519.9749312954916
+2050,DE < DEB2,DE < DEB1,electricity < electricity_central,flhExc,303.9759517356649
+2050,DE < DEB2,DE < DEB1,electricity < electricity_central,flhExc,303.9759517356649
+2050,DE < DEB3,DE < DEB1,electricity < electricity_central,flhExc,1018.8798887626756
+2050,DE < DEB3,DE < DEB1,electricity < electricity_central,flhExc,1018.8798887626756
+2050,DE < DEC0_,DE < DEB1,electricity < electricity_central,flhExc,381.9984455413211
+2050,DE < DEC0_,DE < DEB1,electricity < electricity_central,flhExc,381.9984455413211
+2050,DE < DEC0_,DE < DEB2,electricity < electricity_central,flhExc,316.3007234559167
+2050,DE < DEC0_,DE < DEB2,electricity < electricity_central,flhExc,316.3007234559167
+2050,DE < DEC0_,DE < DEB3,electricity < electricity_central,flhExc,396.06191667334974
+2050,DE < DEC0_,DE < DEB3,electricity < electricity_central,flhExc,396.06191667334974
+2050,DE < DED4,DE < DED2,electricity < electricity_central,flhExc,849.5495986086504
+2050,DE < DED4,DE < DED2,electricity < electricity_central,flhExc,849.5495986086504
+2050,DE < DED5,DE < DED2,electricity < electricity_central,flhExc,4383.629295988435
+2050,DE < DED5,DE < DED2,electricity < electricity_central,flhExc,4383.629295988435
+2050,DE < DED5,DE < DED4,electricity < electricity_central,flhExc,4458.534048589386
+2050,DE < DED5,DE < DED4,electricity < electricity_central,flhExc,4458.534048589386
+2050,DE < DEG0,DE < DED4,electricity < electricity_central,flhExc,3783.409037678523
+2050,DE < DEG0,DE < DED4,electricity < electricity_central,flhExc,3783.409037678523
+2050,DE < DEE0,DE < DED5,electricity < electricity_central,flhExc,3776.503835369327
+2050,DE < DEE0,DE < DED5,electricity < electricity_central,flhExc,3776.503835369327
+2050,DE < DEG0,DE < DED5,electricity < electricity_central,flhExc,671.1755580640381
+2050,DE < DEG0,DE < DED5,electricity < electricity_central,flhExc,671.1755580640381
+2050,DE < DEG0,DE < DEE0,electricity < electricity_central,flhExc,283.28597034610766
+2050,DE < DEG0,DE < DEE0,electricity < electricity_central,flhExc,283.28597034610766
+2050,DE,AT,gas < hydrogen,flhExc,190.34753367029407
+2050,DE,AT,gas < hydrogen,flhExc,190.34753367029407
+2050,DE,CZ,gas < hydrogen,flhExc,3608.851930933019
+2050,DE,CZ,gas < hydrogen,flhExc,3608.851930933019
+2050,DK,DE,gas < hydrogen,flhExc,5.959647318796415e-10
+2050,DK,DE,gas < hydrogen,flhExc,5.959647318796415e-10
+2050,NL,DE,gas < hydrogen,flhExc,11.729028210339543
+2050,NL,DE,gas < hydrogen,flhExc,11.729028210339543
+2050,NO,DE,gas < hydrogen,flhExc,2.513708112767595e-10
+2050,NO,DE,gas < hydrogen,flhExc,2.513708112767595e-10
