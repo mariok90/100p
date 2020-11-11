@@ -5,7 +5,7 @@ include("functions.jl")
 eePot = ARGS[1]
 gridExp = ARGS[2]
 
-model_object = anyModel(["baseData","scenarios/decentral","conditionalData/lowerEE_DE","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "decentral_"  * eePot * "_" * gridExp, bound = (capa = NaN, disp = NaN, obj = 2e7));
+model_object = anyModel(["baseData","scenarios/decentral","conditionalData/lowerEE_DE","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "decentral_"  * eePot * "_" * gridExp, bound = (capa = NaN, disp = NaN, obj = 2e7), decommExc  = :decomm);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);

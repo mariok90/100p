@@ -6,10 +6,11 @@ eePot = ARGS[1]
 gridExp = ARGS[2]
 engTech = ARGS[3]
 
-engTech_arr = engTech == "both" ? ["ocgtHydrogen","electrolysis","grid"] :  (engTech == "ocgt" ? ["ocgtHydrogen","electrolysis"] : (engTech == "bothNoE" ? ["ocgtHydrogen","grid"] : ["grid"]))
+engTech_arr = engTech == "both" ? ["ocgtHydrogen","electrolysis","grid"] :  (engTech == "ocgt" ? ["ocgtHydrogen","electrolysis"] : (engTech == "bothNoE" ? ["ocgtHydrogen","grid"] : (engTech == "battery" ? ["grid"] : String[])))
+
 
 # * solve as copperplate
-model_object = anyModel(["baseData","scenarios/copper","conditionalData/lowerEE_DE","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1_" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7));
+model_object = anyModel(["baseData","scenarios/copper","conditionalData/lowerEE_DE","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1_" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7), decommExc  = :decomm);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);

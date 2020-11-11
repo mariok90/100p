@@ -42,12 +42,8 @@ gas,hydrogen,SK,SK,CZ,CZ,capaExcResiDir,30.9
 gas,hydrogen,SK,SK,HU,HU,capaExcResiDir,7.5
 gas,hydrogen,UK,UK,BE,BE,capaExcResiDir,37.5
 gas,hydrogen,UK,UK,IE,IE,capaExcResiDir,20.3
-gas,hydrogen,DE,DE21,AT,AT,capaExcResi,16.92525684
-gas,hydrogen,DE,DE22,AT,AT,capaExcResi,16.92525684
-gas,hydrogen,DE,DE23,CZ,CZ,capaExcResi,1.121471201
-gas,hydrogen,DE,DE94,NO,NO,capaExcResi,19.41832146
-gas,hydrogen,DE,DE94,NL,NL,capaExcResi,3.278
-gas,hydrogen,DE,DEA1,NL,NL,capaExcResi,3.278
-gas,hydrogen,DE,DEA3,NL,NL,capaExcResi,3.278
-gas,hydrogen,DE,DED4,CZ,CZ,capaExcResi,1.121471201
-gas,hydrogen,DE,DEF0,DK,DK,capaExcResi,5.833062184
+gas,hydrogen,DE,,AT,,capaExcResi,33.85
+gas,hydrogen,DE,,CZ,,capaExcResi,2.24
+gas,hydrogen,DE,,NO,,capaExcResi,19.41832146
+gas,hydrogen,DE,,NL,,capaExcResi,9.8
+gas,hydrogen,DE,,DK,,capaExcResi,5.833062184
