@@ -3,6 +3,6 @@ electricity,electricity_central,avaExc,0.7,"used to estimate n-1 operation based
 gas,hydrogen,avaExc,0.8,"used to reflect that capacities decreases if hydrogne is transported, based on Quarto (2018)"
 electricity,electricity_central,lifeExc,60,"according to European Commission (2014), Energy Technology Reference Indicator"
 gas,hydrogen,expExcFix,0,
-gas,hydrogen,costOprExc,2,
+gas,hydrogen,costOprExc,0.48,berechnet aus Ausgaben für Erhalt und Wartung des deutschen Gasnetzes in 2019 laut Monitoringbericht geteilt durch die Gesamtkapazität in GW für Deutschland
 gas,hydrogen,lossExc,0.05,
 electricity,electricity_central,lossExc,0.02,
