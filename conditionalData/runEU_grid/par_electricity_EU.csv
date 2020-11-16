@@ -1,4 +1,4 @@
-region_1,region_2,region_1,region_2,carrier_1,carrier_2,parameter_1,value_1
+region_1,region_2,region_1,region_2,carrier_1,carrier_2,parameter,value
 AT,AT,CH,CH,electricity,electricity_central,capaExcResiDir,1.2
 AT,AT,CZ,CZ,electricity,electricity_central,capaExcResiDir,0.9
 AT,,DE,,electricity,electricity_central,capaExcResiDir,9

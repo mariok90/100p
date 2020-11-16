@@ -31,7 +31,7 @@ gridExp = "grid"
 engTech = "both" # battery, ocgt
 
 #region # ! solve for whole EU
-model_object = anyModel(["baseData","scenarios/testingCopper_euOnly","conditionalData/" * eePot,"timeSeries_daily","conditionalData/runEU_" * gridExp],"_results", objName = "computeEU", decommExc = :decomm);
+model_object = anyModel(["baseData","scenarios/testingCopper_euOnly","conditionalData/" * eePot,"timeSeries_daily","conditionalData/runEU_" * gridExp],"_results", objName = "computeEU", decommExc = :decommExc);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
@@ -40,6 +40,7 @@ set_optimizer(model_object.optModel,Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
 set_optimizer_attribute(model_object.optModel, "Crossover", 0);
 optimize!(model_object.optModel);
+
 
 changeObj!(model_object,unique(model_object.parts.bal.cns[:electricity][!,:R_dis]))
 optimize!(model_object.optModel);
@@ -67,6 +68,7 @@ CSV.write("conditionalData/fixEU_" * eePot * "_" * gridExp * "/par_fixTech.csv",
 
 
 fixEU2_df = filter(x -> x.variable == :capaExc && x.carrier != "gas", reportResults(:exchange,model_object, rtnOpt = (:csvDf,)))
+fixEU2_df = vcat(fixEU2_df,rename(fixEU2_df,:region_from => :region_to, :region_to => :region_from))
 fixEU2_df[!,:carrier_1] = map(x -> split(x," < ")[1], fixEU2_df[!,:carrier])
 fixEU2_df[!,:carrier_2] = map(x -> split(x," < ") |> (x ->length(x) > 1 ? x[2] : ""), fixEU2_df[!,:carrier])
 fixEU2_df[!,:parameter] = string.(fixEU2_df[!,:variable]) .* "ResiDir"
