@@ -11,8 +11,6 @@
 
 qsub -t 101 -v eePot='potentialBase' -v gridExp='grid' -v engTech='bla' run_eu.job
 qsub -t 102 -v eePot='potentialBase' -v gridExp='noGrid' -v engTech='bla' run_eu.job
-qsub -t 103 -v eePot='potentialBreyer' -v gridExp='grid' -v engTech='bla' run_eu.job
-qsub -t 104 -v eePot='potentialBreyer' -v gridExp='noGrid' -v engTech='bla' run_eu.job
 
 
 
