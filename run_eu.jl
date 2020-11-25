@@ -28,6 +28,7 @@ fixEU_df[!,:region_2] = fixEU_df[!,:region_1]
 fixEU_df[!,:parameter] = string.(fixEU_df[!,:variable]) .* "Resi"
 fixEU_df[!,:technology_1] = map(x -> split(x," < ")[1], fixEU_df[!,:technology])
 fixEU_df[!,:technology_2] = map(x -> split(x," < ") |> (x ->length(x) > 1 ? x[2] : ""), fixEU_df[!,:technology])
+fixEU_df[!,:value] = ceil.(fixEU_df[!,:value],digits = 2)
 #fixEU_df[!,:value] = floor.(fixEU_df[!,:value],digits = 2)
 
 CSV.write("conditionalData/fixEU_" * eePot * "_" * gridExp * "/par_fixTech.csv", select(fixEU_df,[:region_1,:region_2,:technology_1,:technology_2,:parameter,:value,]));
