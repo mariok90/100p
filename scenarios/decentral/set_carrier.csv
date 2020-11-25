@@ -5,5 +5,5 @@ heatResidental,,3,1,2,2,no
 heatIndustry,,3,1,2,2,no
 mobility,,2,1,2,2,no
 gas,hydrogen,2,1,2,2,no
-gas,synthGas,2,1,2,2,no
+gas,synthGas,2,1,1,1,no
 biomass,,1,1,1,1,no
