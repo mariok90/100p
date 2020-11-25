@@ -12,16 +12,14 @@ engTech_arr = engTech == "both" ? ["ocgtHydrogen","electrolysis","grid"] :  (eng
 # * solve as copperplate
 model_object = anyModel(["baseData","scenarios/copper","conditionalData/lowerEE_DE","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "central1_" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7), decommExc  = :decomm);
 
-createOptModel!(model_object);
-setObjective!(:costs, model_object);
-
-# limits the imbalance of the trade balance
 deRegions_arr = vcat([6],model_object.sets[:R].nodes[6].down);
 
-#export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
-#import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
+# scales demand up in first computation to account for exchange losses later
+scaDem_dic = Dict(6 => 1.005, 2 => 1.005, 10 => 1.0, 9 => 1.05, 4 => 1.005, 5 => 1.005, 7 => 1.005)
+model_object.parts.bal.par[:dem].data[!,:val] = map(x -> x.val * scaDem_dic[x.C],eachrow(model_object.parts.bal.par[:dem].data))
 
-#@constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
+createOptModel!(model_object);
+setObjective!(:costs, model_object);
 
 set_optimizer(model_object.optModel,Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
@@ -81,16 +79,10 @@ select!(fixCapa_df, Not([:Ts_disSup,:R_dis,:C,:Te,:variable,:val]));
 CSV.write("conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech * "/par_fixCapa.csv", fixCapa_df);
 
 # * solve again with regions and exchange expansion, but with fixed capacities
-model_object = anyModel(["baseData","scenarios/decentral","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech],"_results", objName = "central2_" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7));
+model_object = anyModel(["baseData","scenarios/decentral","timeSeries","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp,"conditionalData/intermediate_" * eePot * "_" * gridExp * "_" * engTech],"_results", objName = "central2_" * eePot * "_" * gridExp * "_" * engTech, bound = (capa = NaN, disp = NaN, obj = 2e7), decommExc  = :decomm);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
-
-# limits the imbalance of the trade balance
-#export_arr = filter(x -> x.R_from in deRegions_arr && !(x.R_to in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
-#import_arr = filter(x -> x.R_to in deRegions_arr && !(x.R_from in deRegions_arr) && x.C == 7, model_object.parts.exc.var[:exc])[!,:var];
-
-#@constraint(model_object.optModel, tradebalance, sum(export_arr) + tradeInbalance_fl >= sum(import_arr));
 
 set_optimizer(model_object.optModel, Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
@@ -110,5 +102,6 @@ optimize!(model_object.optModel);
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
+reportTimeSeries(:electricity, model_object)
 plotSankey(model_object, "DE");
 plotSankey(model_object, "ENG");
