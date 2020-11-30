@@ -6,7 +6,7 @@ eePot = ARGS[1]
 gridExp = ARGS[2]
 engTech = ARGS[3]
 
-engTech_arr = engTech == "both" ? ["ocgtHydrogen","electrolysis","grid"] :  (engTech == "ocgt" ? ["ocgtHydrogen","electrolysis"] : (engTech == "bothNoE" ? ["ocgtHydrogen","grid"] : (engTech == "battery" ? ["grid"] : String[])))
+engTech_arr = engTech == "both" ? ["ocgtHydrogen","electrolysis","grid"] :  (engTech == "ocgt" ? ["ocgtHydrogen","electrolysis"] : (engTech == "bothNoE" ? ["ocgtHydrogen","grid","electrolysis"] : (engTech == "battery" ? ["grid","electrolysis"] : String[])))
 
 
 # * solve as copperplate
