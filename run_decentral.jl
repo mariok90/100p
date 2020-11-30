@@ -26,6 +26,7 @@ optimize!(model_object.optModel);
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
+reportTimeSeries(:electricity, model_object)
 plotSankey(model_object, "DE");
 plotSankey(model_object, "ENG");
 

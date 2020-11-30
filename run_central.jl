@@ -14,10 +14,6 @@ model_object = anyModel(["baseData","scenarios/copper","conditionalData/lowerEE_
 
 deRegions_arr = vcat([6],model_object.sets[:R].nodes[6].down);
 
-# scales demand up in first computation to account for exchange losses later
-scaDem_dic = Dict(6 => 1.005, 2 => 1.005, 10 => 1.0, 9 => 1.05, 4 => 1.005, 5 => 1.005, 7 => 1.005)
-model_object.parts.bal.par[:dem].data[!,:val] = map(x -> x.val * scaDem_dic[x.C],eachrow(model_object.parts.bal.par[:dem].data))
-
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
 
@@ -92,6 +88,7 @@ optimize!(model_object.optModel);
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
+reportTimeSeries(:electricity, model_object);
 plotSankey(model_object, "DE");
 plotSankey(model_object, "ENG");
 
