@@ -1,7 +1,7 @@
 technology_1,technology_2,parameter_1,value_1,parameter_2,value_2,parameter_3,value_3,comment
-rooftop,rooftop_a,costExpConv,588,costOprConv,8.14,lifeConv,20,Fraunhofer EE
-rooftop,rooftop_b,costExpConv,588,costOprConv,8.14,lifeConv,20,Fraunhofer EE
-rooftop,rooftop_c,costExpConv,588,costOprConv,8.14,lifeConv,20,Fraunhofer EE
+rooftop,rooftop_a,costExpConv,588,costOprConv,8.14,lifeConv,25,Fraunhofer EE
+rooftop,rooftop_b,costExpConv,588,costOprConv,8.14,lifeConv,25,Fraunhofer EE
+rooftop,rooftop_c,costExpConv,588,costOprConv,8.14,lifeConv,25,Fraunhofer EE
 openspace,openspace_a,costExpConv,317,costOprConv,6.34,lifeConv,25,Fraunhofer EE
 openspace,openspace_b,costExpConv,317,costOprConv,6.34,lifeConv,25,Fraunhofer EE
 wind_offshore,offshore_a,costExpConv,2335,costOprConv,46.7,lifeConv,30,Fraunhofer EE
