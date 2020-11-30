@@ -1,0 +1,17 @@
+errStatus,section,location,message
+green,carrier mapping,,carrier 'electricity' inherited resolution from children
+green,carrier mapping,,carrier 'gas' inherited resolution from children
+green,parameter read-in,validity check,non-unique entries discovered for 'costOprExc'
+green,parameter read-in,validity check,non-unique entries discovered for 'expExcFix'
+yellow,limit,capaConv,"upper and/or lower limit detected, although variable is already fixed"
+yellow,limit,capacity,"capacity limits were provided without specificing the superordinate dispatch timestep, this means the sum of capacity over all years was limited instead of enforcing the same limit for each year
+																												(see https://leonardgoeke.github.io/AnyMOD.jl/stable/parameter_list/#Limits-on-quantities-dispatched)"
+yellow,limit,expExc,"limits for variable provided, but none of these variables are actually created"
+yellow,limit,capacity,"capacity limits were provided without specificing the superordinate dispatch timestep, this means the sum of capacity over all years was limited instead of enforcing the same limit for each year
+																												(see https://leonardgoeke.github.io/AnyMOD.jl/stable/parameter_list/#Limits-on-quantities-dispatched)"
+yellow,limit,capacity,"capacity limits were provided without specificing the superordinate dispatch timestep, this means the sum of capacity over all years was limited instead of enforcing the same limit for each year
+																												(see https://leonardgoeke.github.io/AnyMOD.jl/stable/parameter_list/#Limits-on-quantities-dispatched)"
+yellow,limit,capacity,"capacity limits were provided without specificing the superordinate dispatch timestep, this means the sum of capacity over all years was limited instead of enforcing the same limit for each year
+																												(see https://leonardgoeke.github.io/AnyMOD.jl/stable/parameter_list/#Limits-on-quantities-dispatched)"
+yellow,limit,capacity,"capacity limits were provided without specificing the superordinate dispatch timestep, this means the sum of capacity over all years was limited instead of enforcing the same limit for each year
+																												(see https://leonardgoeke.github.io/AnyMOD.jl/stable/parameter_list/#Limits-on-quantities-dispatched)"

@@ -4,7 +4,7 @@ include("functions.jl")
 
 eePot = "potentialBase"
 gridExp = "grid"
-engTech = "both" # battery, ocgt
+engTech = "none" # battery, ocgt
 
 
 #region # ! copperplate scenario
@@ -104,7 +104,11 @@ plotSankey(model_object, "ENG");
 
 #region # ! efficient scenario
 
+
+
 model_object = anyModel(["baseData","scenarios/testingDecentral","timeSeries_daily","conditionalData/lowerEE_DE","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "decentral"  * eePot * "_" * gridExp, decommExc  = :decomm);
+
+model_object = anyModel(["conditionalData/noGrid_DE","baseData","scenarios/testingDecentral","timeSeries_daily","conditionalData/lowerEE_DE","conditionalData/" * eePot, "conditionalData/fixEU_" * eePot * "_" * gridExp],"_results", objName = "decentral"  * eePot * "_" * gridExp, decommExc  = :decomm);
 
 createOptModel!(model_object);
 setObjective!(:costs, model_object);
