@@ -1,0 +1,12 @@
+#!/bin/bash --login
+#$ -cwd
+#$ -N ntc_meta
+#$ -o /net/work/kendzior/100p/output/meta_$JOB_ID.out
+#$ -j y
+#$ -l h_rt=1000
+#$ -l mem_free=4G
+#$ -pe mp 1
+#$ -m bae
+#$ -M mak@wip.tu-berlin.de
+
+qsub 1:12 run_sensitivity.job

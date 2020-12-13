@@ -46,11 +46,14 @@ function main(ntc_limit)
     reportTimeSeries(:electricity, model_object)
     plotSankey(model_object, "DE");
     plotSankey(model_object, "ENG");
-    
+
     println("Done")
 end
 
+println("Starting Job")
 ntc_scen = ARGS[1]
 ntc_limit = parse(Int, ntc_scen) * 25
+
+println("NTC limit is $ntc_limit")
 
 main(ntc_limit)
