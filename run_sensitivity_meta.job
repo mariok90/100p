@@ -1,7 +1,7 @@
 #!/bin/bash --login
 #$ -cwd
 #$ -N ntc_meta
-#$ -o /net/work/kendzior/100p/output/meta_$JOB_ID.out
+#$ -o /net/work/kendzior/100p/output/meta_$JOB_ID_$TASK_ID.out
 #$ -j y
 #$ -l h_rt=1000
 #$ -l mem_free=4G
