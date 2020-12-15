@@ -3,7 +3,7 @@
 #$ -N ntc_meta
 #$ -o /net/work/kendzior/100p/output/meta_$JOB_ID_$TASK_ID.out
 #$ -j y
-#$ -l h_rt=1000
+#$ -l h_rt=100
 #$ -l mem_free=4G
 #$ -pe mp 1
 #$ -m bae
