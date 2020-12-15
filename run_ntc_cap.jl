@@ -9,11 +9,14 @@ include("functions.jl")
 function main(ntc_limit)
 
     ntc_file = joinpath("conditionalData","upper_limit_ntc","par_exp_limit.csv")
+    ntc_path = joinpath("conditionalData","upper_limit_ntc","$ntc_limit")
+    scen_ntc_file = joinpath(ntc_path,"par_exp_limit.csv")
+    isdir(ntc_path) || mkpath(ntc_path)
     @chain ntc_file begin
         CSV.read(_)
         DataFrame
         @aside _[1,:value_1] = ntc_limit
-        CSV.write(ntc_file,_)
+        CSV.write(scen_ntc_file,_)
     end
         
     inDir = [
@@ -22,11 +25,12 @@ function main(ntc_limit)
         "conditionalData/lowerEE_DE",
         "timeSeries",
         "conditionalData/potentialBase",
-        "conditionalData/fixEU_potentialBase_grid"
+        "conditionalData/fixEU_potentialBase_grid",
+        ntc_path
     ]
 
     out_dir = joinpath("_results","ntc_limits")
-    isdir(out_dir) || mkdir(out_dir)
+    isdir(out_dir) || mkpath(out_dir)
 
     model_object = anyModel(
         inDir,
