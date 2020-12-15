@@ -42,6 +42,7 @@ function main(ntc_limit)
     set_optimizer_attribute(model_object.optModel, "Method", 2)
     set_optimizer_attribute(model_object.optModel, "Crossover", 0)
     optimize!(model_object.optModel);
+    reportResults(:summary,model_object);
     reportResults(:exchange,model_object);
     reportResults(:costs,model_object);
     reportTimeSeries(:electricity, model_object)
