@@ -1,6 +1,6 @@
 #!/bin/bash --login
 #$ -cwd
-#$ -N ntc_meta
+#$ -N offshore_meta
 #$ -o /net/work/kendzior/100p/output/meta_$JOB_ID_$TASK_ID.out
 #$ -j y
 #$ -l h_rt=100
