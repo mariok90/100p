@@ -8,15 +8,15 @@ include("functions.jl")
 
 function main(limit)
 
-    file = joinpath("conditionalData","offshore_limits","par_windoffshore_limit.csv")
-    path = joinpath("conditionalData","offshore_limits","$limit")
-    scen_file = joinpath(path,"par_offshore_limit.csv")
+    file = joinpath("conditionalData", "offshore_limits", "par_windoffshore_limit.csv")
+    path = joinpath("conditionalData", "offshore_limits", "$limit")
+    scen_file = joinpath(path, "par_offshore_limit.csv")
     isdir(path) || mkpath(path)
     @chain file begin
         CSV.read(_)
         DataFrame
         @aside _[1,:value] = limit
-        CSV.write(scen_file,_)
+        CSV.write(scen_file, _)
     end
         
     inDir = [
@@ -29,15 +29,15 @@ function main(limit)
         path
     ]
 
-    out_dir = joinpath("_results","limits")
+    out_dir = joinpath("_results", "limits")
     isdir(out_dir) || mkpath(out_dir)
 
     model_object = anyModel(
         inDir,
         out_dir,
-        objName = "offshore_$(limit)",
-        bound = (capa = NaN, disp = NaN, obj = 2e7),
-        decommExc  = :decomm
+        objName="offshore_$(limit)",
+        bound=(capa = NaN, disp = NaN, obj = 2e7),
+        decommExc=:decomm
     )
 
     createOptModel!(model_object)
@@ -46,9 +46,9 @@ function main(limit)
     set_optimizer_attribute(model_object.optModel, "Method", 2)
     set_optimizer_attribute(model_object.optModel, "Crossover", 0)
     optimize!(model_object.optModel);
-    reportResults(:summary,model_object);
-    reportResults(:exchange,model_object);
-    reportResults(:costs,model_object);
+    reportResults(:summary, model_object);
+    reportResults(:exchange, model_object);
+    reportResults(:costs, model_object);
     reportTimeSeries(:electricity, model_object)
     plotSankey(model_object, "DE");
     plotSankey(model_object, "ENG");
@@ -57,8 +57,8 @@ function main(limit)
 end
 
 println("Starting Job")
-ntc_scen = ARGS[1]
-limit = parse(Int, ntc_scen) * 10
+scen = ARGS[1]
+limit = parse(Int, scen) * 10
 
 println("NTC limit is $limit")
 
