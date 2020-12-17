@@ -9,4 +9,4 @@
 #$ -m bae
 #$ -M mak@wip.tu-berlin.de
 
-qsub -t 0:15 run_sensitivity.job
+qsub -t 1:16 run_sensitivity.job

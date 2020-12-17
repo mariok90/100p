@@ -58,7 +58,7 @@ end
 
 println("Starting Job")
 ntc_scen = ARGS[1]
-ntc_limit = parse(Int, ntc_scen) * 10
+ntc_limit = (parse(Int, ntc_scen)-1) * 10
 
 println("NTC limit is $ntc_limit")
 
