@@ -29,7 +29,7 @@ function main(limit)
         path
     ]
 
-    out_dir = joinpath("_results", "limits")
+    out_dir = joinpath("_results", "offshore")
     isdir(out_dir) || mkpath(out_dir)
 
     model_object = anyModel(
