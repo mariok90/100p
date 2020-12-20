@@ -7,9 +7,9 @@ using Gurobi
 include("functions.jl")
 
 function main(limit)
-
+    limit_int = round(Int, limit) 
     file = joinpath("conditionalData", "rooftop_limit", "par_rooftop_fix.csv")
-    path = joinpath("conditionalData", "rooftop_limit", "$(convert(Int, 100 * limit))")
+    path = joinpath("conditionalData", "rooftop_limit", "$(limit_int)")
     scen_file = joinpath(path, "par_rooftop_fix.csv")
     isdir(path) || mkpath(path)
     @chain file begin
@@ -35,7 +35,7 @@ function main(limit)
     model_object = anyModel(
         inDir,
         out_dir,
-        objName="rooftop_$(convert(Int, 100 * limit))",
+        objName="rooftop_$(limit_int)",
         bound=(capa = NaN, disp = NaN, obj = 2e7),
         decommExc=:decomm
     )
