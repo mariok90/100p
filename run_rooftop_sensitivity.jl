@@ -7,7 +7,7 @@ using Gurobi
 include("functions.jl")
 
 function main(limit)
-    limit_int = round(Int, limit) 
+    limit_int = round(Int, limit * 180) 
     file = joinpath("conditionalData", "rooftop_limit", "par_rooftop_fix.csv")
     path = joinpath("conditionalData", "rooftop_limit", "$(limit_int)")
     scen_file = joinpath(path, "par_rooftop_fix.csv")
