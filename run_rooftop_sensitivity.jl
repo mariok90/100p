@@ -19,9 +19,10 @@ function main(limit)
         CSV.write(scen_file, _)
     end
 
-    path_pot_base = joinpath("conditionalData", "potentialBase", "par_potential_DE.csv")
+    path_pot_base = joinpath("conditionalData", "potentialBase")
+    path_pot_base_file = joinpath("conditionalData", "potentialBase", "par_potential_DE.csv")
     if limit > 1
-        rooftop_potential = @chain path_pot_base begin
+        rooftop_potential = @chain path_pot_base_file begin
             CSV.read(_)
             DataFrame
             filter(x-> x.parameter == "capaConvUp" && x.technology_1 == "rooftop", _)
@@ -31,14 +32,14 @@ function main(limit)
             Dict
         end
 
-        df_new_pot = @chain path_pot_base begin
+        df_new_pot = @chain path_pot_base_file begin
             CSV.read(_)
             DataFrame
             filter(x-> x.parameter == "capaConvUp" && x.technology_2 == "rooftop_c", _)
             transform(["region_2","value"] => ByRow((r,v)-> (limit - 1) * rooftop_potential[r] + v) => "value")
         end
 
-        df_orig = CSV.read(path_pot_base) |> DataFrame
+        df_orig = CSV.read(path_pot_base_file) |> DataFrame
         a = df_orig.parameter .== "capaConvUp"
         b = df_orig.technology_2 .== "rooftop_c"
         df_orig[a .& b, :] .= df_new_pot
