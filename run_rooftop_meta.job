@@ -9,4 +9,4 @@
 #$ -m bae
 #$ -M mak@wip.tu-berlin.de
 
-qsub -t 1:8 run_rooftop.job
+qsub -t 15:30 run_rooftop.job
