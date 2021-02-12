@@ -1,7 +1,7 @@
 #!/bin/bash --login
 #$ -cwd
-#$ -N 100p_ref
-#$ -/net/work/kendzior/100p/output/rooftop_$JOB_ID_$TASK_ID.out
+#$ -N ref_100p
+#$ -o /net/work/kendzior/100p/output/ref_$JOB_ID_$TASK_ID.out
 #$ -j y
 #$ -l h_rt=172800
 #$ -l mem_free=64G
