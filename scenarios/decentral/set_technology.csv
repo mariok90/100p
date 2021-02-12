@@ -9,6 +9,7 @@ rooftop,rooftop_a,,electricity_central; electricity_decentral,,,mature,none
 rooftop,rooftop_b,,electricity_central; electricity_decentral,,,mature,none
 rooftop,rooftop_c,,electricity_central; electricity_decentral,,,mature,none
 openspace,openspace_a,,electricity_central,,,mature,none
+openspace,agrar_pv,,electricity_central,,,mature,none
 openspace,openspace_b,,electricity_central,,,mature,none
 wind_offshore,offshore_a,,electricity_central,,,mature,none
 wind_offshore,offshore_b,,electricity_central,,,mature,none
