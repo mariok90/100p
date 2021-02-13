@@ -18,4 +18,4 @@ export JULIA_DEPOT_PATH="net/work/kendzior/juliapkg"
 module add gurobi/9.0.2
 module add julia/1.5.2
 
-julia run_decentral.jl
+julia run_decentral.jl --project="."
