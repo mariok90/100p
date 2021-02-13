@@ -3,9 +3,9 @@
 #$ -N ref
 #$ -o /net/work/kendzior/100p/output/$JOB_ID_$TASK_ID.out
 #$ -j y
-#$ -l h_rt=160000
+#$ -l h_rt=180000
 #$ -l mem_free=32G
-#$ -pe mp 1-24
+#$ -pe mp 8-32
 #$ -m bae
 #$ -M mak@wip.tu-berlin.de
 
