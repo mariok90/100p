@@ -1,0 +1,12 @@
+#!/bin/bash --login
+#$ -cwd
+#$ -N offshore_meta
+#$ -o /net/work/kendzior/100p/output/meta_$JOB_ID_$TASK_ID.out
+#$ -j y
+#$ -l h_rt=100
+#$ -l mem_free=4G
+#$ -pe mp 1
+#$ -m bae
+#$ -M mak@wip.tu-berlin.de
+
+qsub -t 1:2 run_base.job

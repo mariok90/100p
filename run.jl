@@ -1,7 +1,12 @@
 using Gurobi, AnyMOD, CSV
 
-include("functions.jl")
+# include("functions.jl")
 
+
+scens = ["zentral", "dezentral"]
+scen = scens[parse(Int, ARGS[1])]
+
+println("Running $scen")
 
 inDir = [
     "baseData",
@@ -10,13 +15,14 @@ inDir = [
     "timeSeries/demand",
     "timeSeries/avail",
     "conditionalData/potentialBase",
-    "conditionalData/fixEU_potentialBase_grid"
+    "conditionalData/fixEU_potentialBase_grid",
+    "conditionalData/scenarios/$scen"
 ]
 
 model_object = anyModel(
     inDir,
     "_results",
-    objName = "reference"
+    objName = scen
 )
 
 createOptModel!(model_object)
@@ -30,7 +36,6 @@ reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
 reportTimeSeries(:electricity, model_object)
-plotSankey(model_object, "DE");
-plotSankey(model_object, "ENG");
-
+# plotSankey(model_object, "DE");
+# plotSankey(model_object, "ENG");
 
