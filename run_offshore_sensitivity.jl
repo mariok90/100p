@@ -58,8 +58,8 @@ end
 
 println("Starting Job")
 scen = ARGS[1]
-limit = parse(Int, scen) * 10
+limit = (parse(Int, scen)-1) * 5 + 10
 
-println("NTC limit is $limit")
+println("Offshore capacity is $limit")
 
 main(limit)

@@ -9,4 +9,4 @@
 #$ -m bae
 #$ -M mak@wip.tu-berlin.de
 
-qsub -t 1:5 run_offshore.job
+qsub -t 1:10 run_offshore.job
