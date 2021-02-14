@@ -35,9 +35,7 @@ function main(ntc_limit)
     model_object = anyModel(
         inDir,
         out_dir,
-        objName="sensitivity_ntc_limit_$(ntc_limit)",
-        bound=(capa = NaN, disp = NaN, obj = 2e7),
-        decommExc=:decomm
+        objName="sensitivity_ntc_limit_$(ntc_limit)"
     )
 
     createOptModel!(model_object)
@@ -58,7 +56,7 @@ end
 
 println("Starting Job")
 ntc_scen = ARGS[1]
-ntc_limit = (parse(Int, ntc_scen)-1) * 10
+ntc_limit = (parse(Int, ntc_scen)-1)
 
 println("NTC limit is $ntc_limit")
 
