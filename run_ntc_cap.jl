@@ -17,12 +17,13 @@ function main(ntc_limit)
     end
         
     inDir = [
-        "baseData",
-        "scenarios/decentral",
-        "conditionalData/lowerEE_DE",
-        "timeSeries",
-        "conditionalData/potentialBase",
-        "conditionalData/fixEU_potentialBase_grid",
+	    "baseData",
+	    "scenarios/decentral",
+	    "conditionalData/lowerEE_DE",
+	    "timeSeries/demand",
+	    "timeSeries/avail",
+	    "conditionalData/potentialBase",
+	    "conditionalData/fixEU_potentialBase_grid",
         ntc_path
     ]
 
@@ -45,8 +46,8 @@ function main(ntc_limit)
     reportResults(:exchange, model_object);
     reportResults(:costs, model_object);
     reportTimeSeries(:electricity, model_object)
-    plotSankey(model_object, "DE");
-    plotSankey(model_object, "ENG");
+    # plotSankey(model_object, "DE");
+    # plotSankey(model_object, "ENG");
 
     println("Done")
 end
