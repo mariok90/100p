@@ -1,6 +1,3 @@
-using Pkg
-Pkg.activate(".")
-
 using AnyMOD
 using CSV, DataFrames, Chain
 using Gurobi
@@ -35,9 +32,7 @@ function main(limit)
     model_object = anyModel(
         inDir,
         out_dir,
-        objName="offshore_$(limit)",
-        bound=(capa = NaN, disp = NaN, obj = 2e7),
-        decommExc=:decomm
+        objName="offshore_$(limit)"
     )
 
     createOptModel!(model_object)

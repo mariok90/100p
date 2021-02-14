@@ -1,6 +1,3 @@
-using Pkg
-Pkg.activate(".")
-
 using AnyMOD
 using CSV, DataFrames, Chain
 using Gurobi
