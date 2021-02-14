@@ -1,6 +1,6 @@
 #!/bin/bash --login
 #$ -cwd
-#$ -N ref
+#$ -N job_100p
 #$ -o /net/work/kendzior/100p/output/$JOB_ID_$TASK_ID.out
 #$ -j y
 #$ -l h_rt=180000

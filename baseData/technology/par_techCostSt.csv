@@ -1,10 +1,7 @@
 technology_1,parameter_1,value_1,parameter_2,value_2,parameter_3,value_3,comment
 battery,costExpStIn,74.7,lifeStIn,18,lifeStOut,18,OSMOSE
-caes,costExpStIn,454.7,lifeStIn,30,lifeStOut,30,OSMOSE
 battery,costExpStSize,164.1,lifeStSize,18,,,OSMOSE
-caes,costExpStSize,26.4,lifeStSize,30,,,OSMOSE
 battery,costOprStIn,1.1,,,,,OSMOSE
-caes,costOprStIn,6.8,,,,,OSMOSE
 pumpedHydro,costOprStIn,0.28,,,,,OSMOSE
 gasStorage,costOprStIn,4.9725,,,,,OpenEntrance
 gasStorage,costOprStOut,4.9725,,,,,OpenEntrance
