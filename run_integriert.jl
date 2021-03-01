@@ -18,7 +18,7 @@ isdir(result_path) || mkdir(result_path)
 
 model_object = anyModel(
     inDir,
-    result_path
+    result_path,
     objName = scen
 )
 
