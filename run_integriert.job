@@ -1,0 +1,21 @@
+#!/bin/bash --login
+#$ -cwd
+#$ -N job_100p
+#$ -o /net/work/kendzior/100p/output/$JOB_ID_$TASK_ID.out
+#$ -j y
+#$ -l h_rt=180000
+#$ -l mem_free=32G
+#$ -pe mp 8-32
+#$ -m bae
+#$ -M mak@wip.tu-berlin.de
+
+
+GUROBI_HOME="/afs/math/software/gurobi/9.0.2/"
+export GUROBI_HOME
+
+export JULIA_DEPOT_PATH="net/work/kendzior/juliapkg"
+
+module add gurobi/9.0.2
+module add julia/1.5.2
+
+julia --project="." run_integriert.jl
