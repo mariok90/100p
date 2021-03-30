@@ -1,13 +1,14 @@
-technology_1,parameter,value,comment
-biomassPlant,avaConv,0.98,
-electrolysis,avaConv,1,
-fermenter,avaConv,0.98,
-methanation,avaConv,0.98,
-ocgtHydrogen,avaConv,0.98,
-methanation,costVarGen,0.283,based on costs of 50 €/t for captured carbon 
-biomassPlant,effConv,0.4,
-electrolysis,effConv,0.785,
-fermenter,effConv,0.67,
-gasPlant,effConv,0.66,
-methanation,effConv,0.86,
-ocgtHydrogen,effConv,0.63,
+region_1,technology_1,parameter,value,comment
+,biomassPlant,avaConv,0.98,
+,electrolysis,avaConv,1,
+,fermenter,avaConv,0.98,
+,methanation,avaConv,0.98,
+,ocgtHydrogen,avaConv,0.98,
+,methanation,costVarGen,0.283,based on costs of 50 €/t for captured carbon 
+,biomassPlant,effConv,0.4,
+,electrolysis,effConv,0.785,
+,fermenter,effConv,0.67,
+,gasPlant,effConv,0.66,
+,methanation,effConv,0.86,
+,ocgtHydrogen,effConv,0.63,
+DE,biomassPlant,genFix,0,

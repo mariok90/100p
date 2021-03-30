@@ -5,7 +5,7 @@ carrier_1,carrier_2,parameter,value
 ,,rateExpStOut,0.02
 ,,rateExpStSize,0.02
 ,,rateExpExc,0.02
-biomass,,trdBuyPrc,0
+biomass,,trdBuyPrc,100
 biomass,,useUp,971899.5007
 electricity,electricity_central,costLss,13000
 gas,hydrogen,costLss,13000

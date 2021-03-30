@@ -18,7 +18,7 @@ for (k,v) in new_vals
 end
 
 methan_df = DataFrame(
-    [(timestep_1 = 2050, region_1="DE", carrier_2="synthGas", parameter="dem", value=methan_demand)]
+    [(timestep_1 = 2050, region_1="DE", carrier_2="synthGas", parameter="dem", value=methan_demand*1000)]
 )
 
 CSV.write("par_methan.csv", methan_df)
