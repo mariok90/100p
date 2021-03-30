@@ -1,19 +1,19 @@
 using Gurobi, AnyMOD, CSV
 
 
-scen = "integriert"
+scen = "reduced_demand"
 
 inDir = [
     "baseData",
     "scenarios/decentral",
     "conditionalData/lowerEE_DE",
-    "timeSeries/demand",
+    "timeSeries/reduced_demand",
     "timeSeries/avail",
     "conditionalData/potentialBase",
     "conditionalData/fixEU_potentialBase_grid",
 ]
 
-result_path = joinpath("_results","integriert")
+result_path = joinpath("_results",scen)
 isdir(result_path) || mkdir(result_path)
 
 model_object = anyModel(
