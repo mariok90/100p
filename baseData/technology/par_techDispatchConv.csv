@@ -11,4 +11,4 @@ region_1,technology_1,parameter,value,comment
 ,gasPlant,effConv,0.66,
 ,methanation,effConv,0.86,
 ,ocgtHydrogen,effConv,0.63,
-DE,biomassPlant,genFix,0,
+DE,biomassPlant,genUp,45000,
