@@ -9,10 +9,11 @@ function plotSankey(model_object, lang::String)
         model_object.graInfo.names["caes"] = "CAES"
         model_object.graInfo.names["biomassPlant"] = "Biomasseanlage"
         model_object.graInfo.names["ror"] = "Laufwasser"
-        model_object.graInfo.names["rooftop"] = "PV-Dach"
-        model_object.graInfo.names["openspace"] = "PV-Freifläche"
+        model_object.graInfo.names["rooftop"] = "Photovoltaik"
+        model_object.graInfo.names["openspace"] = "Photovoltaik"
         model_object.graInfo.names["wind_offshore"] = "Wind offshore"
         model_object.graInfo.names["wind_onshore"] = "Wind onshore"
+        model_object.graInfo.names["pv_agrar"] = "Photovoltaik"
         model_object.graInfo.names["electrolysis"] = "Elektrolyse"
         model_object.graInfo.names["ocgtHydrogen"] = "Wasserstoffturbine"
         model_object.graInfo.names["electricMobility"] = ""
@@ -30,7 +31,7 @@ function plotSankey(model_object, lang::String)
         model_object.graInfo.names["heatResidental"] = "Raumwärme"
         model_object.graInfo.names["heatIndustry"] = "Prozesswärme"
         model_object.graInfo.names["gas"] = "Gas"
-        model_object.graInfo.names["synthGas"] = "Methan"
+        model_object.graInfo.names["synthGas"] = "synthetisches Gas"
         model_object.graInfo.names["hydrogen"] = "Wasserstoff"
         model_object.graInfo.names["biomass"] = "Biomasse"
         model_object.graInfo.names["mobility"] = "E-Mobilität"
@@ -88,11 +89,11 @@ function plotSankey(model_object, lang::String)
     end
 
      # define colors of carriers
-    model_object.graInfo.colors["electricity_central"] = (1.0, 0.9215, 0.2313)
-    model_object.graInfo.colors["electricity_decentral"] = (1.0, 0.9215, 0.2313)
-    model_object.graInfo.colors["heatResidental"] = (0.769, 0.176, 0.29)
-    model_object.graInfo.colors["heatIndustry"] = (0.769, 0.176, 0.29)
-    model_object.graInfo.colors["mobility"] = (111/265, 200/265, 182/265)
+    model_object.graInfo.colors["electricity_central"] = (1.0, 1.0, 187/255)
+    model_object.graInfo.colors["electricity_decentral"] = (1.0, 1.0, 187/255)
+    model_object.graInfo.colors["heatResidental"] = (1.0, 166/255, 133/255)
+    model_object.graInfo.colors["heatIndustry"] = (175/255, 138/255, 126/255)
+    model_object.graInfo.colors["mobility"] = (148/255, 241/255, 1.0)
 
     # plot sankey diagram and remove nodes that are not required
     if lang == "DE"
