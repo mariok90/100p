@@ -13,7 +13,7 @@ function plotSankey(model_object, lang::String)
         model_object.graInfo.names["openspace"] = "Photovoltaik"
         model_object.graInfo.names["wind_offshore"] = "Wind offshore"
         model_object.graInfo.names["wind_onshore"] = "Wind onshore"
-        model_object.graInfo.names["pv_agrar"] = "Photovoltaik"
+        model_object.graInfo.names["agrar_pv"] = "Photovoltaik"
         model_object.graInfo.names["electrolysis"] = "Elektrolyse"
         model_object.graInfo.names["ocgtHydrogen"] = "Wasserstoffturbine"
         model_object.graInfo.names["electricMobility"] = ""
