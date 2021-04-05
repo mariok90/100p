@@ -97,44 +97,34 @@ function plotSankey(model_object, lang::String)
 
     # plot sankey diagram and remove nodes that are not required
     if lang == "DE"
-        plotEnergyFlow(:sankey,model_object, rmvNode = ("Nachfrage; Prozesswärme","Nachfrage; Raumwärme","Nachfrage; E-Mobilität","Import*; Biomasse","Nachfrage; dezentrale Nachfrage", "Gas"), name = lang);
-        plotEnergyFlow(:sankey,model_object, rmvNode = ("Nachfrage; Prozesswärme","Nachfrage; Raumwärme","Nachfrage; E-Mobilität","Import*; Biomasse","Nachfrage; dezentrale Nachfrage", "Gas"), dropDown = (:timestep,), minVal = 2.0, netExc = true, name = lang);
+        plotEnergyFlow(
+            :sankey,model_object,
+            rmvNode = (
+                "Nachfrage; Prozesswärme","Nachfrage; Raumwärme",
+                "Nachfrage; E-Mobilität",
+                "Import*; Biomasse",
+                "Nachfrage; dezentrale Nachfrage",
+                "Gas"
+            ),
+            netExc = true
+        );
+        plotEnergyFlow(
+            :sankey,
+            model_object,
+            rmvNode = (
+                "Nachfrage; Prozesswärme",
+                "Nachfrage; Raumwärme",
+                "Nachfrage; E-Mobilität",
+                "Import*; Biomasse",
+                "Nachfrage; dezentrale Nachfrage",
+                "Gas"
+            ),
+            dropDown = (:timestep,),
+            minVal = 2.0,
+            netExc = true
+        );
     else
-        plotEnergyFlow(:sankey,model_object, rmvNode = ("demand; process heat","demand; residental heat","demand; mobility","import*; biomass","demand; residental demand", "gas"), name = lang);
-        plotEnergyFlow(:sankey,model_object, rmvNode = ("demand; process heat","demand; residental heat","demand; mobility","import*; biomass","demand; residental demand", "gas"), dropDown = (:timestep,), minVal = 2.0, netExc = true, name = lang);
+        plotEnergyFlow(:sankey,model_object, rmvNode = ("demand; process heat","demand; residental heat","demand; mobility","import*; biomass","demand; residental demand", "gas"));
+        plotEnergyFlow(:sankey,model_object, rmvNode = ("demand; process heat","demand; residental heat","demand; mobility","import*; biomass","demand; residental demand", "gas"), dropDown = (:timestep,), minVal = 2.0, netExc = true);
     end
-end
-
-function changeObj!(model_object::anyModel,deRegions_arr)
-    # fix variables of technologies
-    for t in collect(keys(model_object.parts.tech)), v in collect(keys(model_object.parts.tech[t].var))
-
-        if any(occursin.(["exp","capa","Capa"],string(v))) # fix all capacity and expansion variables
-            vcat(map(x -> collect(keys(x.terms)),model_object.parts.tech[t].var[v][!,:var])...) |> (y -> fix.(y,value.(y), force = true))
-        else # only fix dispatch variables outside of germany
-            #vcat(map(x -> collect(keys(x.terms)), filter(x -> !(x.R_dis in deRegions_arr), model_object.parts.tech[t].var[v])[!,:var])...) |> (y -> fix.(y,value.(y), force = true))
-        end
-
-    end
-
-    # fix loss of load variables
-    for v in collect(keys(model_object.parts.bal.var))
-        vcat(map(x -> collect(keys(x.terms)),model_object.parts.bal.var[v][!,:var])...) |> (y -> fix.(y,value.(y), force = true))
-    end
-
-    # fix capacity variables of exchange
-    for v in filter(x -> any(occursin.(["exp","capa"],string(x))), collect(keys(model_object.parts.exc.var)))
-        if any(occursin.(["exp","capa"],string(v))) # fix all capacity and expansion variable
-            vcat(map(x -> collect(keys(x.terms)) ,model_object.parts.exc.var[v][!,:var])...) |> (y -> fix.(y,value.(y), force = true))
-        else # only fix dispatch variables outside of germany
-           #vcat(map(x -> collect(keys(x.terms)), filter(x -> !(x.R_to in deRegions_arr) && !(x.R_from in deRegions_arr), model_object.parts.exc.var[v])[!,:var])...) |> (y -> fix.(y,value.(y), force = true))
-        end
-    end
-
-    # fix trade variables
-    vcat(map(x -> collect(keys(x.terms)),model_object.parts.trd.var[:trdBuy][!,:var])...) |> (y -> fix.(y,value.(y), force = true))      
-
-    # change objective function
-    @objective(model_object.optModel, Max, sum(vcat([filter(x -> x.R_dis in deRegions_arr && x.C == 8, model_object.parts.tech[z].var[:gen])[!,:var] for z in [:rooftop_a,:rooftop_b,:rooftop_c]]...)))
-
 end
