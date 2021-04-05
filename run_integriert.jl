@@ -14,7 +14,7 @@ inDir = [
 ]
 
 result_path = joinpath("_results","integriert")
-isdir(result_path) || mkdir(result_path)
+mkpath(result_path)
 
 model_object = anyModel(
     inDir,

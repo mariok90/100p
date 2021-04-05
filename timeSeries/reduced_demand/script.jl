@@ -12,13 +12,15 @@ new_vals = Dict(
 
 for (k,v) in new_vals
     df = CSV.read(joinpath("..","demand",k), DataFrame)
-    share = v / sum(df.value)
+    share = v*1000 / sum(df.value)
     transform!(df, "value" => ByRow(x-> x*share) => "value")
     CSV.write(k, df)
 end
 
-methan_df = DataFrame(
-    [(timestep_1 = 2050, region_1="DE", carrier_2="synthGas", parameter="dem", value=methan_demand*1000)]
-)
 
-CSV.write("par_methan.csv", methan_df)
+methan_df = CSV.read(joinpath("..","demand","par_demand_gas_DE.csv"), DataFrame)
+filter!(x-> x.carrier_2 == "synthGas", methan_df)
+share = methan_demand / sum(methan_df.value)
+transform!(methan_df, "value" => ByRow(x-> x*share) => "value")
+
+CSV.write("par_demand_gas_DE.csv", methan_df)
