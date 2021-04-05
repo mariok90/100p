@@ -20,7 +20,7 @@ end
 
 methan_df = CSV.read(joinpath("..","demand","par_demand_gas_DE.csv"), DataFrame)
 filter!(x-> x.carrier_2 == "synthGas", methan_df)
-share = methan_demand / sum(methan_df.value)
+share = methan_demand / (sum(methan_df.value)*8760/1000)
 transform!(methan_df, "value" => ByRow(x-> x*share) => "value")
 
 CSV.write("par_demand_gas_DE.csv", methan_df)
