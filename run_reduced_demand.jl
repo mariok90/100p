@@ -36,19 +36,13 @@ summary_df = reportResults(:summary,model_object, rtnOpt=(:csvDf,))
 expand_col!(summary_df, "technology")
 expand_col!(summary_df, "region_dispatch")
 
-
 filter!(x-> x.variable == :capaConv, summary_df)
 filter!(x-> !(occursin("DE", x.region_dispatch_1)), summary_df)
 tech_filter = ["wind_offshore", "wind_onshore", "pv"]
-tech3 = ["facade","agrar_pv"]
 filter!(x-> x.technology_1 in tech_filter, summary_df)
-transform!(
-    summary_df,
-    "technology_3" => ByRow(x-> x in tech3 ? missing : x) => "technology_3"
-)
 select!(
     summary_df,
-    :region_dispatch_2 => :region_2,
+    :region_dispatch_1 => :region_1,
     :technology_1,
     :technology_2,
     :technology_3,
@@ -74,7 +68,8 @@ inDir = [
     "timeSeries/reduced_demand",
     "timeSeries/avail",
     "conditionalData/potentialBase",
-    "conditionalData/fixEU_potentialBase_grid",
+    "conditionalData/fixEU_potentialBase_reduced_grid",
+    "intermediate"
 ]
 
 result_path = joinpath("_results", scen)
@@ -93,6 +88,7 @@ set_optimizer(model_object.optModel, Gurobi.Optimizer);
 set_optimizer_attribute(model_object.optModel, "Method", 2);
 set_optimizer_attribute(model_object.optModel, "Crossover", 0);
 optimize!(model_object.optModel);
+
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
