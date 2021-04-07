@@ -12,10 +12,13 @@ indir = [
     "conditionalData/fixEU_potentialBase_grid",
 ]
 
+result_path = joinpath("_results","desintegriert_intermediate")
+mkpath(result_path)
+
 # * solve as copperplate
 model_object = anyModel(
     indir,
-    "_results/intermediate",
+    result_path,
     objName = "desintegriert_intermediate"
 );
 
@@ -59,22 +62,26 @@ df_low[!,"parameter"] .= "capaConvLow"
 df_up = transform(summary_df, "value" => ByRow(x-> ceil(x, digits=4)) => "value")
 df_up[!,"parameter"] .= "capaConvUp"
 
-CSV.write("intermediate/par_capalow.csv", df_low)
-CSV.write("intermediate/par_capaup.csv", df_up)
+path = mkpath(joinpath("intermediate","desintegriert"))
+CSV.write(joinpath(path,"par_capalow.csv"), df_low)
+CSV.write(joinpath(path,"par_capaup.csv"), df_up)
 
 
 indir = [
     "baseData",
     "scenarios/decentral",
-    "intermediate",
+    path,
     "timeSeries/demand",
     "timeSeries/avail",
     "conditionalData/fixEU_potentialBase_grid",
 ]
 
+result_path = joinpath("_results","desintegriert")
+mkpath(result_path)
+
 model_object = anyModel(
     indir,
-    "_results/desintegriert",
+    result_path,
     objName = "desintegriert"
 );
 
@@ -90,3 +97,9 @@ optimize!(model_object.optModel);
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
+
+reportTimeSeries(:electricity_central, model_object)
+reportTimeSeries(:electricity_decentral, model_object)
+reportTimeSeries(:electricity, model_object)
+
+plotSankey(model_object, "DE");

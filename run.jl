@@ -1,6 +1,5 @@
 using Gurobi, AnyMOD, CSV
-
-# include("functions.jl")
+include("functions.jl")
 
 
 scens = ["zentral", "dezentral"]
@@ -19,9 +18,12 @@ inDir = [
     "conditionalData/scenarios/$scen"
 ]
 
+result_path = joinpath("_results",scen)
+mkpath(result_path)
+
 model_object = anyModel(
     inDir,
-    "_results",
+    result_path,
     objName = scen
 )
 
@@ -35,7 +37,11 @@ optimize!(model_object.optModel);
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
+
+reportTimeSeries(:electricity_central, model_object)
+reportTimeSeries(:electricity_decentral, model_object)
 reportTimeSeries(:electricity, model_object)
-plotEnergyFlow(:sankey, model_object);
+
+plotSankey(model_object, "DE");
 
 

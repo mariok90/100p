@@ -1,7 +1,7 @@
 technology_1,technology_2,technology_3,parameter_1,value_1,parameter_2,value_2,parameter_3,value_3,comment
 pv,rooftop,rooftop_a,costExpConv,588,costOprConv,8.14,lifeConv,25,Fraunhofer EE
-pv,rooftop,rooftop_b,costExpConv,588,costOprConv,8.14,lifeConv,25,Fraunhofer EE
-pv,rooftop,rooftop_c,costExpConv,588,costOprConv,8.14,lifeConv,25,Fraunhofer EE
+pv,rooftop,rooftop_b,costExpConv,646.8,costOprConv,8.14,lifeConv,25,Fraunhofer EE
+pv,rooftop,rooftop_c,costExpConv,705.6,costOprConv,8.14,lifeConv,25,Fraunhofer EE
 pv,facade,,costExpConv,750,costOprConv,8.14,lifeConv,25,Fraunhofer EE
 pv,openspace,openspace_a,costExpConv,317,costOprConv,6.34,lifeConv,25,Fraunhofer EE
 pv,openspace,openspace_b,costExpConv,317,costOprConv,6.34,lifeConv,25,Fraunhofer EE
