@@ -49,7 +49,7 @@ transform!(
 )
 select!(
     summary_df,
-    :region_dispatch_2 => :region_2,
+    :region_dispatch_1 => :region_1,
     :technology_1,
     :technology_2,
     :technology_3,
