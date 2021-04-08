@@ -1,6 +1,4 @@
 using Gurobi, AnyMOD, CSV
-<<<<<<< HEAD
-=======
 include("functions.jl")
 include("anymod_postprocessing.jl")
 
@@ -57,10 +55,9 @@ df_low[!,"parameter"] .= "capaConvLow"
 df_up = transform(summary_df, "value" => ByRow(x-> ceil(x, digits=4)) => "value")
 df_up[!,"parameter"] .= "capaConvUp"
 
-CSV.write("intermediate/par_capalow.csv", df_low)
-CSV.write("intermediate/par_capaup.csv", df_up)
->>>>>>> 3fe5658 (reduced demand again)
-
+path = mkpath(joinpath("intermediate","reduced_demand"))
+CSV.write(joinpath(path,"par_capalow.csv"), df_low)
+CSV.write(joinpath(path,"par_capaup.csv"), df_up)
 
 scen = "reduced_demand"
 
@@ -72,7 +69,7 @@ inDir = [
     "timeSeries/avail",
     "conditionalData/potentialBase",
     "conditionalData/fixEU_potentialBase_reduced_grid",
-    "intermediate"
+    path
 ]
 
 result_path = joinpath("_results",scen)
