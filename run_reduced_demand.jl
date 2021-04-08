@@ -70,7 +70,7 @@ inDir = [
     "timeSeries/avail",
     "conditionalData/potentialBase",
     "conditionalData/fixEU_potentialBase_reduced_grid",
-    "intermediate"
+    path
 ]
 
 result_path = joinpath("_results", scen)
