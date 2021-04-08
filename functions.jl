@@ -96,10 +96,6 @@ function plotSankey(model_object, lang::String)
 
     # plot sankey diagram and remove nodes that are not required
     if lang == "DE"
-<<<<<<< HEAD
-        plotEnergyFlow(:sankey,model_object, rmvNode = ("Nachfrage; Prozesswärme","Nachfrage; Raumwärme","Nachfrage; E-Mobilität","Import*; Biomasse","Nachfrage; dezentrale Nachfrage", "Gas"), name = lang);
-        plotEnergyFlow(:sankey,model_object, rmvNode = ("Nachfrage; Prozesswärme","Nachfrage; Raumwärme","Nachfrage; E-Mobilität","Import*; Biomasse","Nachfrage; dezentrale Nachfrage", "Gas"), dropDown = (:timestep,), minVal = 2.0, netExc = true, name = lang);
-=======
         plotEnergyFlow(
             :sankey,
             model_object,
@@ -127,7 +123,6 @@ function plotSankey(model_object, lang::String)
             # minVal = 2.0,
             # netExc = true
         );
->>>>>>> 3fe5658 (reduced demand again)
     else
         plotEnergyFlow(:sankey,model_object, rmvNode = ("demand; process heat","demand; residental heat","demand; mobility","import*; biomass","demand; residental demand", "gas"), name = lang);
         plotEnergyFlow(:sankey,model_object, rmvNode = ("demand; process heat","demand; residental heat","demand; mobility","import*; biomass","demand; residental demand", "gas"), dropDown = (:timestep,), minVal = 2.0, netExc = true, name = lang);
