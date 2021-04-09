@@ -7,7 +7,6 @@ ror,,,,electricity_central,,,stock,none
 pv,rooftop,rooftop_a,,electricity_central; electricity_decentral,,,mature,none
 pv,rooftop,rooftop_b,,electricity_central; electricity_decentral,,,mature,none
 pv,rooftop,rooftop_c,,electricity_central; electricity_decentral,,,mature,none
-pv,facade,,,electricity_central; electricity_decentral,,,mature,none
 pv,openspace,openspace_a,,electricity_central,,,mature,none
 pv,openspace,openspace_b,,electricity_central,,,mature,none
 pv,agrar_pv,,,electricity_central,,,mature,none
