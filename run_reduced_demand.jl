@@ -121,30 +121,30 @@ transform!(
 )
 
 
-df_exc = @chain reportResults(:exchange,model_object, rtnOpt=(:csvDf,)) begin
-    expand_col!("region_from")
-    expand_col!("region_to")
-    expand_col!("carrier")
-    filter!(x-> contains(x.carrier_1, "electricity"), _)
-    filter!(x-> x.variable == :exc, _)
-    groupby(["region_from_1", "region_to_1", "carrier_1"])
-    combine("value" => sum => "value")
-    filter!(x-> (x.region_from_1 == "DE") || (x.region_to_1 == "DE"), _)
-    filter!(x-> !((x.region_from_1 == "DE") && (x.region_to_1 == "DE")), _)
-    transform!("value" => (x-> floor.(x)) => "value")
-    rename!("region_from_1" => "region_1", "region_to_1" => "region_1a")
-end
-df_exc[!,"parameter"] .= "excDirUp"
+# df_exc = @chain reportResults(:exchange,model_object, rtnOpt=(:csvDf,)) begin
+#     expand_col!("region_from")
+#     expand_col!("region_to")
+#     expand_col!("carrier")
+#     filter!(x-> contains(x.carrier_1, "electricity"), _)
+#     filter!(x-> x.variable == :exc, _)
+#     groupby(["region_from_1", "region_to_1", "carrier_1"])
+#     combine("value" => sum => "value")
+#     filter!(x-> (x.region_from_1 == "DE") || (x.region_to_1 == "DE"), _)
+#     filter!(x-> !((x.region_from_1 == "DE") && (x.region_to_1 == "DE")), _)
+#     transform!("value" => (x-> floor.(x)) => "value")
+#     rename!("region_from_1" => "region_1", "region_to_1" => "region_1a")
+# end
+# df_exc[!,"parameter"] .= "excDirUp"
 
 path = mkpath(joinpath("intermediate","reduced_demand"))
 CSV.write(joinpath(path,"par_capalow.csv"), df_low)
 CSV.write(joinpath(path,"par_capaup.csv"), df_up)
-CSV.write(joinpath(path,"par_excup.csv"), df_exc)
+# CSV.write(joinpath(path,"par_excup.csv"), df_exc)
 
 
-df_string = read(joinpath(path,"par_excup.csv"), String)
-df_string = replace(df_string, "region_1a" =>  "region_1")
-write(joinpath(path,"par_excup.csv"), df_string)
+# df_string = read(joinpath(path,"par_excup.csv"), String)
+# df_string = replace(df_string, "region_1a" =>  "region_1")
+# write(joinpath(path,"par_excup.csv"), df_string)
 
 scen = "reduced_demand"
 
