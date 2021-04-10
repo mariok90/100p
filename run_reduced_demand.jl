@@ -47,7 +47,6 @@ summary_df = @chain reportResults(:summary,model_object, rtnOpt=(:csvDf,)) begin
     expand_col!("technology")
     expand_col!("region_dispatch")
     filter!(x-> x.variable in [:capaConv, :capaStOut, :capaStSize], _)
-    filter!(x-> !(occursin("DE", x.region_dispatch_1)), _)
     select!(
         :region_dispatch_1 => :region_1,
         :technology_1,
@@ -90,7 +89,8 @@ transform!(
 )
 
 
-df_up = transform(summary_df, "value" => ByRow(x-> ceil(x, digits=4)) => "value")
+df_up = filter(x-> !(occursin("DE", x.region_dispatch_1)), summary_df)
+transform!(df_up, "value" => ByRow(x-> ceil(x, digits=4)) => "value")
 df_up = unstack(df_up, :variable, :value)
 df_up[!,"parameter_1"] .= names(df_up)[3]*"Up"
 df_up[!,"parameter_2"] .= names(df_up)[4]*"Up"
@@ -179,6 +179,7 @@ optimize!(model_object.optModel);
 reportResults(:summary,model_object);
 reportResults(:exchange,model_object);
 reportResults(:costs,model_object);
+
 reportTimeSeries(:electricity, model_object)
-# plotSankey(model_object, "DE");
-# plotSankey(model_object, "ENG");
+reportTimeSeries(:electricity_decentral, model_object)
+reportTimeSeries(:electricity_central, model_object)
