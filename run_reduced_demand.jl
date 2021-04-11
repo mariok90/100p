@@ -89,7 +89,7 @@ transform!(
 )
 
 
-df_up = filter(x-> !(occursin("DE", x.region_dispatch_1)), summary_df)
+df_up = filter(x-> !(occursin("DE", x.region_1)), summary_df)
 transform!(df_up, "value" => ByRow(x-> ceil(x, digits=4)) => "value")
 df_up = unstack(df_up, :variable, :value)
 df_up[!,"parameter_1"] .= names(df_up)[3]*"Up"
